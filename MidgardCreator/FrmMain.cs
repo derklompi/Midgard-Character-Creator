@@ -12,7 +12,6 @@ namespace MidgardCreator
         public FrmMain()
         {
             InitializeComponent();
-            MessageBox.Show("Ich bestätige, dass ich die Software nicht unerlaubt unter meinem Namen verteile und nur für mich benutze. Kontakt: faflfama@outlook.com");
             if(Convert.ToString(Thread.CurrentThread.CurrentUICulture) != "de-DE")
             {
                 Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
