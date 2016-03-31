@@ -134,7 +134,7 @@ namespace MidgardCreator
             //Menü-Punkte
             menuSettingsDE.Text = "Einstellungen";
             menuLanguageDE.Text = "Sprache";
-            menuLanguageDEEnglish.Text = "English";
+            menuLanguageDEEnglish.Text = "Englisch";
             menuLanguageDEGerman.Text = "Deutsch";
             //Fomular-Buttons
             btnCreateDwarf.Text = "Zwerg";

@@ -263,8 +263,8 @@ namespace MidgardCreator
             // 
             // mtxtInbornBuff
             // 
-            this.mtxtInbornBuff.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtInbornBuff, "mtxtInbornBuff");
+            this.mtxtInbornBuff.HidePromptOnLeave = true;
             this.mtxtInbornBuff.Name = "mtxtInbornBuff";
             // 
             // txtInbornBuff
@@ -474,8 +474,8 @@ namespace MidgardCreator
             // 
             // mtxtStrength
             // 
-            this.mtxtStrength.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtStrength, "mtxtStrength");
+            this.mtxtStrength.HidePromptOnLeave = true;
             this.mtxtStrength.Name = "mtxtStrength";
             // 
             // txtLifePoints
@@ -491,8 +491,8 @@ namespace MidgardCreator
             // 
             // mtxtDexterity
             // 
-            this.mtxtDexterity.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtDexterity, "mtxtDexterity");
+            this.mtxtDexterity.HidePromptOnLeave = true;
             this.mtxtDexterity.Name = "mtxtDexterity";
             // 
             // lblLifePoints
@@ -507,8 +507,8 @@ namespace MidgardCreator
             // 
             // mtxtAgility
             // 
-            this.mtxtAgility.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtAgility, "mtxtAgility");
+            this.mtxtAgility.HidePromptOnLeave = true;
             this.mtxtAgility.Name = "mtxtAgility";
             // 
             // btnLifePoints
@@ -520,8 +520,8 @@ namespace MidgardCreator
             // 
             // mtxtLifePoints
             // 
-            this.mtxtLifePoints.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtLifePoints, "mtxtLifePoints");
+            this.mtxtLifePoints.HidePromptOnLeave = true;
             this.mtxtLifePoints.Name = "mtxtLifePoints";
             // 
             // lblMagicTalent
@@ -541,8 +541,8 @@ namespace MidgardCreator
             // 
             // mtxtMagicalTalent
             // 
-            this.mtxtMagicalTalent.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtMagicalTalent, "mtxtMagicalTalent");
+            this.mtxtMagicalTalent.HidePromptOnLeave = true;
             this.mtxtMagicalTalent.Name = "mtxtMagicalTalent";
             // 
             // lblAdventurePointsC
@@ -552,8 +552,8 @@ namespace MidgardCreator
             // 
             // mtxtAdventurePointsC
             // 
-            this.mtxtAdventurePointsC.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtAdventurePointsC, "mtxtAdventurePointsC");
+            this.mtxtAdventurePointsC.HidePromptOnLeave = true;
             this.mtxtAdventurePointsC.Name = "mtxtAdventurePointsC";
             // 
             // lblIntelligence
@@ -563,20 +563,20 @@ namespace MidgardCreator
             // 
             // mtxtAdventurePointsB
             // 
-            this.mtxtAdventurePointsB.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtAdventurePointsB, "mtxtAdventurePointsB");
+            this.mtxtAdventurePointsB.HidePromptOnLeave = true;
             this.mtxtAdventurePointsB.Name = "mtxtAdventurePointsB";
             // 
             // mtxtAdventurePointsA
             // 
-            this.mtxtAdventurePointsA.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtAdventurePointsA, "mtxtAdventurePointsA");
+            this.mtxtAdventurePointsA.HidePromptOnLeave = true;
             this.mtxtAdventurePointsA.Name = "mtxtAdventurePointsA";
             // 
             // mtxtConstitution
             // 
-            this.mtxtConstitution.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtConstitution, "mtxtConstitution");
+            this.mtxtConstitution.HidePromptOnLeave = true;
             this.mtxtConstitution.Name = "mtxtConstitution";
             // 
             // lblAdventurePointsB
@@ -586,8 +586,8 @@ namespace MidgardCreator
             // 
             // mtxtIntelligence
             // 
-            this.mtxtIntelligence.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtIntelligence, "mtxtIntelligence");
+            this.mtxtIntelligence.HidePromptOnLeave = true;
             this.mtxtIntelligence.Name = "mtxtIntelligence";
             // 
             // lblAdventurePointsA
@@ -612,14 +612,14 @@ namespace MidgardCreator
             // 
             // mtxtBodyWeightC
             // 
-            this.mtxtBodyWeightC.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtBodyWeightC, "mtxtBodyWeightC");
+            this.mtxtBodyWeightC.HidePromptOnLeave = true;
             this.mtxtBodyWeightC.Name = "mtxtBodyWeightC";
             // 
             // mtxtBodySizeA
             // 
-            this.mtxtBodySizeA.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtBodySizeA, "mtxtBodySizeA");
+            this.mtxtBodySizeA.HidePromptOnLeave = true;
             this.mtxtBodySizeA.Name = "mtxtBodySizeA";
             // 
             // txtBodyWeight
@@ -661,8 +661,8 @@ namespace MidgardCreator
             // 
             // mtxtBodyWeightD
             // 
-            this.mtxtBodyWeightD.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtBodyWeightD, "mtxtBodyWeightD");
+            this.mtxtBodyWeightD.HidePromptOnLeave = true;
             this.mtxtBodyWeightD.Name = "mtxtBodyWeightD";
             // 
             // txtSelfControlC
@@ -685,8 +685,8 @@ namespace MidgardCreator
             // 
             // mtxtBodySizeB
             // 
-            this.mtxtBodySizeB.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtBodySizeB, "mtxtBodySizeB");
+            this.mtxtBodySizeB.HidePromptOnLeave = true;
             this.mtxtBodySizeB.Name = "mtxtBodySizeB";
             // 
             // lblDice6A
@@ -731,8 +731,8 @@ namespace MidgardCreator
             // 
             // mtxtBodyWeightB
             // 
-            this.mtxtBodyWeightB.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtBodyWeightB, "mtxtBodyWeightB");
+            this.mtxtBodyWeightB.HidePromptOnLeave = true;
             this.mtxtBodyWeightB.Name = "mtxtBodyWeightB";
             // 
             // lblSelfControlA
@@ -742,8 +742,8 @@ namespace MidgardCreator
             // 
             // mtxtSelfControl
             // 
-            this.mtxtSelfControl.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtSelfControl, "mtxtSelfControl");
+            this.mtxtSelfControl.HidePromptOnLeave = true;
             this.mtxtSelfControl.Name = "mtxtSelfControl";
             // 
             // lblBodyWeight
@@ -787,14 +787,14 @@ namespace MidgardCreator
             // 
             // mtxtAppearance
             // 
-            this.mtxtAppearance.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtAppearance, "mtxtAppearance");
+            this.mtxtAppearance.HidePromptOnLeave = true;
             this.mtxtAppearance.Name = "mtxtAppearance";
             // 
             // mtxtHanded
             // 
-            this.mtxtHanded.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtHanded, "mtxtHanded");
+            this.mtxtHanded.HidePromptOnLeave = true;
             this.mtxtHanded.Name = "mtxtHanded";
             // 
             // lblAppearance
@@ -814,8 +814,8 @@ namespace MidgardCreator
             // 
             // mtxtBodyWeightA
             // 
-            this.mtxtBodyWeightA.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtBodyWeightA, "mtxtBodyWeightA");
+            this.mtxtBodyWeightA.HidePromptOnLeave = true;
             this.mtxtBodyWeightA.Name = "mtxtBodyWeightA";
             // 
             // lblWillpower
@@ -825,8 +825,8 @@ namespace MidgardCreator
             // 
             // mtxtCharisma
             // 
-            this.mtxtCharisma.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtCharisma, "mtxtCharisma");
+            this.mtxtCharisma.HidePromptOnLeave = true;
             this.mtxtCharisma.Name = "mtxtCharisma";
             // 
             // lblSizeDescF
@@ -836,8 +836,8 @@ namespace MidgardCreator
             // 
             // mtxtWillpower
             // 
-            this.mtxtWillpower.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtWillpower, "mtxtWillpower");
+            this.mtxtWillpower.HidePromptOnLeave = true;
             this.mtxtWillpower.Name = "mtxtWillpower";
             // 
             // lblCharisma
@@ -886,23 +886,23 @@ namespace MidgardCreator
             // 
             // menuLanguage
             // 
-            this.menuLanguage.Name = "menuLanguage";
             resources.ApplyResources(this.menuLanguage, "menuLanguage");
+            this.menuLanguage.Name = "menuLanguage";
             // 
             // menuGerman
             // 
-            this.menuGerman.Name = "menuGerman";
             resources.ApplyResources(this.menuGerman, "menuGerman");
+            this.menuGerman.Name = "menuGerman";
             // 
             // menuEnglish
             // 
-            this.menuEnglish.Name = "menuEnglish";
             resources.ApplyResources(this.menuEnglish, "menuEnglish");
+            this.menuEnglish.Name = "menuEnglish";
             // 
             // menuExit
             // 
-            this.menuExit.Name = "menuExit";
             resources.ApplyResources(this.menuExit, "menuExit");
+            this.menuExit.Name = "menuExit";
             // 
             // browserExportDialog
             // 
