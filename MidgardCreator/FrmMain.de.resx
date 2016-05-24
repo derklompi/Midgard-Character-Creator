@@ -131,7 +131,7 @@
     <value>Englisch</value>
   </data>
   <data name="menuLanguageDE.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
+    <value>152, 22</value>
   </data>
   <data name="menuLanguageDE.Text" xml:space="preserve">
     <value>Sprache</value>
@@ -141,21 +141,5 @@
   </data>
   <data name="menuSettingsDE.Text" xml:space="preserve">
     <value>Einstellungen</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblRace.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblRace.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 375</value>
-  </data>
-  <data name="lblRace.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="lblRace.Text" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>224, 397</value>
   </data>
 </root>

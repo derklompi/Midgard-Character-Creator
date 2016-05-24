@@ -40,10 +40,6 @@ namespace MidgardCreator
             this.menuLanguageDE = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageDEGerman = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageDEEnglish = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuSettingsEN = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageEN = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageENGerman = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageENEnglish = new System.Windows.Forms.ToolStripMenuItem();
             this.MainMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,65 +87,37 @@ namespace MidgardCreator
             // 
             // MainMenu
             // 
-            this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuSettingsDE,
-            this.menuSettingsEN});
             resources.ApplyResources(this.MainMenu, "MainMenu");
+            this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuSettingsDE});
             this.MainMenu.Name = "MainMenu";
             // 
             // menuSettingsDE
             // 
+            resources.ApplyResources(this.menuSettingsDE, "menuSettingsDE");
             this.menuSettingsDE.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuLanguageDE});
             this.menuSettingsDE.Name = "menuSettingsDE";
-            resources.ApplyResources(this.menuSettingsDE, "menuSettingsDE");
             // 
             // menuLanguageDE
             // 
+            resources.ApplyResources(this.menuLanguageDE, "menuLanguageDE");
             this.menuLanguageDE.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuLanguageDEGerman,
             this.menuLanguageDEEnglish});
             this.menuLanguageDE.Name = "menuLanguageDE";
-            resources.ApplyResources(this.menuLanguageDE, "menuLanguageDE");
             // 
             // menuLanguageDEGerman
             // 
-            this.menuLanguageDEGerman.Name = "menuLanguageDEGerman";
             resources.ApplyResources(this.menuLanguageDEGerman, "menuLanguageDEGerman");
+            this.menuLanguageDEGerman.Name = "menuLanguageDEGerman";
             this.menuLanguageDEGerman.Click += new System.EventHandler(this.menuLanguageGerman_Click);
             // 
             // menuLanguageDEEnglish
             // 
-            this.menuLanguageDEEnglish.Name = "menuLanguageDEEnglish";
             resources.ApplyResources(this.menuLanguageDEEnglish, "menuLanguageDEEnglish");
+            this.menuLanguageDEEnglish.Name = "menuLanguageDEEnglish";
             this.menuLanguageDEEnglish.Click += new System.EventHandler(this.menuLanguageEnglish_Click);
-            // 
-            // menuSettingsEN
-            // 
-            this.menuSettingsEN.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuLanguageEN});
-            this.menuSettingsEN.Name = "menuSettingsEN";
-            resources.ApplyResources(this.menuSettingsEN, "menuSettingsEN");
-            // 
-            // menuLanguageEN
-            // 
-            this.menuLanguageEN.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuLanguageENGerman,
-            this.menuLanguageENEnglish});
-            this.menuLanguageEN.Name = "menuLanguageEN";
-            resources.ApplyResources(this.menuLanguageEN, "menuLanguageEN");
-            // 
-            // menuLanguageENGerman
-            // 
-            this.menuLanguageENGerman.Name = "menuLanguageENGerman";
-            resources.ApplyResources(this.menuLanguageENGerman, "menuLanguageENGerman");
-            this.menuLanguageENGerman.Click += new System.EventHandler(this.menuLanguageENGerman_Click);
-            // 
-            // menuLanguageENEnglish
-            // 
-            this.menuLanguageENEnglish.Name = "menuLanguageENEnglish";
-            resources.ApplyResources(this.menuLanguageENEnglish, "menuLanguageENEnglish");
-            this.menuLanguageENEnglish.Click += new System.EventHandler(this.menuLanguageENEnglish_Click);
             // 
             // FrmMain
             // 
@@ -186,9 +154,5 @@ namespace MidgardCreator
         private System.Windows.Forms.ToolStripMenuItem menuLanguageDE;
         private System.Windows.Forms.ToolStripMenuItem menuLanguageDEGerman;
         private System.Windows.Forms.ToolStripMenuItem menuLanguageDEEnglish;
-        private System.Windows.Forms.ToolStripMenuItem menuSettingsEN;
-        private System.Windows.Forms.ToolStripMenuItem menuLanguageEN;
-        private System.Windows.Forms.ToolStripMenuItem menuLanguageENGerman;
-        private System.Windows.Forms.ToolStripMenuItem menuLanguageENEnglish;
     }
 }

@@ -163,11 +163,6 @@ namespace MidgardCreator
         private void menuLanguageENGerman_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-DE");
-            //Menü-Punkte
-            menuSettingsEN.Text = "Einstellungen";
-            menuLanguageEN.Text = "Sprache";
-            menuLanguageENEnglish.Text = "English";
-            menuLanguageENGerman.Text = "Deutsch";
             //Fomular-Buttons
             btnCreateDwarf.Text = "Zwerg";
             btnCreateElf.Text = "Elf";
@@ -179,11 +174,6 @@ namespace MidgardCreator
         private void menuLanguageENEnglish_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
-            //Menü-Punkte
-            menuSettingsEN.Text = "Settings";
-            menuLanguageEN.Text = "Language";
-            menuLanguageENEnglish.Text = "English";
-            menuLanguageENGerman.Text = "German";
             //Fomular-Buttons
             btnCreateDwarf.Text = "Dwarf";
             btnCreateElf.Text = "Elf";

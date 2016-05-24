@@ -449,6 +449,7 @@ namespace MidgardCreator
                     mtxtHanded.Text, mtxtAdventurePointsA.Text, mtxtAdventurePointsB.Text, mtxtAdventurePointsC.Text, mtxtLifePoints.Text, txtBodySizeMale.Text, txtBodySizeFemale.Text,
                     txtBodyWeightMale.Text, txtBodyWeightFemale.Text);
                 Process.Start("explorer.exe", txtSavepath.Text);
+                
             }
             else
             {
@@ -462,6 +463,11 @@ namespace MidgardCreator
         {
             if (browserExportDialog.ShowDialog(this) == DialogResult.OK)
                 txtSavepath.Text = browserExportDialog.SelectedPath;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

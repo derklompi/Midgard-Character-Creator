@@ -72,7 +72,7 @@ namespace MidgardCreator.Classes
                     file.WriteLine("Intelligenz:        " + mtxtIntelligence);
                     file.WriteLine("Zaubertalent:       " + mtxtMagicalTalent);
 
-                    if (race == "Human")
+                    if (race == "Human" || race == "Mensch")
                     {
                         file.WriteLine("Größe (Mann):       " + txtBodySizeMale + " cm");
                         file.WriteLine("Größe (Frau):       " + txtBodySizeFemale + " cm");
@@ -200,6 +200,8 @@ namespace MidgardCreator.Classes
                         MessageBox.Show("Datei konnte nicht erstellt werden!");
                     }
                 }
+                System.IO.FileAttributes att = System.IO.File.GetAttributes(saveplace);
+                System.IO.File.SetAttributes(saveplace, att | System.IO.FileAttributes.ReadOnly);
             }
             else
             {
