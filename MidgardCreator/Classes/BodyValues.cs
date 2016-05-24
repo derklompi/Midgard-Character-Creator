@@ -4,72 +4,89 @@ namespace MidgardCreator.Classes
 {
     class BodyValues
     {
-        private string bodyWeight;
-        public string BodyWeight(string mtxtBodyWeightA, string mtxtBodyWeightB, string mtxtBodyWeightC, 
-            string mtxtBodyWeightD, string mtxtStrength, string txtBodySize, string formTitle)
+        // Calculate of the bodysize
+        private int bodySize;
+        public int BodySize(string mtxtBodySizeA, string mtxtBodySizeB, string mtxtStrength, string formTitle)
         {
-            if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
-            {
-                bodyWeight = Convert.ToString(
-                    Convert.ToInt32(mtxtBodyWeightA) + Convert.ToInt32(mtxtBodyWeightB) + 
-                    Convert.ToInt32(mtxtBodyWeightC) + Convert.ToInt32(mtxtBodyWeightD) + 
-                    (Convert.ToInt32(mtxtStrength) / 10) + Convert.ToInt32(txtBodySize) - 90);
-            }
-            if (formTitle == "Midgard Creator - Elf")
-            {
-                bodyWeight = Convert.ToString(
-                    Convert.ToInt32(mtxtBodyWeightA) + Convert.ToInt32(mtxtBodyWeightB) +
-                    Convert.ToInt32(mtxtBodyWeightC) + Convert.ToInt32(mtxtBodyWeightD) +
-                    (Convert.ToInt32(mtxtStrength) / 10) + Convert.ToInt32(txtBodySize) - 128);
-            }
-            if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
-            {
-                bodyWeight = Convert.ToString(
-                    Convert.ToInt32(mtxtBodyWeightA) + Convert.ToInt32(mtxtBodyWeightB) +
-                    Convert.ToInt32(mtxtBodyWeightC) +
-                    (Convert.ToInt32(mtxtStrength) / 10) + Convert.ToInt32(txtBodySize) - 90);
-            }
-            if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
-            {
-                bodyWeight = Convert.ToString(
-                    Convert.ToInt32(mtxtBodyWeightA) + Convert.ToInt32(mtxtBodyWeightB) +
-                    Convert.ToInt32(mtxtBodyWeightC) + 
-                    (Convert.ToInt32(mtxtStrength) / 10) + Convert.ToInt32(txtBodySize) - 87);
-            }
-       
-            return bodyWeight;
-        }
+            // Convert to int for better usability
+            int bodysizeA = Convert.ToInt32(mtxtBodySizeA);
+            int bodysizeB = Convert.ToInt32(mtxtBodySizeB);
 
-        private string bodySize;
-        public string BodySize(string mtxtBodySizeA, string mtxtBodySizeB, string mtxtStrength, string formTitle)
-        {
+            int strength = Convert.ToInt32(mtxtStrength);
+
+            //Calculation for dwarfs
             if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
             {
-                bodySize = Convert.ToString(
-                Convert.ToInt32(mtxtBodySizeA) + 
-                (Convert.ToInt32(mtxtStrength) / 10) + 130);
+                bodySize = bodysizeA + (strength / 10) + 130;
             }
+
+            //Calculation for elfs
             if (formTitle == "Midgard Creator - Elf")
             {
-                bodySize = Convert.ToString(
-                Convert.ToInt32(mtxtBodySizeA) + Convert.ToInt32(mtxtBodySizeB) +
-                (Convert.ToInt32(mtxtStrength) / 10) + 160);
+                bodySize = bodysizeA + bodysizeB + (strength / 10) + 160;
             }
+
+            //Calculation for gnomes
             if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
             {
-                bodySize = Convert.ToString(
-                Convert.ToInt32(mtxtBodySizeA) + 
-                (Convert.ToInt32(mtxtStrength) / 10) + 90);
+                bodySize = bodysizeA + (strength / 10) + 90;
             }
+
+            //Calculation for halflings
             if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
             {
-                bodySize = Convert.ToString(
-                Convert.ToInt32(mtxtBodySizeA) + Convert.ToInt32(mtxtBodySizeB) +
-                (Convert.ToInt32(mtxtStrength) / 10) + 100);
+                bodySize = bodysizeA + bodysizeB + (strength / 10) + 100;
             }
             
             return bodySize;
         }
+
+        // Calculate of the bodyweight
+        private int bodyWeight;
+        public int BodyWeight(string mtxtBodyWeightA, string mtxtBodyWeightB, string mtxtBodyWeightC,
+            string mtxtBodyWeightD, string mtxtStrength, string txtBodySize, string formTitle)
+        {
+            // Convert to int for better usability
+            int bodyweightA = Convert.ToInt32(mtxtBodyWeightA);
+            int bodyweightB = Convert.ToInt32(mtxtBodyWeightB);
+            int bodyweightC = Convert.ToInt32(mtxtBodyWeightC);
+            int bodyweightD = Convert.ToInt32(mtxtBodyWeightD);
+
+            int strength = Convert.ToInt32(mtxtStrength);
+            int bodysize = Convert.ToInt32(txtBodySize);
+
+            //Calculation for dwarfs
+            if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+            {
+                bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    (strength / 10) + bodysize - 90;
+            }
+
+            //Calculation for elfs
+            if (formTitle == "Midgard Creator - Elf")
+            {
+                bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    (strength / 10) + bodysize - 128;
+            }
+
+            //Calculation for gnomes
+            if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+            {
+                bodyWeight = bodyweightA + bodyweightB + bodyweightC +
+                    (strength / 10) + bodysize - 90;
+            }
+
+            //Calculation for halflings
+            if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+            {
+                bodyWeight = bodyweightA + bodyweightB + bodyweightC +
+                    (strength / 10) + bodysize - 87;
+            }
+
+            return bodyWeight;
+        }
+
+
     }
 }
 

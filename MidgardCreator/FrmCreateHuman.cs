@@ -128,11 +128,11 @@ namespace MidgardCreator
 
                     Soul s = new Soul();
 
-                    txtCharisma.Text = s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text);
-                    txtWillpower.Text = s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text);
-                    txtSelfControlA.Text = s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text);
-                    txtSelfControlB.Text = s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text);
-                    txtSelfControlC.Text = s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text);
+                    txtCharisma.Text = Convert.ToString(s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
+                    txtWillpower.Text = Convert.ToString(s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
+                    txtSelfControlA.Text = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtSelfControlB.Text = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtSelfControlC.Text = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
                     txtHanded.Text = s.Handed(mtxtHanded.Text);
 
                     #endregion
@@ -141,10 +141,10 @@ namespace MidgardCreator
 
                     AdventureLifePoints alp = new AdventureLifePoints();
 
-                    txtAdventurePointsA.Text = alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text);
-                    txtAdventurePointsB.Text = alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text);
-                    txtAdventurePointsC.Text = alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text);
-                    txtLifePoints.Text = alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text);
+                    txtAdventurePointsA.Text = Convert.ToString(alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsB.Text = Convert.ToString(alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsC.Text = Convert.ToString(alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
+                    txtLifePoints.Text = Convert.ToString(alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
 
                     #endregion
 
@@ -327,22 +327,22 @@ namespace MidgardCreator
         {
             Soul s = new Soul();
 
-            txtCharisma.Text = s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text);
+            txtCharisma.Text = Convert.ToString(s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
         }
 
         private void btnWillpower_Click(object sender, EventArgs e)
         {
             Soul s = new Soul();
-            txtWillpower.Text = s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text);
+            txtWillpower.Text = Convert.ToString(s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
         }
 
         private void btnSelfControl_Click(object sender, EventArgs e)
         {
             Soul s = new Soul();
 
-            txtSelfControlA.Text = s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text);
-            txtSelfControlB.Text = s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text);
-            txtSelfControlC.Text = s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text);
+            txtSelfControlA.Text = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+            txtSelfControlB.Text = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+            txtSelfControlC.Text = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
         }
 
         private void btnInbornBuff_Click(object sender, EventArgs e)
@@ -360,25 +360,25 @@ namespace MidgardCreator
         private void btnAdventurePointsA_Click(object sender, EventArgs e)
         {
             AdventureLifePoints alp = new AdventureLifePoints();
-            txtAdventurePointsA.Text = alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text);
+            txtAdventurePointsA.Text = Convert.ToString(alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
         }
 
         private void btnAdventurePointsB_Click(object sender, EventArgs e)
         {
             AdventureLifePoints alp = new AdventureLifePoints();
-            txtAdventurePointsB.Text = alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text);
+            txtAdventurePointsB.Text = Convert.ToString(alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
         }
 
         private void btnAdventurePointsC_Click(object sender, EventArgs e)
         {
             AdventureLifePoints alp = new AdventureLifePoints();
-            txtAdventurePointsC.Text = alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text);
+            txtAdventurePointsC.Text = Convert.ToString(alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
         }
 
         private void btnLifePoints_Click(object sender, EventArgs e)
         {
             AdventureLifePoints alp = new AdventureLifePoints();
-            txtLifePoints.Text = alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text);
+            txtLifePoints.Text = Convert.ToString(alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
         }
 
         private void Enable_Timer_Tick(object sender, EventArgs e)

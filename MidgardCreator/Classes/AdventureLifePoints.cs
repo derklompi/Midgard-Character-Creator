@@ -4,155 +4,184 @@ namespace MidgardCreator.Classes
 {
     class AdventureLifePoints
     {
-        private string adventurePointsAValue;
-        public string adventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string formTitle)
+        // Calculation for adventure points of barbarians, warriors. etc.
+        private int adventurePointsAValue;
+        public int adventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string formTitle)
         {
-            int adventurePointsA = 0;
+            int tempAdventurePointsAValue = 0;
 
-            adventurePointsA = Convert.ToInt32(mtxtAdventurePointsA) + 4 + Convert.ToInt32(txtStaminaBuff);
+            tempAdventurePointsAValue = Convert.ToInt32(mtxtAdventurePointsA) + 4 + Convert.ToInt32(txtStaminaBuff);
 
-            if (adventurePointsA >= 4)
+            if (tempAdventurePointsAValue >= 4)
             {
+                // Calculations for dwarfs
                 if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
                 {
-                    adventurePointsAValue = Convert.ToString(adventurePointsA);
+                    adventurePointsAValue = tempAdventurePointsAValue;
                 }
+                
+                // Calculations for elfs
                 if (formTitle == "Midgard Creator - Elf")
                 {
-                    adventurePointsAValue = Convert.ToString(adventurePointsA);
+                    adventurePointsAValue = tempAdventurePointsAValue;
                 }
+
+                // Calculations for gnomes
                 if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
                 {
-                    int tempAdventurePointsValueFactorGnome = Convert.ToInt32(adventurePointsA) - 2;
-                    adventurePointsAValue = Convert.ToString(tempAdventurePointsValueFactorGnome);
+                    adventurePointsAValue = tempAdventurePointsAValue - 2;
                 }
+
+                // Calculations for halflings
                 if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
                 {
-                    int tempAdventurePointsValueFactorHalfling = Convert.ToInt32(adventurePointsA) - 1;
-                    adventurePointsAValue = Convert.ToString(tempAdventurePointsValueFactorHalfling);
+                    adventurePointsAValue = tempAdventurePointsAValue - 1;
                 }
+
+                // Calculations for humans
                 if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
                 {
-                    adventurePointsAValue = Convert.ToString(adventurePointsA);
+                    adventurePointsAValue = tempAdventurePointsAValue;
                 }
             }
             else
             {
-                adventurePointsAValue = "4";
+                adventurePointsAValue = 4;
             }
 
             return adventurePointsAValue;
         }
 
-        private string adventurePointsBValue;
-        public string adventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string formTitle)
+        private int adventurePointsBValue;
+        public int adventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string formTitle)
         {
-            int adventurePointsB = 0;
+            int tempAdventurePointsBValue = 0;
 
-            adventurePointsB = Convert.ToInt32(mtxtAdventurePointsB) + 3 + Convert.ToInt32(txtStaminaBuff);
+            tempAdventurePointsBValue = Convert.ToInt32(mtxtAdventurePointsB) + 3 + Convert.ToInt32(txtStaminaBuff);
 
-            if (adventurePointsB >= 4)
+            if (tempAdventurePointsBValue >= 4)
             {
+                // Calculations for dwarfs
                 if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
                 {
-                    adventurePointsBValue = Convert.ToString(adventurePointsB);
+                    adventurePointsBValue = tempAdventurePointsBValue;
                 }
+
+                // Calculations for elfs
                 if (formTitle == "Midgard Creator - Elf")
                 {
-                    adventurePointsBValue = Convert.ToString(adventurePointsB);
+                    adventurePointsBValue = tempAdventurePointsBValue;
                 }
+
+                // Calculations for gnomes
                 if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
                 {
-                    int tempAdventurePointsValueFactorGnome = Convert.ToInt32(adventurePointsB) - 2;
-                    adventurePointsBValue = Convert.ToString(tempAdventurePointsValueFactorGnome);
+                    adventurePointsBValue = tempAdventurePointsBValue -2;
                 }
+
+                // Calculations for halflings
                 if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
                 {
-                    int tempAdventurePointsValueFactorHalfling = Convert.ToInt32(adventurePointsB) - 1;
-                    adventurePointsBValue = Convert.ToString(tempAdventurePointsValueFactorHalfling);
+                    adventurePointsBValue = tempAdventurePointsBValue -1;
                 }
+
+                // Calculations for humans
                 if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
                 {
-                    adventurePointsBValue = Convert.ToString(adventurePointsB);
+                    adventurePointsBValue = tempAdventurePointsBValue;
                 }
             }
             else
             {
-                adventurePointsBValue = "4";
+                adventurePointsBValue = 4;
             }
             return adventurePointsBValue;
         }
 
-        private string adventurePointsCValue;
-        public string adventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string formTitle)
+        private int adventurePointsCValue;
+        public int adventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string formTitle)
         {
-            int adventurePointsC = 0;
+            int tempAdventurePointsCValue = 0;
 
-            adventurePointsC = Convert.ToInt32(mtxtAdventurePointsC) + 2 + Convert.ToInt32(txtStaminaBuff);
+            tempAdventurePointsCValue = Convert.ToInt32(mtxtAdventurePointsC) + 2 + Convert.ToInt32(txtStaminaBuff);
 
-            if (adventurePointsC >= 4)
+            if (tempAdventurePointsCValue >= 4)
             {
+                // Calculations for dwarfs
                 if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
                 {
-                    adventurePointsCValue = Convert.ToString(adventurePointsC);
+                    adventurePointsCValue = tempAdventurePointsCValue;
                 }
+
+                // Calculations for elfs
                 if (formTitle == "Midgard Creator - Elf")
                 {
-                    adventurePointsCValue = Convert.ToString(adventurePointsC);
+                    adventurePointsCValue = tempAdventurePointsCValue;
                 }
+
+                // Calculations for gnomes
                 if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
                 {
-                    int tempAdventurePointsValueFactorGnome = Convert.ToInt32(adventurePointsC) - 2;
-                    adventurePointsCValue = Convert.ToString(tempAdventurePointsValueFactorGnome);
+                    adventurePointsCValue = tempAdventurePointsCValue - 2;
                 }
+
+                // Calculations for halflings
                 if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
                 {
-                    int tempAdventurePointsValueFactorHalfling = Convert.ToInt32(adventurePointsC) - 1;
-                    adventurePointsCValue = Convert.ToString(tempAdventurePointsValueFactorHalfling);
+                    adventurePointsCValue = tempAdventurePointsCValue - 1;
                 }
+
+                // Calculations for humans
                 if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
                 {
-                    adventurePointsCValue = Convert.ToString(adventurePointsC);
+                    adventurePointsCValue = tempAdventurePointsCValue;
                 }
             }
             else
             {
-                adventurePointsCValue = "4";
+                adventurePointsCValue = 4;
             }
             return adventurePointsCValue;
         }
 
-        private string lifePointsValue;
-        public string lifePoints(string mtxtConstitution, string mtxtLifePoints, string formTitle)
+        // Calculations of the lifepoints
+        private int lifePointsValue;
+        public int lifePoints(string mtxtConstitution, string mtxtLifePoints, string formTitle)
         {
+            // Convert the strings to Int
+            int constitution = Convert.ToInt32(mtxtConstitution);
+            int lifepoints = Convert.ToInt32(mtxtLifePoints);
+
+            // Calculations for humans
             if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
             {
-                lifePointsValue = Convert.ToString((Convert.ToInt32(mtxtConstitution) / 10) + Convert.ToInt32(mtxtLifePoints) + 5);
+                lifePointsValue = (constitution / 10) + lifepoints + 5;
             }
+
+            // Calculations for elfs
             if (formTitle == "Midgard Creator - Elf")
             {
-                lifePointsValue = Convert.ToString((Convert.ToInt32(mtxtConstitution) / 10) + Convert.ToInt32(mtxtLifePoints) + 6);
-                int tempLifePointsValueFactorElf = Convert.ToInt32(lifePointsValue) - 2;
-                lifePointsValue = Convert.ToString(tempLifePointsValueFactorElf);
+                lifePointsValue = (constitution / 10) + lifepoints + 4;
             }
+
+            // Calculations for gnomes
             if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
             {
-                lifePointsValue = Convert.ToString((Convert.ToInt32(mtxtConstitution) / 10) + Convert.ToInt32(mtxtLifePoints) + 1);
-                int tempLifePointsValueFactorGnome = Convert.ToInt32(lifePointsValue) - 2;
-                lifePointsValue = Convert.ToString(tempLifePointsValueFactorGnome);
+                lifePointsValue = (constitution / 10) + lifepoints - 1;
             }
+
+            // Calculations for halflings
             if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
             {
-                lifePointsValue = Convert.ToString((Convert.ToInt32(mtxtConstitution) / 10) + Convert.ToInt32(mtxtLifePoints) + 3);
-                int tempLifePointsValueFactorHalfling = Convert.ToInt32(lifePointsValue) - 1;
-                lifePointsValue = Convert.ToString(tempLifePointsValueFactorHalfling);
+                lifePointsValue = (constitution / 10) + lifepoints + 2;
             }
+
+            // Calculations for dwarfs
             if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
             {
-                lifePointsValue = Convert.ToString((Convert.ToInt32(mtxtConstitution) / 10) + Convert.ToInt32(mtxtLifePoints) + 6);
-                int tempLifePointsValueFactorDwarf = Convert.ToInt32(lifePointsValue) - 2;
-                lifePointsValue = Convert.ToString(tempLifePointsValueFactorDwarf);
+                lifePointsValue = (constitution / 10) + lifepoints + 4;
             }
+
             return lifePointsValue;
         }
 

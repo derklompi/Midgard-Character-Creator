@@ -8,100 +8,106 @@ namespace MidgardCreator.Classes
 {
     class Soul
     {
-        private string charismaValue;
-        public string Charisma(string mtxtCharisma, string mtxtIntelligence, string mtxtAppearance)
+        // Calculation of the charisma
+        private int charismaValue;
+        public int Charisma(string mtxtCharisma, string mtxtIntelligence, string mtxtAppearance)
         {
-            int charisma = 0;
-            charisma = Convert.ToInt32(mtxtCharisma) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
+            int tempCharismaValue = 0;
+            tempCharismaValue = Convert.ToInt32(mtxtCharisma) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
                 (Convert.ToInt32(mtxtAppearance) / 10))) - 30;
 
-            if (charisma >= 0)
+            if (tempCharismaValue >= 0)
             {
-                charismaValue = Convert.ToString(charisma);
+                charismaValue = tempCharismaValue;
             }
             else
             {
-                charismaValue = "0";
+                charismaValue = 0;
             }
             return charismaValue;
         }
 
-        private string willpowerValue;
-        public string Willpower(string mtxtWillpower, string mtxtConstitution, string mtxtIntelligence)
+        // Calculation of the willpower
+        private int willpowerValue;
+        public int Willpower(string mtxtWillpower, string mtxtConstitution, string mtxtIntelligence)
         {
 
-            int willpower = 0;
-            willpower = Convert.ToInt32(mtxtWillpower) + (3 * ((Convert.ToInt32(mtxtConstitution) / 10) + 
+            int tempWillpowerValue = 0;
+            tempWillpowerValue = Convert.ToInt32(mtxtWillpower) + (3 * ((Convert.ToInt32(mtxtConstitution) / 10) + 
                 (Convert.ToInt32(mtxtIntelligence) / 10))) - 40;
 
-            if (willpower > 0)
+            if (tempWillpowerValue > 0)
             {
-                willpowerValue = Convert.ToString(willpower);
+                willpowerValue = tempWillpowerValue;
             }
             else
             {
-                willpowerValue = "0";
+                willpowerValue = 0;
             }
             return willpowerValue;
         }
 
-        private string selfControlAValue;
-        public string SelfControlA(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
+        // Calculation of the selfcontrol
+        private int selfControlAValue;
+        public int SelfControlA(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
         {
-            int selfControlA = 0;
+            int tempSelfControlAValue = 0;
 
-            selfControlA = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
+            tempSelfControlAValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
                 (Convert.ToInt32(txtWillpower) / 10)));
 
-            if (selfControlA > 0)
+            if (tempSelfControlAValue > 0)
             {
-                selfControlAValue = Convert.ToString(selfControlA);
+                selfControlAValue = tempSelfControlAValue;
             }
             else
             {
-                selfControlAValue = "0";
+                selfControlAValue = 0;
             }
             return selfControlAValue;
         }
 
-        private string selfControlBValue;
-        public string SelfControlB(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
+        // Calculation of the selfcontrol
+        private int selfControlBValue;
+        public int SelfControlB(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
         {
-            int selfControlB = 0;
+            int tempSelfControlBValue = 0;
 
-            selfControlB = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
+            tempSelfControlBValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
                 (Convert.ToInt32(txtWillpower) / 10))) - 50;
 
-            if (selfControlB > 0)
+            if (tempSelfControlBValue > 0)
             {
-                selfControlBValue = Convert.ToString(selfControlB);
+                selfControlBValue = tempSelfControlBValue;
             }
             else
             {
-                selfControlBValue = "0";
+                selfControlBValue = 0;
             }
             return selfControlBValue;
         }
 
-        private string selfControlCValue;
-        public string SelfControlC(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
+        // Calculation of the selfcontrol
+        private int selfControlCValue;
+        public int SelfControlC(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
         {
-            int selfControlC = 0;
+            int tempSelfControlCValue = 0;
 
-            selfControlC = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
+            tempSelfControlCValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) + 
                 (Convert.ToInt32(txtWillpower) / 10))) - 30;
 
-            if (selfControlC > 0)
+            if (tempSelfControlCValue > 0)
             {
-                selfControlCValue = Convert.ToString(selfControlC);
+                selfControlCValue = tempSelfControlCValue;
             }
             else
             {
-                selfControlCValue = "0";
+                selfControlCValue = 0;
             }
             return selfControlCValue;
         }
 
+        // Calculation of the hand specialization
         private string handedValue;
         public string Handed(string mtxtHanded)
         {

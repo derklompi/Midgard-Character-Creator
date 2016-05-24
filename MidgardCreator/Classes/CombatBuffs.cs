@@ -2,8 +2,8 @@ namespace MidgardCreator.Classes
 {
     public class CombatBuffs
     {      
+        // Calculation of the attack buff
         private int attackBuffValue;
-
         public int AttackBuff(int dexterity)
         {
 
@@ -31,8 +31,8 @@ namespace MidgardCreator.Classes
             return attackBuffValue;
         }
 
+        // Calculation of the defense buff
         private int defenseBufValue;
-
         public int DefenseBuff(int agility)
         {
             if (0 <= agility && agility <= 5)
@@ -59,8 +59,8 @@ namespace MidgardCreator.Classes
             return defenseBufValue;
         }
 
+        // Calculation of the magic buff
         private int magicBuffValue;
-
         public int MagicBuff(int magicTalent)
         {
             if (0 <= magicTalent && magicTalent <= 5)

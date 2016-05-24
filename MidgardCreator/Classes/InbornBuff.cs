@@ -3,7 +3,6 @@ namespace MidgardCreator.Classes
     class InbornBuff
     {
         private string inbornBuffValue;
-
         public string Inborn(int inbornBuff, int willpower)
         {
             if (1 <= inbornBuff && inbornBuff <= 2)

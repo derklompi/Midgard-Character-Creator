@@ -25,6 +25,7 @@ namespace MidgardCreator.Classes
             {
                 string race = "";
 
+                // Read the title to define the race
                 switch (formTitle)
                 {
                     case ("Midgard Creator - Mensch"):
@@ -56,6 +57,7 @@ namespace MidgardCreator.Classes
                         break;
                 }
 
+                // Writing the values in the text file
                 using (StreamWriter file =
                 new StreamWriter(saveplace))
                 {
@@ -72,6 +74,7 @@ namespace MidgardCreator.Classes
                     file.WriteLine("Intelligenz:        " + mtxtIntelligence);
                     file.WriteLine("Zaubertalent:       " + mtxtMagicalTalent);
 
+                    // Since humans have both male and female they need the extra part
                     if (race == "Human" || race == "Mensch")
                     {
                         file.WriteLine("Größe (Mann):       " + txtBodySizeMale + " cm");
@@ -200,6 +203,8 @@ namespace MidgardCreator.Classes
                         MessageBox.Show("Datei konnte nicht erstellt werden!");
                     }
                 }
+
+                // Setting the file attribute to read only to prevent changes (at least for inexperienced users)
                 System.IO.FileAttributes att = System.IO.File.GetAttributes(saveplace);
                 System.IO.File.SetAttributes(saveplace, att | System.IO.FileAttributes.ReadOnly);
             }
