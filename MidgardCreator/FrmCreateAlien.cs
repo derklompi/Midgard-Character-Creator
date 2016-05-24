@@ -88,7 +88,8 @@ namespace MidgardCreator
                     }
                     else
                     {
-                        txtDamageBuff.Text = Properties.Numbers.zero;
+                        txtDamageBuff.Text = Ressourcen.Numbers.zero;
+
                     }
 
                     if (DefenseBuff >= 0)
@@ -97,7 +98,7 @@ namespace MidgardCreator
                     }
                     else
                     {
-                        txtStaminaBuff.Text = Properties.Numbers.zero;
+                        txtStaminaBuff.Text = Ressourcen.Numbers.zero;
                     }
                                    
                     txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
@@ -242,7 +243,7 @@ namespace MidgardCreator
             }
             else
             {
-                txtDamageBuff.Text = Properties.Numbers.zero;
+                txtDamageBuff.Text = Ressourcen.Numbers.zero;
             }
 
             if (DefenseBuff >= 0)
@@ -251,7 +252,7 @@ namespace MidgardCreator
             }
             else
             {
-                txtStaminaBuff.Text = Properties.Numbers.zero;
+                txtStaminaBuff.Text = Ressourcen.Numbers.zero;
             }
 
             txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
