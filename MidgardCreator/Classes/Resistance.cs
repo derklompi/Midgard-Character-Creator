@@ -1,4 +1,4 @@
-namespace MidgardCreator.Classes
+namespace mcreator.Classes
 {
     class Resistance
     {          

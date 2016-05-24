@@ -1,11 +1,11 @@
 using System;
 using System.Windows.Forms;
-using MidgardCreator.Classes;
+using mcreator.Classes;
 using System.IO;
 using System.Diagnostics;
 using System.Drawing;
 
-namespace MidgardCreator
+namespace mcreator
 {
     public partial class FrmCreateAlien : Form
     {

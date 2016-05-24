@@ -1,6 +1,6 @@
 using System;
 
-namespace MidgardCreator.Classes
+namespace mcreator.Classes
 {
     class AdventureLifePoints
     {

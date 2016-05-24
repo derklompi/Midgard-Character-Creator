@@ -3,7 +3,7 @@ using System.Windows.Forms;
 using System.Threading;
 
 
-namespace MidgardCreator
+namespace mcreator
 {
     public partial class FrmMain : Form
     {

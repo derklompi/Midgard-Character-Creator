@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 
-namespace MidgardCreator.Classes
+namespace mcreator.Classes
 {
     class Export
     {

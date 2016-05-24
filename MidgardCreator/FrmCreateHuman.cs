@@ -1,12 +1,12 @@
 using System;
 using System.Windows.Forms;
-using MidgardCreator.Classes;
+using mcreator.Classes;
 using System.Diagnostics;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace MidgardCreator
+namespace mcreator
 {
     public partial class FrmCreateHuman : Form
     {

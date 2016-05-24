@@ -1,4 +1,4 @@
-namespace MidgardCreator
+namespace mcreator
 {
     partial class FrmCreateAlien
     {

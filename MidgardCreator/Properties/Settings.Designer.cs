@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MidgardCreator.Ressourccen {
+namespace mcreator.Ressourccen {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
