@@ -117,13 +117,3958 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="EnableTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="&gt;&gt;mtxtMagicalTalent.Name" xml:space="preserve">
+    <value>mtxtMagicalTalent</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mtxtBodyWeightB.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblInbornBuff.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="lblAdventurePointsB.TabIndex" type="System.Int32, mscorlib">
+    <value>997</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsB.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mtxtIntelligence.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblHanded.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblInbornBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="mtxtInbornBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtBodySize.ZOrder" xml:space="preserve">
+    <value>121</value>
+  </data>
+  <data name="lblAPB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsC.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;txtCharacterName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDamageBuff.Name" xml:space="preserve">
+    <value>txtDamageBuff</value>
+  </data>
+  <data name="txtDamageBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblDice6E.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodyWeightD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="mtxtAppearance.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblAPA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="lblSelfControlB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;lblDice6G.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="&gt;&gt;lblAttackBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnInbornBuff.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicFighter.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicFighter.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtBodyWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>945</value>
+  </data>
+  <data name="mtxtInbornBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblAdventurePointsB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 347</value>
+  </data>
+  <data name="&gt;&gt;txtDefenseBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAPC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 373</value>
+  </data>
+  <data name="mtxtBodySizeB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 161</value>
+  </data>
+  <data name="&gt;&gt;lblDice6B.Name" xml:space="preserve">
+    <value>lblDice6B</value>
+  </data>
+  <data name="&gt;&gt;lblBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAdventurePointsA.TabIndex" type="System.Int32, mscorlib">
+    <value>1015</value>
+  </data>
+  <data name="lblRumble.Text" xml:space="preserve">
+    <value>Raufen</value>
+  </data>
+  <data name="mtxtAgility.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtBodyMagicMagician.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtCharisma.Name" xml:space="preserve">
+    <value>mtxtCharisma</value>
+  </data>
+  <data name="lblExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="txtRumble.TabIndex" type="System.Int32, mscorlib">
+    <value>1109</value>
+  </data>
+  <data name="mtxtAdventurePointsB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 343</value>
+  </data>
+  <data name="&gt;&gt;txtAttackBuff.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlC.Name" xml:space="preserve">
+    <value>lblSelfControlC</value>
+  </data>
+  <data name="btnStatCheck.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblWeightDescF.ZOrder" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="lblDice20C.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblStaminaBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtInbornBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 20</value>
+  </data>
+  <data name="&gt;&gt;lblAppearance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDice6B.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mtxtConstitution.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="mtxtHanded.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="menuEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="lblDice100B.Text" xml:space="preserve">
+    <value>1W%</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtStats.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeB.ZOrder" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="lblBodySize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 164</value>
+  </data>
+  <data name="lblBodySize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAdventurePointsA.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblIntelligence.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mtxtBodySizeB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStatCheck.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicMagician.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsA.ZOrder" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicFighter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDamageBuff.Name" xml:space="preserve">
+    <value>lblDamageBuff</value>
+  </data>
+  <data name="&gt;&gt;txtDefense0.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtAreaMagicMagician.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblDefenseBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDice6C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 190</value>
+  </data>
+  <data name="btnAdventurePointsB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="lblLifePointsDwarf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 398</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="lblMagicBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblLifePoints.Text" xml:space="preserve">
+    <value>Lebenspunkte</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 562</value>
+  </data>
+  <data name="&gt;&gt;lblDamageBuff.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="lblMagicBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtSelfControlB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblDice6B.TabIndex" type="System.Int32, mscorlib">
+    <value>957</value>
+  </data>
+  <data name="&gt;&gt;lblDice6B.ZOrder" xml:space="preserve">
+    <value>106</value>
+  </data>
+  <data name="lblExport.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblSizeDescF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCharisma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDefenseBuff.Text" xml:space="preserve">
+    <value>Abwehrbonus</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDoMagic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtAdventurePointsB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtAdventurePointsA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblLifePoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnHanded.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="mtxtWillpower.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="lblStrength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 33</value>
+  </data>
+  <data name="txtSelfControlA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblResistance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMagicTalent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 85</value>
+  </data>
+  <data name="&gt;&gt;txtMagicBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtStaminaBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>967</value>
+  </data>
+  <data name="mtxtSelfControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblSelfControlC.TabIndex" type="System.Int32, mscorlib">
+    <value>986</value>
+  </data>
+  <data name="lblAreaMagic.TabIndex" type="System.Int32, mscorlib">
+    <value>1117</value>
+  </data>
+  <data name="txtSavepath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 522</value>
+  </data>
+  <data name="&gt;&gt;txtDefenseBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightD.ZOrder" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;lblLifePoints.Name" xml:space="preserve">
+    <value>lblLifePoints</value>
+  </data>
+  <data name="lblMagic0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblBodySize.Text" xml:space="preserve">
+    <value>Körpergröße</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicFighter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHanded.ZOrder" xml:space="preserve">
+    <value>118</value>
+  </data>
+  <data name="&gt;&gt;btnInbornBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtGhostMagicMagician.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblDice6G.Name" xml:space="preserve">
+    <value>lblDice6G</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicFighter.Name" xml:space="preserve">
+    <value>txtGhostMagicFighter</value>
+  </data>
+  <data name="txtSelfControlC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="btnSelfControl.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblMagicBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 137</value>
+  </data>
+  <data name="&gt;&gt;txtHanded.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice6G.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblBodyWeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMagicTalent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblMagicTalent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDefense.Text" xml:space="preserve">
+    <value>Abwehr</value>
+  </data>
+  <data name="lblLifePointsDwarf.TabIndex" type="System.Int32, mscorlib">
+    <value>1014</value>
+  </data>
+  <data name="mtxtAdventurePointsA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtRumble.Name" xml:space="preserve">
+    <value>txtRumble</value>
+  </data>
+  <data name="btnStatCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>962</value>
+  </data>
+  <data name="lblAPB.Text" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="&gt;&gt;lblAPC.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="txtBodySize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>1066</value>
+  </data>
+  <data name="lblDice6A.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="btnBodySize.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAttackBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblDamageBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodyMagic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblInbornBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1060</value>
+  </data>
+  <data name="&gt;&gt;lblAPA.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="mtxtIntelligence.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="lblAPC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="lblStrength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBodyMagicFighter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 213</value>
+  </data>
+  <data name="lblAPC.Text" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="&gt;&gt;btnCharisma.ZOrder" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicFighter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtCharisma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAPB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAttackBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="txtLifePoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice100B.TabIndex" type="System.Int32, mscorlib">
+    <value>1025</value>
+  </data>
+  <data name="btnLifePoints.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStrength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAdventurePointsC.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblAdventurePoints.Text" xml:space="preserve">
+    <value>Abenteuerpunkte</value>
+  </data>
+  <data name="mtxtStrength.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblDice6F.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="lblCharactername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtInbornBuff.Name" xml:space="preserve">
+    <value>txtInbornBuff</value>
+  </data>
+  <data name="lblDice100C.TabIndex" type="System.Int32, mscorlib">
+    <value>971</value>
+  </data>
+  <data name="lblDice100A.Text" xml:space="preserve">
+    <value>1W%</value>
+  </data>
+  <data name="&gt;&gt;txtBodySize.Name" xml:space="preserve">
+    <value>txtBodySize</value>
+  </data>
+  <data name="lblAPA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsA.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="btnWillpower.TabIndex" type="System.Int32, mscorlib">
+    <value>992</value>
+  </data>
+  <data name="lblResistanceMagician.Text" xml:space="preserve">
+    <value>Zauberer</value>
+  </data>
+  <data name="&gt;&gt;btnLifePoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAppearance.Name" xml:space="preserve">
+    <value>lblAppearance</value>
+  </data>
+  <data name="&gt;&gt;lblExport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDoMagic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 108</value>
+  </data>
+  <data name="lblGhostMagic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 180</value>
+  </data>
+  <data name="lblSelfControlA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;lblDefenseBuff.Name" xml:space="preserve">
+    <value>lblDefenseBuff</value>
+  </data>
+  <data name="&gt;&gt;txtDamageBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAdventurePointsC.TabIndex" type="System.Int32, mscorlib">
+    <value>1020</value>
+  </data>
+  <data name="mtxtAdventurePointsA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice6A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="mtxtAdventurePointsC.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mtxtWillpower.Name" xml:space="preserve">
+    <value>mtxtWillpower</value>
+  </data>
+  <data name="&gt;&gt;lblCharactername.Name" xml:space="preserve">
+    <value>lblCharactername</value>
+  </data>
+  <data name="&gt;&gt;btnGetRandomCharacter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtAgility.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnGetRandomCharacter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 106</value>
+  </data>
+  <data name="lblDefense0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCharacterName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnWillpower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodyWeightC.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblDice6D.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDice20C.Name" xml:space="preserve">
+    <value>lblDice20C</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAPA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtHanded.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;lblConstitution.Name" xml:space="preserve">
+    <value>lblConstitution</value>
+  </data>
+  <data name="&gt;&gt;mtxtCharisma.ZOrder" xml:space="preserve">
+    <value>130</value>
+  </data>
+  <data name="txtDamageBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 30</value>
+  </data>
+  <data name="txtDefense0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblConstitution.TabIndex" type="System.Int32, mscorlib">
+    <value>894</value>
+  </data>
+  <data name="lblDice6B.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="txtRumble.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 30</value>
+  </data>
+  <data name="lblSelfControlB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAdventurePointsC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 370</value>
+  </data>
+  <data name="txtDoMagic0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtAgility.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelfControlA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 440</value>
+  </data>
+  <data name="&gt;&gt;mtxtWillpower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBodyWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtHanded.ZOrder" xml:space="preserve">
+    <value>117</value>
+  </data>
+  <data name="txtAttackBuff.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 520</value>
+  </data>
+  <data name="mtxtInbornBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlValues.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSelfControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1092</value>
+  </data>
+  <data name="lblSizeDescF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightA.ZOrder" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="txtStaminaBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtAdventurePointsC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblDice6C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblSelfControlValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 367</value>
+  </data>
+  <data name="lblWeightDescF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="&gt;&gt;lblDice100C.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDefenseBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtGhostMagicMagician.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 237</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicMagician.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnLifePoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="&gt;&gt;lblDice6A.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBodyWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWillpower.ZOrder" xml:space="preserve">
+    <value>97</value>
+  </data>
+  <data name="lblDice6D.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="lblLifePoints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDice6G.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 293</value>
+  </data>
+  <data name="lblSizeDescF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblDefense0.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;btnGetRandomCharacter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnWillpower.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblAdventurePointsC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="lblDice20C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="mtxtAgility.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="&gt;&gt;mtxtInbornBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnLifePoints.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic0.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnInbornBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnStatCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="txtDefense0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtWillpower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMagicTalent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="lblBodyWeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;lblDice6G.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAdventurePointsA.TabIndex" type="System.Int32, mscorlib">
+    <value>996</value>
+  </data>
+  <data name="&gt;&gt;lblAttackBuff.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;lblMagic0.Name" xml:space="preserve">
+    <value>lblMagic0</value>
+  </data>
+  <data name="txtAdventurePointsB.TabIndex" type="System.Int32, mscorlib">
+    <value>1019</value>
+  </data>
+  <data name="&gt;&gt;mtxtMagicalTalent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodyWeightC.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtCharacterName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodyWeightB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 206</value>
+  </data>
+  <data name="btnAdventurePointsB.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnInbornBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicNormal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblDice6G.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="&gt;&gt;lblBodySize.Name" xml:space="preserve">
+    <value>lblBodySize</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtAdventurePointsC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 369</value>
+  </data>
+  <data name="txtBodySize.TabIndex" type="System.Int32, mscorlib">
+    <value>925</value>
+  </data>
+  <data name="lblSelfControlA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mtxtAdventurePointsC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtAppearance.ZOrder" xml:space="preserve">
+    <value>123</value>
+  </data>
+  <data name="mtxtBodyWeightA.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblDefenseBuff.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="txtSelfControlA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblAgility.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtHanded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtWillpower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDefenseBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblAdventurePointsB.Text" xml:space="preserve">
+    <value>Andere Kämpfer/Schamane</value>
+  </data>
+  <data name="mtxtLifePoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 395</value>
+  </data>
+  <data name="lblAPA.Text" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="lblHanded.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCharisma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 315</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicMagician.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtStrength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 30</value>
+  </data>
+  <data name="txtAdventurePointsB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 344</value>
+  </data>
+  <data name="txtAreaMagicNormal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicMagician.Name" xml:space="preserve">
+    <value>txtGhostMagicMagician</value>
+  </data>
+  <data name="lblAdventurePointsC.Text" xml:space="preserve">
+    <value>Anderer Zauberertyp</value>
+  </data>
+  <data name="txtBodyWeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtBodyMagicFighter.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtWillpower.ZOrder" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="mtxtAdventurePointsB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="btnWillpower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicNormal.Name" xml:space="preserve">
+    <value>txtAreaMagicNormal</value>
+  </data>
+  <data name="mtxtAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 286</value>
+  </data>
+  <data name="mtxtAdventurePointsC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="lblResistanceNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 266</value>
+  </data>
+  <data name="lblLifePointsDwarf.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicFighter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceFighter.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="lblAreaMagic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>626, 180</value>
+  </data>
+  <data name="lblRumble.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 33</value>
+  </data>
+  <data name="&gt;&gt;menuEnglish.Name" xml:space="preserve">
+    <value>menuEnglish</value>
+  </data>
+  <data name="lblDice100C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtDexterity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDice6C.ZOrder" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="lblDefenseBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDefenseBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 111</value>
+  </data>
+  <data name="mtxtDexterity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 56</value>
+  </data>
+  <data name="mtxtCharisma.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsC.Name" xml:space="preserve">
+    <value>btnAdventurePointsC</value>
+  </data>
+  <data name="mtxtBodyWeightC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtGhostMagicFighter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtBodyMagicMagician.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblDice6F.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAreaMagicFighter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="mtxtBodySizeB.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWillpower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblBasics.Name" xml:space="preserve">
+    <value>lblBasics</value>
+  </data>
+  <data name="lblMagic0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 137</value>
+  </data>
+  <data name="lblAPC.TabIndex" type="System.Int32, mscorlib">
+    <value>1023</value>
+  </data>
+  <data name="btnInbornBuff.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblBodyMagic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 180</value>
+  </data>
+  <data name="&gt;&gt;lblBodyWeight.Name" xml:space="preserve">
+    <value>lblBodyWeight</value>
+  </data>
+  <data name="lblSizeDescF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtHanded.TabIndex" type="System.Int32, mscorlib">
+    <value>981</value>
+  </data>
+  <data name="&gt;&gt;lblMagicBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightB.ZOrder" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="lblResistanceMagician.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCharacterName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 476</value>
+  </data>
+  <data name="lblDice6F.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsB.Name" xml:space="preserve">
+    <value>btnAdventurePointsB</value>
+  </data>
+  <data name="&gt;&gt;txtDefense0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtLifePoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblIntelligence.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtWillpower.TabIndex" type="System.Int32, mscorlib">
+    <value>994</value>
+  </data>
+  <data name="&gt;&gt;btnWillpower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblResistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 159</value>
+  </data>
+  <data name="lblConstitution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblDice100A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="&gt;&gt;lblHanded.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodyWeightA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtInbornBuff.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="lblResistanceFighter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 214</value>
+  </data>
+  <data name="mtxtDexterity.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="lblAttackBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblDice100B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="&gt;&gt;lblDefense0.Name" xml:space="preserve">
+    <value>lblDefense0</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightC.ZOrder" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="lblSavePath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSelfControlA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblCharismaValues.TabIndex" type="System.Int32, mscorlib">
+    <value>968</value>
+  </data>
+  <data name="txtBodyMagicFighter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblStrength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtLifePoints.TabIndex" type="System.Int32, mscorlib">
+    <value>1012</value>
+  </data>
+  <data name="lblDice100C.Text" xml:space="preserve">
+    <value>1W%</value>
+  </data>
+  <data name="mtxtBodySizeA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsA.Name" xml:space="preserve">
+    <value>btnAdventurePointsA</value>
+  </data>
+  <data name="lblSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 503</value>
+  </data>
+  <data name="lblResistanceNormal.TabIndex" type="System.Int32, mscorlib">
+    <value>1045</value>
+  </data>
+  <data name="btnHanded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="lblDice6C.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtBodyMagicNormal.TabIndex" type="System.Int32, mscorlib">
+    <value>1074</value>
+  </data>
+  <data name="mtxtBodyWeightD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 206</value>
+  </data>
+  <data name="txtStaminaBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 56</value>
+  </data>
+  <data name="&gt;&gt;lblAppearance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtCharisma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblMagicTalent.Name" xml:space="preserve">
+    <value>lblMagicTalent</value>
+  </data>
+  <data name="lblDexterity.Text" xml:space="preserve">
+    <value>Geschicklichkeit (Gs)</value>
+  </data>
+  <data name="menuExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="&gt;&gt;txtInbornBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAgility.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 85</value>
+  </data>
+  <data name="lblLifePointsDwarf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="&gt;&gt;txtHanded.Name" xml:space="preserve">
+    <value>txtHanded</value>
+  </data>
+  <data name="&gt;&gt;btnBodyWeight.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtWillpower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtMagicBuff.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlC.Name" xml:space="preserve">
+    <value>txtSelfControlC</value>
+  </data>
+  <data name="lblDamageBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>964</value>
+  </data>
+  <data name="mtxtSelfControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDice100C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAttackBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtCharisma.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="txtDoMagic0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="mtxtAgility.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 82</value>
+  </data>
+  <data name="lblLifePoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="txtDefenseBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1029</value>
+  </data>
+  <data name="mtxtConstitution.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtBodyWeight.Name" xml:space="preserve">
+    <value>txtBodyWeight</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodySizeB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblDefenseBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRumble.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAdventurePointsB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblGhostMagic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EnableTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAdventurePointsA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 321</value>
+  </data>
+  <data name="mtxtConstitution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicMagician.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStaminaBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCharismaValues.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnHanded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 508</value>
+  </data>
+  <data name="lblDice20C.TabIndex" type="System.Int32, mscorlib">
+    <value>979</value>
+  </data>
+  <data name="mtxtLifePoints.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lblDice100B.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mtxtDexterity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtGhostMagicFighter.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblAPA.Name" xml:space="preserve">
+    <value>lblAPA</value>
+  </data>
+  <data name="txtAttackBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;menuLanguage.Name" xml:space="preserve">
+    <value>menuLanguage</value>
+  </data>
+  <data name="lblDice6A.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lblSelfControlValues.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mtxtWillpower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="mtxtBodyWeightD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtSavepath.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnBodyWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="&gt;&gt;lblRumble.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblBodyMagic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceNormal.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="btnBodySize.TabIndex" type="System.Int32, mscorlib">
+    <value>1083</value>
+  </data>
+  <data name="txtDamageBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>966</value>
+  </data>
+  <data name="lblDefense0.TabIndex" type="System.Int32, mscorlib">
+    <value>1036</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsA.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="lblSizeDescF.Text" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="txtDoMagic.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblSelfControlValues.TabIndex" type="System.Int32, mscorlib">
+    <value>976</value>
+  </data>
+  <data name="lblDice6B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;lblStrength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExport.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnGetRandomCharacter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblBodySize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceFighter.Name" xml:space="preserve">
+    <value>lblResistanceFighter</value>
+  </data>
+  <data name="lblDice100A.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBasics.TabIndex" type="System.Int32, mscorlib">
+    <value>887</value>
+  </data>
+  <data name="&gt;&gt;lblResistance.Name" xml:space="preserve">
+    <value>lblResistance</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsB.Name" xml:space="preserve">
+    <value>mtxtAdventurePointsB</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGhostMagic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblResistance.Text" xml:space="preserve">
+    <value>Resistenzen</value>
+  </data>
+  <data name="&gt;&gt;lblHanded.ZOrder" xml:space="preserve">
+    <value>122</value>
+  </data>
+  <data name="btnInbornBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtIntelligence.Name" xml:space="preserve">
+    <value>mtxtIntelligence</value>
+  </data>
+  <data name="txtDefense.TabIndex" type="System.Int32, mscorlib">
+    <value>1110</value>
+  </data>
+  <data name="lblAPB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDamageBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblConstitution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mtxtStrength.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="txtMagicBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtDefense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblDice20C.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblSelfControlC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice6C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnSelfControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 362</value>
+  </data>
+  <data name="lblResistanceFighter.Text" xml:space="preserve">
+    <value>Kämpfer</value>
+  </data>
+  <data name="btnLifePoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 393</value>
+  </data>
+  <data name="lblSelfControlB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblAppearance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtDexterity.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicNormal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMagicBuff.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="btnCharisma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="txtHanded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="mtxtHanded.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicFighter.Name" xml:space="preserve">
+    <value>txtBodyMagicFighter</value>
+  </data>
+  <data name="txtBodyMagicMagician.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCharisma.TabIndex" type="System.Int32, mscorlib">
+    <value>973</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicMagician.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAttackBuff.Name" xml:space="preserve">
+    <value>lblAttackBuff</value>
+  </data>
+  <data name="txtGhostMagicNormal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="mtxtAdventurePointsC.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblDice6E.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="lblDice6C.TabIndex" type="System.Int32, mscorlib">
+    <value>958</value>
+  </data>
+  <data name="&gt;&gt;lblLifePointsDwarf.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="lblDice6B.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;lblMagicTalent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtHanded.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlA.Name" xml:space="preserve">
+    <value>lblSelfControlA</value>
+  </data>
+  <data name="mtxtAdventurePointsB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtRumble.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicFighter.Name" xml:space="preserve">
+    <value>txtAreaMagicFighter</value>
+  </data>
+  <data name="&gt;&gt;mtxtAppearance.Name" xml:space="preserve">
+    <value>mtxtAppearance</value>
+  </data>
+  <data name="lblResistanceMagician.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="&gt;&gt;mtxtStrength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWillpower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodySize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCharismaValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 13</value>
+  </data>
+  <data name="lblSelfControlValues.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnBodySize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlA.ZOrder" xml:space="preserve">
+    <value>114</value>
+  </data>
+  <data name="lblDice6E.TabIndex" type="System.Int32, mscorlib">
+    <value>960</value>
+  </data>
+  <data name="lblCharisma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtAreaMagicNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblRumble.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="lblMagicTalent.Text" xml:space="preserve">
+    <value>Zaubertalent (Zt)</value>
+  </data>
+  <data name="txtAreaMagicMagician.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlValues.Name" xml:space="preserve">
+    <value>lblSelfControlValues</value>
+  </data>
+  <data name="&gt;&gt;lblWillpower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDice6E.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="txtLifePoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtLifePoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblDamageBuff.Text" xml:space="preserve">
+    <value>Schadensbonus</value>
+  </data>
+  <data name="lblSizeDescF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 164</value>
+  </data>
+  <data name="&gt;&gt;lblDexterity.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="&gt;&gt;lblInbornBuff.Name" xml:space="preserve">
+    <value>lblInbornBuff</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCharisma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtConstitution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAdventurePointsB.TabIndex" type="System.Int32, mscorlib">
+    <value>1016</value>
+  </data>
+  <data name="lblMagic.Text" xml:space="preserve">
+    <value>Zaubern</value>
+  </data>
+  <data name="&gt;&gt;txtStaminaBuff.Name" xml:space="preserve">
+    <value>txtStaminaBuff</value>
+  </data>
+  <data name="txtGhostMagicMagician.TabIndex" type="System.Int32, mscorlib">
+    <value>1070</value>
+  </data>
+  <data name="btnAdventurePointsA.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblDice6A.ZOrder" xml:space="preserve">
+    <value>105</value>
+  </data>
+  <data name="lblWillpower.TabIndex" type="System.Int32, mscorlib">
+    <value>975</value>
+  </data>
+  <data name="txtAttackBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 82</value>
+  </data>
+  <data name="&gt;&gt;lblDice20C.ZOrder" xml:space="preserve">
+    <value>119</value>
+  </data>
+  <data name="lblDice20C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 495</value>
+  </data>
+  <data name="txtDefenseBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 108</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlB.Name" xml:space="preserve">
+    <value>txtSelfControlB</value>
+  </data>
+  <data name="btnCharisma.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSelfControlC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="mtxtBodyWeightB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblBasics.Text" xml:space="preserve">
+    <value>Grundwerte</value>
+  </data>
+  <data name="txtSelfControlA.TabIndex" type="System.Int32, mscorlib">
+    <value>988</value>
+  </data>
+  <data name="&gt;&gt;lblDice6D.ZOrder" xml:space="preserve">
+    <value>109</value>
+  </data>
+  <data name="btnCharisma.TabIndex" type="System.Int32, mscorlib">
+    <value>991</value>
+  </data>
+  <data name="&gt;&gt;lblDice6F.Name" xml:space="preserve">
+    <value>lblDice6F</value>
+  </data>
+  <data name="&gt;&gt;lblBuff.Name" xml:space="preserve">
+    <value>lblBuff</value>
+  </data>
+  <data name="mtxtAdventurePointsB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblWillpower.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMagic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblResistance.TabIndex" type="System.Int32, mscorlib">
+    <value>1114</value>
+  </data>
+  <data name="lblAPC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;lblLifePointsDwarf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHanded.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDefenseBuff.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceMagician.Name" xml:space="preserve">
+    <value>lblResistanceMagician</value>
+  </data>
+  <data name="&gt;&gt;mtxtDexterity.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="btnInbornBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 463</value>
+  </data>
+  <data name="&gt;&gt;menuExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDice6G.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="mtxtWillpower.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodyWeightB.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBodyWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>938</value>
+  </data>
+  <data name="btnCharisma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 310</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicMagician.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAgility.Text" xml:space="preserve">
+    <value>Gewandheit (Gw)</value>
+  </data>
+  <data name="&gt;&gt;lblStrength.Name" xml:space="preserve">
+    <value>lblStrength</value>
+  </data>
+  <data name="&gt;&gt;txtSavepath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtMagicalTalent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 82</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelfControlA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 13</value>
+  </data>
+  <data name="mtxtHanded.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="txtSelfControlC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 385</value>
+  </data>
+  <data name="txtAreaMagicFighter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtCharisma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 312</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceFighter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtWillpower.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtSelfControl.Name" xml:space="preserve">
+    <value>mtxtSelfControl</value>
+  </data>
+  <data name="txtGhostMagicMagician.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblDice6F.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="lblDice6B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 145</value>
+  </data>
+  <data name="&gt;&gt;btnExport.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblBodyWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="txtDamageBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblDice6A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 145</value>
+  </data>
+  <data name="btnAdventurePointsC.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblAreaMagic.Text" xml:space="preserve">
+    <value>Umgebungsmagie</value>
+  </data>
+  <data name="lblSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>1103</value>
+  </data>
+  <data name="btnBodyWeight.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtHanded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 511</value>
+  </data>
+  <data name="txtAreaMagicMagician.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblExport.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceMagician.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlB.ZOrder" xml:space="preserve">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;lblDice6A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodyWeight.ZOrder" xml:space="preserve">
+    <value>116</value>
+  </data>
+  <data name="txtBodySize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 161</value>
+  </data>
+  <data name="lblAdventurePointsC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlC.ZOrder" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="mtxtBodyWeightA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtBodySize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtStrength.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mtxtMagicalTalent.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="lblMagic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="lblCharismaValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 248</value>
+  </data>
+  <data name="&gt;&gt;btnInbornBuff.Name" xml:space="preserve">
+    <value>btnInbornBuff</value>
+  </data>
+  <data name="btnAdventurePointsB.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblAdventurePointsC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 373</value>
+  </data>
+  <data name="txtStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtInbornBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 463</value>
+  </data>
+  <data name="lblBodySize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;EnableTimer.Name" xml:space="preserve">
+    <value>EnableTimer</value>
+  </data>
+  <data name="lblStrength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="btnSelfControl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblDice6F.ZOrder" xml:space="preserve">
+    <value>112</value>
+  </data>
+  <data name="lblMagic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="btnCharisma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblBodyMagic.Name" xml:space="preserve">
+    <value>lblBodyMagic</value>
+  </data>
+  <data name="mtxtBodySizeB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblSizeDescF.Name" xml:space="preserve">
+    <value>lblSizeDescF</value>
+  </data>
+  <data name="lblBodyWeight.Text" xml:space="preserve">
+    <value>Gewicht</value>
+  </data>
+  <data name="&gt;&gt;lblMagicBuff.Name" xml:space="preserve">
+    <value>lblMagicBuff</value>
+  </data>
+  <data name="mtxtAdventurePointsA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 317</value>
+  </data>
+  <data name="lblAreaMagic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicNormal.Name" xml:space="preserve">
+    <value>txtBodyMagicNormal</value>
+  </data>
+  <data name="txtLifePoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 396</value>
+  </data>
+  <data name="&gt;&gt;lblAPC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtAppearance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSavepath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDefense0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtStaminaBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;browserExportDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtInbornBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1063</value>
+  </data>
+  <data name="lblDamageBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlC.ZOrder" xml:space="preserve">
+    <value>107</value>
+  </data>
+  <data name="txtDefense.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblWillpower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lblAdventurePointsA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCharisma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;btnStatCheck.Name" xml:space="preserve">
+    <value>btnStatCheck</value>
+  </data>
+  <data name="txtCharisma.TabIndex" type="System.Int32, mscorlib">
+    <value>993</value>
+  </data>
+  <data name="lblDamageBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblMagic0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStrength.Text" xml:space="preserve">
+    <value>Stärke (St)</value>
+  </data>
+  <data name="lblAPA.TabIndex" type="System.Int32, mscorlib">
+    <value>1021</value>
+  </data>
+  <data name="&gt;&gt;lblCharismaValues.ZOrder" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;lblBodyWeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodySizeA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 161</value>
+  </data>
+  <data name="mtxtIntelligence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="&gt;&gt;lblLifePoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnWillpower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;btnBodyWeight.Name" xml:space="preserve">
+    <value>btnBodyWeight</value>
+  </data>
+  <data name="&gt;&gt;lblResistance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDexterity.Name" xml:space="preserve">
+    <value>lblDexterity</value>
+  </data>
+  <data name="txtSelfControlC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblResistanceMagician.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 240</value>
+  </data>
+  <data name="lblCharismaValues.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;lblDice6B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtInbornBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblAdventurePointsC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;txtLifePoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblBodyWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCharisma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtSelfControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 364</value>
+  </data>
+  <data name="&gt;&gt;lblAreaMagic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtAdventurePointsC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="mtxtBodyWeightB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblGhostMagic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lblAgility.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="lblAdventurePoints.TabIndex" type="System.Int32, mscorlib">
+    <value>995</value>
+  </data>
+  <data name="&gt;&gt;lblAgility.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnWillpower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>179, 336</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice100A.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 9</value>
+  </data>
+  <data name="mtxtBodyWeightA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblAgility.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="btnAdventurePointsA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 316</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="lblDice6D.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodyWeightA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 206</value>
+  </data>
+  <data name="&gt;&gt;lblAttackBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMagic0.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="lblStaminaBuff.Text" xml:space="preserve">
+    <value>Ausdauerbonus</value>
+  </data>
+  <data name="btnInbornBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1062</value>
+  </data>
+  <data name="lblAdventurePointsA.Text" xml:space="preserve">
+    <value>BarBar/Krieger/Söldner/WaLäu/KunScha</value>
+  </data>
+  <data name="mtxtDexterity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblLifePointsDwarf.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAdventurePoints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="mtxtIntelligence.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblIntelligence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 59</value>
+  </data>
+  <data name="&gt;&gt;menuEnglish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblHanded.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="txtAreaMagicFighter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 213</value>
+  </data>
+  <data name="lblCharactername.Text" xml:space="preserve">
+    <value>Charaktername</value>
+  </data>
+  <data name="txtAreaMagicNormal.TabIndex" type="System.Int32, mscorlib">
+    <value>1077</value>
+  </data>
+  <data name="&gt;&gt;txtRumble.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblMagicBuff.Text" xml:space="preserve">
+    <value>Zauberbonus</value>
+  </data>
+  <data name="lblBodyMagic.Text" xml:space="preserve">
+    <value>Körpermagie</value>
+  </data>
+  <data name="txtWillpower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAPA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;menuGerman.Name" xml:space="preserve">
+    <value>menuGerman</value>
+  </data>
+  <data name="lblDice6A.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGhostMagicFighter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 211</value>
+  </data>
+  <data name="&gt;&gt;lblGhostMagic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMagicTalent.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="lblHanded.Text" xml:space="preserve">
+    <value>Händigkeit</value>
+  </data>
+  <data name="&gt;&gt;mtxtWillpower.ZOrder" xml:space="preserve">
+    <value>132</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicMagician.Name" xml:space="preserve">
+    <value>txtBodyMagicMagician</value>
+  </data>
+  <data name="&gt;&gt;mtxtConstitution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblRumble.TabIndex" type="System.Int32, mscorlib">
+    <value>1032</value>
+  </data>
+  <data name="lblDice100C.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSelfControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="&gt;&gt;txtDamageBuff.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="lblRumble.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblDexterity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblWeightDescF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAreaMagicMagician.TabIndex" type="System.Int32, mscorlib">
+    <value>1076</value>
+  </data>
+  <data name="lblWillpower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 341</value>
+  </data>
+  <data name="&gt;&gt;txtCharacterName.Name" xml:space="preserve">
+    <value>txtCharacterName</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtStrength.Name" xml:space="preserve">
+    <value>mtxtStrength</value>
+  </data>
+  <data name="btnLifePoints.TabIndex" type="System.Int32, mscorlib">
+    <value>1004</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="lblBuff.Text" xml:space="preserve">
+    <value>Boni</value>
+  </data>
+  <data name="&gt;&gt;btnSelfControl.Name" xml:space="preserve">
+    <value>btnSelfControl</value>
+  </data>
+  <data name="&gt;&gt;lblDefense0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblDexterity.TabIndex" type="System.Int32, mscorlib">
+    <value>890</value>
+  </data>
+  <data name="&gt;&gt;btnCharisma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDoMagic.TabIndex" type="System.Int32, mscorlib">
+    <value>1112</value>
+  </data>
+  <data name="mtxtWillpower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblCharactername.TabIndex" type="System.Int32, mscorlib">
+    <value>1102</value>
+  </data>
+  <data name="txtDefense0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblCharisma.ZOrder" xml:space="preserve">
+    <value>133</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtBodyMagicFighter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblRumble.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtAppearance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsB.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;txtBodySize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlValues.ZOrder" xml:space="preserve">
+    <value>126</value>
+  </data>
+  <data name="btnInbornBuff.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mtxtAdventurePointsC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblAPB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCharismaValues.Text" xml:space="preserve">
+    <value>Charisma- Wesenswerte</value>
+  </data>
+  <data name="&gt;&gt;txtStats.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnAdventurePointsC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="mtxtSelfControl.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtStaminaBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtDefense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblStaminaBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblCharismaValues.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblInbornBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 468</value>
+  </data>
+  <data name="mtxtSelfControl.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="btnAdventurePointsB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblSavePath.Text" xml:space="preserve">
+    <value>Speicherort</value>
+  </data>
+  <data name="lblDefense.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicNormal.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;mtxtConstitution.Name" xml:space="preserve">
+    <value>mtxtConstitution</value>
+  </data>
+  <data name="&gt;&gt;lblDice100A.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnBodyWeight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblDexterity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodyWeightC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBodySize.TabIndex" type="System.Int32, mscorlib">
+    <value>917</value>
+  </data>
+  <data name="lblBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBodyMagic.TabIndex" type="System.Int32, mscorlib">
+    <value>1116</value>
+  </data>
+  <data name="lblDamageBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;mtxtAgility.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtIntelligence.ZOrder" xml:space="preserve">
+    <value>87</value>
+  </data>
+  <data name="lblWeightDescF.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="lblDefense.TabIndex" type="System.Int32, mscorlib">
+    <value>1033</value>
+  </data>
+  <data name="txtGhostMagicFighter.TabIndex" type="System.Int32, mscorlib">
+    <value>1069</value>
+  </data>
+  <data name="&gt;&gt;lblHanded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDamageBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 33</value>
+  </data>
+  <data name="lblWeightDescF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 209</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtLifePoints.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="mtxtMagicalTalent.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtBodyWeight.ZOrder" xml:space="preserve">
+    <value>94</value>
+  </data>
+  <data name="mtxtIntelligence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 56</value>
+  </data>
+  <data name="lblAdventurePointsA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnGetRandomCharacter.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnBodySize.Name" xml:space="preserve">
+    <value>btnBodySize</value>
+  </data>
+  <data name="mtxtLifePoints.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsB.ZOrder" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="mtxtDexterity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
+  </data>
+  <data name="lblAdventurePointsB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="&gt;&gt;lblLifePoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtGhostMagicFighter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="mtxtSelfControl.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblGhostMagic.Text" xml:space="preserve">
+    <value>Geistestmagie</value>
+  </data>
+  <data name="&gt;&gt;lblDexterity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCharisma.Text" xml:space="preserve">
+    <value>Pers. Ausstrahlung (pA)</value>
+  </data>
+  <data name="lblDefense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePoints.ZOrder" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="menuLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="txtStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 30</value>
+  </data>
+  <data name="btnGetRandomCharacter.Text" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="lblMagicBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAreaMagicFighter.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblAgility.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResistanceFighter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCharismaValues.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtIntelligence.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnLifePoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblCharisma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="txtStats.TabIndex" type="System.Int32, mscorlib">
+    <value>908</value>
+  </data>
+  <data name="&gt;&gt;lblDice6C.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtAppearance.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="txtBodyWeight.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblBasics.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelfControlValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="&gt;&gt;lblBuff.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="lblAPB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 347</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtConstitution.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtDexterity.Name" xml:space="preserve">
+    <value>mtxtDexterity</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnLifePoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="btnBodyWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>1085</value>
+  </data>
+  <data name="lblResistanceNormal.Text" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="&gt;&gt;txtAttackBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtInbornBuff.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="txtBodyMagicMagician.TabIndex" type="System.Int32, mscorlib">
+    <value>1073</value>
+  </data>
+  <data name="&gt;&gt;lblBodySize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodySizeA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="txtGhostMagicNormal.TabIndex" type="System.Int32, mscorlib">
+    <value>1071</value>
+  </data>
+  <data name="&gt;&gt;txtWillpower.Name" xml:space="preserve">
+    <value>txtWillpower</value>
+  </data>
+  <data name="btnExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicNormal.Name" xml:space="preserve">
+    <value>txtGhostMagicNormal</value>
+  </data>
+  <data name="lblDice100C.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="&gt;&gt;lblBasics.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicMagician.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice100A.TabIndex" type="System.Int32, mscorlib">
+    <value>1024</value>
+  </data>
+  <data name="&gt;&gt;lblDice20C.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnStatCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 106</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicNormal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCharactername.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDice100B.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCharisma.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblResistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblBasics.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtSelfControlB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblSelfControlValues.Text" xml:space="preserve">
+    <value>Selbstbeherrschung (Sb)</value>
+  </data>
+  <data name="txtWillpower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 338</value>
+  </data>
+  <data name="btnLifePoints.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="&gt;&gt;mtxtInbornBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtSelfControl.ZOrder" xml:space="preserve">
+    <value>115</value>
+  </data>
+  <data name="btnAdventurePointsA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="txtMagicBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 134</value>
+  </data>
+  <data name="&gt;&gt;lblDice6E.ZOrder" xml:space="preserve">
+    <value>111</value>
+  </data>
+  <data name="&gt;&gt;lblBasics.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="lblConstitution.Text" xml:space="preserve">
+    <value>Konstitution (Ko)</value>
+  </data>
+  <data name="lblMagic0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="txtSelfControlB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblMagicTalent.TabIndex" type="System.Int32, mscorlib">
+    <value>898</value>
+  </data>
+  <data name="lblHanded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 514</value>
+  </data>
+  <data name="lblWeightDescF.Text" xml:space="preserve">
+    <value>kg</value>
+  </data>
+  <data name="&gt;&gt;lblRumble.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelfControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtConstitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="txtAreaMagicMagician.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 239</value>
+  </data>
+  <data name="&gt;&gt;lblConstitution.ZOrder" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="lblIntelligence.Text" xml:space="preserve">
+    <value>Intelligenz (In)</value>
+  </data>
+  <data name="lblSelfControlB.TabIndex" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="lblWeightDescF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAgility.TabIndex" type="System.Int32, mscorlib">
+    <value>892</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicMagician.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="lblDice6D.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="mtxtAdventurePointsB.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtCharisma.Name" xml:space="preserve">
+    <value>txtCharisma</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtWillpower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 338</value>
+  </data>
+  <data name="btnAdventurePointsC.TabIndex" type="System.Int32, mscorlib">
+    <value>1017</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeA.Name" xml:space="preserve">
+    <value>mtxtBodySizeA</value>
+  </data>
+  <data name="mtxtBodyWeightB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblDefense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblLifePoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 399</value>
+  </data>
+  <data name="lblResistance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtMagicBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAdventurePoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 293</value>
+  </data>
+  <data name="&gt;&gt;mtxtStrength.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtAppearance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblMagic0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtAgility.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
+  </data>
+  <data name="&gt;&gt;menuGerman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtDamageBuff.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtDefense0.Name" xml:space="preserve">
+    <value>txtDefense0</value>
+  </data>
+  <data name="btnSelfControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblResistance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAreaMagicNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 265</value>
+  </data>
+  <data name="lblAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="btnHanded.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="mtxtBodySizeB.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtStaminaBuff.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="mtxtMagicalTalent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightD.Name" xml:space="preserve">
+    <value>mtxtBodyWeightD</value>
+  </data>
+  <data name="&gt;&gt;lblSizeDescF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBodyWeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice20C.Text" xml:space="preserve">
+    <value>1W20</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsC.Name" xml:space="preserve">
+    <value>txtAdventurePointsC</value>
+  </data>
+  <data name="btnExport.TabIndex" type="System.Int32, mscorlib">
+    <value>1099</value>
+  </data>
+  <data name="&gt;&gt;lblDice100B.Name" xml:space="preserve">
+    <value>lblDice100B</value>
+  </data>
+  <data name="txtAdventurePointsA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicNormal.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnAdventurePointsA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="mtxtConstitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 30</value>
+  </data>
+  <data name="&gt;&gt;lblDice6E.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBodyMagicNormal.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtCharisma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDamageBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAppearance.Text" xml:space="preserve">
+    <value>Aussehen (Au)</value>
+  </data>
+  <data name="lblSelfControlC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSelfControlB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 411</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDice6C.Name" xml:space="preserve">
+    <value>lblDice6C</value>
+  </data>
+  <data name="mtxtAppearance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtSelfControlC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="mtxtInbornBuff.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="txtSavepath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 20</value>
+  </data>
+  <data name="txtAdventurePointsA.TabIndex" type="System.Int32, mscorlib">
+    <value>1018</value>
+  </data>
+  <data name="&gt;&gt;lblSizeDescF.ZOrder" xml:space="preserve">
+    <value>131</value>
+  </data>
+  <data name="&gt;&gt;lblDice100C.Name" xml:space="preserve">
+    <value>lblDice100C</value>
+  </data>
+  <data name="&gt;&gt;lblBodyMagic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsB.Name" xml:space="preserve">
+    <value>txtAdventurePointsB</value>
+  </data>
+  <data name="&gt;&gt;lblAgility.Name" xml:space="preserve">
+    <value>lblAgility</value>
+  </data>
+  <data name="lblExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 429</value>
+  </data>
+  <data name="lblBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>963</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic.Name" xml:space="preserve">
+    <value>txtDoMagic</value>
+  </data>
+  <data name="mtxtLifePoints.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;menuLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBodyWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 209</value>
+  </data>
+  <data name="&gt;&gt;lblMagicTalent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDice100B.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="txtDoMagic0.TabIndex" type="System.Int32, mscorlib">
+    <value>1113</value>
+  </data>
+  <data name="lblAreaMagic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePoints.Name" xml:space="preserve">
+    <value>lblAdventurePoints</value>
+  </data>
+  <data name="lblAttackBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1026</value>
+  </data>
+  <data name="&gt;&gt;txtLifePoints.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="lblResistanceNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="&gt;&gt;lblAPB.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="lblInbornBuff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="browserExportDialog.Description" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="mtxtCharisma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuGerman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
+  </data>
+  <data name="lblCharactername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 457</value>
+  </data>
+  <data name="txtBodyWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblSelfControlA.Text" xml:space="preserve">
+    <value>Assassine/Beschwörer/Druide</value>
+  </data>
+  <data name="lblLifePoints.TabIndex" type="System.Int32, mscorlib">
+    <value>1006</value>
+  </data>
+  <data name="&gt;&gt;lblStaminaBuff.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="txtSelfControlA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 437</value>
+  </data>
+  <data name="&gt;&gt;mtxtAgility.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="&gt;&gt;lblWillpower.Name" xml:space="preserve">
+    <value>lblWillpower</value>
+  </data>
+  <data name="txtDefense0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 82</value>
+  </data>
+  <data name="btnBodyWeight.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="txtGhostMagicNormal.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnWillpower.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="&gt;&gt;lblDice100B.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAdventurePointsA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 317</value>
+  </data>
+  <data name="&gt;&gt;lblAreaMagic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDexterity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 59</value>
+  </data>
+  <data name="txtDefenseBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="txtAttackBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1028</value>
+  </data>
+  <data name="lblStaminaBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>965</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="lblSelfControlB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 414</value>
+  </data>
+  <data name="&gt;&gt;lblConstitution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAdventurePointsC.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtMagicalTalent.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="lblAdventurePointsA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 13</value>
+  </data>
+  <data name="txtDefense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 56</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCharactername.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblIntelligence.ZOrder" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="lblDice6D.TabIndex" type="System.Int32, mscorlib">
+    <value>959</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceNormal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtBodyMagicFighter.TabIndex" type="System.Int32, mscorlib">
+    <value>1072</value>
+  </data>
+  <data name="&gt;&gt;lblDice6D.Name" xml:space="preserve">
+    <value>lblDice6D</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsA.ZOrder" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDice100A.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodySizeA.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblBodyMagic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="lblAdventurePointsB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAgility.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;txtHanded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceMagician.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="lblInbornBuff.Text" xml:space="preserve">
+    <value>Angeborene Fähigkeit</value>
+  </data>
+  <data name="&gt;&gt;mtxtAgility.Name" xml:space="preserve">
+    <value>mtxtAgility</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlB.Name" xml:space="preserve">
+    <value>lblSelfControlB</value>
+  </data>
+  <data name="btnStatCheck.Text" xml:space="preserve">
+    <value>Prüfen</value>
+  </data>
+  <data name="&gt;&gt;txtStaminaBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDexterity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnStatCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAPB.Name" xml:space="preserve">
+    <value>lblAPB</value>
+  </data>
+  <data name="lblMagic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtAreaMagicFighter.TabIndex" type="System.Int32, mscorlib">
+    <value>1075</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsC.Name" xml:space="preserve">
+    <value>lblAdventurePointsC</value>
+  </data>
+  <data name="&gt;&gt;txtStats.Name" xml:space="preserve">
+    <value>txtStats</value>
+  </data>
+  <data name="btnAdventurePointsA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCharisma.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnBodySize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 159</value>
+  </data>
+  <data name="&gt;&gt;mtxtLifePoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMagicBuff.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightA.Name" xml:space="preserve">
+    <value>mtxtBodyWeightA</value>
+  </data>
+  <data name="&gt;&gt;btnHanded.Name" xml:space="preserve">
+    <value>btnHanded</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtDoMagic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;mtxtMagicalTalent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtDoMagic0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 134</value>
+  </data>
+  <data name="lblIntelligence.TabIndex" type="System.Int32, mscorlib">
+    <value>896</value>
+  </data>
+  <data name="lblDefense0.Text" xml:space="preserve">
+    <value>Abwehr (ungelernt)</value>
+  </data>
+  <data name="&gt;&gt;mtxtIntelligence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtMagicalTalent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="lblDice100B.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 9</value>
+  </data>
+  <data name="lblDice6G.TabIndex" type="System.Int32, mscorlib">
+    <value>1002</value>
+  </data>
+  <data name="&gt;&gt;lblMagic.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;mtxtLifePoints.Name" xml:space="preserve">
+    <value>mtxtLifePoints</value>
+  </data>
+  <data name="&gt;&gt;lblDice100C.ZOrder" xml:space="preserve">
+    <value>127</value>
+  </data>
+  <data name="lblConstitution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 33</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsB.Name" xml:space="preserve">
+    <value>lblAdventurePointsB</value>
+  </data>
+  <data name="lblCharisma.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtStats.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblStaminaBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 59</value>
+  </data>
+  <data name="&gt;&gt;lblAreaMagic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDice6G.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblBodyMagic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDice6A.TabIndex" type="System.Int32, mscorlib">
+    <value>956</value>
+  </data>
+  <data name="txtSavepath.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="txtBodyMagicNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 265</value>
+  </data>
+  <data name="txtBodyMagicMagician.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 239</value>
+  </data>
+  <data name="&gt;&gt;lblRumble.Name" xml:space="preserve">
+    <value>lblRumble</value>
+  </data>
+  <data name="&gt;&gt;lblDice6G.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblStaminaBuff.Name" xml:space="preserve">
+    <value>lblStaminaBuff</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightB.Name" xml:space="preserve">
+    <value>mtxtBodyWeightB</value>
+  </data>
+  <data name="&gt;&gt;lblWeightDescF.Name" xml:space="preserve">
+    <value>lblWeightDescF</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicFighter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtBodyWeightC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 206</value>
+  </data>
+  <data name="lblDefense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 59</value>
+  </data>
+  <data name="mtxtBodySizeA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicFighter.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="mtxtHanded.Mask" xml:space="preserve">
+    <value>00</value>
+  </data>
+  <data name="mtxtWillpower.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsA.Name" xml:space="preserve">
+    <value>txtAdventurePointsA</value>
+  </data>
+  <data name="btnBodyWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 204</value>
+  </data>
+  <data name="&gt;&gt;txtLifePoints.Name" xml:space="preserve">
+    <value>txtLifePoints</value>
+  </data>
+  <data name="&gt;&gt;txtMagicBuff.Name" xml:space="preserve">
+    <value>txtMagicBuff</value>
+  </data>
+  <data name="&gt;&gt;lblDice100A.Name" xml:space="preserve">
+    <value>lblDice100A</value>
+  </data>
+  <data name="&gt;&gt;btnWillpower.Name" xml:space="preserve">
+    <value>btnWillpower</value>
+  </data>
+  <data name="lblDefenseBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1027</value>
+  </data>
+  <data name="&gt;&gt;txtStats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDice6D.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 190</value>
+  </data>
+  <data name="&gt;&gt;lblLifePointsDwarf.Name" xml:space="preserve">
+    <value>lblLifePointsDwarf</value>
+  </data>
+  <data name="lblAttackBuff.Text" xml:space="preserve">
+    <value>Angriffsbonus</value>
+  </data>
+  <data name="&gt;&gt;lblMagic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAreaMagicNormal.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblWillpower.ZOrder" xml:space="preserve">
+    <value>129</value>
+  </data>
+  <data name="&gt;&gt;btnGetRandomCharacter.Name" xml:space="preserve">
+    <value>btnGetRandomCharacter</value>
+  </data>
+  <data name="&gt;&gt;txtAttackBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnBodySize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblAttackBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 85</value>
+  </data>
+  <data name="&gt;&gt;lblMagicBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtAdventurePointsA.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDice6E.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsC.Name" xml:space="preserve">
+    <value>mtxtAdventurePointsC</value>
+  </data>
+  <data name="&gt;&gt;lblDice6F.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGhostMagic.Name" xml:space="preserve">
+    <value>lblGhostMagic</value>
+  </data>
+  <data name="lblAPC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCharisma.Name" xml:space="preserve">
+    <value>btnCharisma</value>
+  </data>
+  <data name="&gt;&gt;lblIntelligence.Name" xml:space="preserve">
+    <value>lblIntelligence</value>
+  </data>
+  <data name="mtxtStrength.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="lblHanded.TabIndex" type="System.Int32, mscorlib">
+    <value>978</value>
+  </data>
+  <data name="txtSelfControlB.TabIndex" type="System.Int32, mscorlib">
+    <value>989</value>
+  </data>
+  <data name="&gt;&gt;btnSelfControl.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlB.ZOrder" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;browserExportDialog.Name" xml:space="preserve">
+    <value>browserExportDialog</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeA.ZOrder" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="&gt;&gt;lblGhostMagic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.Name" xml:space="preserve">
+    <value>txtDefense</value>
+  </data>
+  <data name="&gt;&gt;lblDice100A.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;lblHanded.Name" xml:space="preserve">
+    <value>lblHanded</value>
+  </data>
+  <data name="&gt;&gt;lblMagic0.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelfControlA.TabIndex" type="System.Int32, mscorlib">
+    <value>983</value>
+  </data>
+  <data name="txtCharacterName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtInbornBuff.Name" xml:space="preserve">
+    <value>mtxtInbornBuff</value>
+  </data>
+  <data name="txtLifePoints.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 106</value>
+  </data>
+  <data name="&gt;&gt;txtCharacterName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtAttackBuff.Name" xml:space="preserve">
+    <value>txtAttackBuff</value>
+  </data>
+  <data name="&gt;&gt;txtRumble.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLifePoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodyWeightD.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblStrength.TabIndex" type="System.Int32, mscorlib">
+    <value>888</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="lblLifePointsDwarf.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblStaminaBuff.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;btnCharisma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblDice6E.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblAdventurePoints.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="mtxtStrength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblDefenseBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="mtxtAdventurePointsB.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;lblLifePoints.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="txtAdventurePointsA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="lblMagic0.TabIndex" type="System.Int32, mscorlib">
+    <value>1040</value>
+  </data>
+  <data name="mtxtCharisma.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblSelfControlC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodySizeB.Name" xml:space="preserve">
+    <value>mtxtBodySizeB</value>
+  </data>
+  <data name="&gt;&gt;txtBodyWeight.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblBasics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 9</value>
+  </data>
+  <data name="&gt;&gt;lblDefense0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtConstitution.ZOrder" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="lblBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 9</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtStats.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtDefense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblDice100A.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtStaminaBuff.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblMagic.Name" xml:space="preserve">
+    <value>lblMagic</value>
+  </data>
+  <data name="btnExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="lblAPA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 321</value>
+  </data>
+  <data name="&gt;&gt;lblStaminaBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="mtxtCharisma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 312</value>
+  </data>
+  <data name="&gt;&gt;lblExport.Name" xml:space="preserve">
+    <value>lblExport</value>
+  </data>
+  <data name="&gt;&gt;mtxtDexterity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsA.Name" xml:space="preserve">
+    <value>lblAdventurePointsA</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightC.Name" xml:space="preserve">
+    <value>mtxtBodyWeightC</value>
+  </data>
+  <data name="txtGhostMagicNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 263</value>
+  </data>
+  <data name="&gt;&gt;lblCharactername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIntelligence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelfControlB.Text" xml:space="preserve">
+    <value>Glücksritter/Spitzbube</value>
+  </data>
+  <data name="&gt;&gt;lblCharismaValues.Name" xml:space="preserve">
+    <value>lblCharismaValues</value>
+  </data>
+  <data name="mtxtBodyWeightC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtHanded.ZOrder" xml:space="preserve">
+    <value>124</value>
+  </data>
+  <data name="lblDice100C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 270</value>
+  </data>
+  <data name="lblDice6C.Text" xml:space="preserve">
+    <value>1W6</value>
+  </data>
+  <data name="txtRumble.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblDice6D.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAPB.TabIndex" type="System.Int32, mscorlib">
+    <value>1022</value>
+  </data>
+  <data name="&gt;&gt;lblInbornBuff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblDefense0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtHanded.Name" xml:space="preserve">
+    <value>mtxtHanded</value>
+  </data>
+  <data name="lblAppearance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 289</value>
+  </data>
+  <data name="&gt;&gt;btnLifePoints.Name" xml:space="preserve">
+    <value>btnLifePoints</value>
+  </data>
+  <data name="&gt;&gt;txtSavepath.Name" xml:space="preserve">
+    <value>txtSavepath</value>
+  </data>
+  <data name="mtxtAgility.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnAdventurePointsB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 342</value>
+  </data>
+  <data name="&gt;&gt;btnHanded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMagic0.Text" xml:space="preserve">
+    <value>Zaubern (ungelernt)</value>
+  </data>
+  <data name="lblIntelligence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="mtxtAdventurePointsA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtDefenseBuff.Name" xml:space="preserve">
+    <value>txtDefenseBuff</value>
+  </data>
+  <data name="&gt;&gt;mtxtSelfControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblIntelligence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCharismaValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtCharisma.Mask" xml:space="preserve">
+    <value>000</value>
+  </data>
+  <data name="btnStatCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblBasics.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblDice20C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBodySize.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="mtxtMagicalTalent.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="mtxtInbornBuff.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtSelfControlC.TabIndex" type="System.Int32, mscorlib">
+    <value>990</value>
+  </data>
+  <data name="lblResistanceNormal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnAdventurePointsC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
+  <data name="lblMagicBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1030</value>
+  </data>
+  <data name="lblBuff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtDoMagic0.Name" xml:space="preserve">
+    <value>txtDoMagic0</value>
+  </data>
+  <data name="lblWillpower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblDice6D.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDice6F.TabIndex" type="System.Int32, mscorlib">
+    <value>961</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmCreateAlien</value>
+  </data>
+  <data name="mtxtBodyWeightD.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblBasics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBodySize.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="txtAdventurePointsB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtAdventurePointsC.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="txtDoMagic0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="btnHanded.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtBodyMagicMagician.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGetRandomCharacter.TabIndex" type="System.Int32, mscorlib">
+    <value>1065</value>
+  </data>
+  <data name="&gt;&gt;lblStrength.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="lblLifePointsDwarf.Text" xml:space="preserve">
+    <value>LP</value>
+  </data>
+  <data name="lblCharactername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="lblAPB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblDice100B.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="mtxtBodyWeightA.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblGhostMagic.TabIndex" type="System.Int32, mscorlib">
+    <value>1115</value>
+  </data>
+  <data name="&gt;&gt;lblWeightDescF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelfControlC.Text" xml:space="preserve">
+    <value>Andere</value>
+  </data>
+  <data name="lblAdventurePoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="txtBodyMagicNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsC.ZOrder" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="lblBasics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="txtDefenseBuff.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;lblDefense.Name" xml:space="preserve">
+    <value>lblDefense</value>
+  </data>
+  <data name="lblMagic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 111</value>
+  </data>
+  <data name="lblResistanceFighter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblSelfControlC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 388</value>
+  </data>
+  <data name="lblDefense0.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlA.ZOrder" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;txtSelfControlA.Name" xml:space="preserve">
+    <value>txtSelfControlA</value>
+  </data>
+  <data name="&gt;&gt;lblDice6C.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mtxtBodyWeightD.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;mtxtLifePoints.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblInbornBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAdventurePointsC.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="&gt;&gt;lblAPC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblAppearance.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceFighter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAppearance.ZOrder" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicNormal.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;lblDice6A.Name" xml:space="preserve">
+    <value>lblDice6A</value>
+  </data>
+  <data name="&gt;&gt;mtxtSelfControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelfControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMagic.TabIndex" type="System.Int32, mscorlib">
+    <value>1037</value>
+  </data>
+  <data name="mtxtHanded.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 511</value>
+  </data>
+  <data name="&gt;&gt;lblAPA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblConstitution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="txtBodyMagicNormal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;txtInbornBuff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblAPC.Name" xml:space="preserve">
+    <value>lblAPC</value>
+  </data>
+  <data name="lblRumble.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="&gt;&gt;lblAreaMagic.Name" xml:space="preserve">
+    <value>lblAreaMagic</value>
+  </data>
+  <data name="lblAppearance.TabIndex" type="System.Int32, mscorlib">
+    <value>970</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsC.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="txtBodyWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 206</value>
+  </data>
+  <data name="&gt;&gt;btnStatCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtBodySize.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="&gt;&gt;menuExit.Name" xml:space="preserve">
+    <value>menuExit</value>
+  </data>
+  <data name="&gt;&gt;txtAreaMagicMagician.Name" xml:space="preserve">
+    <value>txtAreaMagicMagician</value>
+  </data>
+  <data name="&gt;&gt;lblBodySize.ZOrder" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="lblSizeDescF.TabIndex" type="System.Int32, mscorlib">
+    <value>931</value>
+  </data>
+  <data name="&gt;&gt;btnBodySize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mtxtIntelligence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtGhostMagicMagician.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="lblDice6F.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;mtxtBodyWeightB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtMagicBuff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceNormal.Name" xml:space="preserve">
+    <value>lblResistanceNormal</value>
+  </data>
+  <data name="lblWillpower.Text" xml:space="preserve">
+    <value>Willenskraft (Wk)</value>
+  </data>
+  <data name="&gt;&gt;lblAdventurePointsB.ZOrder" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="&gt;&gt;txtCharisma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblResistanceMagician.TabIndex" type="System.Int32, mscorlib">
+    <value>1044</value>
+  </data>
+  <data name="mtxtStrength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
+  </data>
+  <data name="txtDefense0.TabIndex" type="System.Int32, mscorlib">
+    <value>1111</value>
+  </data>
+  <data name="lblDexterity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="lblAdventurePoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="&gt;&gt;mtxtAdventurePointsA.Name" xml:space="preserve">
+    <value>mtxtAdventurePointsA</value>
+  </data>
+  <data name="btnBodySize.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblWeightDescF.TabIndex" type="System.Int32, mscorlib">
+    <value>951</value>
+  </data>
+  <data name="lblDice6E.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 190</value>
+  </data>
+  <data name="lblDice6F.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 190</value>
+  </data>
+  <data name="txtMagicBuff.TabIndex" type="System.Int32, mscorlib">
+    <value>1031</value>
+  </data>
+  <data name="&gt;&gt;lblResistanceMagician.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtGhostMagicNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;lblSavePath.Name" xml:space="preserve">
+    <value>lblSavePath</value>
+  </data>
+  <data name="lblDefense0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 85</value>
+  </data>
+  <data name="&gt;&gt;lblCharisma.Name" xml:space="preserve">
+    <value>lblCharisma</value>
+  </data>
+  <data name="lblExport.TabIndex" type="System.Int32, mscorlib">
+    <value>1098</value>
+  </data>
+  <data name="mtxtAdventurePointsA.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lblConstitution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mtxtHanded.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDice6B.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtAdventurePointsB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
+  </data>
+  <data name="lblLifePoints.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="btnCharisma.Text" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="lblResistanceFighter.TabIndex" type="System.Int32, mscorlib">
+    <value>1043</value>
+  </data>
+  <data name="btnAdventurePointsC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 368</value>
+  </data>
+  <data name="txtRumble.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;txtGhostMagicFighter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnHanded.TabIndex" type="System.Int32, mscorlib">
+    <value>980</value>
+  </data>
+  <data name="&gt;&gt;btnExport.Name" xml:space="preserve">
+    <value>btnExport</value>
+  </data>
+  <data name="txtInbornBuff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 463</value>
+  </data>
+  <data name="mtxtBodySizeA.Mask" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblDice6E.Name" xml:space="preserve">
+    <value>lblDice6E</value>
+  </data>
+  <data name="btnBodySize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 23</value>
+  </data>
   <metadata name="browserExportDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>251, 17</value>
   </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
+  </metadata>
+  <metadata name="EnableTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
   </metadata>
 </root>
