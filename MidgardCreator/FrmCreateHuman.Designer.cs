@@ -165,11 +165,15 @@ namespace MidgardCreator
             this.lblCharisma = new System.Windows.Forms.Label();
             this.EnableTimer = new System.Windows.Forms.Timer(this.components);
             this.btnExport = new System.Windows.Forms.Button();
-            this.txtSavepath = new System.Windows.Forms.TextBox();
+            this.txtSavepathExport = new System.Windows.Forms.TextBox();
             this.txtCharacterName = new System.Windows.Forms.TextBox();
             this.lblCharactername = new System.Windows.Forms.Label();
             this.lblSavePath = new System.Windows.Forms.Label();
             this.browserExportDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.btnImport = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtSavepathImport = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // lblExport
@@ -935,11 +939,11 @@ namespace MidgardCreator
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
-            // txtSavepath
+            // txtSavepathExport
             // 
-            resources.ApplyResources(this.txtSavepath, "txtSavepath");
-            this.txtSavepath.Name = "txtSavepath";
-            this.txtSavepath.Click += new System.EventHandler(this.txtSavepath_Click);
+            resources.ApplyResources(this.txtSavepathExport, "txtSavepathExport");
+            this.txtSavepathExport.Name = "txtSavepathExport";
+            this.txtSavepathExport.Click += new System.EventHandler(this.txtSavepathExport_Click);
             // 
             // txtCharacterName
             // 
@@ -956,14 +960,39 @@ namespace MidgardCreator
             resources.ApplyResources(this.lblSavePath, "lblSavePath");
             this.lblSavePath.Name = "lblSavePath";
             // 
+            // btnImport
+            // 
+            resources.ApplyResources(this.btnImport, "btnImport");
+            this.btnImport.Name = "btnImport";
+            this.btnImport.UseVisualStyleBackColor = true;
+            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // txtSavepathImport
+            // 
+            resources.ApplyResources(this.txtSavepathImport, "txtSavepathImport");
+            this.txtSavepathImport.Name = "txtSavepathImport";
+            this.txtSavepathImport.Click += new System.EventHandler(this.txtSavepathImport_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // FrmCreateHuman
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtSavepathImport);
+            this.Controls.Add(this.btnImport);
             this.Controls.Add(this.lblSavePath);
             this.Controls.Add(this.lblCharactername);
             this.Controls.Add(this.txtCharacterName);
-            this.Controls.Add(this.txtSavepath);
+            this.Controls.Add(this.txtSavepathExport);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.lblExport);
             this.Controls.Add(this.btnSelfControl);
@@ -1243,10 +1272,14 @@ namespace MidgardCreator
         private System.Windows.Forms.Label lblCharisma;
         private System.Windows.Forms.Timer EnableTimer;
         private System.Windows.Forms.Button btnExport;
-        private System.Windows.Forms.TextBox txtSavepath;
+        private System.Windows.Forms.TextBox txtSavepathExport;
         private System.Windows.Forms.TextBox txtCharacterName;
         private System.Windows.Forms.Label lblCharactername;
         private System.Windows.Forms.Label lblSavePath;
         private System.Windows.Forms.FolderBrowserDialog browserExportDialog;
+        private System.Windows.Forms.Button btnImport;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtSavepathImport;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

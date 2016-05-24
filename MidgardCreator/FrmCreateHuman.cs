@@ -2,6 +2,9 @@ using System;
 using System.Windows.Forms;
 using MidgardCreator.Classes;
 using System.Diagnostics;
+using System.Collections.Generic;
+using System.IO;
+using System.Text;
 
 namespace MidgardCreator
 {
@@ -11,7 +14,7 @@ namespace MidgardCreator
         {
             InitializeComponent();
             string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-            txtSavepath.Text = "" + user_path + "";
+            txtSavepathExport.Text = "" + user_path + "";
         }
 
         private void btnGetRandomCharacter_Click(object sender, EventArgs e)
@@ -86,7 +89,7 @@ namespace MidgardCreator
                     }
                     else
                     {
-                        txtDamageBuff.Text = Properties.Numbers.zero;
+                        txtDamageBuff.Text = Ressourccen.Numbers.zero;
                     }
 
                     if (DefenseBuff >= 0)
@@ -95,7 +98,7 @@ namespace MidgardCreator
                     }
                     else
                     {
-                        txtStaminaBuff.Text = Properties.Numbers.zero;
+                        txtStaminaBuff.Text = Ressourccen.Numbers.zero;
                     }
 
                     txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
@@ -240,7 +243,7 @@ namespace MidgardCreator
             }
             else
             {
-                txtDamageBuff.Text = Properties.Numbers.zero;
+                txtDamageBuff.Text = Ressourccen.Numbers.zero;
             }
 
             if (DefenseBuff >= 0)
@@ -249,7 +252,7 @@ namespace MidgardCreator
             }
             else
             {
-                txtStaminaBuff.Text = Properties.Numbers.zero;
+                txtStaminaBuff.Text = Ressourccen.Numbers.zero;
             }
 
             txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
@@ -306,7 +309,7 @@ namespace MidgardCreator
                 if (c.GetType() == typeof(TextBox)) c.Text = "";
                 if (c.GetType() == typeof(MaskedTextBox)) c.Text = "";
                 string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-                txtSavepath.Text = "" + user_path + "";
+                txtSavepathExport.Text = "" + user_path + "";
             }
 
         }
@@ -437,7 +440,7 @@ namespace MidgardCreator
                 string dummyA = "", dummyB = "";
                 DateTime currentDate = DateTime.Now;
                 date = currentDate.ToString("dd-MM-yyy");
-                saveplace = @"" + txtSavepath.Text + "\\" + txtCharacterName.Text + "-MidgardCreator_" + date + ".txt";
+                saveplace = @"" + txtSavepathExport.Text + "\\" + txtCharacterName.Text + "-MidgardCreator_" + date + ".txt";
 
                 Export exp = new Export(this.Text, saveplace, txtCharacterName.Text, date, mtxtStrength.Text, mtxtDexterity.Text, mtxtAgility.Text, mtxtConstitution.Text, mtxtIntelligence.Text,
                     mtxtMagicalTalent.Text, dummyA, dummyB, mtxtAppearance.Text, txtCharisma.Text, txtWillpower.Text, txtSelfControlA.Text, txtSelfControlB.Text,
@@ -448,7 +451,7 @@ namespace MidgardCreator
                     mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtAppearance.Text, mtxtCharisma.Text, mtxtWillpower.Text, mtxtSelfControl.Text, mtxtInbornBuff.Text,
                     mtxtHanded.Text, mtxtAdventurePointsA.Text, mtxtAdventurePointsB.Text, mtxtAdventurePointsC.Text, mtxtLifePoints.Text, txtBodySizeMale.Text, txtBodySizeFemale.Text,
                     txtBodyWeightMale.Text, txtBodyWeightFemale.Text);
-                Process.Start("explorer.exe", txtSavepath.Text);
+                Process.Start("explorer.exe", txtSavepathExport.Text);
                 
             }
             else
@@ -459,15 +462,64 @@ namespace MidgardCreator
             
         }
 
-        private void txtSavepath_Click(object sender, EventArgs e)
+        private void txtSavepathExport_Click(object sender, EventArgs e)
         {
             if (browserExportDialog.ShowDialog(this) == DialogResult.OK)
-                txtSavepath.Text = browserExportDialog.SelectedPath;
+                txtSavepathExport.Text = browserExportDialog.SelectedPath;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnImport_Click(object sender, EventArgs e)
         {
-            
+            List<String> lines = new List<String>();
+            using (StreamReader sr = new StreamReader(txtSavepathImport.Text, Encoding.Default))
+            {
+                while (sr.Peek() != -1)
+                    lines.Add(sr.ReadLine());
+            }
+
+            mtxtStrength.Text = lines[53];
+            mtxtDexterity.Text = lines[55];
+            mtxtAgility.Text = lines[57];
+            mtxtConstitution.Text = lines[59];
+            mtxtIntelligence.Text = lines[61];
+            mtxtMagicalTalent.Text = lines[63];
+
+            mtxtBodySizeA.Text = lines[65];
+            mtxtBodySizeB.Text = lines[67];
+
+            mtxtBodyWeightA.Text = lines[69];
+            mtxtBodyWeightB.Text = lines[71];
+            mtxtBodyWeightC.Text = lines[73];
+            mtxtBodyWeightD.Text = lines[75];
+
+            mtxtAppearance.Text = lines[78];
+            mtxtCharisma.Text = lines[80];
+            mtxtWillpower.Text = lines[82];
+            mtxtSelfControl.Text = lines[84];
+
+            mtxtInbornBuff.Text = lines[86];
+            mtxtHanded.Text = lines[88];
+
+            mtxtAdventurePointsA.Text = lines[90];
+            mtxtAdventurePointsB.Text = lines[92];
+            mtxtAdventurePointsC.Text = lines[94];
+            mtxtLifePoints.Text = lines[96];
+
+            //txtCharacterName.Text = lines[];
+        }
+
+
+
+        private void txtSavepathImport_Click(object sender, EventArgs e)
+        {
+            string file;
+
+            if (openFileDialog1.ShowDialog(this) == DialogResult.OK)
+            {
+                file = openFileDialog1.FileName;
+                
+                txtSavepathImport.Text = file;
+            }         
         }
     }
 }

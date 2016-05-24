@@ -124,12 +124,12 @@
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Numbers.resx">
+    <EmbeddedResource Include="Ressourccen\Numbers.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Numbers.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Numbers.Designer.cs">
+    <Compile Include="Ressourccen\Numbers.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Numbers.resx</DependentUpon>
       <DesignTime>True</DesignTime>
