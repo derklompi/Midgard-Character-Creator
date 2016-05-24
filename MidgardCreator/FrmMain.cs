@@ -1,5 +1,4 @@
 using System;
-using System.Globalization;
 using System.Windows.Forms;
 using System.Threading;
 
@@ -12,10 +11,6 @@ namespace MidgardCreator
         public FrmMain()
         {
             InitializeComponent();
-            if(Convert.ToString(Thread.CurrentThread.CurrentUICulture) != "de-DE")
-            {
-                Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
-            }
         }
 
         private void btnCreateHuman_Click(object sender, EventArgs e)
@@ -127,59 +122,5 @@ namespace MidgardCreator
             }
         }
 
-        private void menuLanguageGerman_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-DE");
-
-            //Menü-Punkte
-            menuSettingsDE.Text = "Einstellungen";
-            menuLanguageDE.Text = "Sprache";
-            menuLanguageDEEnglish.Text = "Englisch";
-            menuLanguageDEGerman.Text = "Deutsch";
-            //Fomular-Buttons
-            btnCreateDwarf.Text = "Zwerg";
-            btnCreateElf.Text = "Elf";
-            btnCreateGnome.Text = "Gnom";
-            btnCreateHalfling.Text = "Halbling";
-            btnCreateHuman.Text = "Mensch";
-        }
-
-        private void menuLanguageEnglish_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
-            //Menü-Punkte
-            menuSettingsDE.Text = "Settings";
-            menuLanguageDE.Text = "Language";
-            menuLanguageDEEnglish.Text = "English";
-            menuLanguageDEGerman.Text = "German";
-            //Fomular-Buttons
-            btnCreateDwarf.Text = "Dwarf";
-            btnCreateElf.Text = "Elf";
-            btnCreateGnome.Text = "Gnome";
-            btnCreateHalfling.Text = "Halfling";
-            btnCreateHuman.Text = "Human";
-        }
-
-        private void menuLanguageENGerman_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("de-DE");
-            //Fomular-Buttons
-            btnCreateDwarf.Text = "Zwerg";
-            btnCreateElf.Text = "Elf";
-            btnCreateGnome.Text = "Gnom";
-            btnCreateHalfling.Text = "Halbling";
-            btnCreateHuman.Text = "Mensch";
-        }
-
-        private void menuLanguageENEnglish_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-EN");
-            //Fomular-Buttons
-            btnCreateDwarf.Text = "Dwarf";
-            btnCreateElf.Text = "Elf";
-            btnCreateGnome.Text = "Gnome";
-            btnCreateHalfling.Text = "Halfling";
-            btnCreateHuman.Text = "Human";
-        }
     }
 }

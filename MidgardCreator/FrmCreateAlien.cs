@@ -17,6 +17,7 @@ namespace MidgardCreator
          
         }
 
+        // Generates a random character with all values filled
         private void btnGetRandomCharacter_Click(object sender, EventArgs e)
         {
             bool CheckValue = false;
@@ -40,33 +41,33 @@ namespace MidgardCreator
 
                     #region DiceValues
 
-                    mtxtStrength.Text = Convert.ToString(strength);
-                    mtxtDexterity.Text = Convert.ToString(dexterity);
-                    mtxtAgility.Text = Convert.ToString(agility);
-                    mtxtConstitution.Text = Convert.ToString(constitution);
-                    mtxtMagicalTalent.Text = Convert.ToString(magicTalent);
-                    mtxtIntelligence.Text = Convert.ToString(intelligence);
+                    mtxtStrength.Text       = Convert.ToString(strength);
+                    mtxtDexterity.Text      = Convert.ToString(dexterity);
+                    mtxtAgility.Text        = Convert.ToString(agility);
+                    mtxtConstitution.Text   = Convert.ToString(constitution);
+                    mtxtMagicalTalent.Text  = Convert.ToString(magicTalent);
+                    mtxtIntelligence.Text   = Convert.ToString(intelligence);
 
-                    mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodySizeA.Text      = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodySizeB.Text      = Convert.ToString(Rnd.Next(1, 7));
 
-                    mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightA.Text    = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightB.Text    = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightC.Text    = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightD.Text    = Convert.ToString(Rnd.Next(1, 7));
 
-                    mtxtAppearance.Text = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtCharisma.Text = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtWillpower.Text = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtSelfControl.Text = Convert.ToString(Rnd.Next(1, 100));
-                    mtxtHanded.Text = Convert.ToString(Rnd.Next(1, 21));
+                    mtxtAppearance.Text     = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtCharisma.Text       = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtWillpower.Text      = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtSelfControl.Text    = Convert.ToString(Rnd.Next(1, 100));
+                    mtxtHanded.Text         = Convert.ToString(Rnd.Next(1, 21));
 
                     mtxtAdventurePointsA.Text = Convert.ToString(Rnd.Next(1, 7));
                     mtxtAdventurePointsB.Text = Convert.ToString(Rnd.Next(1, 7));
                     mtxtAdventurePointsC.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtLifePoints.Text = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtLifePoints.Text     = Convert.ToString(Rnd.Next(1, 7));
 
-                    mtxtInbornBuff.Text = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtInbornBuff.Text     = Convert.ToString(Rnd.Next(1, 101));
 
                     #endregion
 
@@ -79,16 +80,16 @@ namespace MidgardCreator
                     int DamageBuff = 0;
                     int DefenseBuff = 0;
 
-                    DamageBuff = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
+                    DamageBuff              = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
+                    DefenseBuff             = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
 
                     if (DamageBuff >= 0)
                     {
-                        txtDamageBuff.Text = Convert.ToString(DamageBuff);
+                        txtDamageBuff.Text  = Convert.ToString(DamageBuff);
                     }
                     else
                     {
-                        txtDamageBuff.Text = Properties.Numbers.zero;
+                        txtDamageBuff.Text  = Properties.Numbers.zero;
                     }
 
                     if (DefenseBuff >= 0)
@@ -100,15 +101,15 @@ namespace MidgardCreator
                         txtStaminaBuff.Text = Properties.Numbers.zero;
                     }
                                    
-                    txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
-                    txtDefenseBuff.Text = Convert.ToString(cb.DefenseBuff(agility));
-                    txtMagicBuff.Text = Convert.ToString(cb.MagicBuff(magicTalent));
+                    txtAttackBuff.Text      = Convert.ToString(cb.AttackBuff(dexterity));
+                    txtDefenseBuff.Text     = Convert.ToString(cb.DefenseBuff(agility));
+                    txtMagicBuff.Text       = Convert.ToString(cb.MagicBuff(magicTalent));
 
-                    txtRumble.Text = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
-                    txtDefense.Text = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDefense0.Text = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDoMagic.Text = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtRumble.Text          = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
+                    txtDefense.Text         = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDefense0.Text        = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDoMagic.Text         = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtDoMagic0.Text        = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
 
                     #endregion
 
@@ -116,8 +117,8 @@ namespace MidgardCreator
 
                     BodyValues bv = new BodyValues();
 
-                    txtBodySize.Text = Convert.ToString(bv.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
-                    txtBodyWeight.Text = Convert.ToString(bv.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text,
+                    txtBodySize.Text        = Convert.ToString(bv.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                    txtBodyWeight.Text      = Convert.ToString(bv.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text,
                         mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySize.Text, this.Text));
 
                     #endregion
@@ -126,12 +127,12 @@ namespace MidgardCreator
 
                     Soul s = new Soul();
 
-                    txtCharisma.Text = Convert.ToString(s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
-                    txtWillpower.Text = Convert.ToString(s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
-                    txtSelfControlA.Text = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtSelfControlB.Text = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtSelfControlC.Text = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtHanded.Text = s.Handed(mtxtHanded.Text);
+                    txtCharisma.Text        = Convert.ToString(s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
+                    txtWillpower.Text       = Convert.ToString(s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
+                    txtSelfControlA.Text    = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtSelfControlB.Text    = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtSelfControlC.Text    = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtHanded.Text          = s.Handed(mtxtHanded.Text);
 
                     #endregion
 
@@ -139,10 +140,10 @@ namespace MidgardCreator
               
                     AdventureLifePoints alp = new AdventureLifePoints();
 
-                    txtAdventurePointsA.Text = Convert.ToString(alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsB.Text = Convert.ToString(alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsC.Text = Convert.ToString(alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
-                    txtLifePoints.Text = Convert.ToString(alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
+                    txtAdventurePointsA.Text    = Convert.ToString(alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsB.Text    = Convert.ToString(alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsC.Text    = Convert.ToString(alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
+                    txtLifePoints.Text          = Convert.ToString(alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
 
                     #endregion
 

@@ -115,23 +115,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\CombatBuffs.cs" />
-    <EmbeddedResource Include="FrmCreateAlien.de.resx">
-      <DependentUpon>FrmCreateAlien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmCreateAlien.en.resx">
-      <DependentUpon>FrmCreateAlien.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmCreateAlien.resx">
       <DependentUpon>FrmCreateAlien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCreateHuman.resx">
       <DependentUpon>FrmCreateHuman.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmMain.de.resx">
-      <DependentUpon>FrmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmMain.en.resx">
-      <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>

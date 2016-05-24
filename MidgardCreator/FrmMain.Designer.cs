@@ -35,12 +35,6 @@ namespace MidgardCreator
             this.btnCreateHalfling = new System.Windows.Forms.Button();
             this.btnCreateDwarf = new System.Windows.Forms.Button();
             this.btnCreateGnome = new System.Windows.Forms.Button();
-            this.MainMenu = new System.Windows.Forms.MenuStrip();
-            this.menuSettingsDE = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageDE = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageDEGerman = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageDEEnglish = new System.Windows.Forms.ToolStripMenuItem();
-            this.MainMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCreateHuman
@@ -85,40 +79,6 @@ namespace MidgardCreator
             this.btnCreateGnome.UseVisualStyleBackColor = true;
             this.btnCreateGnome.Click += new System.EventHandler(this.btnCreateGnome_Click);
             // 
-            // MainMenu
-            // 
-            resources.ApplyResources(this.MainMenu, "MainMenu");
-            this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuSettingsDE});
-            this.MainMenu.Name = "MainMenu";
-            // 
-            // menuSettingsDE
-            // 
-            resources.ApplyResources(this.menuSettingsDE, "menuSettingsDE");
-            this.menuSettingsDE.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuLanguageDE});
-            this.menuSettingsDE.Name = "menuSettingsDE";
-            // 
-            // menuLanguageDE
-            // 
-            resources.ApplyResources(this.menuLanguageDE, "menuLanguageDE");
-            this.menuLanguageDE.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuLanguageDEGerman,
-            this.menuLanguageDEEnglish});
-            this.menuLanguageDE.Name = "menuLanguageDE";
-            // 
-            // menuLanguageDEGerman
-            // 
-            resources.ApplyResources(this.menuLanguageDEGerman, "menuLanguageDEGerman");
-            this.menuLanguageDEGerman.Name = "menuLanguageDEGerman";
-            this.menuLanguageDEGerman.Click += new System.EventHandler(this.menuLanguageGerman_Click);
-            // 
-            // menuLanguageDEEnglish
-            // 
-            resources.ApplyResources(this.menuLanguageDEEnglish, "menuLanguageDEEnglish");
-            this.menuLanguageDEEnglish.Name = "menuLanguageDEEnglish";
-            this.menuLanguageDEEnglish.Click += new System.EventHandler(this.menuLanguageEnglish_Click);
-            // 
             // FrmMain
             // 
             resources.ApplyResources(this, "$this");
@@ -130,14 +90,9 @@ namespace MidgardCreator
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCreateElf);
             this.Controls.Add(this.btnCreateHuman);
-            this.Controls.Add(this.MainMenu);
-            this.MainMenuStrip = this.MainMenu;
             this.Name = "FrmMain";
             this.ShowIcon = false;
-            this.MainMenu.ResumeLayout(false);
-            this.MainMenu.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -149,10 +104,5 @@ namespace MidgardCreator
         private System.Windows.Forms.Button btnCreateHalfling;
         private System.Windows.Forms.Button btnCreateDwarf;
         private System.Windows.Forms.Button btnCreateGnome;
-        private System.Windows.Forms.MenuStrip MainMenu;
-        private System.Windows.Forms.ToolStripMenuItem menuSettingsDE;
-        private System.Windows.Forms.ToolStripMenuItem menuLanguageDE;
-        private System.Windows.Forms.ToolStripMenuItem menuLanguageDEGerman;
-        private System.Windows.Forms.ToolStripMenuItem menuLanguageDEEnglish;
     }
 }
