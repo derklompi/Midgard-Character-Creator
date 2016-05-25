@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace mcreator.Ressourccen {
+namespace mcreator.Resources {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

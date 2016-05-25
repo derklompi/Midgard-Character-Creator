@@ -4010,25 +4010,25 @@
   <data name="&gt;&gt;btnExport.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="txtSavepathExport.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtExportPath.Location" type="System.Drawing.Point, System.Drawing">
     <value>529, 481</value>
   </data>
-  <data name="txtSavepathExport.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtExportPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 20</value>
   </data>
-  <data name="txtSavepathExport.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtExportPath.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="&gt;&gt;txtSavepathExport.Name" xml:space="preserve">
-    <value>txtSavepathExport</value>
+  <data name="&gt;&gt;txtExportPath.Name" xml:space="preserve">
+    <value>txtExportPath</value>
   </data>
-  <data name="&gt;&gt;txtSavepathExport.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtExportPath.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtSavepathExport.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtExportPath.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtSavepathExport.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtExportPath.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="txtCharacterName.Location" type="System.Drawing.Point, System.Drawing">
@@ -4166,25 +4166,25 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="txtSavepathImport.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtImportFile.Location" type="System.Drawing.Point, System.Drawing">
     <value>529, 532</value>
   </data>
-  <data name="txtSavepathImport.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtImportFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>169, 20</value>
   </data>
-  <data name="txtSavepathImport.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtImportFile.TabIndex" type="System.Int32, mscorlib">
     <value>1099</value>
   </data>
-  <data name="&gt;&gt;txtSavepathImport.Name" xml:space="preserve">
-    <value>txtSavepathImport</value>
+  <data name="&gt;&gt;txtImportFile.Name" xml:space="preserve">
+    <value>txtImportFile</value>
   </data>
-  <data name="&gt;&gt;txtSavepathImport.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtImportFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtSavepathImport.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtImportFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtSavepathImport.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtImportFile.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

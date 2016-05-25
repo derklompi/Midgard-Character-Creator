@@ -13,15 +13,19 @@ namespace mcreator
         public FrmCreateHuman()
         {
             InitializeComponent();
+
+            // Get the user home path and set it as default
             string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-            txtSavepathExport.Text = "" + user_path + "";
+            txtExportPath.Text = "" + user_path + "";
+            
         }
 
         private void btnGetRandomCharacter_Click(object sender, EventArgs e)
         {
-            bool checkValue = false;
+            // Reset the check value for the following cycle
+            bool statPointCheck = false;
 
-            while (checkValue == false)
+            while (statPointCheck == false)
             {
                 Random Rnd = new Random();
 
@@ -36,52 +40,48 @@ namespace mcreator
 
                 if (gesamt >= 350)
                 {
+                    // Setting the check value to true, so that the cycle gets terminated
+                    statPointCheck = true;
 
+                    // Seetting the check field for the timer 
                     txtStats.Text = "true";
 
-                    #region DiceValues
+                    // Randomizing the dice values
+                    mtxtStrength.Text       = Convert.ToString(strength);
+                    mtxtDexterity.Text      = Convert.ToString(dexterity);
+                    mtxtAgility.Text        = Convert.ToString(agility);
+                    mtxtConstitution.Text   = Convert.ToString(constitution);
+                    mtxtMagicalTalent.Text  = Convert.ToString(magicTalent);
+                    mtxtIntelligence.Text   = Convert.ToString(intelligence);
 
-                    mtxtStrength.Text = Convert.ToString(strength);
-                    mtxtDexterity.Text = Convert.ToString(dexterity);
-                    mtxtAgility.Text = Convert.ToString(agility);
-                    mtxtConstitution.Text = Convert.ToString(constitution);
-                    mtxtMagicalTalent.Text = Convert.ToString(magicTalent);
-                    mtxtIntelligence.Text = Convert.ToString(intelligence);
-
-                    mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 21));
-                    mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 21));
+                    mtxtBodySizeA.Text      = Convert.ToString(Rnd.Next(1, 21));
+                    mtxtBodySizeB.Text      = Convert.ToString(Rnd.Next(1, 21));
                     
-                    mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightA.Text    = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightB.Text    = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightC.Text    = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtBodyWeightD.Text    = Convert.ToString(Rnd.Next(1, 7));
 
-                    mtxtAppearance.Text = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtCharisma.Text = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtWillpower.Text = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtSelfControl.Text = Convert.ToString(Rnd.Next(1, 100));
-                    mtxtHanded.Text = Convert.ToString(Rnd.Next(1, 21));
+                    mtxtAppearance.Text     = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtCharisma.Text       = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtWillpower.Text      = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtSelfControl.Text    = Convert.ToString(Rnd.Next(1, 100));
+                    mtxtHanded.Text         = Convert.ToString(Rnd.Next(1, 21));
 
-                    mtxtAdventurePointsA.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtAdventurePointsB.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtAdventurePointsC.Text = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtLifePoints.Text = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtAdventurePointsA.Text   = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtAdventurePointsB.Text   = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtAdventurePointsC.Text   = Convert.ToString(Rnd.Next(1, 7));
+                    mtxtLifePoints.Text         = Convert.ToString(Rnd.Next(1, 7));
 
                     mtxtInbornBuff.Text = Convert.ToString(Rnd.Next(1, 101));
 
-                    #endregion
-
-                    checkValue = true;
-
-                    #region CombatsBuffs
-
                     CombatBuffs cb = new CombatBuffs();
 
-                    int DamageBuff = 0;
+                    int DamageBuff  = 0;
                     int DefenseBuff = 0;
 
-                    DamageBuff = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
+                    DamageBuff  = (strength / 20) + (dexterity / 30) - 3;
+                    DefenseBuff = (strength / 20) + (constitution / 10) - 7;
 
                     if (DamageBuff >= 0)
                     {
@@ -89,7 +89,7 @@ namespace mcreator
                     }
                     else
                     {
-                        txtDamageBuff.Text = Ressourccen.Numbers.zero;
+                        txtDamageBuff.Text = "0";
                     }
 
                     if (DefenseBuff >= 0)
@@ -98,102 +98,77 @@ namespace mcreator
                     }
                     else
                     {
-                        txtStaminaBuff.Text = Ressourccen.Numbers.zero;
+                        txtStaminaBuff.Text = "0";
                     }
 
-                    txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
+                    txtAttackBuff.Text  = Convert.ToString(cb.AttackBuff(dexterity));
                     txtDefenseBuff.Text = Convert.ToString(cb.DefenseBuff(agility));
-                    txtMagicBuff.Text = Convert.ToString(cb.MagicBuff(magicTalent));
+                    txtMagicBuff.Text   = Convert.ToString(cb.MagicBuff(magicTalent));
 
-                    txtRumble.Text = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
-                    txtDefense.Text = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDefense0.Text = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDoMagic.Text = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtRumble.Text      = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
+                    txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtDoMagic0.Text    = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
 
-                    #endregion
 
-                    #region BodySize
 
-                    txtBodySizeMale.Text = Convert.ToString(Convert.ToInt32(mtxtBodySizeA.Text) + Convert.ToInt32(mtxtBodySizeB.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + 150);
-                    txtBodySizeFemale.Text = Convert.ToString(Convert.ToInt32(mtxtBodySizeA.Text) + Convert.ToInt32(mtxtBodySizeB.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + 140);
-                    
-                    #endregion
+                    txtBodySizeMale.Text    = Convert.ToString(Convert.ToInt32(mtxtBodySizeA.Text) + Convert.ToInt32(mtxtBodySizeB.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + 150);
+                    txtBodySizeFemale.Text  = Convert.ToString(Convert.ToInt32(mtxtBodySizeA.Text) + Convert.ToInt32(mtxtBodySizeB.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + 140);
 
-                    #region BodyWeight
-
-                    txtBodyWeightMale.Text = Convert.ToString(Convert.ToInt32(mtxtBodyWeightA.Text) + Convert.ToInt32(mtxtBodyWeightB.Text) + Convert.ToInt32(mtxtBodyWeightC.Text) + Convert.ToInt32(mtxtBodyWeightD.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + Convert.ToInt32(txtBodySizeMale.Text) - 120);
-                    txtBodyWeightFemale.Text = Convert.ToString((Convert.ToInt32(mtxtBodyWeightA.Text) + Convert.ToInt32(mtxtBodyWeightB.Text) + Convert.ToInt32(mtxtBodyWeightC.Text) + Convert.ToInt32(mtxtBodyWeightD.Text) - 4) + (Convert.ToInt32(mtxtStrength.Text) / 10) + Convert.ToInt32(txtBodySizeFemale.Text) - 120);
-
-                    #endregion
-
-                    #region CharismaValues
+                    txtBodyWeightMale.Text      = Convert.ToString(Convert.ToInt32(mtxtBodyWeightA.Text) + Convert.ToInt32(mtxtBodyWeightB.Text) + Convert.ToInt32(mtxtBodyWeightC.Text) + Convert.ToInt32(mtxtBodyWeightD.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + Convert.ToInt32(txtBodySizeMale.Text) - 120);
+                    txtBodyWeightFemale.Text    = Convert.ToString((Convert.ToInt32(mtxtBodyWeightA.Text) + Convert.ToInt32(mtxtBodyWeightB.Text) + Convert.ToInt32(mtxtBodyWeightC.Text) + Convert.ToInt32(mtxtBodyWeightD.Text) - 4) + (Convert.ToInt32(mtxtStrength.Text) / 10) + Convert.ToInt32(txtBodySizeFemale.Text) - 120);
 
                     Soul s = new Soul();
 
-                    txtCharisma.Text = Convert.ToString(s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
-                    txtWillpower.Text = Convert.ToString(s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
-                    txtSelfControlA.Text = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtSelfControlB.Text = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtSelfControlC.Text = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtHanded.Text = s.Handed(mtxtHanded.Text);
+                    txtCharisma.Text        = Convert.ToString(s.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
+                    txtWillpower.Text       = Convert.ToString(s.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
+                    txtSelfControlA.Text    = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtSelfControlB.Text    = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtSelfControlC.Text    = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    txtHanded.Text          = s.Handed(mtxtHanded.Text);
 
-                    #endregion
-
-                    #region AP+LP
 
                     AdventureLifePoints alp = new AdventureLifePoints();
 
-                    txtAdventurePointsA.Text = Convert.ToString(alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsB.Text = Convert.ToString(alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsC.Text = Convert.ToString(alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
-                    txtLifePoints.Text = Convert.ToString(alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
+                    txtAdventurePointsA.Text    = Convert.ToString(alp.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsB.Text    = Convert.ToString(alp.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsC.Text    = Convert.ToString(alp.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
+                    txtLifePoints.Text          = Convert.ToString(alp.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
 
-                    #endregion
-
-                    #region InbornBuff
 
                     InbornBuff ib = new InbornBuff();
                     txtInbornBuff.Text = ib.Inborn(Convert.ToInt32(mtxtInbornBuff.Text), Convert.ToInt32(txtWillpower.Text));
 
-                    #endregion
-
-                    #region Resistence
-
                     Resistance r = new Resistance();
 
                     int mtBuffGhost_Body_MagicValue = 0;
-                    int intBuffGhostMagicValue = 0;
-                    int CoBuffBodyMagicValue = 0;
+                    int intBuffGhostMagicValue      = 0;
+                    int CoBuffBodyMagicValue        = 0;
 
-                    //Buff MagicTalent Ghost&Body
+                    // Buff MagicTalent Ghost&Body
                     mtBuffGhost_Body_MagicValue = r.MagicTalentGhostBody(magicTalent);
 
-                    //Buff Intelligence Ghost
+                    // Buff Intelligence Ghost
                     intBuffGhostMagicValue = r.IntelligenceGhost(intelligence);
 
-                    //Buff Constitution Body
+                    // Buff Constitution Body
                     CoBuffBodyMagicValue = r.ConstitutionBody(constitution);
 
-                    //Values GhostMagic
-                    txtGhostMagicFighter.Text = Convert.ToString(14 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicMagician.Text = Convert.ToString(17 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicNormal.Text = Convert.ToString(14 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    // Values GhostMagic
+                    txtGhostMagicFighter.Text   = Convert.ToString(14 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicMagician.Text  = Convert.ToString(17 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicNormal.Text    = Convert.ToString(14 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
 
-                    //Values BodyMagic
-                    txtBodyMagicFighter.Text = Convert.ToString(16 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicMagician.Text = Convert.ToString(17 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicNormal.Text = Convert.ToString(14 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    // Values BodyMagic
+                    txtBodyMagicFighter.Text    = Convert.ToString(16 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicMagician.Text   = Convert.ToString(17 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicNormal.Text     = Convert.ToString(14 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
 
-                    //Values AreaMagic
-                    txtAreaMagicFighter.Text = Convert.ToString(10 + r.AgilityArea(agility));
-                    txtAreaMagicMagician.Text = Convert.ToString(13 + r.AgilityArea(agility));
-                    txtAreaMagicNormal.Text = Convert.ToString(10 + r.AgilityArea(agility));
-
-                    #endregion
-
-                    txtStats.Text = "true";
-
+                    // Values AreaMagic
+                    txtAreaMagicFighter.Text    = Convert.ToString(10 + r.AgilityArea(agility));
+                    txtAreaMagicMagician.Text   = Convert.ToString(13 + r.AgilityArea(agility));
+                    txtAreaMagicNormal.Text     = Convert.ToString(10 + r.AgilityArea(agility));
                 }
             }
         }
@@ -243,7 +218,7 @@ namespace mcreator
             }
             else
             {
-                txtDamageBuff.Text = Ressourccen.Numbers.zero;
+                txtDamageBuff.Text = "0";
             }
 
             if (DefenseBuff >= 0)
@@ -252,7 +227,7 @@ namespace mcreator
             }
             else
             {
-                txtStaminaBuff.Text = Ressourccen.Numbers.zero;
+                txtStaminaBuff.Text = "0";
             }
 
             txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
@@ -309,7 +284,7 @@ namespace mcreator
                 if (c.GetType() == typeof(TextBox)) c.Text = "";
                 if (c.GetType() == typeof(MaskedTextBox)) c.Text = "";
                 string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-                txtSavepathExport.Text = "" + user_path + "";
+                txtExportPath.Text = "" + user_path + "";
             }
 
         }
@@ -440,7 +415,7 @@ namespace mcreator
                 string dummyA = "", dummyB = "";
                 DateTime currentDate = DateTime.Now;
                 date = currentDate.ToString("dd-MM-yyy");
-                saveplace = @"" + txtSavepathExport.Text + "\\" + txtCharacterName.Text + "-MidgardCreator_" + date + ".txt";
+                saveplace = @"" + txtExportPath.Text + "\\" + txtCharacterName.Text + "-MidgardCreator_" + date + ".txt";
 
                 Export exp = new Export(this.Text, saveplace, txtCharacterName.Text, date, mtxtStrength.Text, mtxtDexterity.Text, mtxtAgility.Text, mtxtConstitution.Text, mtxtIntelligence.Text,
                     mtxtMagicalTalent.Text, dummyA, dummyB, mtxtAppearance.Text, txtCharisma.Text, txtWillpower.Text, txtSelfControlA.Text, txtSelfControlB.Text,
@@ -451,7 +426,7 @@ namespace mcreator
                     mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtAppearance.Text, mtxtCharisma.Text, mtxtWillpower.Text, mtxtSelfControl.Text, mtxtInbornBuff.Text,
                     mtxtHanded.Text, mtxtAdventurePointsA.Text, mtxtAdventurePointsB.Text, mtxtAdventurePointsC.Text, mtxtLifePoints.Text, txtBodySizeMale.Text, txtBodySizeFemale.Text,
                     txtBodyWeightMale.Text, txtBodyWeightFemale.Text);
-                Process.Start("explorer.exe", txtSavepathExport.Text);
+                Process.Start("explorer.exe", txtExportPath.Text);
                 
             }
             else
@@ -465,17 +440,21 @@ namespace mcreator
         private void txtSavepathExport_Click(object sender, EventArgs e)
         {
             if (browserExportDialog.ShowDialog(this) == DialogResult.OK)
-                txtSavepathExport.Text = browserExportDialog.SelectedPath;
+                txtExportPath.Text = browserExportDialog.SelectedPath;
         }
 
         private void btnImport_Click(object sender, EventArgs e)
         {
+
             List<String> lines = new List<String>();
-            using (StreamReader sr = new StreamReader(txtSavepathImport.Text, Encoding.Default))
+            using (StreamReader sr = new StreamReader(txtImportFile.Text, Encoding.Default))
             {
                 while (sr.Peek() != -1)
                     lines.Add(sr.ReadLine());
             }
+
+
+
 
             mtxtStrength.Text = lines[53];
             mtxtDexterity.Text = lines[55];
@@ -506,11 +485,88 @@ namespace mcreator
             mtxtLifePoints.Text = lines[96];
 
             //txtCharacterName.Text = lines[];
+
+            // Enabling the form
+            int strength = Convert.ToInt32(mtxtStrength.Text);
+            int dexterity = Convert.ToInt32(mtxtDexterity.Text);
+            int agility = Convert.ToInt32(mtxtAgility.Text);
+            int constitution = Convert.ToInt32(mtxtConstitution.Text);
+            int intelligence = Convert.ToInt32(mtxtIntelligence.Text);
+            int magicTalent = Convert.ToInt32(mtxtMagicalTalent.Text);
+
+            txtStats.Text = "true";
+            
+            CombatBuffs cb = new CombatBuffs();
+
+            int DamageBuff  = 0;
+            int DefenseBuff = 0;
+
+            DamageBuff  = (strength / 20) + (dexterity / 30) - 3;
+            DefenseBuff = (strength / 20) + (constitution / 10) - 7;
+
+            if (DamageBuff >= 0)
+            {
+                txtDamageBuff.Text = Convert.ToString(DamageBuff);
+            }
+            else
+            {
+                txtDamageBuff.Text = "0";
+            }
+
+            if (DefenseBuff >= 0)
+            {
+                txtStaminaBuff.Text = Convert.ToString(DefenseBuff);
+            }
+            else
+            {
+                txtStaminaBuff.Text = "0";
+            }
+
+            txtAttackBuff.Text      = Convert.ToString(cb.AttackBuff(dexterity));
+            txtDefenseBuff.Text     = Convert.ToString(cb.DefenseBuff(agility));
+            txtMagicBuff.Text       = Convert.ToString(cb.MagicBuff(magicTalent));
+
+            txtRumble.Text          = Convert.ToString(((strength + agility) / 20) + cb.AttackBuff(dexterity));
+            txtDefense.Text         = Convert.ToString(11 + cb.DefenseBuff(agility));
+            txtDefense0.Text        = Convert.ToString(10 + cb.DefenseBuff(agility));
+            txtDoMagic.Text         = Convert.ToString(10 + cb.MagicBuff(magicTalent));
+            txtDoMagic0.Text        = Convert.ToString(2  + cb.MagicBuff(magicTalent));
+
+
+            Resistance r = new Resistance();
+
+            int mtBuffGhost_Body_MagicValue = 0;
+            int intBuffGhostMagicValue      = 0;
+            int CoBuffBodyMagicValue        = 0;
+
+            //Buff MagicTalent Ghost&Body
+            mtBuffGhost_Body_MagicValue = r.MagicTalentGhostBody(magicTalent);
+
+            //Buff Intelligence Ghost
+            intBuffGhostMagicValue      = r.IntelligenceGhost(intelligence);
+
+            //Buff Constitution Body
+            CoBuffBodyMagicValue        = r.ConstitutionBody(constitution);
+
+            //Values GhostMagic
+            txtGhostMagicFighter.Text   = Convert.ToString(14 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+            txtGhostMagicMagician.Text  = Convert.ToString(17 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+            txtGhostMagicNormal.Text    = Convert.ToString(14 + r.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+
+            //Values BodyMagic
+            txtBodyMagicFighter.Text    = Convert.ToString(16 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+            txtBodyMagicMagician.Text   = Convert.ToString(17 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+            txtBodyMagicNormal.Text     = Convert.ToString(14 + r.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+
+            //Values AreaMagic
+            txtAreaMagicFighter.Text    = Convert.ToString(10 + r.AgilityArea(agility));
+            txtAreaMagicMagician.Text   = Convert.ToString(13 + r.AgilityArea(agility));
+            txtAreaMagicNormal.Text     = Convert.ToString(10 + r.AgilityArea(agility));
+
         }
 
 
-
-        private void txtSavepathImport_Click(object sender, EventArgs e)
+        private void txtImportFile_Click(object sender, EventArgs e)
         {
             string file;
 
@@ -518,7 +574,7 @@ namespace mcreator
             {
                 file = openFileDialog1.FileName;
                 
-                txtSavepathImport.Text = file;
+                txtImportFile.Text = file;
             }         
         }
     }

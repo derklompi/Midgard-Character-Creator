@@ -165,14 +165,14 @@ namespace mcreator
             this.lblCharisma = new System.Windows.Forms.Label();
             this.EnableTimer = new System.Windows.Forms.Timer(this.components);
             this.btnExport = new System.Windows.Forms.Button();
-            this.txtSavepathExport = new System.Windows.Forms.TextBox();
+            this.txtExportPath = new System.Windows.Forms.TextBox();
             this.txtCharacterName = new System.Windows.Forms.TextBox();
             this.lblCharactername = new System.Windows.Forms.Label();
             this.lblSavePath = new System.Windows.Forms.Label();
             this.browserExportDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.btnImport = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtSavepathImport = new System.Windows.Forms.TextBox();
+            this.txtImportFile = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
@@ -939,11 +939,11 @@ namespace mcreator
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
-            // txtSavepathExport
+            // txtExportPath
             // 
-            resources.ApplyResources(this.txtSavepathExport, "txtSavepathExport");
-            this.txtSavepathExport.Name = "txtSavepathExport";
-            this.txtSavepathExport.Click += new System.EventHandler(this.txtSavepathExport_Click);
+            resources.ApplyResources(this.txtExportPath, "txtExportPath");
+            this.txtExportPath.Name = "txtExportPath";
+            this.txtExportPath.Click += new System.EventHandler(this.txtSavepathExport_Click);
             // 
             // txtCharacterName
             // 
@@ -972,11 +972,11 @@ namespace mcreator
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // txtSavepathImport
+            // txtImportFile
             // 
-            resources.ApplyResources(this.txtSavepathImport, "txtSavepathImport");
-            this.txtSavepathImport.Name = "txtSavepathImport";
-            this.txtSavepathImport.Click += new System.EventHandler(this.txtSavepathImport_Click);
+            resources.ApplyResources(this.txtImportFile, "txtImportFile");
+            this.txtImportFile.Name = "txtImportFile";
+            this.txtImportFile.Click += new System.EventHandler(this.txtImportFile_Click);
             // 
             // openFileDialog1
             // 
@@ -987,12 +987,12 @@ namespace mcreator
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtSavepathImport);
+            this.Controls.Add(this.txtImportFile);
             this.Controls.Add(this.btnImport);
             this.Controls.Add(this.lblSavePath);
             this.Controls.Add(this.lblCharactername);
             this.Controls.Add(this.txtCharacterName);
-            this.Controls.Add(this.txtSavepathExport);
+            this.Controls.Add(this.txtExportPath);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.lblExport);
             this.Controls.Add(this.btnSelfControl);
@@ -1272,14 +1272,14 @@ namespace mcreator
         private System.Windows.Forms.Label lblCharisma;
         private System.Windows.Forms.Timer EnableTimer;
         private System.Windows.Forms.Button btnExport;
-        private System.Windows.Forms.TextBox txtSavepathExport;
+        private System.Windows.Forms.TextBox txtExportPath;
         private System.Windows.Forms.TextBox txtCharacterName;
         private System.Windows.Forms.Label lblCharactername;
         private System.Windows.Forms.Label lblSavePath;
         private System.Windows.Forms.FolderBrowserDialog browserExportDialog;
         private System.Windows.Forms.Button btnImport;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtSavepathImport;
+        private System.Windows.Forms.TextBox txtImportFile;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

@@ -14,6 +14,7 @@ namespace mcreator
             InitializeComponent();
             string UserPath = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
             txtSavepath.Text = "" + UserPath + "";
+
          
         }
 
@@ -89,7 +90,7 @@ namespace mcreator
                     }
                     else
                     {
-                        txtDamageBuff.Text  = Ressourccen.Numbers.zero;
+                        txtDamageBuff.Text  = "0";
                     }
 
                     if (DefenseBuff >= 0)
@@ -98,7 +99,7 @@ namespace mcreator
                     }
                     else
                     {
-                        txtStaminaBuff.Text = Ressourccen.Numbers.zero;
+                        txtStaminaBuff.Text = "0";
                     }
                                    
                     txtAttackBuff.Text      = Convert.ToString(cb.AttackBuff(dexterity));
@@ -243,7 +244,7 @@ namespace mcreator
             }
             else
             {
-                txtDamageBuff.Text = Ressourccen.Numbers.zero;
+                txtDamageBuff.Text = "0";
             }
 
             if (DefenseBuff >= 0)
@@ -252,7 +253,7 @@ namespace mcreator
             }
             else
             {
-                txtStaminaBuff.Text = Ressourccen.Numbers.zero;
+                txtStaminaBuff.Text = "0";
             }
 
             txtAttackBuff.Text = Convert.ToString(cb.AttackBuff(dexterity));
