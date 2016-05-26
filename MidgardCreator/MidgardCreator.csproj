@@ -100,11 +100,11 @@
     <Compile Include="FrmCreateAlien.Designer.cs">
       <DependentUpon>FrmCreateAlien.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmCreateHuman.cs">
+    <Compile Include="FrmCreateCharacter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCreateHuman.Designer.cs">
-      <DependentUpon>FrmCreateHuman.cs</DependentUpon>
+    <Compile Include="FrmCreateCharacter.Designer.cs">
+      <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
@@ -118,8 +118,8 @@
     <EmbeddedResource Include="FrmCreateAlien.resx">
       <DependentUpon>FrmCreateAlien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmCreateHuman.resx">
-      <DependentUpon>FrmCreateHuman.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCreateCharacter.resx">
+      <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>

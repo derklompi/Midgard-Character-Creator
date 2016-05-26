@@ -1,6 +1,6 @@
 namespace mcreator
 {
-    partial class FrmCreateHuman
+    partial class FrmCreateCharacter
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace mcreator
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCreateHuman));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCreateCharacter));
             this.lblExport = new System.Windows.Forms.Label();
             this.btnSelfControl = new System.Windows.Forms.Button();
             this.lblLifePointsMen = new System.Windows.Forms.Label();
@@ -76,7 +76,6 @@ namespace mcreator
             this.txtDefenseBuff = new System.Windows.Forms.TextBox();
             this.lblBasics = new System.Windows.Forms.Label();
             this.lblAPC = new System.Windows.Forms.Label();
-            this.btnStatCheck = new System.Windows.Forms.Button();
             this.lblAPB = new System.Windows.Forms.Label();
             this.lblDice100B = new System.Windows.Forms.Label();
             this.lblAPA = new System.Windows.Forms.Label();
@@ -174,6 +173,7 @@ namespace mcreator
             this.label1 = new System.Windows.Forms.Label();
             this.txtImportFile = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.lblStatCheck = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblExport
@@ -437,13 +437,6 @@ namespace mcreator
             // 
             resources.ApplyResources(this.lblAPC, "lblAPC");
             this.lblAPC.Name = "lblAPC";
-            // 
-            // btnStatCheck
-            // 
-            resources.ApplyResources(this.btnStatCheck, "btnStatCheck");
-            this.btnStatCheck.Name = "btnStatCheck";
-            this.btnStatCheck.UseVisualStyleBackColor = true;
-            this.btnStatCheck.Click += new System.EventHandler(this.btnStatCheck_Click);
             // 
             // lblAPB
             // 
@@ -982,10 +975,17 @@ namespace mcreator
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // FrmCreateHuman
+            // lblStatCheck
+            // 
+            resources.ApplyResources(this.lblStatCheck, "lblStatCheck");
+            this.lblStatCheck.ForeColor = System.Drawing.Color.Red;
+            this.lblStatCheck.Name = "lblStatCheck";
+            // 
+            // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblStatCheck);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtImportFile);
             this.Controls.Add(this.btnImport);
@@ -1040,7 +1040,6 @@ namespace mcreator
             this.Controls.Add(this.txtDefenseBuff);
             this.Controls.Add(this.lblBasics);
             this.Controls.Add(this.lblAPC);
-            this.Controls.Add(this.btnStatCheck);
             this.Controls.Add(this.lblAPB);
             this.Controls.Add(this.lblDice100B);
             this.Controls.Add(this.lblAPA);
@@ -1128,7 +1127,7 @@ namespace mcreator
             this.Controls.Add(this.mtxtWillpower);
             this.Controls.Add(this.lblCharisma);
             this.MaximizeBox = false;
-            this.Name = "FrmCreateHuman";
+            this.Name = "FrmCreateCharacter";
             this.ShowIcon = false;
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1183,7 +1182,6 @@ namespace mcreator
         private System.Windows.Forms.TextBox txtDefenseBuff;
         private System.Windows.Forms.Label lblBasics;
         private System.Windows.Forms.Label lblAPC;
-        private System.Windows.Forms.Button btnStatCheck;
         private System.Windows.Forms.Label lblAPB;
         private System.Windows.Forms.Label lblDice100B;
         private System.Windows.Forms.Label lblAPA;
@@ -1281,5 +1279,6 @@ namespace mcreator
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtImportFile;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label lblStatCheck;
     }
 }
