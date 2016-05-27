@@ -118,16 +118,16 @@ namespace mcreator
             this.lblAdventurePoints = new System.Windows.Forms.Label();
             this.lblConstitution = new System.Windows.Forms.Label();
             this.mtxtBodyWeightC = new System.Windows.Forms.MaskedTextBox();
-            this.lblWeightDescB = new System.Windows.Forms.Label();
-            this.lblWeightDescA = new System.Windows.Forms.Label();
+            this.lblBodyWeightB = new System.Windows.Forms.Label();
+            this.lblBodyWeightA = new System.Windows.Forms.Label();
             this.txtWillpower = new System.Windows.Forms.TextBox();
             this.txtCharisma = new System.Windows.Forms.TextBox();
             this.btnWillpower = new System.Windows.Forms.Button();
             this.btnCharisma = new System.Windows.Forms.Button();
             this.mtxtBodyWeightD = new System.Windows.Forms.MaskedTextBox();
-            this.txtBodyWeightFemale = new System.Windows.Forms.TextBox();
+            this.txtBodyWeightB = new System.Windows.Forms.TextBox();
             this.txtSelfControlC = new System.Windows.Forms.TextBox();
-            this.txtBodyWeightMale = new System.Windows.Forms.TextBox();
+            this.txtBodyWeightA = new System.Windows.Forms.TextBox();
             this.txtSelfControlB = new System.Windows.Forms.TextBox();
             this.mtxtBodySizeB = new System.Windows.Forms.MaskedTextBox();
             this.txtSelfControlA = new System.Windows.Forms.TextBox();
@@ -139,10 +139,10 @@ namespace mcreator
             this.lblSelfControlB = new System.Windows.Forms.Label();
             this.lblDice6E = new System.Windows.Forms.Label();
             this.lblDice6F = new System.Windows.Forms.Label();
-            this.txtBodySizeMale = new System.Windows.Forms.TextBox();
+            this.txtBodySizeA = new System.Windows.Forms.TextBox();
             this.mtxtBodyWeightB = new System.Windows.Forms.MaskedTextBox();
             this.lblSelfControlA = new System.Windows.Forms.Label();
-            this.txtBodySizeFemale = new System.Windows.Forms.TextBox();
+            this.txtBodySizeB = new System.Windows.Forms.TextBox();
             this.mtxtSelfControl = new System.Windows.Forms.MaskedTextBox();
             this.txtHanded = new System.Windows.Forms.TextBox();
             this.btnHanded = new System.Windows.Forms.Button();
@@ -150,10 +150,10 @@ namespace mcreator
             this.lblCharismaValues = new System.Windows.Forms.Label();
             this.lblHanded = new System.Windows.Forms.Label();
             this.mtxtAppearance = new System.Windows.Forms.MaskedTextBox();
-            this.lblSizeDescA = new System.Windows.Forms.Label();
+            this.lblBodySizeA = new System.Windows.Forms.Label();
             this.mtxtHanded = new System.Windows.Forms.MaskedTextBox();
             this.lblAppearance = new System.Windows.Forms.Label();
-            this.lblSizeDescB = new System.Windows.Forms.Label();
+            this.lblBodySizeB = new System.Windows.Forms.Label();
             this.lblBodyWeight = new System.Windows.Forms.Label();
             this.lblSelfControlValues = new System.Windows.Forms.Label();
             this.lblDice100C = new System.Windows.Forms.Label();
@@ -674,15 +674,15 @@ namespace mcreator
             resources.ApplyResources(this.mtxtBodyWeightC, "mtxtBodyWeightC");
             this.mtxtBodyWeightC.Name = "mtxtBodyWeightC";
             // 
-            // lblWeightDescB
+            // lblBodyWeightB
             // 
-            resources.ApplyResources(this.lblWeightDescB, "lblWeightDescB");
-            this.lblWeightDescB.Name = "lblWeightDescB";
+            resources.ApplyResources(this.lblBodyWeightB, "lblBodyWeightB");
+            this.lblBodyWeightB.Name = "lblBodyWeightB";
             // 
-            // lblWeightDescA
+            // lblBodyWeightA
             // 
-            resources.ApplyResources(this.lblWeightDescA, "lblWeightDescA");
-            this.lblWeightDescA.Name = "lblWeightDescA";
+            resources.ApplyResources(this.lblBodyWeightA, "lblBodyWeightA");
+            this.lblBodyWeightA.Name = "lblBodyWeightA";
             // 
             // txtWillpower
             // 
@@ -716,11 +716,11 @@ namespace mcreator
             resources.ApplyResources(this.mtxtBodyWeightD, "mtxtBodyWeightD");
             this.mtxtBodyWeightD.Name = "mtxtBodyWeightD";
             // 
-            // txtBodyWeightFemale
+            // txtBodyWeightB
             // 
-            resources.ApplyResources(this.txtBodyWeightFemale, "txtBodyWeightFemale");
-            this.txtBodyWeightFemale.Name = "txtBodyWeightFemale";
-            this.txtBodyWeightFemale.ReadOnly = true;
+            resources.ApplyResources(this.txtBodyWeightB, "txtBodyWeightB");
+            this.txtBodyWeightB.Name = "txtBodyWeightB";
+            this.txtBodyWeightB.ReadOnly = true;
             // 
             // txtSelfControlC
             // 
@@ -728,11 +728,11 @@ namespace mcreator
             this.txtSelfControlC.Name = "txtSelfControlC";
             this.txtSelfControlC.ReadOnly = true;
             // 
-            // txtBodyWeightMale
+            // txtBodyWeightA
             // 
-            resources.ApplyResources(this.txtBodyWeightMale, "txtBodyWeightMale");
-            this.txtBodyWeightMale.Name = "txtBodyWeightMale";
-            this.txtBodyWeightMale.ReadOnly = true;
+            resources.ApplyResources(this.txtBodyWeightA, "txtBodyWeightA");
+            this.txtBodyWeightA.Name = "txtBodyWeightA";
+            this.txtBodyWeightA.ReadOnly = true;
             // 
             // txtSelfControlB
             // 
@@ -792,11 +792,11 @@ namespace mcreator
             resources.ApplyResources(this.lblDice6F, "lblDice6F");
             this.lblDice6F.Name = "lblDice6F";
             // 
-            // txtBodySizeMale
+            // txtBodySizeA
             // 
-            resources.ApplyResources(this.txtBodySizeMale, "txtBodySizeMale");
-            this.txtBodySizeMale.Name = "txtBodySizeMale";
-            this.txtBodySizeMale.ReadOnly = true;
+            resources.ApplyResources(this.txtBodySizeA, "txtBodySizeA");
+            this.txtBodySizeA.Name = "txtBodySizeA";
+            this.txtBodySizeA.ReadOnly = true;
             // 
             // mtxtBodyWeightB
             // 
@@ -809,11 +809,11 @@ namespace mcreator
             resources.ApplyResources(this.lblSelfControlA, "lblSelfControlA");
             this.lblSelfControlA.Name = "lblSelfControlA";
             // 
-            // txtBodySizeFemale
+            // txtBodySizeB
             // 
-            resources.ApplyResources(this.txtBodySizeFemale, "txtBodySizeFemale");
-            this.txtBodySizeFemale.Name = "txtBodySizeFemale";
-            this.txtBodySizeFemale.ReadOnly = true;
+            resources.ApplyResources(this.txtBodySizeB, "txtBodySizeB");
+            this.txtBodySizeB.Name = "txtBodySizeB";
+            this.txtBodySizeB.ReadOnly = true;
             // 
             // mtxtSelfControl
             // 
@@ -855,10 +855,10 @@ namespace mcreator
             resources.ApplyResources(this.mtxtAppearance, "mtxtAppearance");
             this.mtxtAppearance.Name = "mtxtAppearance";
             // 
-            // lblSizeDescA
+            // lblBodySizeA
             // 
-            resources.ApplyResources(this.lblSizeDescA, "lblSizeDescA");
-            this.lblSizeDescA.Name = "lblSizeDescA";
+            resources.ApplyResources(this.lblBodySizeA, "lblBodySizeA");
+            this.lblBodySizeA.Name = "lblBodySizeA";
             // 
             // mtxtHanded
             // 
@@ -871,10 +871,10 @@ namespace mcreator
             resources.ApplyResources(this.lblAppearance, "lblAppearance");
             this.lblAppearance.Name = "lblAppearance";
             // 
-            // lblSizeDescB
+            // lblBodySizeB
             // 
-            resources.ApplyResources(this.lblSizeDescB, "lblSizeDescB");
-            this.lblSizeDescB.Name = "lblSizeDescB";
+            resources.ApplyResources(this.lblBodySizeB, "lblBodySizeB");
+            this.lblBodySizeB.Name = "lblBodySizeB";
             // 
             // lblBodyWeight
             // 
@@ -1082,16 +1082,16 @@ namespace mcreator
             this.Controls.Add(this.lblAdventurePoints);
             this.Controls.Add(this.lblConstitution);
             this.Controls.Add(this.mtxtBodyWeightC);
-            this.Controls.Add(this.lblWeightDescB);
-            this.Controls.Add(this.lblWeightDescA);
+            this.Controls.Add(this.lblBodyWeightB);
+            this.Controls.Add(this.lblBodyWeightA);
             this.Controls.Add(this.txtWillpower);
             this.Controls.Add(this.txtCharisma);
             this.Controls.Add(this.btnWillpower);
             this.Controls.Add(this.btnCharisma);
             this.Controls.Add(this.mtxtBodyWeightD);
-            this.Controls.Add(this.txtBodyWeightFemale);
+            this.Controls.Add(this.txtBodyWeightB);
             this.Controls.Add(this.txtSelfControlC);
-            this.Controls.Add(this.txtBodyWeightMale);
+            this.Controls.Add(this.txtBodyWeightA);
             this.Controls.Add(this.txtSelfControlB);
             this.Controls.Add(this.mtxtBodySizeB);
             this.Controls.Add(this.txtSelfControlA);
@@ -1103,10 +1103,10 @@ namespace mcreator
             this.Controls.Add(this.lblSelfControlB);
             this.Controls.Add(this.lblDice6E);
             this.Controls.Add(this.lblDice6F);
-            this.Controls.Add(this.txtBodySizeMale);
+            this.Controls.Add(this.txtBodySizeA);
             this.Controls.Add(this.mtxtBodyWeightB);
             this.Controls.Add(this.lblSelfControlA);
-            this.Controls.Add(this.txtBodySizeFemale);
+            this.Controls.Add(this.txtBodySizeB);
             this.Controls.Add(this.mtxtSelfControl);
             this.Controls.Add(this.txtHanded);
             this.Controls.Add(this.btnHanded);
@@ -1114,10 +1114,10 @@ namespace mcreator
             this.Controls.Add(this.lblCharismaValues);
             this.Controls.Add(this.lblHanded);
             this.Controls.Add(this.mtxtAppearance);
-            this.Controls.Add(this.lblSizeDescA);
+            this.Controls.Add(this.lblBodySizeA);
             this.Controls.Add(this.mtxtHanded);
             this.Controls.Add(this.lblAppearance);
-            this.Controls.Add(this.lblSizeDescB);
+            this.Controls.Add(this.lblBodySizeB);
             this.Controls.Add(this.lblBodyWeight);
             this.Controls.Add(this.lblSelfControlValues);
             this.Controls.Add(this.lblDice100C);
@@ -1129,6 +1129,7 @@ namespace mcreator
             this.MaximizeBox = false;
             this.Name = "FrmCreateCharacter";
             this.ShowIcon = false;
+            this.Load += new System.EventHandler(this.FrmCreateCharacter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1224,16 +1225,16 @@ namespace mcreator
         private System.Windows.Forms.Label lblAdventurePoints;
         private System.Windows.Forms.Label lblConstitution;
         private System.Windows.Forms.MaskedTextBox mtxtBodyWeightC;
-        private System.Windows.Forms.Label lblWeightDescB;
-        private System.Windows.Forms.Label lblWeightDescA;
+        private System.Windows.Forms.Label lblBodyWeightB;
+        private System.Windows.Forms.Label lblBodyWeightA;
         private System.Windows.Forms.TextBox txtWillpower;
         private System.Windows.Forms.TextBox txtCharisma;
         private System.Windows.Forms.Button btnWillpower;
         private System.Windows.Forms.Button btnCharisma;
         private System.Windows.Forms.MaskedTextBox mtxtBodyWeightD;
-        private System.Windows.Forms.TextBox txtBodyWeightFemale;
+        private System.Windows.Forms.TextBox txtBodyWeightB;
         private System.Windows.Forms.TextBox txtSelfControlC;
-        private System.Windows.Forms.TextBox txtBodyWeightMale;
+        private System.Windows.Forms.TextBox txtBodyWeightA;
         private System.Windows.Forms.TextBox txtSelfControlB;
         private System.Windows.Forms.MaskedTextBox mtxtBodySizeB;
         private System.Windows.Forms.TextBox txtSelfControlA;
@@ -1245,10 +1246,10 @@ namespace mcreator
         private System.Windows.Forms.Label lblSelfControlB;
         private System.Windows.Forms.Label lblDice6E;
         private System.Windows.Forms.Label lblDice6F;
-        private System.Windows.Forms.TextBox txtBodySizeMale;
+        private System.Windows.Forms.TextBox txtBodySizeA;
         private System.Windows.Forms.MaskedTextBox mtxtBodyWeightB;
         private System.Windows.Forms.Label lblSelfControlA;
-        private System.Windows.Forms.TextBox txtBodySizeFemale;
+        private System.Windows.Forms.TextBox txtBodySizeB;
         private System.Windows.Forms.MaskedTextBox mtxtSelfControl;
         private System.Windows.Forms.TextBox txtHanded;
         private System.Windows.Forms.Button btnHanded;
@@ -1256,10 +1257,10 @@ namespace mcreator
         private System.Windows.Forms.Label lblCharismaValues;
         private System.Windows.Forms.Label lblHanded;
         private System.Windows.Forms.MaskedTextBox mtxtAppearance;
-        private System.Windows.Forms.Label lblSizeDescA;
+        private System.Windows.Forms.Label lblBodySizeA;
         private System.Windows.Forms.MaskedTextBox mtxtHanded;
         private System.Windows.Forms.Label lblAppearance;
-        private System.Windows.Forms.Label lblSizeDescB;
+        private System.Windows.Forms.Label lblBodySizeB;
         private System.Windows.Forms.Label lblBodyWeight;
         private System.Windows.Forms.Label lblSelfControlValues;
         private System.Windows.Forms.Label lblDice100C;

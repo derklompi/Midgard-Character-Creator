@@ -94,12 +94,6 @@
     <Compile Include="Classes\InbornBuff.cs" />
     <Compile Include="Classes\Resistance.cs" />
     <Compile Include="Classes\TimerCheck.cs" />
-    <Compile Include="FrmCreateAlien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmCreateAlien.Designer.cs">
-      <DependentUpon>FrmCreateAlien.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmCreateCharacter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,9 +109,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\CombatBuffs.cs" />
-    <EmbeddedResource Include="FrmCreateAlien.resx">
-      <DependentUpon>FrmCreateAlien.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmCreateCharacter.resx">
       <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
     </EmbeddedResource>

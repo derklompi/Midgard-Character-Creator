@@ -541,7 +541,7 @@
     <value>23</value>
   </data>
   <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 106</value>
+    <value>213, 106</value>
   </data>
   <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -2661,64 +2661,64 @@
   <data name="&gt;&gt;mtxtBodyWeightC.ZOrder" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="lblWeightDescB.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblBodyWeightB.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblWeightDescB.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblBodyWeightB.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 246</value>
   </data>
-  <data name="lblWeightDescB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="lblBodyWeightB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="lblWeightDescB.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblBodyWeightB.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 13</value>
   </data>
-  <data name="lblWeightDescB.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblBodyWeightB.TabIndex" type="System.Int32, mscorlib">
     <value>945</value>
   </data>
-  <data name="lblWeightDescB.Text" xml:space="preserve">
+  <data name="lblBodyWeightB.Text" xml:space="preserve">
     <value>kg (Frau)</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescB.Name" xml:space="preserve">
-    <value>lblWeightDescB</value>
+  <data name="&gt;&gt;lblBodyWeightB.Name" xml:space="preserve">
+    <value>lblBodyWeightB</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescB.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblBodyWeightB.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescB.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblBodyWeightB.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescB.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblBodyWeightB.ZOrder" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="lblWeightDescA.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblBodyWeightA.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblWeightDescA.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblBodyWeightA.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 220</value>
   </data>
-  <data name="lblWeightDescA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="lblBodyWeightA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="lblWeightDescA.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblBodyWeightA.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 13</value>
   </data>
-  <data name="lblWeightDescA.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblBodyWeightA.TabIndex" type="System.Int32, mscorlib">
     <value>944</value>
   </data>
-  <data name="lblWeightDescA.Text" xml:space="preserve">
+  <data name="lblBodyWeightA.Text" xml:space="preserve">
     <value>kg (Mann)</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescA.Name" xml:space="preserve">
-    <value>lblWeightDescA</value>
+  <data name="&gt;&gt;lblBodyWeightA.Name" xml:space="preserve">
+    <value>lblBodyWeightA</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescA.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblBodyWeightA.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescA.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblBodyWeightA.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblWeightDescA.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblBodyWeightA.ZOrder" xml:space="preserve">
     <value>98</value>
   </data>
   <data name="txtWillpower.Location" type="System.Drawing.Point, System.Drawing">
@@ -2865,31 +2865,31 @@
   <data name="&gt;&gt;mtxtBodyWeightD.ZOrder" xml:space="preserve">
     <value>103</value>
   </data>
-  <data name="txtBodyWeightFemale.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtBodyWeightB.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 243</value>
   </data>
-  <data name="txtBodyWeightFemale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="txtBodyWeightB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
   </data>
-  <data name="txtBodyWeightFemale.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtBodyWeightB.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 20</value>
   </data>
-  <data name="txtBodyWeightFemale.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtBodyWeightB.TabIndex" type="System.Int32, mscorlib">
     <value>939</value>
   </data>
-  <data name="txtBodyWeightFemale.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtBodyWeightB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightFemale.Name" xml:space="preserve">
-    <value>txtBodyWeightFemale</value>
+  <data name="&gt;&gt;txtBodyWeightB.Name" xml:space="preserve">
+    <value>txtBodyWeightB</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightFemale.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtBodyWeightB.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightFemale.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtBodyWeightB.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightFemale.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtBodyWeightB.ZOrder" xml:space="preserve">
     <value>104</value>
   </data>
   <data name="txtSelfControlC.Location" type="System.Drawing.Point, System.Drawing">
@@ -2919,31 +2919,31 @@
   <data name="&gt;&gt;txtSelfControlC.ZOrder" xml:space="preserve">
     <value>105</value>
   </data>
-  <data name="txtBodyWeightMale.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtBodyWeightA.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 217</value>
   </data>
-  <data name="txtBodyWeightMale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="txtBodyWeightA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
   </data>
-  <data name="txtBodyWeightMale.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtBodyWeightA.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 20</value>
   </data>
-  <data name="txtBodyWeightMale.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtBodyWeightA.TabIndex" type="System.Int32, mscorlib">
     <value>938</value>
   </data>
-  <data name="txtBodyWeightMale.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtBodyWeightA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightMale.Name" xml:space="preserve">
-    <value>txtBodyWeightMale</value>
+  <data name="&gt;&gt;txtBodyWeightA.Name" xml:space="preserve">
+    <value>txtBodyWeightA</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightMale.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtBodyWeightA.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightMale.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtBodyWeightA.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBodyWeightMale.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtBodyWeightA.ZOrder" xml:space="preserve">
     <value>106</value>
   </data>
   <data name="txtSelfControlB.Location" type="System.Drawing.Point, System.Drawing">
@@ -3271,31 +3271,31 @@
   <data name="&gt;&gt;lblDice6F.ZOrder" xml:space="preserve">
     <value>117</value>
   </data>
-  <data name="txtBodySizeMale.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtBodySizeA.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 160</value>
   </data>
-  <data name="txtBodySizeMale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="txtBodySizeA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
   </data>
-  <data name="txtBodySizeMale.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtBodySizeA.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 20</value>
   </data>
-  <data name="txtBodySizeMale.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtBodySizeA.TabIndex" type="System.Int32, mscorlib">
     <value>918</value>
   </data>
-  <data name="txtBodySizeMale.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtBodySizeA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeMale.Name" xml:space="preserve">
-    <value>txtBodySizeMale</value>
+  <data name="&gt;&gt;txtBodySizeA.Name" xml:space="preserve">
+    <value>txtBodySizeA</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeMale.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtBodySizeA.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeMale.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtBodySizeA.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeMale.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtBodySizeA.ZOrder" xml:space="preserve">
     <value>118</value>
   </data>
   <data name="mtxtBodyWeightB.Location" type="System.Drawing.Point, System.Drawing">
@@ -3359,31 +3359,31 @@
   <data name="&gt;&gt;lblSelfControlA.ZOrder" xml:space="preserve">
     <value>120</value>
   </data>
-  <data name="txtBodySizeFemale.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtBodySizeB.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 186</value>
   </data>
-  <data name="txtBodySizeFemale.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="txtBodySizeB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
   </data>
-  <data name="txtBodySizeFemale.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtBodySizeB.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 20</value>
   </data>
-  <data name="txtBodySizeFemale.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtBodySizeB.TabIndex" type="System.Int32, mscorlib">
     <value>919</value>
   </data>
-  <data name="txtBodySizeFemale.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+  <data name="txtBodySizeB.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeFemale.Name" xml:space="preserve">
-    <value>txtBodySizeFemale</value>
+  <data name="&gt;&gt;txtBodySizeB.Name" xml:space="preserve">
+    <value>txtBodySizeB</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeFemale.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtBodySizeB.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeFemale.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtBodySizeB.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txtBodySizeFemale.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtBodySizeB.ZOrder" xml:space="preserve">
     <value>121</value>
   </data>
   <data name="mtxtSelfControl.Location" type="System.Drawing.Point, System.Drawing">
@@ -3593,34 +3593,34 @@
   <data name="&gt;&gt;mtxtAppearance.ZOrder" xml:space="preserve">
     <value>128</value>
   </data>
-  <data name="lblSizeDescA.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblBodySizeA.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblSizeDescA.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblBodySizeA.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 163</value>
   </data>
-  <data name="lblSizeDescA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="lblBodySizeA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="lblSizeDescA.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblBodySizeA.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 13</value>
   </data>
-  <data name="lblSizeDescA.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblBodySizeA.TabIndex" type="System.Int32, mscorlib">
     <value>924</value>
   </data>
-  <data name="lblSizeDescA.Text" xml:space="preserve">
+  <data name="lblBodySizeA.Text" xml:space="preserve">
     <value>cm (Mann)</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescA.Name" xml:space="preserve">
-    <value>lblSizeDescA</value>
+  <data name="&gt;&gt;lblBodySizeA.Name" xml:space="preserve">
+    <value>lblBodySizeA</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescA.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblBodySizeA.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescA.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblBodySizeA.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescA.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblBodySizeA.ZOrder" xml:space="preserve">
     <value>129</value>
   </data>
   <data name="mtxtHanded.Location" type="System.Drawing.Point, System.Drawing">
@@ -3683,34 +3683,34 @@
   <data name="&gt;&gt;lblAppearance.ZOrder" xml:space="preserve">
     <value>131</value>
   </data>
-  <data name="lblSizeDescB.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblBodySizeB.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="lblSizeDescB.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lblBodySizeB.Location" type="System.Drawing.Point, System.Drawing">
     <value>291, 189</value>
   </data>
-  <data name="lblSizeDescB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="lblBodySizeB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
-  <data name="lblSizeDescB.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lblBodySizeB.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 13</value>
   </data>
-  <data name="lblSizeDescB.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblBodySizeB.TabIndex" type="System.Int32, mscorlib">
     <value>925</value>
   </data>
-  <data name="lblSizeDescB.Text" xml:space="preserve">
+  <data name="lblBodySizeB.Text" xml:space="preserve">
     <value>cm (Frau)</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescB.Name" xml:space="preserve">
-    <value>lblSizeDescB</value>
+  <data name="&gt;&gt;lblBodySizeB.Name" xml:space="preserve">
+    <value>lblBodySizeB</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescB.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblBodySizeB.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescB.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lblBodySizeB.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblSizeDescB.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lblBodySizeB.ZOrder" xml:space="preserve">
     <value>132</value>
   </data>
   <data name="lblBodyWeight.AutoSize" type="System.Boolean, mscorlib">
@@ -4167,16 +4167,16 @@
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
   </data>
   <data name="lblStatCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 111</value>
+    <value>17, 111</value>
   </data>
   <data name="lblStatCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 13</value>
+    <value>83, 13</value>
   </data>
   <data name="lblStatCheck.TabIndex" type="System.Int32, mscorlib">
     <value>1101</value>
   </data>
   <data name="lblStatCheck.Text" xml:space="preserve">
-    <value>Summe zu klein</value>
+    <value>Summe &lt; 350</value>
   </data>
   <data name="&gt;&gt;lblStatCheck.Name" xml:space="preserve">
     <value>lblStatCheck</value>

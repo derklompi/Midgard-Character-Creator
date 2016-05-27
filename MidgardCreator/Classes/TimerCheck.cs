@@ -5,17 +5,33 @@ namespace mcreator.Classes
     class TimerCheck
     {
         private bool bodySizeCheck;
-        public bool BodySizeCheck(string mtxtBodySizeA, string mtxtBodySizeB, string txtStats)
+        public bool BodySizeCheck(string mtxtBodySizeA, string mtxtBodySizeB, string txtStats, string title)
         {
-            if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && txtStats == "true" && 
-                Convert.ToInt32(mtxtBodySizeA) <= 6 && Convert.ToInt32(mtxtBodySizeB) <= 6)
+            if(title == "Midgard Creator - Mensch")
             {
-                bodySizeCheck = true;
+                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && txtStats == "true" &&
+                Convert.ToInt32(mtxtBodySizeA) <= 20 && Convert.ToInt32(mtxtBodySizeB) <= 20)
+                {
+                    bodySizeCheck = true;
+                }
+                else
+                {
+                    bodySizeCheck = false;
+                }
             }
             else
             {
-                bodySizeCheck = false;
+                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && txtStats == "true" &&
+                Convert.ToInt32(mtxtBodySizeA) <= 6 && Convert.ToInt32(mtxtBodySizeB) <= 6)
+                {
+                    bodySizeCheck = true;
+                }
+                else
+                {
+                    bodySizeCheck = false;
+                }
             }
+            
             return bodySizeCheck;
         }
 
@@ -25,12 +41,9 @@ namespace mcreator.Classes
         {
             if (mtxtBodyWeightA != "" && mtxtBodyWeightB != "" && mtxtBodyWeightC != "" && mtxtBodyWeightD != "" && 
                 txtStats == "true" && Convert.ToInt32(mtxtBodyWeightA) <= 6 && Convert.ToInt32(mtxtBodyWeightB) <= 6 && 
-                Convert.ToInt32(mtxtBodyWeightC) <= 6 && Convert.ToInt32(mtxtBodyWeightD) <= 6)
+                Convert.ToInt32(mtxtBodyWeightC) <= 6 && Convert.ToInt32(mtxtBodyWeightD) <= 6 && txtBodySize != "")
             {
-                if (txtBodySize != "")
-                {
-                    bodyWeightCheck = true;
-                }
+                bodyWeightCheck = true;
             }
             else
             {
