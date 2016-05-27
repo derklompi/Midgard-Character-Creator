@@ -19,7 +19,7 @@ namespace mcreator
             //Convert.ToString(Thread.CurrentThread.CurrentUICulture) == "de-DE"
             Hide();
             FrmCreateCharacter createHuman= new FrmCreateCharacter();
-            createHuman.Text = "Midgard Creator - Mensch";
+            createHuman.Text = "MCreator - Mensch";
             createHuman.ShowDialog();
             createHuman = null;
             Show();
@@ -30,7 +30,7 @@ namespace mcreator
         {
             Hide();
             FrmCreateCharacter createElf = new FrmCreateCharacter();
-            createElf.Text = "Midgard Creator - Elf";
+            createElf.Text = "MCreator - Elf";
             createElf.ShowDialog();
             createElf = null;         
             Show();
@@ -40,7 +40,7 @@ namespace mcreator
         {
             Hide();
             FrmCreateCharacter createHalfling = new FrmCreateCharacter();
-            createHalfling.Text = "Midgard Creator - Halbling";
+            createHalfling.Text = "MCreator - Halbling";
             createHalfling.ShowDialog();
             createHalfling = null;
             Show();          
@@ -50,7 +50,7 @@ namespace mcreator
         {
             Hide();
             FrmCreateCharacter createDwarf = new FrmCreateCharacter();
-            createDwarf.Text = "Midgard Creator - Zwerg";
+            createDwarf.Text = "MCreator - Zwerg";
             createDwarf.ShowDialog();
             createDwarf = null;
             Show();
@@ -60,7 +60,7 @@ namespace mcreator
         {
             Hide();
             FrmCreateCharacter createGnome = new FrmCreateCharacter();
-            createGnome.Text = "Midgard Creator - Gnom";
+            createGnome.Text = "MCreator - Gnom";
             createGnome.ShowDialog();
             createGnome = null;
             Show();

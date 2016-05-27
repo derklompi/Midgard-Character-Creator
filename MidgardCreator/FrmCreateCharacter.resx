@@ -4212,7 +4212,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Midgard Creator - Mensch</value>
+    <value>MCreator - Mensch</value>
   </data>
   <data name="&gt;&gt;EnableTimer.Name" xml:space="preserve">
     <value>EnableTimer</value>

@@ -23,37 +23,25 @@ namespace mcreator.Classes
         {
             if (File.Exists(saveplace) != true)
             {
-                string race = "";
+                string charrclass = "";
 
                 // Read the title to define the race
                 switch (formTitle)
                 {
-                    case ("Midgard Creator - Mensch"):
-                        race = "Mensch";
+                    case ("MCreator - Mensch"):
+                        charrclass = "Mensch";
                         break;
-                    case ("Midgard Creator - Human"):
-                        race = "Human";
+                    case ("MCreator - Elf"):
+                        charrclass = "Elf";
                         break;
-                    case ("Midgard Creator - Elf"):
-                        race = "Elf";
+                    case ("MCreator - Halbling"):
+                        charrclass = "Halbling";
                         break;
-                    case ("Midgard Creator - Halbling"):
-                        race = "Halbling";
+                    case ("MCreator - Zwerg"):
+                        charrclass = "Zwerg";
                         break;
-                    case ("Midgard Creator - Halfling"):
-                        race = "Halfling";
-                        break;
-                    case ("Midgard Creator - Zwerg"):
-                        race = "Zwerg";
-                        break;
-                    case ("Midgard Creator - Dwarf"):
-                        race = "Dwarf";
-                        break;
-                    case ("Midgard Creator - Gnom"):
-                        race = "Gnom";
-                        break;
-                    case ("Midgard Creator - Gnome"):
-                        race = "Gnome";
+                    case ("MCreator - Gnom"):
+                        charrclass = "Gnom";
                         break;
                 }
 
@@ -62,7 +50,7 @@ namespace mcreator.Classes
                 new StreamWriter(saveplace))
                 {
                     file.WriteLine("Werte für " + characterName + " am " + currentDate);
-                    file.WriteLine("Rasse: " + race);
+                    file.WriteLine("Klasse: " + charrclass);
                     file.WriteLine("--------------------------------");
 
                     //Grundwerte
@@ -75,7 +63,7 @@ namespace mcreator.Classes
                     file.WriteLine("Zaubertalent:       " + mtxtMagicalTalent);
 
                     // Since humans have both male and female they need the extra part
-                    if (race == "Human" || race == "Mensch")
+                    if (charrclass == "Mensch")
                     {
                         file.WriteLine("Größe (Mann):       " + txtBodySizeMale + " cm");
                         file.WriteLine("Größe (Frau):       " + txtBodySizeFemale + " cm");

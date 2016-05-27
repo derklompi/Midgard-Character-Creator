@@ -22,69 +22,114 @@ namespace mcreator
         private void FrmCreateCharacter_Load(object sender, EventArgs e)
         {
             // Customizing the form for the different races
-            if (this.Text == "Midgard Creator - Gnom")
+            if (this.Text == "MCreator - Halbling")
             {
-                mtxtHanded.Enabled = false;
-                btnHanded.Enabled = false;
-                txtBodySizeB.Visible = false;
-                lblBodySizeB.Visible = false;
-                txtBodyWeightB.Visible = false;
-                lblBodyWeightB.Visible = false;
+                // Hide not needed fields
+                // Handed
+                mtxtHanded.Visible      = false;
+                btnHanded.Visible       = false;
+                lblDice20C.Visible      = false;
+                // Bodysize
+                mtxtBodyWeightD.Visible = false;
+                txtBodySizeB.Visible    = false;
+                lblBodySizeB.Visible    = false;
+                lblDice6F.Visible       = false;
+                //Bodyweight
+                txtBodyWeightB.Visible  = false;
+                lblBodyWeightB.Visible  = false;
+                
 
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
-                lblBodySizeB.Text = "kg";
+                // Change Text of labels
+                lblDice20A.Text     = "1W6";
+                lblDice20B.Text     = "1W6";
+                lblBodySizeA.Text   = "cm";
+                lblBodyWeightA.Text = "kg";
 
+                // Change texts of textfields
+                // Handed
                 txtHanded.Text = "Beidhändig";
+                //BodyWeight
+                mtxtBodyWeightD.Text = "0";
             }
-            if (this.Text == "Midgard Creator - Elf")
+            if (this.Text == "MCreator - Elf")
             {
+                // Hide not needed fields
+                // Bodysize               
                 txtBodySizeB.Visible = false;
                 lblBodySizeB.Visible = false;
+                //Bodyweight
                 txtBodyWeightB.Visible = false;
                 lblBodyWeightB.Visible = false;
 
+
+                // Change Text of labels
                 lblDice20A.Text = "1W6";
                 lblDice20B.Text = "1W6";
                 lblBodySizeA.Text = "cm";
-                lblBodySizeB.Text = "kg";
+                lblBodyWeightA.Text = "kg";
             }
-            if (this.Text == "Midgard Creator - Zwerg")
+            if (this.Text == "MCreator - Zwerg")
             {
-                txtBodySizeB.Visible = false;
-                lblBodySizeB.Visible = false;
+                // Hide not needed fields
+                // Bodysize               
+                txtBodySizeB.Visible    = false;
+                lblBodySizeB.Visible    = false;
+                lblDice20B.Visible      = false;
+                mtxtBodySizeB.Visible   = false;
+                //Bodyweight
                 txtBodyWeightB.Visible = false;
                 lblBodyWeightB.Visible = false;
 
+
+                // Change Text of labels
                 lblDice20A.Text = "1W6";
                 lblDice20B.Text = "1W6";
                 lblBodySizeA.Text = "cm";
-                lblBodySizeB.Text = "kg";
-            }
-            if (this.Text == "Midgard Creator - Halbling")
-            {
-                txtBodySizeB.Visible = false;
-                lblBodySizeB.Visible = false;
-                txtBodyWeightB.Visible = false;
-                lblBodyWeightB.Visible = false;
+                lblBodyWeightA.Text = "kg";
 
+                // Change texts of textfields
+                //BodySize
+                mtxtBodySizeB.Text = "0";
+            }
+            if (this.Text == "MCreator - Gnom")
+            {
+                // Hide not needed fields
+                // Bodysize                
+                txtBodySizeB.Visible    = false;
+                lblBodySizeB.Visible    = false;
+                lblDice20B.Visible      = false;
+                mtxtBodySizeB.Visible   = false;
+                //Bodyweight
+                mtxtBodyWeightD.Visible = false;
+                txtBodyWeightB.Visible  = false;
+                lblBodyWeightB.Visible  = false;
+                lblDice6F.Visible       = false;               
+                // Change Text of labels
                 lblDice20A.Text = "1W6";
                 lblDice20B.Text = "1W6";
                 lblBodySizeA.Text = "cm";
-                lblBodySizeB.Text = "kg";
-            }
-            if (this.Text == "Midgard Creator - Mensch")
-            {
-                txtBodySizeB.Visible = true;
-                lblBodySizeB.Visible = true;
-                txtBodyWeightB.Visible = true;
-                lblBodyWeightB.Visible = true;
+                lblBodyWeightA.Text = "kg";
 
-                lblDice20A.Text = "1W20";
-                lblDice20B.Text = "1W20";
-                lblBodySizeA.Text = "cm (Mann)";
-                lblBodySizeB.Text = "kg (Mann)";
+                // Change texts of textfields
+                //BodySize
+                mtxtBodySizeB.Text = "0";
+                //BodyWeight
+                mtxtBodyWeightD.Text = "0";
+            }
+            if (this.Text == "MCreator - Mensch")
+            {
+                // UnHide not needed fields
+                // Bodysize 
+                txtBodySizeB.Visible    = true;
+                lblBodySizeB.Visible    = true;
+                txtBodyWeightB.Visible  = true;
+                lblBodyWeightB.Visible  = true;
+
+                // Change Text of labels
+                lblDice20A.Text     = "1W20";
+                lblDice20B.Text     = "1W20";
+                lblBodySizeA.Text   = "cm (Mann)";
+                lblBodyWeightA.Text = "kg (Mann)";
             }
         }
 
@@ -122,13 +167,51 @@ namespace mcreator
                     mtxtMagicalTalent.Text  = Convert.ToString(magicTalent);
                     mtxtIntelligence.Text   = Convert.ToString(intelligence);
 
-                    mtxtBodySizeA.Text      = Convert.ToString(Rnd.Next(1, 21));
-                    mtxtBodySizeB.Text      = Convert.ToString(Rnd.Next(1, 21));
+                    if (this.Text == "MCreator - Mensch")
+                    {
+                        mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 21));
+                        mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 21));
+                    }
+                    else
+                    {
+                        if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Gnom")
+                        {
+                            mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodySizeB.Text = Convert.ToString(0);
+                        }
+                        if (this.Text == "MCreator - Elf" || this.Text == "MCreator - Halbling")
+                        {
+                            mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 7));
+                        }           
+                    }
+
+                    if (this.Text == "MCreator - Mensch")
+                    {
+                        mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
+                        mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
+                        mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
+                        mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(1, 7));
+                    }
+                    else
+                    {
+                        if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Elf")
+                        {
+                            mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(1, 7));
+                        }
+                        if (this.Text == "MCreator - Gnom" || this.Text == "MCreator - Halbling")
+                        {
+                            mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
+                            mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(0));
+                        }
+                    }
+                                       
                     
-                    mtxtBodyWeightA.Text    = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightB.Text    = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightC.Text    = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtBodyWeightD.Text    = Convert.ToString(Rnd.Next(1, 7));
 
                     mtxtAppearance.Text     = Convert.ToString(Rnd.Next(1, 101));
                     mtxtCharisma.Text       = Convert.ToString(Rnd.Next(1, 101));
@@ -179,13 +262,28 @@ namespace mcreator
                     txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
                     txtDoMagic0.Text    = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
 
+                    BodyValues bv = new BodyValues();
 
+                    if (this.Text == "MCreator - Mensch")
+                    {
+                        txtBodySizeA.Text = Convert.ToString(bv.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
+                        txtBodySizeB.Text = Convert.ToString(bv.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
+                    }
+                    else
+                    {
+                        txtBodySizeA.Text = Convert.ToString(bv.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                    }
 
-                    txtBodySizeA.Text    = Convert.ToString(Convert.ToInt32(mtxtBodySizeA.Text) + Convert.ToInt32(mtxtBodySizeB.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + 150);
-                    txtBodySizeB.Text  = Convert.ToString(Convert.ToInt32(mtxtBodySizeA.Text) + Convert.ToInt32(mtxtBodySizeB.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + 140);
-
-                    txtBodyWeightA.Text      = Convert.ToString(Convert.ToInt32(mtxtBodyWeightA.Text) + Convert.ToInt32(mtxtBodyWeightB.Text) + Convert.ToInt32(mtxtBodyWeightC.Text) + Convert.ToInt32(mtxtBodyWeightD.Text) + (Convert.ToInt32(mtxtStrength.Text) / 10) + Convert.ToInt32(txtBodySizeA.Text) - 120);
-                    txtBodyWeightB.Text    = Convert.ToString((Convert.ToInt32(mtxtBodyWeightA.Text) + Convert.ToInt32(mtxtBodyWeightB.Text) + Convert.ToInt32(mtxtBodyWeightC.Text) + Convert.ToInt32(mtxtBodyWeightD.Text) - 4) + (Convert.ToInt32(mtxtStrength.Text) / 10) + Convert.ToInt32(txtBodySizeB.Text) - 120);
+                    if (this.Text == "MCreator - Mensch")
+                    {
+                        txtBodyWeightA.Text = Convert.ToString(bv.BodyWeight(mtxtBodyWeightA.Text,mtxtBodyWeightB.Text,mtxtBodyWeightC.Text,mtxtBodyWeightD.Text,mtxtStrength.Text,txtBodySizeA.Text,this.Text));
+                        txtBodyWeightB.Text = Convert.ToString(bv.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text) -4);
+                    }
+                    else
+                    {
+                        txtBodyWeightA.Text = Convert.ToString(bv.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
+                    }
+                    
 
                     Soul s = new Soul();
 
@@ -194,8 +292,15 @@ namespace mcreator
                     txtSelfControlA.Text    = Convert.ToString(s.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
                     txtSelfControlB.Text    = Convert.ToString(s.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
                     txtSelfControlC.Text    = Convert.ToString(s.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtHanded.Text          = s.Handed(mtxtHanded.Text);
 
+                    if (this.Text == "MCreator - Halfling")
+                    {
+                        txtHanded.Text = "Beidhändig";
+                    }
+                    else
+                    {
+                        txtHanded.Text = s.Handed(mtxtHanded.Text);
+                    }
 
                     AdventureLifePoints alp = new AdventureLifePoints();
 
@@ -374,7 +479,7 @@ namespace mcreator
                 {
                     lblStatCheck.Text = "Summe OK";
                     lblStatCheck.ForeColor = System.Drawing.Color.Green;
-                    txtStats.Text = "false";
+                    txtStats.Text = "true";
 
                     CombatBuffs cb = new CombatBuffs();
 
@@ -476,8 +581,7 @@ namespace mcreator
             #endregion
             TimerCheck t = new TimerCheck();
             //BodySize
-            btnBodySize.Enabled = true;
-                //t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, txtStats.Text, this.Text);
+            btnBodySize.Enabled = t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, txtStats.Text, this.Text); ;
 
             //BodyWeight
             btnBodyWeight.Enabled = t.BodyWeightCheck(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, txtStats.Text, txtBodySizeA.Text);
@@ -517,7 +621,7 @@ namespace mcreator
                 string dummyA = "", dummyB = "";
                 DateTime currentDate = DateTime.Now;
                 date = currentDate.ToString("dd-MM-yyy");
-                saveplace = @"" + txtExportPath.Text + "\\" + txtCharacterName.Text + "-MidgardCreator_" + date + ".txt";
+                saveplace = @"" + txtExportPath.Text + "\\" + txtCharacterName.Text + "-MCreator_" + date + ".txt";
 
                 Export exp = new Export(this.Text, saveplace, txtCharacterName.Text, date, mtxtStrength.Text, mtxtDexterity.Text, mtxtAgility.Text, mtxtConstitution.Text, mtxtIntelligence.Text,
                     mtxtMagicalTalent.Text, dummyA, dummyB, mtxtAppearance.Text, txtCharisma.Text, txtWillpower.Text, txtSelfControlA.Text, txtSelfControlB.Text,

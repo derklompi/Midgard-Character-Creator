@@ -15,31 +15,31 @@ namespace mcreator.Classes
             if (tempAdventurePointsAValue >= 4)
             {
                 // Calculations for dwarfs
-                if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+                if (formTitle == "MCreator - Zwerg")
                 {
                     adventurePointsAValue = tempAdventurePointsAValue;
                 }
                 
                 // Calculations for elfs
-                if (formTitle == "Midgard Creator - Elf")
+                if (formTitle == "MCreator - Elf")
                 {
                     adventurePointsAValue = tempAdventurePointsAValue;
                 }
 
                 // Calculations for gnomes
-                if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+                if (formTitle == "MCreator - Gnom")
                 {
                     adventurePointsAValue = tempAdventurePointsAValue - 2;
                 }
 
                 // Calculations for halflings
-                if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+                if (formTitle == "MCreator - Halbling")
                 {
                     adventurePointsAValue = tempAdventurePointsAValue - 1;
                 }
 
                 // Calculations for humans
-                if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
+                if (formTitle == "MCreator - Mensch")
                 {
                     adventurePointsAValue = tempAdventurePointsAValue;
                 }
@@ -62,31 +62,31 @@ namespace mcreator.Classes
             if (tempAdventurePointsBValue >= 4)
             {
                 // Calculations for dwarfs
-                if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+                if (formTitle == "MCreator - Zwerg")
                 {
                     adventurePointsBValue = tempAdventurePointsBValue;
                 }
 
                 // Calculations for elfs
-                if (formTitle == "Midgard Creator - Elf")
+                if (formTitle == "MCreator - Elf")
                 {
                     adventurePointsBValue = tempAdventurePointsBValue;
                 }
 
                 // Calculations for gnomes
-                if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+                if (formTitle == "MCreator - Gnom")
                 {
                     adventurePointsBValue = tempAdventurePointsBValue -2;
                 }
 
                 // Calculations for halflings
-                if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+                if (formTitle == "MCreator - Halbling")
                 {
                     adventurePointsBValue = tempAdventurePointsBValue -1;
                 }
 
                 // Calculations for humans
-                if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
+                if (formTitle == "MCreator - Mensch")
                 {
                     adventurePointsBValue = tempAdventurePointsBValue;
                 }
@@ -108,31 +108,31 @@ namespace mcreator.Classes
             if (tempAdventurePointsCValue >= 4)
             {
                 // Calculations for dwarfs
-                if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+                if (formTitle == "MCreator - Zwerg")
                 {
                     adventurePointsCValue = tempAdventurePointsCValue;
                 }
 
                 // Calculations for elfs
-                if (formTitle == "Midgard Creator - Elf")
+                if (formTitle == "MCreator - Elf")
                 {
                     adventurePointsCValue = tempAdventurePointsCValue;
                 }
 
                 // Calculations for gnomes
-                if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+                if (formTitle == "MCreator - Gnom")
                 {
                     adventurePointsCValue = tempAdventurePointsCValue - 2;
                 }
 
                 // Calculations for halflings
-                if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+                if (formTitle == "MCreator - Halbling")
                 {
                     adventurePointsCValue = tempAdventurePointsCValue - 1;
                 }
 
                 // Calculations for humans
-                if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
+                if (formTitle == "MCreator - Mensch")
                 {
                     adventurePointsCValue = tempAdventurePointsCValue;
                 }
@@ -153,31 +153,31 @@ namespace mcreator.Classes
             int lifepoints = Convert.ToInt32(mtxtLifePoints);
 
             // Calculations for humans
-            if (formTitle == "Midgard Creator - Mensch" || formTitle == "Midgard Creator - Human")
+            if (formTitle == "MCreator - Mensch")
             {
                 lifePointsValue = (constitution / 10) + lifepoints + 5;
             }
 
             // Calculations for elfs
-            if (formTitle == "Midgard Creator - Elf")
+            if (formTitle == "MCreator - Elf")
             {
                 lifePointsValue = (constitution / 10) + lifepoints + 4;
             }
 
             // Calculations for gnomes
-            if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+            if (formTitle == "MCreator - Gnom")
             {
                 lifePointsValue = (constitution / 10) + lifepoints - 1;
             }
 
             // Calculations for halflings
-            if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+            if (formTitle == "MCreator - Halbling")
             {
                 lifePointsValue = (constitution / 10) + lifepoints + 2;
             }
 
             // Calculations for dwarfs
-            if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+            if (formTitle == "MCreator - Zwerg")
             {
                 lifePointsValue = (constitution / 10) + lifepoints + 4;
             }

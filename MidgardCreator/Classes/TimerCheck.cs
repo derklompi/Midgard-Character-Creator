@@ -7,7 +7,7 @@ namespace mcreator.Classes
         private bool bodySizeCheck;
         public bool BodySizeCheck(string mtxtBodySizeA, string mtxtBodySizeB, string txtStats, string title)
         {
-            if(title == "Midgard Creator - Mensch")
+            if (title == "MCreator - Mensch")
             {
                 if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && txtStats == "true" &&
                 Convert.ToInt32(mtxtBodySizeA) <= 20 && Convert.ToInt32(mtxtBodySizeB) <= 20)

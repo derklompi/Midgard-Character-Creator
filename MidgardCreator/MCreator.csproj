@@ -7,7 +7,7 @@
     <ProjectGuid>{31BDC07D-F6B5-4C53-884B-036DFE920DD4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MidgardCreator</RootNamespace>
+    <RootNamespace>mcreator</RootNamespace>
     <AssemblyName>mcreator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

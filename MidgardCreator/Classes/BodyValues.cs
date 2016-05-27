@@ -15,29 +15,34 @@ namespace mcreator.Classes
             int strength = Convert.ToInt32(mtxtStrength);
 
             //Calculation for dwarfs
-            if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+            if (formTitle == "MCreator - Zwerg")
             {
                 bodySize = bodysizeA + (strength / 10) + 130;
             }
 
             //Calculation for elfs
-            if (formTitle == "Midgard Creator - Elf")
+            if (formTitle == "MCreator - Elf")
             {
                 bodySize = bodysizeA + bodysizeB + (strength / 10) + 160;
             }
 
             //Calculation for gnomes
-            if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+            if (formTitle == "MCreator - Gnom")
             {
                 bodySize = bodysizeA + (strength / 10) + 90;
             }
 
             //Calculation for halflings
-            if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+            if (formTitle == "MCreator - Halbling")
             {
                 bodySize = bodysizeA + bodysizeB + (strength / 10) + 100;
             }
-            
+
+            //Calculation for human
+            if (formTitle == "MCreator - Mensch")
+            {
+                bodySize = bodysizeA + bodysizeB + (strength / 10);
+            }            
             return bodySize;
         }
 
@@ -56,31 +61,38 @@ namespace mcreator.Classes
             int bodysize = Convert.ToInt32(txtBodySize);
 
             //Calculation for dwarfs
-            if (formTitle == "Midgard Creator - Zwerg" || formTitle == "Midgard Creator - Dwarf")
+            if (formTitle == "MCreator - Zwerg")
             {
                 bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 90;
             }
 
             //Calculation for elfs
-            if (formTitle == "Midgard Creator - Elf")
+            if (formTitle == "MCreator - Elf")
             {
                 bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 128;
             }
 
             //Calculation for gnomes
-            if (formTitle == "Midgard Creator - Gnom" || formTitle == "Midgard Creator - Gnome")
+            if (formTitle == "MCreator - Gnom")
             {
                 bodyWeight = bodyweightA + bodyweightB + bodyweightC +
                     (strength / 10) + bodysize - 90;
             }
 
             //Calculation for halflings
-            if (formTitle == "Midgard Creator - Halbling" || formTitle == "Midgard Creator - Halfling")
+            if (formTitle == "MCreator - Halbling")
             {
                 bodyWeight = bodyweightA + bodyweightB + bodyweightC +
                     (strength / 10) + bodysize - 87;
+            }
+
+            //Calculation for human
+            if (formTitle == "MCreator - Mensch")
+            {
+                bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    (strength / 10) + bodysize - 120;
             }
 
             return bodyWeight;
