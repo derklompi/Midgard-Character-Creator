@@ -1,6 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCreator", "MidgardCreator\MCreator.csproj", "{31BDC07D-F6B5-4C53-884B-036DFE920DD4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "install", "install\install.vdproj", "{98AD84B0-5FA0-47CE-9B5A-C31035D6C58B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,6 +16,8 @@ Global
 		{31BDC07D-F6B5-4C53-884B-036DFE920DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31BDC07D-F6B5-4C53-884B-036DFE920DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31BDC07D-F6B5-4C53-884B-036DFE920DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AD84B0-5FA0-47CE-9B5A-C31035D6C58B}.Debug|Any CPU.ActiveCfg = Debug
+		{98AD84B0-5FA0-47CE-9B5A-C31035D6C58B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

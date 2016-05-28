@@ -28,7 +28,6 @@ namespace mcreator
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.btnCreateHuman = new System.Windows.Forms.Button();
             this.btnCreateElf = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
@@ -39,50 +38,69 @@ namespace mcreator
             // 
             // btnCreateHuman
             // 
-            resources.ApplyResources(this.btnCreateHuman, "btnCreateHuman");
+            this.btnCreateHuman.Location = new System.Drawing.Point(12, 25);
             this.btnCreateHuman.Name = "btnCreateHuman";
+            this.btnCreateHuman.Size = new System.Drawing.Size(200, 50);
+            this.btnCreateHuman.TabIndex = 0;
+            this.btnCreateHuman.Text = "Mensch";
             this.btnCreateHuman.UseVisualStyleBackColor = true;
             this.btnCreateHuman.Click += new System.EventHandler(this.btnCreateHuman_Click);
             // 
             // btnCreateElf
             // 
-            resources.ApplyResources(this.btnCreateElf, "btnCreateElf");
+            this.btnCreateElf.Location = new System.Drawing.Point(12, 81);
             this.btnCreateElf.Name = "btnCreateElf";
+            this.btnCreateElf.Size = new System.Drawing.Size(200, 50);
+            this.btnCreateElf.TabIndex = 1;
+            this.btnCreateElf.Text = "Elf";
             this.btnCreateElf.UseVisualStyleBackColor = true;
             this.btnCreateElf.Click += new System.EventHandler(this.btnCreateElf_Click);
             // 
             // btnExit
             // 
-            resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.Location = new System.Drawing.Point(12, 305);
             this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(200, 50);
+            this.btnExit.TabIndex = 5;
+            this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnCreateHalfling
             // 
-            resources.ApplyResources(this.btnCreateHalfling, "btnCreateHalfling");
+            this.btnCreateHalfling.Location = new System.Drawing.Point(12, 137);
             this.btnCreateHalfling.Name = "btnCreateHalfling";
+            this.btnCreateHalfling.Size = new System.Drawing.Size(200, 50);
+            this.btnCreateHalfling.TabIndex = 2;
+            this.btnCreateHalfling.Text = "Halbling";
             this.btnCreateHalfling.UseVisualStyleBackColor = true;
             this.btnCreateHalfling.Click += new System.EventHandler(this.btnCreateHalfling_Click);
             // 
             // btnCreateDwarf
             // 
-            resources.ApplyResources(this.btnCreateDwarf, "btnCreateDwarf");
+            this.btnCreateDwarf.Location = new System.Drawing.Point(12, 193);
             this.btnCreateDwarf.Name = "btnCreateDwarf";
+            this.btnCreateDwarf.Size = new System.Drawing.Size(200, 50);
+            this.btnCreateDwarf.TabIndex = 3;
+            this.btnCreateDwarf.Text = "Zwerg";
             this.btnCreateDwarf.UseVisualStyleBackColor = true;
             this.btnCreateDwarf.Click += new System.EventHandler(this.btnCreateDwarf_Click);
             // 
             // btnCreateGnome
             // 
-            resources.ApplyResources(this.btnCreateGnome, "btnCreateGnome");
+            this.btnCreateGnome.Location = new System.Drawing.Point(12, 249);
             this.btnCreateGnome.Name = "btnCreateGnome";
+            this.btnCreateGnome.Size = new System.Drawing.Size(200, 50);
+            this.btnCreateGnome.TabIndex = 4;
+            this.btnCreateGnome.Text = "Gnom";
             this.btnCreateGnome.UseVisualStyleBackColor = true;
             this.btnCreateGnome.Click += new System.EventHandler(this.btnCreateGnome_Click);
             // 
             // FrmMain
             // 
-            resources.ApplyResources(this, "$this");
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(224, 361);
             this.ControlBox = false;
             this.Controls.Add(this.btnCreateGnome);
             this.Controls.Add(this.btnCreateDwarf);
@@ -90,8 +108,12 @@ namespace mcreator
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCreateElf);
             this.Controls.Add(this.btnCreateHuman);
+            this.MaximumSize = new System.Drawing.Size(240, 400);
+            this.MinimumSize = new System.Drawing.Size(240, 400);
             this.Name = "FrmMain";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "MCreator";
             this.ResumeLayout(false);
 
         }

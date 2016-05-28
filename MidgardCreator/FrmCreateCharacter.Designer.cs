@@ -1209,7 +1209,6 @@ namespace mcreator
         private System.Windows.Forms.Button btnAdventurePointsB;
         private System.Windows.Forms.TextBox txtStaminaBuff;
         private System.Windows.Forms.Button btnAdventurePointsA;
-        private System.Windows.Forms.MaskedTextBox mtxtStrength;
         private System.Windows.Forms.Label lblStrength;
         private System.Windows.Forms.MaskedTextBox mtxtDexterity;
         private System.Windows.Forms.Label lblLifePoints;
@@ -1293,5 +1292,6 @@ namespace mcreator
         private System.Windows.Forms.Label lblStatCheck;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.RadioButton rbStats;
+        public System.Windows.Forms.MaskedTextBox mtxtStrength;
     }
 }

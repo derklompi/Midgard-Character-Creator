@@ -18,10 +18,12 @@ namespace mcreator
             
             //Convert.ToString(Thread.CurrentThread.CurrentUICulture) == "de-DE"
             Hide();
-            FrmCreateCharacter createHuman= new FrmCreateCharacter();
+            FrmCreateCharacter createHuman = new FrmCreateCharacter();
             createHuman.Text = "MCreator - Mensch";
             createHuman.ShowDialog();
             createHuman = null;
+            
+            
             Show();
           
         }

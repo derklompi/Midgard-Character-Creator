@@ -124,11 +124,11 @@
   <data name="&gt;&gt;menuLanguageDEGerman.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnCreateHalfling.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;menuLanguageENGerman.Name" xml:space="preserve">
+    <value>menuLanguageENGerman</value>
   </data>
-  <data name="btnCreateGnome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 50</value>
+  <data name="&gt;&gt;btnCreateElf.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuLanguageEN.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -138,9 +138,6 @@
   </data>
   <data name="&gt;&gt;btnCreateElf.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnCreateHuman.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;MainMenu.Parent" xml:space="preserve">
     <value>$this</value>
@@ -166,9 +163,6 @@
   </data>
   <data name="MainMenu.Text" xml:space="preserve">
     <value>menuStrip1</value>
-  </data>
-  <data name="btnCreateElf.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 81</value>
   </data>
   <data name="&gt;&gt;btnCreateDwarf.Parent" xml:space="preserve">
     <value>$this</value>
@@ -210,14 +204,20 @@
   <data name="&gt;&gt;menuLanguageEN.Name" xml:space="preserve">
     <value>menuLanguageEN</value>
   </data>
+  <data name="btnCreateHalfling.Text" xml:space="preserve">
+    <value>Halbling</value>
+  </data>
+  <data name="btnCreateElf.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
+  </data>
   <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="btnCreateElf.Text" xml:space="preserve">
     <value>Elf</value>
   </data>
-  <data name="&gt;&gt;btnCreateGnome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnCreateHalfling.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -240,17 +240,20 @@
   <data name="menuSettingsEN.Size" type="System.Drawing.Size, System.Drawing">
     <value>12, 20</value>
   </data>
+  <data name="btnCreateGnome.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="btnCreateHuman.Text" xml:space="preserve">
     <value>Mensch</value>
-  </data>
-  <data name="&gt;&gt;btnCreateElf.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuLanguageDEEnglish.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
   </data>
   <data name="menuLanguageDEEnglish.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 22</value>
@@ -264,8 +267,8 @@
   <data name="&gt;&gt;MainMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnCreateGnome.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnCreateGnome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
   </data>
   <data name="btnCreateGnome.Text" xml:space="preserve">
     <value>Gnom</value>
@@ -297,23 +300,20 @@
   <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 50</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;btnCreateElf.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="btnCreateHalfling.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 50</value>
+  <data name="&gt;&gt;btnCreateGnome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="MainMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 24</value>
   </data>
-  <data name="btnCreateElf.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 50</value>
+  <data name="&gt;&gt;btnCreateGnome.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCreateDwarf.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -321,17 +321,17 @@
   <data name="$this.Text" xml:space="preserve">
     <value>MCreator</value>
   </data>
+  <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
   <data name="btnCreateDwarf.Text" xml:space="preserve">
     <value>Zwerg</value>
-  </data>
-  <data name="&gt;&gt;menuLanguageENGerman.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnCreateGnome.Name" xml:space="preserve">
     <value>btnCreateGnome</value>
   </data>
-  <data name="btnCreateGnome.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="btnCreateElf.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 81</value>
   </data>
   <data name="&gt;&gt;btnCreateDwarf.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -339,8 +339,8 @@
   <data name="btnCreateGnome.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 249</value>
   </data>
-  <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="btnCreateHalfling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
   </data>
   <data name="&gt;&gt;menuSettingsEN.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -357,14 +357,14 @@
   <data name="&gt;&gt;menuLanguageENEnglish.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnCreateHalfling.Text" xml:space="preserve">
-    <value>Halbling</value>
+  <data name="&gt;&gt;btnCreateHuman.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>224, 362</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuSettingsDE.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -372,8 +372,8 @@
   <data name="&gt;&gt;menuLanguageENEnglish.Name" xml:space="preserve">
     <value>menuLanguageENEnglish</value>
   </data>
-  <data name="&gt;&gt;menuLanguageENGerman.Name" xml:space="preserve">
-    <value>menuLanguageENGerman</value>
+  <data name="&gt;&gt;menuLanguageENGerman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnCreateDwarf.Name" xml:space="preserve">
     <value>btnCreateDwarf</value>
@@ -384,12 +384,6 @@
   <data name="&gt;&gt;menuLanguageDEEnglish.Name" xml:space="preserve">
     <value>menuLanguageDEEnglish</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>de</value>
-  </metadata>
   <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

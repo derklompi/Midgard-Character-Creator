@@ -414,7 +414,11 @@ namespace mcreator
         {
             InbornBuff ib = new InbornBuff();
             txtInbornBuff.Text = ib.Inborn(Convert.ToInt32(mtxtInbornBuff.Text), Convert.ToInt32(txtWillpower.Text));
+            
+
         }
+
+
 
         private void btnHanded_Click(object sender, EventArgs e)
         {
@@ -631,7 +635,11 @@ namespace mcreator
 
         private void btnExport_Click(object sender, EventArgs e)
         {
-            if(txtCharacterName.Text !="")
+            
+
+           
+
+            if (txtCharacterName.Text !="")
             {
                 string saveplace;
                 string date;
