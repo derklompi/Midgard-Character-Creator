@@ -112,6 +112,9 @@
     <EmbeddedResource Include="FrmCreateCharacter.resx">
       <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.de.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>

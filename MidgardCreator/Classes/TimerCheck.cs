@@ -5,11 +5,11 @@ namespace mcreator.Classes
     class TimerCheck
     {
         private bool bodySizeCheck;
-        public bool BodySizeCheck(string mtxtBodySizeA, string mtxtBodySizeB, string txtStats, string title)
+        public bool BodySizeCheck(string mtxtBodySizeA, string mtxtBodySizeB, bool rbStats, string title)
         {
             if (title == "MCreator - Mensch")
             {
-                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && txtStats == "true" &&
+                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && rbStats &&
                 Convert.ToInt32(mtxtBodySizeA) <= 20 && Convert.ToInt32(mtxtBodySizeB) <= 20)
                 {
                     bodySizeCheck = true;
@@ -21,7 +21,7 @@ namespace mcreator.Classes
             }
             else
             {
-                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && txtStats == "true" &&
+                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && rbStats &&
                 Convert.ToInt32(mtxtBodySizeA) <= 6 && Convert.ToInt32(mtxtBodySizeB) <= 6)
                 {
                     bodySizeCheck = true;
@@ -37,10 +37,10 @@ namespace mcreator.Classes
 
         private bool bodyWeightCheck;
         public bool BodyWeightCheck(string mtxtBodyWeightA, string mtxtBodyWeightB, 
-            string mtxtBodyWeightC, string mtxtBodyWeightD, string txtStats, string txtBodySize)
+            string mtxtBodyWeightC, string mtxtBodyWeightD, bool rbStats, string txtBodySize)
         {
-            if (mtxtBodyWeightA != "" && mtxtBodyWeightB != "" && mtxtBodyWeightC != "" && mtxtBodyWeightD != "" && 
-                txtStats == "true" && Convert.ToInt32(mtxtBodyWeightA) <= 6 && Convert.ToInt32(mtxtBodyWeightB) <= 6 && 
+            if (mtxtBodyWeightA != "" && mtxtBodyWeightB != "" && mtxtBodyWeightC != "" && mtxtBodyWeightD != "" &&
+                rbStats && Convert.ToInt32(mtxtBodyWeightA) <= 6 && Convert.ToInt32(mtxtBodyWeightB) <= 6 && 
                 Convert.ToInt32(mtxtBodyWeightC) <= 6 && Convert.ToInt32(mtxtBodyWeightD) <= 6 && txtBodySize != "")
             {
                 bodyWeightCheck = true;
@@ -53,9 +53,9 @@ namespace mcreator.Classes
         }
 
         private bool charismaCheck;
-        public bool CharismaCheck(string mtxtAppearance, string txtStats, string mtxtCharisma)
+        public bool CharismaCheck(string mtxtAppearance, bool rbStats, string mtxtCharisma)
         {
-            if (mtxtAppearance != "" && txtStats == "true" && mtxtCharisma != "" && 
+            if (mtxtAppearance != "" && rbStats && mtxtCharisma != "" && 
                 Convert.ToInt32(mtxtAppearance) <= 100 && Convert.ToInt32(mtxtCharisma) <= 100)
             {
                 charismaCheck = true;
@@ -68,9 +68,9 @@ namespace mcreator.Classes
         }
 
         private bool willpowerCheck;
-        public bool WillpowerCheck(string mtxtWillpower, string txtStats)
+        public bool WillpowerCheck(string mtxtWillpower, bool rbStats)
         {
-            if (mtxtWillpower != "" && txtStats == "true" && Convert.ToInt32(mtxtWillpower) <= 100)
+            if (mtxtWillpower != "" && rbStats && Convert.ToInt32(mtxtWillpower) <= 100)
             {
                 willpowerCheck = true;
             }
@@ -82,9 +82,9 @@ namespace mcreator.Classes
         }
 
         private bool selfControlCheck;
-        public bool SelfControlCheck(string mtxtSelfControl, string txtStats, string txtWillpower)
+        public bool SelfControlCheck(string mtxtSelfControl, bool rbStats, string txtWillpower)
         {
-            if (mtxtSelfControl != "" && txtStats == "true" && Convert.ToInt32(mtxtSelfControl) <= 100 && txtWillpower != "")
+            if (mtxtSelfControl != "" && rbStats && Convert.ToInt32(mtxtSelfControl) <= 100 && txtWillpower != "")
             {
                 selfControlCheck = true;
             }
@@ -97,9 +97,9 @@ namespace mcreator.Classes
         }
 
         private bool handedCheck;
-        public bool HandedCheck(string mtxtHanded, string txtStats)
+        public bool HandedCheck(string mtxtHanded, bool rbStats)
         {
-            if (mtxtHanded != "" && Convert.ToInt32(mtxtHanded) <= 20 && txtStats == "true")
+            if (mtxtHanded != "" && Convert.ToInt32(mtxtHanded) <= 20 && rbStats)
             {
                 handedCheck = true;
             }
@@ -154,9 +154,9 @@ namespace mcreator.Classes
         }
 
         private bool lifePointsCheck;
-        public bool LifePointsCheck(string mtxtLifePoints, string txtStats)
+        public bool LifePointsCheck(string mtxtLifePoints, bool rbStats)
         {
-            if (mtxtLifePoints != "" && txtStats != "" && Convert.ToInt32(mtxtLifePoints) <= 6)
+            if (mtxtLifePoints != "" && rbStats && Convert.ToInt32(mtxtLifePoints) <= 6)
             {
                 lifePointsCheck = true;
             }

@@ -8,7 +8,7 @@ namespace mcreator.Classes
     {
         public Export(string formTitle,string saveplace, string characterName, string currentDate, string mtxtStrength, 
             string mtxtDexterity, string mtxtAgility, string mtxtConstitution, string mtxtIntelligence, string mtxtMagicalTalent, 
-            string txtBodySize, string txtBodyWeight, string txtAppearance, string txtCharisma, string txtWillpower, 
+            string txtAppearance, string txtCharisma, string txtWillpower, 
             string txtSelfControlA, string txtSelfControlB, string txtSelfControlC, string txtInbornBuff, string txtDamageBuff,
             string txtStaminaBuff, string txtAttackBuff, string txtDefenseBuff, string txtMagicBuff, string txtRumble, 
             string txtDefense, string txtDefense0, string txtDoMagic, string txtDoMagic0, string txtGhostMagicFighter, 
@@ -18,8 +18,8 @@ namespace mcreator.Classes
             string mtxtBodySizeA, string mtxtBodySizeB, string mtxtBodyWeightA, string mtxtBodyWeightB, string mtxtBodyWeightC, 
             string mtxtBodyWeightD, string mtxtAppearance, string mtxtCharisma, string mtxtWillpower, string mtxtSelfControl,
             string mtxtInbornBuff, string mtxtHanded, string mtxtAdventurePointsA, string mtxtAdventurePointsB, 
-            string mtxtAdventurePointsC, string mtxtLifePoints, string txtBodySizeMale, string txtBodySizeFemale,
-            string txtBodyWeightMale, string txtBodyWeightFemale)
+            string mtxtAdventurePointsC, string mtxtLifePoints, string txtBodySizeA, string txtBodySizeBe,
+            string txtBodyWeightA, string txtBodyWeightB)
         {
             if (File.Exists(saveplace) != true)
             {
@@ -65,15 +65,15 @@ namespace mcreator.Classes
                     // Since humans have both male and female they need the extra part
                     if (charrclass == "Mensch")
                     {
-                        file.WriteLine("Größe (Mann):       " + txtBodySizeMale + " cm");
-                        file.WriteLine("Größe (Frau):       " + txtBodySizeFemale + " cm");
-                        file.WriteLine("Gewicht (Mann):     " + txtBodyWeightMale + " kg");
-                        file.WriteLine("Gewicht (Frau):     " + txtBodyWeightFemale + " kg");
+                        file.WriteLine("Größe (Mann):       " + txtBodySizeA + " cm");
+                        file.WriteLine("Größe (Frau):       " + txtBodySizeBe + " cm");
+                        file.WriteLine("Gewicht (Mann):     " + txtBodyWeightA + " kg");
+                        file.WriteLine("Gewicht (Frau):     " + txtBodyWeightB + " kg");
                     }
                     else
                     {
-                        file.WriteLine("Größe:              " + txtBodySize + " cm");
-                        file.WriteLine("Gewicht:            " + txtBodyWeight + " kg");
+                        file.WriteLine("Größe:              " + txtBodySizeA + " cm");
+                        file.WriteLine("Gewicht:            " + txtBodyWeightA + " kg");
                     }
 
 

@@ -124,8 +124,8 @@
   <data name="&gt;&gt;menuLanguageDEGerman.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>224, 362</value>
+  <data name="&gt;&gt;btnCreateHalfling.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="btnCreateGnome.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 50</value>
@@ -142,8 +142,8 @@
   <data name="&gt;&gt;btnCreateHuman.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
+  <data name="&gt;&gt;MainMenu.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCreateHalfling.Parent" xml:space="preserve">
     <value>$this</value>
@@ -216,8 +216,8 @@
   <data name="btnCreateElf.Text" xml:space="preserve">
     <value>Elf</value>
   </data>
-  <data name="&gt;&gt;btnCreateHalfling.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;btnCreateGnome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -297,23 +297,23 @@
   <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 50</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;btnCreateElf.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;btnCreateGnome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnCreateHalfling.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 50</value>
   </data>
   <data name="MainMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>224, 24</value>
   </data>
   <data name="btnCreateElf.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 50</value>
-  </data>
-  <data name="&gt;&gt;btnCreateHalfling.Name" xml:space="preserve">
-    <value>btnCreateHalfling</value>
   </data>
   <data name="&gt;&gt;btnCreateDwarf.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -348,8 +348,8 @@
   <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
     <value>btnExit</value>
   </data>
-  <data name="&gt;&gt;MainMenu.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;btnCreateHalfling.Name" xml:space="preserve">
+    <value>btnCreateHalfling</value>
   </data>
   <data name="btnCreateDwarf.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -360,11 +360,11 @@
   <data name="btnCreateHalfling.Text" xml:space="preserve">
     <value>Halbling</value>
   </data>
-  <data name="btnCreateHalfling.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 50</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>224, 362</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
   </data>
   <data name="&gt;&gt;menuSettingsDE.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

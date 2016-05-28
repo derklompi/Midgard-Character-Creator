@@ -91,7 +91,6 @@ namespace mcreator
             this.btnAdventurePointsB = new System.Windows.Forms.Button();
             this.txtStaminaBuff = new System.Windows.Forms.TextBox();
             this.btnAdventurePointsA = new System.Windows.Forms.Button();
-            this.txtStats = new System.Windows.Forms.TextBox();
             this.mtxtStrength = new System.Windows.Forms.MaskedTextBox();
             this.lblStrength = new System.Windows.Forms.Label();
             this.mtxtDexterity = new System.Windows.Forms.MaskedTextBox();
@@ -168,12 +167,14 @@ namespace mcreator
             this.txtCharacterName = new System.Windows.Forms.TextBox();
             this.lblCharactername = new System.Windows.Forms.Label();
             this.lblSavePath = new System.Windows.Forms.Label();
-            this.browserExportDialog = new System.Windows.Forms.FolderBrowserDialog();
+            this.chooseExportFolder = new System.Windows.Forms.FolderBrowserDialog();
             this.btnImport = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtImportFile = new System.Windows.Forms.TextBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.chooseImportFile = new System.Windows.Forms.OpenFileDialog();
             this.lblStatCheck = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.rbStats = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // lblExport
@@ -523,12 +524,6 @@ namespace mcreator
             this.btnAdventurePointsA.Name = "btnAdventurePointsA";
             this.btnAdventurePointsA.UseVisualStyleBackColor = true;
             this.btnAdventurePointsA.Click += new System.EventHandler(this.btnAdventurePointsA_Click);
-            // 
-            // txtStats
-            // 
-            resources.ApplyResources(this.txtStats, "txtStats");
-            this.txtStats.Name = "txtStats";
-            this.txtStats.ReadOnly = true;
             // 
             // mtxtStrength
             // 
@@ -971,9 +966,9 @@ namespace mcreator
             this.txtImportFile.Name = "txtImportFile";
             this.txtImportFile.Click += new System.EventHandler(this.txtImportFile_Click);
             // 
-            // openFileDialog1
+            // chooseImportFile
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            resources.ApplyResources(this.chooseImportFile, "chooseImportFile");
             // 
             // lblStatCheck
             // 
@@ -981,10 +976,27 @@ namespace mcreator
             this.lblStatCheck.ForeColor = System.Drawing.Color.Red;
             this.lblStatCheck.Name = "lblStatCheck";
             // 
+            // btnExit
+            // 
+            resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.Name = "btnExit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // rbStats
+            // 
+            resources.ApplyResources(this.rbStats, "rbStats");
+            this.rbStats.Name = "rbStats";
+            this.rbStats.TabStop = true;
+            this.rbStats.UseVisualStyleBackColor = true;
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ControlBox = false;
+            this.Controls.Add(this.rbStats);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lblStatCheck);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtImportFile);
@@ -1055,7 +1067,6 @@ namespace mcreator
             this.Controls.Add(this.btnAdventurePointsB);
             this.Controls.Add(this.txtStaminaBuff);
             this.Controls.Add(this.btnAdventurePointsA);
-            this.Controls.Add(this.txtStats);
             this.Controls.Add(this.mtxtStrength);
             this.Controls.Add(this.lblStrength);
             this.Controls.Add(this.mtxtDexterity);
@@ -1198,7 +1209,6 @@ namespace mcreator
         private System.Windows.Forms.Button btnAdventurePointsB;
         private System.Windows.Forms.TextBox txtStaminaBuff;
         private System.Windows.Forms.Button btnAdventurePointsA;
-        private System.Windows.Forms.TextBox txtStats;
         private System.Windows.Forms.MaskedTextBox mtxtStrength;
         private System.Windows.Forms.Label lblStrength;
         private System.Windows.Forms.MaskedTextBox mtxtDexterity;
@@ -1275,11 +1285,13 @@ namespace mcreator
         private System.Windows.Forms.TextBox txtCharacterName;
         private System.Windows.Forms.Label lblCharactername;
         private System.Windows.Forms.Label lblSavePath;
-        private System.Windows.Forms.FolderBrowserDialog browserExportDialog;
+        private System.Windows.Forms.FolderBrowserDialog chooseExportFolder;
         private System.Windows.Forms.Button btnImport;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtImportFile;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.OpenFileDialog chooseImportFile;
         private System.Windows.Forms.Label lblStatCheck;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.RadioButton rbStats;
     }
 }
