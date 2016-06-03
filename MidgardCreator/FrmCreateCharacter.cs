@@ -1,3 +1,20 @@
+/*
+    Mcreator
+    Copyright (C) 2016  Fabian Dörr <faflfama@outlook.com>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
 using System;
 using System.Windows.Forms;
 using mcreator.Classes;
@@ -641,27 +658,17 @@ namespace mcreator
 
             if (txtCharacterName.Text !="")
             {
-                string saveplace;
-                string date;
+                
 
                 if(this.Text!="MCreator - Mensch")
                 {
                     txtBodySizeB.Text = "0";
                     txtBodyWeightB.Text = "0";
                 }
-                DateTime currentDate = DateTime.Now;
-                date = currentDate.ToString("dd-MM-yyy");
-                saveplace = @"" + txtExportPath.Text + "\\" + txtCharacterName.Text + "-MCreator_" + date + ".txt";
+                
 
-                Export exp = new Export(this.Text, saveplace, txtCharacterName.Text, date, mtxtStrength.Text, mtxtDexterity.Text, mtxtAgility.Text, mtxtConstitution.Text, mtxtIntelligence.Text,
-                    mtxtMagicalTalent.Text, mtxtAppearance.Text, txtCharisma.Text, txtWillpower.Text, txtSelfControlA.Text, txtSelfControlB.Text,
-                    txtSelfControlC.Text, txtInbornBuff.Text, txtDamageBuff.Text, txtStaminaBuff.Text, txtAttackBuff.Text, txtDefenseBuff.Text, txtMagicBuff.Text, txtRumble.Text,
-                    txtDefense.Text, txtDefense0.Text, txtDoMagic.Text, txtDoMagic0.Text, txtGhostMagicFighter.Text, txtGhostMagicMagician.Text, txtGhostMagicNormal.Text,
-                    txtBodyMagicFighter.Text, txtBodyMagicMagician.Text, txtBodyMagicNormal.Text, txtAreaMagicFighter.Text, txtAreaMagicMagician.Text, txtAreaMagicNormal.Text,
-                    txtAdventurePointsA.Text, txtAdventurePointsB.Text, txtAdventurePointsC.Text, txtLifePoints.Text, mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtBodyWeightA.Text,
-                    mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtAppearance.Text, mtxtCharisma.Text, mtxtWillpower.Text, mtxtSelfControl.Text, mtxtInbornBuff.Text,
-                    mtxtHanded.Text, mtxtAdventurePointsA.Text, mtxtAdventurePointsB.Text, mtxtAdventurePointsC.Text, mtxtLifePoints.Text, txtBodySizeA.Text, txtBodySizeB.Text,
-                    txtBodyWeightA.Text, txtBodyWeightB.Text);
+                Export exp = new Export();
+                exp.AktionAusführen();
                 Process.Start("explorer.exe", txtExportPath.Text);
                 
             }
