@@ -21,8 +21,6 @@ namespace mcreator
 
         private void FrmCreateCharacter_Load(object sender, EventArgs e)
         {
-
-           
             // Customizing the form for the different races
             if (this.Text == "MCreator - Halbling")
             {
@@ -604,10 +602,6 @@ namespace mcreator
 
             #endregion
             TimerCheck t = new TimerCheck();
-
-            t = new TimerCheck();
-
-
             //BodySize
             btnBodySize.Enabled = t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, rbStats.Checked, this.Text); ;
 
@@ -827,12 +821,6 @@ namespace mcreator
                                 MessageBoxButtons.OKCancel,
                                 MessageBoxIcon.Information) == DialogResult.OK)
                 this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Class1 c1 = new Class1();
-            c1.calcInbornBuff();
         }
     }
 }

@@ -1165,6 +1165,8 @@ namespace mcreator
         private System.Windows.Forms.TextBox txtGhostMagicFighter;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnGetRandomCharacter;
+        private System.Windows.Forms.MaskedTextBox mtxtInbornBuff;
+        private System.Windows.Forms.TextBox txtInbornBuff;
         private System.Windows.Forms.Button btnInbornBuff;
         private System.Windows.Forms.Label lblInbornBuff;
         private System.Windows.Forms.Label lblAreaMagic;
@@ -1291,7 +1293,5 @@ namespace mcreator
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.RadioButton rbStats;
         public System.Windows.Forms.MaskedTextBox mtxtStrength;
-        public System.Windows.Forms.MaskedTextBox mtxtInbornBuff;
-        public System.Windows.Forms.TextBox txtInbornBuff;
     }
 }
