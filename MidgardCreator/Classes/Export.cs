@@ -16,6 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Windows.Forms;
 
@@ -23,7 +24,7 @@ namespace mcreator.Classes
 {
     class Export
     {
-        public void AktionAusführen()
+        public void export()
         {
             FrmCreateCharacter CharExport = Application.OpenForms[1] as FrmCreateCharacter;
             if (CharExport == null)
@@ -271,6 +272,16 @@ namespace mcreator.Classes
                     if (File.Exists(exportPlace))
                     {
                         MessageBox.Show("Datei wurde erstellt!");
+                        // Setting the file attribute to read only to prevent changes (at least for inexperienced users)
+                        System.IO.FileAttributes att = System.IO.File.GetAttributes(exportPlace);
+                        System.IO.File.SetAttributes(exportPlace, att | System.IO.FileAttributes.ReadOnly);
+
+
+                        // Taken from https://dotnet-snippets.de/snippet/explorer-starten-und-datei-selektieren/1200
+                        Process process = new Process();
+                        process.StartInfo.FileName = "explorer.exe";
+                        process.StartInfo.Arguments = string.Format("/e,/select,\"{0}\"", exportPlace);
+                        process.Start();
                     }
                     else
                     {
@@ -278,9 +289,7 @@ namespace mcreator.Classes
                     }
                 }
 
-                // Setting the file attribute to read only to prevent changes (at least for inexperienced users)
-                System.IO.FileAttributes att = System.IO.File.GetAttributes(exportPlace);
-                System.IO.File.SetAttributes(exportPlace, att | System.IO.FileAttributes.ReadOnly);
+                
             }
             else
             {
