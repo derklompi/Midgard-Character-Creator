@@ -312,10 +312,9 @@ namespace mcreator
                     
 
                     c.Charisma();
-                    txtWillpower.Text       = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
-                    txtSelfControlA.Text    = Convert.ToString(c.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtSelfControlB.Text    = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-                    txtSelfControlC.Text    = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+                    c.Willpower();
+                    c.SelfControl();
+                    
 
                     if (this.Text == "MCreator - Halfling")
                     {
@@ -323,19 +322,14 @@ namespace mcreator
                     }
                     else
                     {
-                        txtHanded.Text = c.Handed(mtxtHanded.Text);
+                        c.Handed();
                     }
 
-                    
 
-                    txtAdventurePointsA.Text    = Convert.ToString(c.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsB.Text    = Convert.ToString(c.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsC.Text    = Convert.ToString(c.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
-                    txtLifePoints.Text          = Convert.ToString(c.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
-
-
-                    
-                    txtInbornBuff.Text = c.Inborn(Convert.ToInt32(mtxtInbornBuff.Text), Convert.ToInt32(txtWillpower.Text));
+                    c.AdventurePoints();
+                    c.LifePoints();
+                                 
+                    c.InbornBuff();
 
                     
                     int mtBuffGhost_Body_MagicValue = 0;
@@ -418,57 +412,54 @@ namespace mcreator
         {
             
             c.Charisma();
-            //txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
         }
 
         private void btnWillpower_Click(object sender, EventArgs e)
         {
-            
-            txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtConstitution.Text, mtxtIntelligence.Text));
+
+            c.Willpower();
         }
 
         private void btnSelfControl_Click(object sender, EventArgs e)
         {
-            
-            txtSelfControlA.Text = Convert.ToString(c.SelfControlA(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-            txtSelfControlB.Text = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
-            txtSelfControlC.Text = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, mtxtIntelligence.Text, txtWillpower.Text));
+
+            c.SelfControl();
         }
 
         private void btnInbornBuff_Click(object sender, EventArgs e)
         {
-            
-            txtInbornBuff.Text = c.Inborn(Convert.ToInt32(mtxtInbornBuff.Text), Convert.ToInt32(txtWillpower.Text));
+
+            c.InbornBuff();
         }
 
         private void btnHanded_Click(object sender, EventArgs e)
         {
-            
-            txtHanded.Text = c.Handed(mtxtHanded.Text);
+
+            c.Handed();
         }
 
         private void btnAdventurePointsA_Click(object sender, EventArgs e)
         {
-            
-            txtAdventurePointsA.Text = Convert.ToString(c.adventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+
+            c.AdventurePoints();
         }
 
         private void btnAdventurePointsB_Click(object sender, EventArgs e)
         {
-            
-            txtAdventurePointsB.Text = Convert.ToString(c.adventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+
+            c.AdventurePoints();
         }
 
         private void btnAdventurePointsC_Click(object sender, EventArgs e)
         {
-            
-            txtAdventurePointsC.Text = Convert.ToString(c.adventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
+
+            c.AdventurePoints();
         }
 
         private void btnLifePoints_Click(object sender, EventArgs e)
         {
-            
-            txtLifePoints.Text = Convert.ToString(c.lifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
+
+            c.LifePoints();
         }
 
         private void Enable_Timer_Tick(object sender, EventArgs e)
@@ -834,6 +825,7 @@ namespace mcreator
                                 MessageBoxIcon.Information) == DialogResult.OK)
                 this.Close();
         }
+
 
     }
 }

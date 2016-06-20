@@ -231,273 +231,276 @@ namespace mcreator.Classes
 
         #region AdventurePoints/LifePoints
         // Calculation for adventure points of barbarians, warriors. etc.
-        private int adventurePointsAValue;
-        public int adventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string formTitle)
+        public void AdventurePoints()
         {
+            FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
+
             int tempAdventurePointsAValue = 0;
 
-            tempAdventurePointsAValue = Convert.ToInt32(mtxtAdventurePointsA) + 4 + Convert.ToInt32(txtStaminaBuff);
+            tempAdventurePointsAValue = Convert.ToInt32(ce.mtxtAdventurePointsA.Text) + 4 + Convert.ToInt32(ce.txtStaminaBuff.Text);
 
             if (tempAdventurePointsAValue >= 4)
             {
+
                 // Calculations for dwarfs
-                if (formTitle == "MCreator - Zwerg")
+                /*
+                if (ce.Text == "MCreator - Zwerg")
                 {
-                    adventurePointsAValue = tempAdventurePointsAValue;
+                    //
                 }
 
                 // Calculations for elfs
-                if (formTitle == "MCreator - Elf")
+                if (ce.Text == "MCreator - Elf")
                 {
-                    adventurePointsAValue = tempAdventurePointsAValue;
-                }
-
-                // Calculations for gnomes
-                if (formTitle == "MCreator - Gnom")
-                {
-                    adventurePointsAValue = tempAdventurePointsAValue - 2;
-                }
-
-                // Calculations for halflings
-                if (formTitle == "MCreator - Halbling")
-                {
-                    adventurePointsAValue = tempAdventurePointsAValue - 1;
+                    //
                 }
 
                 // Calculations for humans
-                if (formTitle == "MCreator - Mensch")
+                if (ce.Text == "MCreator - Mensch")
                 {
-                    adventurePointsAValue = tempAdventurePointsAValue;
+                    //
                 }
+                */
+                // Calculations for gnomes
+                if (ce.Text == "MCreator - Gnom")
+                {
+                    tempAdventurePointsAValue = tempAdventurePointsAValue - 2;
+                }
+
+                // Calculations for halflings
+                if (ce.Text == "MCreator - Halbling")
+                {
+                    tempAdventurePointsAValue = tempAdventurePointsAValue - 1;
+                }
+               
+                ce.txtAdventurePointsA.Text = Convert.ToString(tempAdventurePointsAValue);
             }
             else
             {
-                adventurePointsAValue = 4;
+                ce.txtAdventurePointsA.Text = "4";
             }
 
-            return adventurePointsAValue;
-        }
-
-        private int adventurePointsBValue;
-        public int adventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string formTitle)
-        {
             int tempAdventurePointsBValue = 0;
 
-            tempAdventurePointsBValue = Convert.ToInt32(mtxtAdventurePointsB) + 3 + Convert.ToInt32(txtStaminaBuff);
+            tempAdventurePointsBValue = Convert.ToInt32(ce.mtxtAdventurePointsB.Text) + 3 + Convert.ToInt32(ce.txtStaminaBuff.Text);
 
             if (tempAdventurePointsBValue >= 4)
             {
                 // Calculations for dwarfs
-                if (formTitle == "MCreator - Zwerg")
+                /*
+                if (ce.Text == "MCreator - Zwerg")
                 {
-                    adventurePointsBValue = tempAdventurePointsBValue;
+                    //
                 }
 
                 // Calculations for elfs
-                if (formTitle == "MCreator - Elf")
+                if (ce.Text == "MCreator - Elf")
                 {
-                    adventurePointsBValue = tempAdventurePointsBValue;
-                }
-
-                // Calculations for gnomes
-                if (formTitle == "MCreator - Gnom")
-                {
-                    adventurePointsBValue = tempAdventurePointsBValue - 2;
-                }
-
-                // Calculations for halflings
-                if (formTitle == "MCreator - Halbling")
-                {
-                    adventurePointsBValue = tempAdventurePointsBValue - 1;
+                    //
                 }
 
                 // Calculations for humans
-                if (formTitle == "MCreator - Mensch")
+                if (ce.Text == "MCreator - Mensch")
                 {
-                    adventurePointsBValue = tempAdventurePointsBValue;
+                    //
                 }
+                */
+                // Calculations for gnomes
+                if (ce.Text == "MCreator - Gnom")
+                {
+                    tempAdventurePointsBValue = tempAdventurePointsBValue - 2;
+                }
+
+                // Calculations for halflings
+                if (ce.Text == "MCreator - Halbling")
+                {
+                    tempAdventurePointsBValue = tempAdventurePointsBValue - 1;
+                }
+
+                
+                ce.txtAdventurePointsB.Text = Convert.ToString(tempAdventurePointsBValue);
+
             }
             else
             {
-                adventurePointsBValue = 4;
+                ce.txtAdventurePointsB.Text = "4";
             }
-            return adventurePointsBValue;
-        }
 
-        private int adventurePointsCValue;
-        public int adventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string formTitle)
-        {
+
             int tempAdventurePointsCValue = 0;
 
-            tempAdventurePointsCValue = Convert.ToInt32(mtxtAdventurePointsC) + 2 + Convert.ToInt32(txtStaminaBuff);
+            tempAdventurePointsCValue = Convert.ToInt32(ce.mtxtAdventurePointsC.Text) + 2 + Convert.ToInt32(ce.txtStaminaBuff.Text);
 
             if (tempAdventurePointsCValue >= 4)
             {
                 // Calculations for dwarfs
-                if (formTitle == "MCreator - Zwerg")
+                /*
+                if (ce.Text == "MCreator - Zwerg")
                 {
-                    adventurePointsCValue = tempAdventurePointsCValue;
+                    //
                 }
 
                 // Calculations for elfs
-                if (formTitle == "MCreator - Elf")
+                if (ce.Text == "MCreator - Elf")
                 {
-                    adventurePointsCValue = tempAdventurePointsCValue;
-                }
-
-                // Calculations for gnomes
-                if (formTitle == "MCreator - Gnom")
-                {
-                    adventurePointsCValue = tempAdventurePointsCValue - 2;
-                }
-
-                // Calculations for halflings
-                if (formTitle == "MCreator - Halbling")
-                {
-                    adventurePointsCValue = tempAdventurePointsCValue - 1;
+                    //
                 }
 
                 // Calculations for humans
-                if (formTitle == "MCreator - Mensch")
+                if (ce.Text == "MCreator - Mensch")
                 {
-                    adventurePointsCValue = tempAdventurePointsCValue;
+                    //
                 }
+                */
+                // Calculations for gnomes
+                if (ce.Text == "MCreator - Gnom")
+                {
+                    tempAdventurePointsCValue = tempAdventurePointsCValue - 2;
+                }
+
+                // Calculations for halflings
+                if (ce.Text == "MCreator - Halbling")
+                {
+                    tempAdventurePointsCValue = tempAdventurePointsCValue - 1;
+                }
+
+                ce.txtAdventurePointsC.Text = Convert.ToString(tempAdventurePointsCValue);
             }
             else
             {
-                adventurePointsCValue = 4;
+                ce.txtAdventurePointsC.Text = "4";
             }
-            return adventurePointsCValue;
         }
 
         // Calculations of the lifepoints
-        private int lifePointsValue;
-        public int lifePoints(string mtxtConstitution, string mtxtLifePoints, string formTitle)
+        public void LifePoints()
         {
+            FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
             // Convert the strings to Int
-            int constitution = Convert.ToInt32(mtxtConstitution);
-            int lifepoints = Convert.ToInt32(mtxtLifePoints);
-
+            int constitution = Convert.ToInt32(ce.mtxtConstitution.Text);
+            int templifePoints = Convert.ToInt32(ce.mtxtLifePoints.Text);
+            int lifePoints = 0;
             // Calculations for humans
-            if (formTitle == "MCreator - Mensch")
+            if (ce.Text == "MCreator - Mensch")
             {
-                lifePointsValue = (constitution / 10) + lifepoints + 5;
+                lifePoints = (constitution / 10) + templifePoints + 5;
             }
 
             // Calculations for elfs
-            if (formTitle == "MCreator - Elf")
+            if (ce.Text == "MCreator - Elf")
             {
-                lifePointsValue = (constitution / 10) + lifepoints + 4;
+                lifePoints = (constitution / 10) + templifePoints + 4;
             }
 
             // Calculations for gnomes
-            if (formTitle == "MCreator - Gnom")
+            if (ce.Text == "MCreator - Gnom")
             {
-                lifePointsValue = (constitution / 10) + lifepoints - 1;
+                lifePoints = (constitution / 10) + templifePoints - 1;
             }
 
             // Calculations for halflings
-            if (formTitle == "MCreator - Halbling")
+            if (ce.Text == "MCreator - Halbling")
             {
-                lifePointsValue = (constitution / 10) + lifepoints + 2;
+                lifePoints = (constitution / 10) + templifePoints + 2;
             }
 
             // Calculations for dwarfs
-            if (formTitle == "MCreator - Zwerg")
+            if (ce.Text == "MCreator - Zwerg")
             {
-                lifePointsValue = (constitution / 10) + lifepoints + 4;
+                lifePoints = (constitution / 10) + templifePoints + 4;
             }
 
-            return lifePointsValue;
+            ce.txtLifePoints.Text = Convert.ToString(lifePoints);
         }
 
         #endregion
 
         #region InbornBuff
 
-        private string inbornBuffValue;
-        public string Inborn(int inbornBuff, int willpower)
+        public void InbornBuff()
         {
+
+            FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
+            int inbornBuff;
+            inbornBuff = Convert.ToInt32(ce.mtxtInbornBuff.Text);
             if (1 <= inbornBuff && inbornBuff <= 2)
             {
-                inbornBuffValue = "Kurzsichtigkeit (nur Sehen +4)";
+                ce.txtInbornBuff.Text = "Kurzsichtigkeit (nur Sehen +4)";
             }
             if (3 <= inbornBuff && inbornBuff <= 4)
             {
-                inbornBuffValue = "Schwerhörigkeit (nur Hören +4)";
+                ce.txtInbornBuff.Text = "Schwerhörigkeit (nur Hören +4)";
             }
             if (5 <= inbornBuff && inbornBuff <= 6)
             {
-                inbornBuffValue = "nur Riechen +4";
+                ce.txtInbornBuff.Text = "nur Riechen +4";
             }
             if (7 <= inbornBuff && inbornBuff <= 8)
             {
-                inbornBuffValue = "nur Schmecken +4";
+                ce.txtInbornBuff.Text = "nur Schmecken +4";
             }
             if (9 <= inbornBuff && inbornBuff <= 10)
             {
-                inbornBuffValue = "nur Tasten +4";
+                ce.txtInbornBuff.Text = "nur Tasten +4";
             }
             if (11 <= inbornBuff && inbornBuff <= 20)
             {
-                inbornBuffValue = "Sehen +10";
+                ce.txtInbornBuff.Text = "Sehen +10";
             }
             if (21 <= inbornBuff && inbornBuff <= 30)
             {
-                inbornBuffValue = "Hören +10";
+                ce.txtInbornBuff.Text = "Hören +10";
             }
             if (31 <= inbornBuff && inbornBuff <= 40)
             {
-                inbornBuffValue = "Riechen +10";
+                ce.txtInbornBuff.Text = "Riechen +10";
             }
             if (41 <= inbornBuff && inbornBuff <= 50)
             {
-                inbornBuffValue = "Schmecken +10";
+                ce.txtInbornBuff.Text = "Schmecken +10";
             }
             if (51 <= inbornBuff && inbornBuff <= 60)
             {
-                inbornBuffValue = "Tasten +10";
+                ce.txtInbornBuff.Text = "Tasten +10";
             }
             if (61 <= inbornBuff && inbornBuff <= 65)
             {
-                inbornBuffValue = "Sechster Sinn +6";
+                ce.txtInbornBuff.Text = "Sechster Sinn +6";
             }
             if (66 <= inbornBuff && inbornBuff <= 70)
             {
                 int berserk = 0;
-                berserk = 18 - (willpower / 5);
-                inbornBuffValue = "Berserkergang+ " + berserk;
+                berserk = 18 - (Convert.ToInt32(ce.txtWillpower.Text) / 5);
+                ce.txtInbornBuff.Text = "Berserkergang+ " + berserk;
             }
             if (71 <= inbornBuff && inbornBuff <= 75)
             {
-                inbornBuffValue = "Gute Reflexe +9";
+                ce.txtInbornBuff.Text = "Gute Reflexe +9";
             }
             if (76 <= inbornBuff && inbornBuff <= 80)
             {
-                inbornBuffValue = "Nachtsicht +8";
+                ce.txtInbornBuff.Text = "Nachtsicht +8";
             }
             if (81 <= inbornBuff && inbornBuff <= 85)
             {
-                inbornBuffValue = "Richtungssinn +12";
+                ce.txtInbornBuff.Text = "Richtungssinn +12";
             }
             if (86 <= inbornBuff && inbornBuff <= 90)
             {
-                inbornBuffValue = "Robustheit +9";
+                ce.txtInbornBuff.Text = "Robustheit +9";
             }
             if (91 <= inbornBuff && inbornBuff <= 95)
             {
-                inbornBuffValue = "Wachgabe +6";
+                ce.txtInbornBuff.Text = "Wachgabe +6";
             }
             if (96 <= inbornBuff && inbornBuff <= 99)
             {
-                inbornBuffValue = "Einprägen +4";
+                ce.txtInbornBuff.Text = "Einprägen +4";
             }
             if (inbornBuff == 100)
             {
-                inbornBuffValue = "Freie Wahl und zweiter Wurf";
-            }
-
-            return inbornBuffValue;
+                ce.txtInbornBuff.Text = "Freie Wahl und zweiter Wurf";
+            }           
         }
 
         #endregion
@@ -682,115 +685,94 @@ namespace mcreator.Classes
         }
 
         // Calculation of the willpower
-        private int willpowerValue;
-        public int Willpower(string mtxtWillpower, string mtxtConstitution, string mtxtIntelligence)
+        public void Willpower()
         {
             FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
             int tempWillpowerValue = 0;
-            tempWillpowerValue = Convert.ToInt32(mtxtWillpower) + (3 * ((Convert.ToInt32(mtxtConstitution) / 10) +
-                (Convert.ToInt32(mtxtIntelligence) / 10))) - 40;
+            tempWillpowerValue = Convert.ToInt32(ce.mtxtWillpower.Text) + (3 * ((Convert.ToInt32(ce.mtxtConstitution.Text) / 10) +
+                (Convert.ToInt32(ce.mtxtIntelligence.Text) / 10))) - 40;
 
             if (tempWillpowerValue > 0)
             {
-                willpowerValue = tempWillpowerValue;
+                ce.txtWillpower.Text = Convert.ToString(tempWillpowerValue);
             }
             else
             {
-                willpowerValue = 0;
+                ce.txtWillpower.Text = "0";
             }
-            return willpowerValue;
+            
         }
 
         // Calculation of the selfcontrol
-        private int selfControlAValue;
-        public int SelfControlA(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
+        public void SelfControl()
         {
             FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
             int tempSelfControlAValue = 0;
 
-            tempSelfControlAValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
-                (Convert.ToInt32(txtWillpower) / 10)));
+            tempSelfControlAValue = Convert.ToInt32(ce.mtxtSelfControl.Text) + (3 * ((Convert.ToInt32(ce.mtxtIntelligence.Text) / 10) +
+                (Convert.ToInt32(ce.txtWillpower.Text) / 10)));
 
             if (tempSelfControlAValue > 0)
             {
-                selfControlAValue = tempSelfControlAValue;
+                ce.txtSelfControlA.Text = Convert.ToString(tempSelfControlAValue);
             }
             else
             {
-                selfControlAValue = 0;
+                ce.txtSelfControlA.Text = "0";
             }
-            return selfControlAValue;
-        }
 
-        // Calculation of the selfcontrol
-        private int selfControlBValue;
-        public int SelfControlB(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
-        {
-            FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
             int tempSelfControlBValue = 0;
 
-            tempSelfControlBValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
-                (Convert.ToInt32(txtWillpower) / 10))) - 50;
+            tempSelfControlBValue = Convert.ToInt32(ce.mtxtSelfControl.Text) + (3 * ((Convert.ToInt32(ce.mtxtIntelligence.Text) / 10) +
+                (Convert.ToInt32(ce.txtWillpower.Text) / 10))) - 50;
 
             if (tempSelfControlBValue > 0)
             {
-                selfControlBValue = tempSelfControlBValue;
+                ce.txtSelfControlB.Text = Convert.ToString(tempSelfControlBValue);
             }
             else
             {
-                selfControlBValue = 0;
+                ce.txtSelfControlB.Text = "0";
             }
-            return selfControlBValue;
-        }
 
-        // Calculation of the selfcontrol
-        private int selfControlCValue;
-        public int SelfControlC(string mtxtSelfControl, string mtxtIntelligence, string txtWillpower)
-        {
-            FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
             int tempSelfControlCValue = 0;
 
-            tempSelfControlCValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
-                (Convert.ToInt32(txtWillpower) / 10))) - 30;
+            tempSelfControlCValue = Convert.ToInt32(ce.mtxtSelfControl.Text) + (3 * ((Convert.ToInt32(ce.mtxtIntelligence.Text) / 10) +
+                (Convert.ToInt32(ce.txtWillpower.Text) / 10))) - 30;
 
             if (tempSelfControlCValue > 0)
             {
-                selfControlCValue = tempSelfControlCValue;
+                ce.txtSelfControlC.Text = Convert.ToString(tempSelfControlCValue);
             }
             else
             {
-                selfControlCValue = 0;
+                ce.txtSelfControlC.Text = "0";
             }
-            return selfControlCValue;
         }
 
         // Calculation of the hand specialization
-        private string handedValue;
-        public string Handed(string mtxtHanded)
+        public void Handed()
         {
             FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
             int handed = 0;
 
-            handed = Convert.ToInt32(mtxtHanded);
+            handed = Convert.ToInt32(ce.mtxtHanded.Text);
 
             if (handed <= 15)
             {
-                handedValue = "Rechtshänder";
+                ce.txtHanded.Text = "Rechtshänder";
             }
 
             if (handed > 15 && handed < 20)
             {
-                handedValue = "Linkshänder";
+                ce.txtHanded.Text = "Linkshänder";
             }
 
             if (handed == 20)
             {
-                handedValue = "Beidhänder";
-            }
-
-            return handedValue;
+                ce.txtHanded.Text = "Beidhänder";
+            }      
         }
-
         #endregion
     }
 }

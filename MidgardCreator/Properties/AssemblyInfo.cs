@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("mcreator")]
 [assembly: AssemblyDescription("Create your Midgard Character")]
 [assembly: AssemblyConfiguration("retail")]
-[assembly: AssemblyCompany("FlamFlams Goodie Bag")]
+[assembly: AssemblyCompany("Open Source Developer")]
 [assembly: AssemblyProduct("mcreator")]
 [assembly: AssemblyCopyright("Copyright © FlamFLam 2016")]
 [assembly: AssemblyTrademark("")]
