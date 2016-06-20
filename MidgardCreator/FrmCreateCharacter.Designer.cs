@@ -31,11 +31,8 @@ namespace mcreator
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCreateCharacter));
             this.lblExport = new System.Windows.Forms.Label();
-            this.btnSelfControl = new System.Windows.Forms.Button();
             this.lblLifePointsMen = new System.Windows.Forms.Label();
             this.txtLifePoints = new System.Windows.Forms.TextBox();
-            this.btnBodyWeight = new System.Windows.Forms.Button();
-            this.btnBodySize = new System.Windows.Forms.Button();
             this.txtAreaMagicNormal = new System.Windows.Forms.TextBox();
             this.txtAreaMagicMagician = new System.Windows.Forms.TextBox();
             this.txtAreaMagicFighter = new System.Windows.Forms.TextBox();
@@ -49,7 +46,6 @@ namespace mcreator
             this.btnGetRandomCharacter = new System.Windows.Forms.Button();
             this.mtxtInbornBuff = new System.Windows.Forms.MaskedTextBox();
             this.txtInbornBuff = new System.Windows.Forms.TextBox();
-            this.btnInbornBuff = new System.Windows.Forms.Button();
             this.lblInbornBuff = new System.Windows.Forms.Label();
             this.lblAreaMagic = new System.Windows.Forms.Label();
             this.lblBodyMagic = new System.Windows.Forms.Label();
@@ -86,18 +82,14 @@ namespace mcreator
             this.lblStaminaBuff = new System.Windows.Forms.Label();
             this.txtAdventurePointsA = new System.Windows.Forms.TextBox();
             this.txtDamageBuff = new System.Windows.Forms.TextBox();
-            this.btnAdventurePointsC = new System.Windows.Forms.Button();
             this.lblDice100A = new System.Windows.Forms.Label();
-            this.btnAdventurePointsB = new System.Windows.Forms.Button();
             this.txtStaminaBuff = new System.Windows.Forms.TextBox();
-            this.btnAdventurePointsA = new System.Windows.Forms.Button();
             this.mtxtStrength = new System.Windows.Forms.MaskedTextBox();
             this.lblStrength = new System.Windows.Forms.Label();
             this.mtxtDexterity = new System.Windows.Forms.MaskedTextBox();
             this.lblLifePoints = new System.Windows.Forms.Label();
             this.lblDexterity = new System.Windows.Forms.Label();
             this.mtxtAgility = new System.Windows.Forms.MaskedTextBox();
-            this.btnLifePoints = new System.Windows.Forms.Button();
             this.mtxtLifePoints = new System.Windows.Forms.MaskedTextBox();
             this.lblMagicTalent = new System.Windows.Forms.Label();
             this.lblAgility = new System.Windows.Forms.Label();
@@ -121,8 +113,6 @@ namespace mcreator
             this.lblBodyWeightA = new System.Windows.Forms.Label();
             this.txtWillpower = new System.Windows.Forms.TextBox();
             this.txtCharisma = new System.Windows.Forms.TextBox();
-            this.btnWillpower = new System.Windows.Forms.Button();
-            this.btnCharisma = new System.Windows.Forms.Button();
             this.mtxtBodyWeightD = new System.Windows.Forms.MaskedTextBox();
             this.txtBodyWeightB = new System.Windows.Forms.TextBox();
             this.txtSelfControlC = new System.Windows.Forms.TextBox();
@@ -144,7 +134,6 @@ namespace mcreator
             this.txtBodySizeB = new System.Windows.Forms.TextBox();
             this.mtxtSelfControl = new System.Windows.Forms.MaskedTextBox();
             this.txtHanded = new System.Windows.Forms.TextBox();
-            this.btnHanded = new System.Windows.Forms.Button();
             this.lblDice20C = new System.Windows.Forms.Label();
             this.lblCharismaValues = new System.Windows.Forms.Label();
             this.lblHanded = new System.Windows.Forms.Label();
@@ -175,19 +164,13 @@ namespace mcreator
             this.lblStatCheck = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.rbStats = new System.Windows.Forms.RadioButton();
+            this.CalculationTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lblExport
             // 
             resources.ApplyResources(this.lblExport, "lblExport");
             this.lblExport.Name = "lblExport";
-            // 
-            // btnSelfControl
-            // 
-            resources.ApplyResources(this.btnSelfControl, "btnSelfControl");
-            this.btnSelfControl.Name = "btnSelfControl";
-            this.btnSelfControl.UseVisualStyleBackColor = true;
-            this.btnSelfControl.Click += new System.EventHandler(this.btnSelfControl_Click);
             // 
             // lblLifePointsMen
             // 
@@ -199,20 +182,6 @@ namespace mcreator
             resources.ApplyResources(this.txtLifePoints, "txtLifePoints");
             this.txtLifePoints.Name = "txtLifePoints";
             this.txtLifePoints.ReadOnly = true;
-            // 
-            // btnBodyWeight
-            // 
-            resources.ApplyResources(this.btnBodyWeight, "btnBodyWeight");
-            this.btnBodyWeight.Name = "btnBodyWeight";
-            this.btnBodyWeight.UseVisualStyleBackColor = true;
-            this.btnBodyWeight.Click += new System.EventHandler(this.btnBodyWeight_Click);
-            // 
-            // btnBodySize
-            // 
-            resources.ApplyResources(this.btnBodySize, "btnBodySize");
-            this.btnBodySize.Name = "btnBodySize";
-            this.btnBodySize.UseVisualStyleBackColor = true;
-            this.btnBodySize.Click += new System.EventHandler(this.btnBodySize_Click);
             // 
             // txtAreaMagicNormal
             // 
@@ -293,13 +262,6 @@ namespace mcreator
             resources.ApplyResources(this.txtInbornBuff, "txtInbornBuff");
             this.txtInbornBuff.Name = "txtInbornBuff";
             this.txtInbornBuff.ReadOnly = true;
-            // 
-            // btnInbornBuff
-            // 
-            resources.ApplyResources(this.btnInbornBuff, "btnInbornBuff");
-            this.btnInbornBuff.Name = "btnInbornBuff";
-            this.btnInbornBuff.UseVisualStyleBackColor = true;
-            this.btnInbornBuff.Click += new System.EventHandler(this.btnInbornBuff_Click);
             // 
             // lblInbornBuff
             // 
@@ -493,37 +455,16 @@ namespace mcreator
             this.txtDamageBuff.Name = "txtDamageBuff";
             this.txtDamageBuff.ReadOnly = true;
             // 
-            // btnAdventurePointsC
-            // 
-            resources.ApplyResources(this.btnAdventurePointsC, "btnAdventurePointsC");
-            this.btnAdventurePointsC.Name = "btnAdventurePointsC";
-            this.btnAdventurePointsC.UseVisualStyleBackColor = true;
-            this.btnAdventurePointsC.Click += new System.EventHandler(this.btnAdventurePointsC_Click);
-            // 
             // lblDice100A
             // 
             resources.ApplyResources(this.lblDice100A, "lblDice100A");
             this.lblDice100A.Name = "lblDice100A";
-            // 
-            // btnAdventurePointsB
-            // 
-            resources.ApplyResources(this.btnAdventurePointsB, "btnAdventurePointsB");
-            this.btnAdventurePointsB.Name = "btnAdventurePointsB";
-            this.btnAdventurePointsB.UseVisualStyleBackColor = true;
-            this.btnAdventurePointsB.Click += new System.EventHandler(this.btnAdventurePointsB_Click);
             // 
             // txtStaminaBuff
             // 
             resources.ApplyResources(this.txtStaminaBuff, "txtStaminaBuff");
             this.txtStaminaBuff.Name = "txtStaminaBuff";
             this.txtStaminaBuff.ReadOnly = true;
-            // 
-            // btnAdventurePointsA
-            // 
-            resources.ApplyResources(this.btnAdventurePointsA, "btnAdventurePointsA");
-            this.btnAdventurePointsA.Name = "btnAdventurePointsA";
-            this.btnAdventurePointsA.UseVisualStyleBackColor = true;
-            this.btnAdventurePointsA.Click += new System.EventHandler(this.btnAdventurePointsA_Click);
             // 
             // mtxtStrength
             // 
@@ -557,13 +498,6 @@ namespace mcreator
             this.mtxtAgility.HidePromptOnLeave = true;
             resources.ApplyResources(this.mtxtAgility, "mtxtAgility");
             this.mtxtAgility.Name = "mtxtAgility";
-            // 
-            // btnLifePoints
-            // 
-            resources.ApplyResources(this.btnLifePoints, "btnLifePoints");
-            this.btnLifePoints.Name = "btnLifePoints";
-            this.btnLifePoints.UseVisualStyleBackColor = true;
-            this.btnLifePoints.Click += new System.EventHandler(this.btnLifePoints_Click);
             // 
             // mtxtLifePoints
             // 
@@ -691,20 +625,6 @@ namespace mcreator
             this.txtCharisma.Name = "txtCharisma";
             this.txtCharisma.ReadOnly = true;
             // 
-            // btnWillpower
-            // 
-            resources.ApplyResources(this.btnWillpower, "btnWillpower");
-            this.btnWillpower.Name = "btnWillpower";
-            this.btnWillpower.UseVisualStyleBackColor = true;
-            this.btnWillpower.Click += new System.EventHandler(this.btnWillpower_Click);
-            // 
-            // btnCharisma
-            // 
-            resources.ApplyResources(this.btnCharisma, "btnCharisma");
-            this.btnCharisma.Name = "btnCharisma";
-            this.btnCharisma.UseVisualStyleBackColor = true;
-            this.btnCharisma.Click += new System.EventHandler(this.btnCharisma_Click);
-            // 
             // mtxtBodyWeightD
             // 
             this.mtxtBodyWeightD.HidePromptOnLeave = true;
@@ -821,13 +741,6 @@ namespace mcreator
             resources.ApplyResources(this.txtHanded, "txtHanded");
             this.txtHanded.Name = "txtHanded";
             this.txtHanded.ReadOnly = true;
-            // 
-            // btnHanded
-            // 
-            resources.ApplyResources(this.btnHanded, "btnHanded");
-            this.btnHanded.Name = "btnHanded";
-            this.btnHanded.UseVisualStyleBackColor = true;
-            this.btnHanded.Click += new System.EventHandler(this.btnHanded_Click);
             // 
             // lblDice20C
             // 
@@ -990,6 +903,12 @@ namespace mcreator
             this.rbStats.TabStop = true;
             this.rbStats.UseVisualStyleBackColor = true;
             // 
+            // CalculationTimer
+            // 
+            this.CalculationTimer.Enabled = true;
+            this.CalculationTimer.Interval = 300;
+            this.CalculationTimer.Tick += new System.EventHandler(this.CalculationTimer_Tick);
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
@@ -1007,11 +926,8 @@ namespace mcreator
             this.Controls.Add(this.txtExportPath);
             this.Controls.Add(this.btnExport);
             this.Controls.Add(this.lblExport);
-            this.Controls.Add(this.btnSelfControl);
             this.Controls.Add(this.lblLifePointsMen);
             this.Controls.Add(this.txtLifePoints);
-            this.Controls.Add(this.btnBodyWeight);
-            this.Controls.Add(this.btnBodySize);
             this.Controls.Add(this.txtAreaMagicNormal);
             this.Controls.Add(this.txtAreaMagicMagician);
             this.Controls.Add(this.txtAreaMagicFighter);
@@ -1025,7 +941,6 @@ namespace mcreator
             this.Controls.Add(this.btnGetRandomCharacter);
             this.Controls.Add(this.mtxtInbornBuff);
             this.Controls.Add(this.txtInbornBuff);
-            this.Controls.Add(this.btnInbornBuff);
             this.Controls.Add(this.lblInbornBuff);
             this.Controls.Add(this.lblAreaMagic);
             this.Controls.Add(this.lblBodyMagic);
@@ -1062,18 +977,14 @@ namespace mcreator
             this.Controls.Add(this.lblStaminaBuff);
             this.Controls.Add(this.txtAdventurePointsA);
             this.Controls.Add(this.txtDamageBuff);
-            this.Controls.Add(this.btnAdventurePointsC);
             this.Controls.Add(this.lblDice100A);
-            this.Controls.Add(this.btnAdventurePointsB);
             this.Controls.Add(this.txtStaminaBuff);
-            this.Controls.Add(this.btnAdventurePointsA);
             this.Controls.Add(this.mtxtStrength);
             this.Controls.Add(this.lblStrength);
             this.Controls.Add(this.mtxtDexterity);
             this.Controls.Add(this.lblLifePoints);
             this.Controls.Add(this.lblDexterity);
             this.Controls.Add(this.mtxtAgility);
-            this.Controls.Add(this.btnLifePoints);
             this.Controls.Add(this.mtxtLifePoints);
             this.Controls.Add(this.lblMagicTalent);
             this.Controls.Add(this.lblAgility);
@@ -1097,8 +1008,6 @@ namespace mcreator
             this.Controls.Add(this.lblBodyWeightA);
             this.Controls.Add(this.txtWillpower);
             this.Controls.Add(this.txtCharisma);
-            this.Controls.Add(this.btnWillpower);
-            this.Controls.Add(this.btnCharisma);
             this.Controls.Add(this.mtxtBodyWeightD);
             this.Controls.Add(this.txtBodyWeightB);
             this.Controls.Add(this.txtSelfControlC);
@@ -1120,7 +1029,6 @@ namespace mcreator
             this.Controls.Add(this.txtBodySizeB);
             this.Controls.Add(this.mtxtSelfControl);
             this.Controls.Add(this.txtHanded);
-            this.Controls.Add(this.btnHanded);
             this.Controls.Add(this.lblDice20C);
             this.Controls.Add(this.lblCharismaValues);
             this.Controls.Add(this.lblHanded);
@@ -1149,13 +1057,9 @@ namespace mcreator
         #endregion
 
         private System.Windows.Forms.Label lblExport;
-        private System.Windows.Forms.Button btnSelfControl;
         private System.Windows.Forms.Label lblLifePointsMen;
-        private System.Windows.Forms.Button btnBodyWeight;
-        private System.Windows.Forms.Button btnBodySize;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnGetRandomCharacter;
-        private System.Windows.Forms.Button btnInbornBuff;
         private System.Windows.Forms.Label lblInbornBuff;
         private System.Windows.Forms.Label lblAreaMagic;
         private System.Windows.Forms.Label lblBodyMagic;
@@ -1180,14 +1084,10 @@ namespace mcreator
         private System.Windows.Forms.Label lblBuff;
         private System.Windows.Forms.Label lblDamageBuff;
         private System.Windows.Forms.Label lblStaminaBuff;
-        private System.Windows.Forms.Button btnAdventurePointsC;
         private System.Windows.Forms.Label lblDice100A;
-        private System.Windows.Forms.Button btnAdventurePointsB;
-        private System.Windows.Forms.Button btnAdventurePointsA;
         private System.Windows.Forms.Label lblStrength;
         private System.Windows.Forms.Label lblLifePoints;
         private System.Windows.Forms.Label lblDexterity;
-        private System.Windows.Forms.Button btnLifePoints;
         private System.Windows.Forms.Label lblMagicTalent;
         private System.Windows.Forms.Label lblAgility;
         private System.Windows.Forms.Label lblDice6G;
@@ -1200,8 +1100,6 @@ namespace mcreator
         private System.Windows.Forms.Label lblConstitution;
         private System.Windows.Forms.Label lblBodyWeightB;
         private System.Windows.Forms.Label lblBodyWeightA;
-        private System.Windows.Forms.Button btnWillpower;
-        private System.Windows.Forms.Button btnCharisma;
         private System.Windows.Forms.Label lblDice20A;
         private System.Windows.Forms.Label lblDice20B;
         private System.Windows.Forms.Label lblSelfControlC;
@@ -1211,7 +1109,6 @@ namespace mcreator
         private System.Windows.Forms.Label lblDice6E;
         private System.Windows.Forms.Label lblDice6F;
         private System.Windows.Forms.Label lblSelfControlA;
-        private System.Windows.Forms.Button btnHanded;
         private System.Windows.Forms.Label lblDice20C;
         private System.Windows.Forms.Label lblCharismaValues;
         private System.Windows.Forms.Label lblHanded;
@@ -1293,5 +1190,6 @@ namespace mcreator
         protected internal System.Windows.Forms.TextBox txtBodySizeA;
         protected internal System.Windows.Forms.TextBox txtBodySizeB;
         protected internal System.Windows.Forms.TextBox txtHanded;
+        private System.Windows.Forms.Timer CalculationTimer;
     }
 }

@@ -48,7 +48,6 @@ namespace mcreator
                 // Hide not needed fields
                 // Handed
                 mtxtHanded.Visible      = false;
-                btnHanded.Visible       = false;
                 lblDice20C.Visible      = false;
                 // Bodysize
                 mtxtBodyWeightD.Visible = false;
@@ -153,9 +152,7 @@ namespace mcreator
                 lblBodyWeightA.Text = "kg (Mann)";
             }
         }
-
-        
-
+      
         private void btnGetRandomCharacter_Click(object sender, EventArgs e)
         {
             // Reset the check value for the following cycle
@@ -307,14 +304,13 @@ namespace mcreator
                     {
                         txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
                     }
-                    
-
-                    
-
+                                      
                     c.Charisma();
                     c.Willpower();
                     c.SelfControl();
-                    
+                    c.AdventurePoints();
+                    c.LifePoints();
+                    c.InbornBuff();
 
                     if (this.Text == "MCreator - Halfling")
                     {
@@ -324,13 +320,6 @@ namespace mcreator
                     {
                         c.Handed();
                     }
-
-
-                    c.AdventurePoints();
-                    c.LifePoints();
-                                 
-                    c.InbornBuff();
-
                     
                     int mtBuffGhost_Body_MagicValue = 0;
                     int intBuffGhostMagicValue      = 0;
@@ -379,92 +368,8 @@ namespace mcreator
 
         }
 
-        private void btnBodySize_Click(object sender, EventArgs e)
-        {
-            
-            if (this.Text == "MCreator - Mensch")
-            {
-
-                txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
-                txtBodySizeB.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
-            }
-            else
-            {
-                txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
-            }
-        }
-
-        private void btnBodyWeight_Click(object sender, EventArgs e)
-        {
-            
-            if (this.Text == "MCreator - Mensch")
-            {
-                txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
-                txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text) - 4);
-            }
-            else
-            {
-                txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
-            }
-        }
-
-        private void btnCharisma_Click(object sender, EventArgs e)
-        {
-            
-            c.Charisma();
-        }
-
-        private void btnWillpower_Click(object sender, EventArgs e)
-        {
-
-            c.Willpower();
-        }
-
-        private void btnSelfControl_Click(object sender, EventArgs e)
-        {
-
-            c.SelfControl();
-        }
-
-        private void btnInbornBuff_Click(object sender, EventArgs e)
-        {
-
-            c.InbornBuff();
-        }
-
-        private void btnHanded_Click(object sender, EventArgs e)
-        {
-
-            c.Handed();
-        }
-
-        private void btnAdventurePointsA_Click(object sender, EventArgs e)
-        {
-
-            c.AdventurePoints();
-        }
-
-        private void btnAdventurePointsB_Click(object sender, EventArgs e)
-        {
-
-            c.AdventurePoints();
-        }
-
-        private void btnAdventurePointsC_Click(object sender, EventArgs e)
-        {
-
-            c.AdventurePoints();
-        }
-
-        private void btnLifePoints_Click(object sender, EventArgs e)
-        {
-
-            c.LifePoints();
-        }
-
         private void Enable_Timer_Tick(object sender, EventArgs e)
         {
-            #region Stats    
             if (mtxtStrength.Text != "" && Convert.ToInt32(mtxtStrength.Text) <= 100 && mtxtDexterity.Text != "" && Convert.ToInt32(mtxtDexterity.Text) <= 100 && mtxtAgility.Text != "" && Convert.ToInt32(mtxtAgility.Text) <= 100 && mtxtConstitution.Text != "" && Convert.ToInt32(mtxtConstitution.Text) <= 100 && mtxtIntelligence.Text != "" && Convert.ToInt32(mtxtIntelligence.Text) <= 100 && mtxtMagicalTalent.Text != "" && Convert.ToInt32(mtxtMagicalTalent.Text) <= 100)
             {
                 int TotalAmount_Stat = 0;
@@ -610,39 +515,7 @@ namespace mcreator
                 txtAreaMagicFighter.Text = "";
                 txtAreaMagicMagician.Text = "";
                 txtAreaMagicNormal.Text = "";
-            }
-
-            #endregion
-            TimerCheck t = new TimerCheck();
-            //BodySize
-            btnBodySize.Enabled = t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, rbStats.Checked, this.Text); ;
-
-            //BodyWeight
-            btnBodyWeight.Enabled = t.BodyWeightCheck(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, rbStats.Checked, txtBodySizeA.Text);
-
-            //Charisma
-            btnCharisma.Enabled = t.CharismaCheck(mtxtAppearance.Text, rbStats.Checked, mtxtCharisma.Text);
-
-            //Willpower
-            btnWillpower.Enabled = t.WillpowerCheck(mtxtWillpower.Text, rbStats.Checked);
-
-            //SelfControl
-            btnSelfControl.Enabled = t.SelfControlCheck(mtxtSelfControl.Text, rbStats.Checked, txtWillpower.Text);
-
-            //Handed
-            btnHanded.Enabled = t.HandedCheck(mtxtHanded.Text, rbStats.Checked);
-
-            //AP
-            btnAdventurePointsA.Enabled = t.AdventurePointsACheck(mtxtAdventurePointsA.Text, txtStaminaBuff.Text);
-            btnAdventurePointsB.Enabled = t.AdventurePointsBCheck(mtxtAdventurePointsB.Text, txtStaminaBuff.Text);
-            btnAdventurePointsC.Enabled = t.AdventurePointsCCheck(mtxtAdventurePointsC.Text, txtStaminaBuff.Text);
-
-            //LP
-            btnLifePoints.Enabled = t.LifePointsCheck(mtxtLifePoints.Text, rbStats.Checked);
-
-            //InbornBuff
-            btnInbornBuff.Enabled = t.InbornBuffCheck(mtxtInbornBuff.Text);
-            
+            }      
         }
 
         private void btnExport_Click(object sender, EventArgs e)
@@ -826,6 +699,43 @@ namespace mcreator
                 this.Close();
         }
 
+        private void CalculationTimer_Tick(object sender, EventArgs e)
+        {
+            c.Charisma();
+            c.Willpower();
+            c.SelfControl();
+            c.InbornBuff();
+            c.Handed();
+            c.AdventurePoints();
+            c.LifePoints();
 
+            TimerCheck t = new TimerCheck();
+            if (t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, rbStats.Checked, this.Text))
+            {
+                if (this.Text == "MCreator - Mensch")
+                {
+
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
+                    txtBodySizeB.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
+                }
+                else
+                {
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                }
+            }
+
+            if (t.BodyWeightCheck(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, rbStats.Checked, txtBodySizeA.Text))
+            {
+                if (this.Text == "MCreator - Mensch")
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
+                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text) - 4);
+                }
+                else
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
+                }
+            }   
+        }
     }
 }
