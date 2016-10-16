@@ -111,7 +111,7 @@ namespace mcreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 561);
+            this.ClientSize = new System.Drawing.Size(224, 421);
             this.ControlBox = false;
             this.Controls.Add(this.btnEXP);
             this.Controls.Add(this.btnCreateGnome);
@@ -120,8 +120,8 @@ namespace mcreator
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCreateElf);
             this.Controls.Add(this.btnCreateHuman);
-            this.MaximumSize = new System.Drawing.Size(240, 600);
-            this.MinimumSize = new System.Drawing.Size(240, 600);
+            this.MaximumSize = new System.Drawing.Size(240, 460);
+            this.MinimumSize = new System.Drawing.Size(240, 460);
             this.Name = "FrmMain";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
