@@ -90,6 +90,14 @@ namespace mcreator
             this.Close();
         }
 
-
+        private void btnEXP_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmLevelUp levelUp = new FrmLevelUp();
+            levelUp.Text = "MCreator - Level Up";
+            levelUp.ShowDialog();
+            levelUp = null;
+            Show();
+        }
     }
 }

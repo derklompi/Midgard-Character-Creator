@@ -90,6 +90,12 @@
     <Compile Include="FrmCreateCharacter.Designer.cs">
       <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmLevelUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLevelUp.Designer.cs">
+      <DependentUpon>FrmLevelUp.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCreateCharacter.resx">
       <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLevelUp.resx">
+      <DependentUpon>FrmLevelUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
