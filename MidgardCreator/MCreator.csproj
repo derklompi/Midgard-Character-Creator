@@ -84,6 +84,12 @@
     <Compile Include="Classes\Character.cs" />
     <Compile Include="Classes\Export.cs" />
     <Compile Include="Classes\TimerCheck.cs" />
+    <Compile Include="FrmCustomizationValues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCustomizationValues.Designer.cs">
+      <DependentUpon>FrmCustomizationValues.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCreateCharacter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCustomizationValues.resx">
+      <DependentUpon>FrmCustomizationValues.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCreateCharacter.resx">
       <DependentUpon>FrmCreateCharacter.cs</DependentUpon>
     </EmbeddedResource>

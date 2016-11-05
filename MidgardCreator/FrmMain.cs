@@ -99,5 +99,15 @@ namespace mcreator
             levelUp = null;
             Show();
         }
+
+        private void btnCustomizationValues_Click(object sender, EventArgs e)
+        {
+            Hide();
+            FrmCustomizationValues customizationValues = new FrmCustomizationValues();
+            customizationValues.Text = "MCreator - Customization Values";
+            customizationValues.ShowDialog();
+            customizationValues = null;
+            Show();
+        }
     }
 }
