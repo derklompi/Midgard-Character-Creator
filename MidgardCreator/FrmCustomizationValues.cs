@@ -205,5 +205,40 @@ namespace mcreator
                 txtSocialRank.Text = "Adel";
             }
         }
+
+        private void cbFachkenntnisseA_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cbFachkenntnisseB.Enabled == false)
+            {
+                cbFachkenntnisseB.Enabled = true;
+
+            }
+            else
+            {
+                int fachkenntnisse = 0;
+                int fachkenntnisse_ValueA = 0;
+                int fachkenntnisse_ValueB = 0;
+
+                fachkenntnisse_ValueA = Convert.ToInt32(cbFachkenntnisseA.SelectedItem.ToString());
+                fachkenntnisse_ValueB = Convert.ToInt32(cbFachkenntnisseB.SelectedItem.ToString());
+                fachkenntnisse = fachkenntnisse_ValueA + fachkenntnisse_ValueB;
+
+                txtFachkenntnisse.Text = Convert.ToString(fachkenntnisse);
+            }
+            
+        }
+
+        private void cbFachkenntnisseB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int fachkenntnisse = 0;
+            int fachkenntnisse_ValueA = 0;
+            int fachkenntnisse_ValueB = 0;
+
+            fachkenntnisse_ValueA = Convert.ToInt32(cbFachkenntnisseA.SelectedItem.ToString());
+            fachkenntnisse_ValueB = Convert.ToInt32(cbFachkenntnisseB.SelectedItem.ToString());
+            fachkenntnisse = fachkenntnisse_ValueA + fachkenntnisse_ValueB;
+
+            txtFachkenntnisse.Text = Convert.ToString(fachkenntnisse);
+        }
     }
 }

@@ -32,14 +32,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.cbFachkenntnisseA = new System.Windows.Forms.ComboBox();
+            this.cbFachkenntnisseB = new System.Windows.Forms.ComboBox();
+            this.cbWaffenfertigkeitenB = new System.Windows.Forms.ComboBox();
+            this.cbWaffenfertigkeitenA = new System.Windows.Forms.ComboBox();
+            this.cbAllgemeinwissen = new System.Windows.Forms.ComboBox();
+            this.cbUngewoehnlicheFertigkeiten = new System.Windows.Forms.ComboBox();
+            this.cbZauberkünsteB = new System.Windows.Forms.ComboBox();
+            this.cbZauberkünsteA = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -49,7 +49,7 @@
             this.cbSocialRank = new System.Windows.Forms.ComboBox();
             this.txtSocialRank = new System.Windows.Forms.TextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtFachkenntnisse = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -134,133 +134,138 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "Ungewöhnliche Fertigkeiten";
             // 
-            // comboBox1
+            // cbFachkenntnisseA
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbFachkenntnisseA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbFachkenntnisseA.FormattingEnabled = true;
+            this.cbFachkenntnisseA.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox1.Location = new System.Drawing.Point(170, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(34, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cbFachkenntnisseA.Location = new System.Drawing.Point(170, 30);
+            this.cbFachkenntnisseA.Name = "cbFachkenntnisseA";
+            this.cbFachkenntnisseA.Size = new System.Drawing.Size(34, 21);
+            this.cbFachkenntnisseA.TabIndex = 4;
+            this.cbFachkenntnisseA.SelectedIndexChanged += new System.EventHandler(this.cbFachkenntnisseA_SelectedIndexChanged);
             // 
-            // comboBox2
+            // cbFachkenntnisseB
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cbFachkenntnisseB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbFachkenntnisseB.Enabled = false;
+            this.cbFachkenntnisseB.FormattingEnabled = true;
+            this.cbFachkenntnisseB.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox2.Location = new System.Drawing.Point(210, 30);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(34, 21);
-            this.comboBox2.TabIndex = 5;
+            this.cbFachkenntnisseB.Location = new System.Drawing.Point(210, 30);
+            this.cbFachkenntnisseB.Name = "cbFachkenntnisseB";
+            this.cbFachkenntnisseB.Size = new System.Drawing.Size(34, 21);
+            this.cbFachkenntnisseB.TabIndex = 5;
+            this.cbFachkenntnisseB.SelectedIndexChanged += new System.EventHandler(this.cbFachkenntnisseB_SelectedIndexChanged);
             // 
-            // comboBox3
+            // cbWaffenfertigkeitenB
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cbWaffenfertigkeitenB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbWaffenfertigkeitenB.Enabled = false;
+            this.cbWaffenfertigkeitenB.FormattingEnabled = true;
+            this.cbWaffenfertigkeitenB.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox3.Location = new System.Drawing.Point(210, 57);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(34, 21);
-            this.comboBox3.TabIndex = 7;
+            this.cbWaffenfertigkeitenB.Location = new System.Drawing.Point(210, 57);
+            this.cbWaffenfertigkeitenB.Name = "cbWaffenfertigkeitenB";
+            this.cbWaffenfertigkeitenB.Size = new System.Drawing.Size(34, 21);
+            this.cbWaffenfertigkeitenB.TabIndex = 7;
             // 
-            // comboBox4
+            // cbWaffenfertigkeitenA
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.cbWaffenfertigkeitenA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbWaffenfertigkeitenA.FormattingEnabled = true;
+            this.cbWaffenfertigkeitenA.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox4.Location = new System.Drawing.Point(170, 57);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(34, 21);
-            this.comboBox4.TabIndex = 6;
+            this.cbWaffenfertigkeitenA.Location = new System.Drawing.Point(170, 57);
+            this.cbWaffenfertigkeitenA.Name = "cbWaffenfertigkeitenA";
+            this.cbWaffenfertigkeitenA.Size = new System.Drawing.Size(34, 21);
+            this.cbWaffenfertigkeitenA.TabIndex = 6;
             // 
-            // comboBox6
+            // cbAllgemeinwissen
             // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.cbAllgemeinwissen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAllgemeinwissen.FormattingEnabled = true;
+            this.cbAllgemeinwissen.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox6.Location = new System.Drawing.Point(170, 84);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(34, 21);
-            this.comboBox6.TabIndex = 8;
+            this.cbAllgemeinwissen.Location = new System.Drawing.Point(170, 84);
+            this.cbAllgemeinwissen.Name = "cbAllgemeinwissen";
+            this.cbAllgemeinwissen.Size = new System.Drawing.Size(34, 21);
+            this.cbAllgemeinwissen.TabIndex = 8;
             // 
-            // comboBox8
+            // cbUngewoehnlicheFertigkeiten
             // 
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.cbUngewoehnlicheFertigkeiten.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbUngewoehnlicheFertigkeiten.FormattingEnabled = true;
+            this.cbUngewoehnlicheFertigkeiten.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox8.Location = new System.Drawing.Point(170, 111);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(34, 21);
-            this.comboBox8.TabIndex = 10;
+            this.cbUngewoehnlicheFertigkeiten.Location = new System.Drawing.Point(170, 111);
+            this.cbUngewoehnlicheFertigkeiten.Name = "cbUngewoehnlicheFertigkeiten";
+            this.cbUngewoehnlicheFertigkeiten.Size = new System.Drawing.Size(34, 21);
+            this.cbUngewoehnlicheFertigkeiten.TabIndex = 10;
             // 
-            // comboBox5
+            // cbZauberkünsteB
             // 
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.cbZauberkünsteB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbZauberkünsteB.Enabled = false;
+            this.cbZauberkünsteB.FormattingEnabled = true;
+            this.cbZauberkünsteB.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox5.Location = new System.Drawing.Point(210, 138);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(34, 21);
-            this.comboBox5.TabIndex = 14;
+            this.cbZauberkünsteB.Location = new System.Drawing.Point(210, 138);
+            this.cbZauberkünsteB.Name = "cbZauberkünsteB";
+            this.cbZauberkünsteB.Size = new System.Drawing.Size(34, 21);
+            this.cbZauberkünsteB.TabIndex = 14;
             // 
-            // comboBox9
+            // cbZauberkünsteA
             // 
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
+            this.cbZauberkünsteA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbZauberkünsteA.FormattingEnabled = true;
+            this.cbZauberkünsteA.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
             "4",
             "5",
             "6"});
-            this.comboBox9.Location = new System.Drawing.Point(170, 138);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(34, 21);
-            this.comboBox9.TabIndex = 13;
+            this.cbZauberkünsteA.Location = new System.Drawing.Point(170, 138);
+            this.cbZauberkünsteA.Name = "cbZauberkünsteA";
+            this.cbZauberkünsteA.Size = new System.Drawing.Size(34, 21);
+            this.cbZauberkünsteA.TabIndex = 13;
             // 
             // label5
             // 
@@ -445,14 +450,14 @@
             this.richTextBox1.Text = "Barde+Beschwörer+Priester +20\nDruide+Heiler+Magier+Thraumaturg +10\nAssasine+Händl" +
     "er+Kundschafter+Waldläufer -10\nSpitzbube -20";
             // 
-            // textBox2
+            // txtFachkenntnisse
             // 
-            this.textBox2.Location = new System.Drawing.Point(250, 30);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(30, 20);
-            this.textBox2.TabIndex = 23;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtFachkenntnisse.Location = new System.Drawing.Point(250, 30);
+            this.txtFachkenntnisse.Name = "txtFachkenntnisse";
+            this.txtFachkenntnisse.ReadOnly = true;
+            this.txtFachkenntnisse.Size = new System.Drawing.Size(30, 20);
+            this.txtFachkenntnisse.TabIndex = 23;
+            this.txtFachkenntnisse.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
@@ -1138,7 +1143,7 @@
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtFachkenntnisse);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.txtSocialRank);
             this.Controls.Add(this.cbSocialRank);
@@ -1147,15 +1152,15 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox9);
+            this.Controls.Add(this.cbZauberkünsteB);
+            this.Controls.Add(this.cbZauberkünsteA);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox8);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbUngewoehnlicheFertigkeiten);
+            this.Controls.Add(this.cbAllgemeinwissen);
+            this.Controls.Add(this.cbWaffenfertigkeitenB);
+            this.Controls.Add(this.cbWaffenfertigkeitenA);
+            this.Controls.Add(this.cbFachkenntnisseB);
+            this.Controls.Add(this.cbFachkenntnisseA);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -1174,14 +1179,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox cbFachkenntnisseA;
+        private System.Windows.Forms.ComboBox cbFachkenntnisseB;
+        private System.Windows.Forms.ComboBox cbWaffenfertigkeitenB;
+        private System.Windows.Forms.ComboBox cbWaffenfertigkeitenA;
+        private System.Windows.Forms.ComboBox cbAllgemeinwissen;
+        private System.Windows.Forms.ComboBox cbUngewoehnlicheFertigkeiten;
+        private System.Windows.Forms.ComboBox cbZauberkünsteB;
+        private System.Windows.Forms.ComboBox cbZauberkünsteA;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -1191,7 +1196,7 @@
         private System.Windows.Forms.ComboBox cbSocialRank;
         private System.Windows.Forms.TextBox txtSocialRank;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtFachkenntnisse;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
