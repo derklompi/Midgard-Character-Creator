@@ -44,16 +44,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.cbSocialRank = new System.Windows.Forms.ComboBox();
-            this.txtSocialRank = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.cbSocialRankA = new System.Windows.Forms.ComboBox();
+            this.txtSocialRankGeneral = new System.Windows.Forms.TextBox();
             this.txtFachkenntnisse = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtWaffenfertigkeiten = new System.Windows.Forms.TextBox();
+            this.txtAllgemeinwissen = new System.Windows.Forms.TextBox();
+            this.txtUngewoehnlicheFertigkeiten = new System.Windows.Forms.TextBox();
+            this.txtZauberkuenste = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cbStartWeapons = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -96,6 +94,8 @@
             this.txtMoneyA = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
             this.btnReset = new System.Windows.Forms.Button();
+            this.cbSocialRankB = new System.Windows.Forms.ComboBox();
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -185,6 +185,7 @@
             this.cbWaffenfertigkeitenB.Name = "cbWaffenfertigkeitenB";
             this.cbWaffenfertigkeitenB.Size = new System.Drawing.Size(34, 21);
             this.cbWaffenfertigkeitenB.TabIndex = 7;
+            this.cbWaffenfertigkeitenB.SelectedIndexChanged += new System.EventHandler(this.cbWaffenfertigkeitenB_SelectedIndexChanged);
             // 
             // cbWaffenfertigkeitenA
             // 
@@ -201,6 +202,7 @@
             this.cbWaffenfertigkeitenA.Name = "cbWaffenfertigkeitenA";
             this.cbWaffenfertigkeitenA.Size = new System.Drawing.Size(34, 21);
             this.cbWaffenfertigkeitenA.TabIndex = 6;
+            this.cbWaffenfertigkeitenA.SelectedIndexChanged += new System.EventHandler(this.cbWaffenfertigkeitenA_SelectedIndexChanged);
             // 
             // cbAllgemeinwissen
             // 
@@ -217,6 +219,7 @@
             this.cbAllgemeinwissen.Name = "cbAllgemeinwissen";
             this.cbAllgemeinwissen.Size = new System.Drawing.Size(34, 21);
             this.cbAllgemeinwissen.TabIndex = 8;
+            this.cbAllgemeinwissen.SelectedIndexChanged += new System.EventHandler(this.cbAllgemeinwissen_SelectedIndexChanged);
             // 
             // cbUngewoehnlicheFertigkeiten
             // 
@@ -233,6 +236,7 @@
             this.cbUngewoehnlicheFertigkeiten.Name = "cbUngewoehnlicheFertigkeiten";
             this.cbUngewoehnlicheFertigkeiten.Size = new System.Drawing.Size(34, 21);
             this.cbUngewoehnlicheFertigkeiten.TabIndex = 10;
+            this.cbUngewoehnlicheFertigkeiten.SelectedIndexChanged += new System.EventHandler(this.cbUngewoehnlicheFertigkeiten_SelectedIndexChanged);
             // 
             // cbZauberkünsteB
             // 
@@ -250,6 +254,7 @@
             this.cbZauberkünsteB.Name = "cbZauberkünsteB";
             this.cbZauberkünsteB.Size = new System.Drawing.Size(34, 21);
             this.cbZauberkünsteB.TabIndex = 14;
+            this.cbZauberkünsteB.SelectedIndexChanged += new System.EventHandler(this.cbZauberkünsteB_SelectedIndexChanged);
             // 
             // cbZauberkünsteA
             // 
@@ -266,6 +271,7 @@
             this.cbZauberkünsteA.Name = "cbZauberkünsteA";
             this.cbZauberkünsteA.Size = new System.Drawing.Size(34, 21);
             this.cbZauberkünsteA.TabIndex = 13;
+            this.cbZauberkünsteA.SelectedIndexChanged += new System.EventHandler(this.cbZauberkünsteA_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -303,29 +309,20 @@
             this.label8.TabIndex = 17;
             this.label8.Text = "1W6";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(207, 87);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 13);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "+1";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(26, 216);
+            this.label10.Location = new System.Drawing.Point(26, 380);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(35, 13);
             this.label10.TabIndex = 19;
             this.label10.Text = "Stand";
             // 
-            // cbSocialRank
+            // cbSocialRankA
             // 
-            this.cbSocialRank.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbSocialRank.FormattingEnabled = true;
-            this.cbSocialRank.Items.AddRange(new object[] {
+            this.cbSocialRankA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSocialRankA.FormattingEnabled = true;
+            this.cbSocialRankA.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -426,29 +423,19 @@
             "98",
             "99",
             "100"});
-            this.cbSocialRank.Location = new System.Drawing.Point(83, 213);
-            this.cbSocialRank.Name = "cbSocialRank";
-            this.cbSocialRank.Size = new System.Drawing.Size(46, 21);
-            this.cbSocialRank.TabIndex = 20;
-            this.cbSocialRank.SelectedIndexChanged += new System.EventHandler(this.cbSocialRank_SelectedIndexChanged);
+            this.cbSocialRankA.Location = new System.Drawing.Point(79, 377);
+            this.cbSocialRankA.Name = "cbSocialRankA";
+            this.cbSocialRankA.Size = new System.Drawing.Size(46, 21);
+            this.cbSocialRankA.TabIndex = 20;
+            this.cbSocialRankA.SelectedIndexChanged += new System.EventHandler(this.cbSocialRank_SelectedIndexChanged);
             // 
-            // txtSocialRank
+            // txtSocialRankGeneral
             // 
-            this.txtSocialRank.Enabled = false;
-            this.txtSocialRank.Location = new System.Drawing.Point(135, 213);
-            this.txtSocialRank.Name = "txtSocialRank";
-            this.txtSocialRank.ReadOnly = true;
-            this.txtSocialRank.Size = new System.Drawing.Size(69, 20);
-            this.txtSocialRank.TabIndex = 21;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(210, 213);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
-            this.richTextBox1.TabIndex = 22;
-            this.richTextBox1.Text = "Barde+Beschwörer+Priester +20\nDruide+Heiler+Magier+Thraumaturg +10\nAssasine+Händl" +
-    "er+Kundschafter+Waldläufer -10\nSpitzbube -20";
+            this.txtSocialRankGeneral.Location = new System.Drawing.Point(222, 377);
+            this.txtSocialRankGeneral.Name = "txtSocialRankGeneral";
+            this.txtSocialRankGeneral.ReadOnly = true;
+            this.txtSocialRankGeneral.Size = new System.Drawing.Size(69, 20);
+            this.txtSocialRankGeneral.TabIndex = 21;
             // 
             // txtFachkenntnisse
             // 
@@ -459,46 +446,46 @@
             this.txtFachkenntnisse.TabIndex = 23;
             this.txtFachkenntnisse.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // txtWaffenfertigkeiten
             // 
-            this.textBox3.Location = new System.Drawing.Point(250, 57);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(30, 20);
-            this.textBox3.TabIndex = 24;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtWaffenfertigkeiten.Location = new System.Drawing.Point(250, 57);
+            this.txtWaffenfertigkeiten.Name = "txtWaffenfertigkeiten";
+            this.txtWaffenfertigkeiten.ReadOnly = true;
+            this.txtWaffenfertigkeiten.Size = new System.Drawing.Size(30, 20);
+            this.txtWaffenfertigkeiten.TabIndex = 24;
+            this.txtWaffenfertigkeiten.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox4
+            // txtAllgemeinwissen
             // 
-            this.textBox4.Location = new System.Drawing.Point(250, 84);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(30, 20);
-            this.textBox4.TabIndex = 25;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtAllgemeinwissen.Location = new System.Drawing.Point(250, 84);
+            this.txtAllgemeinwissen.Name = "txtAllgemeinwissen";
+            this.txtAllgemeinwissen.ReadOnly = true;
+            this.txtAllgemeinwissen.Size = new System.Drawing.Size(30, 20);
+            this.txtAllgemeinwissen.TabIndex = 25;
+            this.txtAllgemeinwissen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // txtUngewoehnlicheFertigkeiten
             // 
-            this.textBox5.Location = new System.Drawing.Point(250, 111);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(30, 20);
-            this.textBox5.TabIndex = 26;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUngewoehnlicheFertigkeiten.Location = new System.Drawing.Point(250, 111);
+            this.txtUngewoehnlicheFertigkeiten.Name = "txtUngewoehnlicheFertigkeiten";
+            this.txtUngewoehnlicheFertigkeiten.ReadOnly = true;
+            this.txtUngewoehnlicheFertigkeiten.Size = new System.Drawing.Size(30, 20);
+            this.txtUngewoehnlicheFertigkeiten.TabIndex = 26;
+            this.txtUngewoehnlicheFertigkeiten.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox6
+            // txtZauberkuenste
             // 
-            this.textBox6.Location = new System.Drawing.Point(250, 138);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(30, 20);
-            this.textBox6.TabIndex = 27;
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtZauberkuenste.Location = new System.Drawing.Point(250, 138);
+            this.txtZauberkuenste.Name = "txtZauberkuenste";
+            this.txtZauberkuenste.ReadOnly = true;
+            this.txtZauberkuenste.Size = new System.Drawing.Size(30, 20);
+            this.txtZauberkuenste.TabIndex = 27;
+            this.txtZauberkuenste.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(12, 352);
+            this.label11.Location = new System.Drawing.Point(331, 217);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(42, 13);
             this.label11.TabIndex = 28;
@@ -609,7 +596,7 @@
             "98",
             "99",
             "100"});
-            this.cbStartWeapons.Location = new System.Drawing.Point(60, 349);
+            this.cbStartWeapons.Location = new System.Drawing.Point(379, 214);
             this.cbStartWeapons.Name = "cbStartWeapons";
             this.cbStartWeapons.Size = new System.Drawing.Size(46, 21);
             this.cbStartWeapons.TabIndex = 29;
@@ -618,7 +605,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(80, 197);
+            this.label12.Location = new System.Drawing.Point(81, 361);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(32, 13);
             this.label12.TabIndex = 30;
@@ -627,7 +614,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(57, 333);
+            this.label13.Location = new System.Drawing.Point(376, 198);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(32, 13);
             this.label13.TabIndex = 31;
@@ -636,7 +623,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(118, 352);
+            this.label14.Location = new System.Drawing.Point(437, 217);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(71, 13);
             this.label14.TabIndex = 32;
@@ -644,7 +631,7 @@
             // 
             // txtStartWeaponsA
             // 
-            this.txtStartWeaponsA.Location = new System.Drawing.Point(206, 349);
+            this.txtStartWeaponsA.Location = new System.Drawing.Point(525, 214);
             this.txtStartWeaponsA.Name = "txtStartWeaponsA";
             this.txtStartWeaponsA.ReadOnly = true;
             this.txtStartWeaponsA.Size = new System.Drawing.Size(100, 20);
@@ -653,7 +640,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(118, 378);
+            this.label15.Location = new System.Drawing.Point(437, 243);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(82, 13);
             this.label15.TabIndex = 34;
@@ -661,7 +648,7 @@
             // 
             // txtStartWeaponsB
             // 
-            this.txtStartWeaponsB.Location = new System.Drawing.Point(206, 375);
+            this.txtStartWeaponsB.Location = new System.Drawing.Point(525, 240);
             this.txtStartWeaponsB.Name = "txtStartWeaponsB";
             this.txtStartWeaponsB.ReadOnly = true;
             this.txtStartWeaponsB.Size = new System.Drawing.Size(100, 20);
@@ -670,7 +657,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(118, 400);
+            this.label16.Location = new System.Drawing.Point(437, 265);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(83, 13);
             this.label16.TabIndex = 36;
@@ -679,7 +666,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(118, 445);
+            this.label17.Location = new System.Drawing.Point(437, 310);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(85, 13);
             this.label17.TabIndex = 39;
@@ -687,7 +674,7 @@
             // 
             // txtStartWeaponsC
             // 
-            this.txtStartWeaponsC.Location = new System.Drawing.Point(206, 420);
+            this.txtStartWeaponsC.Location = new System.Drawing.Point(525, 285);
             this.txtStartWeaponsC.Name = "txtStartWeaponsC";
             this.txtStartWeaponsC.ReadOnly = true;
             this.txtStartWeaponsC.Size = new System.Drawing.Size(100, 20);
@@ -696,7 +683,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(118, 423);
+            this.label18.Location = new System.Drawing.Point(437, 288);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(73, 13);
             this.label18.TabIndex = 37;
@@ -704,7 +691,7 @@
             // 
             // txtStartWeaponsD
             // 
-            this.txtStartWeaponsD.Location = new System.Drawing.Point(206, 462);
+            this.txtStartWeaponsD.Location = new System.Drawing.Point(525, 327);
             this.txtStartWeaponsD.Name = "txtStartWeaponsD";
             this.txtStartWeaponsD.ReadOnly = true;
             this.txtStartWeaponsD.Size = new System.Drawing.Size(100, 20);
@@ -713,7 +700,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(118, 465);
+            this.label19.Location = new System.Drawing.Point(437, 330);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(41, 13);
             this.label19.TabIndex = 40;
@@ -721,7 +708,7 @@
             // 
             // txtStartArmorD
             // 
-            this.txtStartArmorD.Location = new System.Drawing.Point(519, 439);
+            this.txtStartArmorD.Location = new System.Drawing.Point(525, 120);
             this.txtStartArmorD.Name = "txtStartArmorD";
             this.txtStartArmorD.ReadOnly = true;
             this.txtStartArmorD.Size = new System.Drawing.Size(30, 20);
@@ -730,7 +717,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(431, 445);
+            this.label20.Location = new System.Drawing.Point(437, 126);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(41, 13);
             this.label20.TabIndex = 53;
@@ -739,7 +726,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(431, 423);
+            this.label21.Location = new System.Drawing.Point(437, 104);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(64, 13);
             this.label21.TabIndex = 52;
@@ -747,7 +734,7 @@
             // 
             // txtStartArmorC
             // 
-            this.txtStartArmorC.Location = new System.Drawing.Point(519, 401);
+            this.txtStartArmorC.Location = new System.Drawing.Point(525, 82);
             this.txtStartArmorC.Name = "txtStartArmorC";
             this.txtStartArmorC.ReadOnly = true;
             this.txtStartArmorC.Size = new System.Drawing.Size(30, 20);
@@ -756,7 +743,7 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(431, 404);
+            this.label22.Location = new System.Drawing.Point(437, 85);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(77, 13);
             this.label22.TabIndex = 50;
@@ -764,7 +751,7 @@
             // 
             // txtStartArmorB
             // 
-            this.txtStartArmorB.Location = new System.Drawing.Point(519, 375);
+            this.txtStartArmorB.Location = new System.Drawing.Point(525, 56);
             this.txtStartArmorB.Name = "txtStartArmorB";
             this.txtStartArmorB.ReadOnly = true;
             this.txtStartArmorB.Size = new System.Drawing.Size(30, 20);
@@ -773,7 +760,7 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(431, 378);
+            this.label24.Location = new System.Drawing.Point(437, 59);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(81, 13);
             this.label24.TabIndex = 47;
@@ -781,7 +768,7 @@
             // 
             // txtStartArmorA
             // 
-            this.txtStartArmorA.Location = new System.Drawing.Point(519, 349);
+            this.txtStartArmorA.Location = new System.Drawing.Point(525, 30);
             this.txtStartArmorA.Name = "txtStartArmorA";
             this.txtStartArmorA.ReadOnly = true;
             this.txtStartArmorA.Size = new System.Drawing.Size(30, 20);
@@ -790,7 +777,7 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(431, 352);
+            this.label25.Location = new System.Drawing.Point(437, 33);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(73, 13);
             this.label25.TabIndex = 45;
@@ -799,7 +786,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(370, 333);
+            this.label26.Location = new System.Drawing.Point(376, 14);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(32, 13);
             this.label26.TabIndex = 44;
@@ -910,7 +897,7 @@
             "98",
             "99",
             "100"});
-            this.cbStartArmor.Location = new System.Drawing.Point(373, 349);
+            this.cbStartArmor.Location = new System.Drawing.Point(379, 30);
             this.cbStartArmor.Name = "cbStartArmor";
             this.cbStartArmor.Size = new System.Drawing.Size(46, 21);
             this.cbStartArmor.TabIndex = 43;
@@ -919,7 +906,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(325, 352);
+            this.label27.Location = new System.Drawing.Point(331, 33);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(47, 13);
             this.label27.TabIndex = 42;
@@ -928,7 +915,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(335, 197);
+            this.label33.Location = new System.Drawing.Point(26, 217);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(29, 13);
             this.label33.TabIndex = 55;
@@ -937,7 +924,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(385, 178);
+            this.label29.Location = new System.Drawing.Point(76, 198);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(30, 13);
             this.label29.TabIndex = 69;
@@ -955,7 +942,7 @@
             "4",
             "5",
             "6"});
-            this.cbStartMoneyB.Location = new System.Drawing.Point(388, 221);
+            this.cbStartMoneyB.Location = new System.Drawing.Point(79, 241);
             this.cbStartMoneyB.Name = "cbStartMoneyB";
             this.cbStartMoneyB.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyB.TabIndex = 67;
@@ -972,7 +959,7 @@
             "4",
             "5",
             "6"});
-            this.cbStartMoneyA.Location = new System.Drawing.Point(388, 194);
+            this.cbStartMoneyA.Location = new System.Drawing.Point(79, 214);
             this.cbStartMoneyA.Name = "cbStartMoneyA";
             this.cbStartMoneyA.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyA.TabIndex = 65;
@@ -990,7 +977,7 @@
             "4",
             "5",
             "6"});
-            this.cbStartMoneyC.Location = new System.Drawing.Point(388, 248);
+            this.cbStartMoneyC.Location = new System.Drawing.Point(79, 268);
             this.cbStartMoneyC.Name = "cbStartMoneyC";
             this.cbStartMoneyC.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyC.TabIndex = 70;
@@ -998,7 +985,7 @@
             // 
             // txtMoneyD
             // 
-            this.txtMoneyD.Location = new System.Drawing.Point(516, 307);
+            this.txtMoneyD.Location = new System.Drawing.Point(207, 327);
             this.txtMoneyD.Name = "txtMoneyD";
             this.txtMoneyD.ReadOnly = true;
             this.txtMoneyD.Size = new System.Drawing.Size(30, 20);
@@ -1007,7 +994,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(428, 310);
+            this.label23.Location = new System.Drawing.Point(119, 330);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(41, 13);
             this.label23.TabIndex = 79;
@@ -1016,7 +1003,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(428, 290);
+            this.label32.Location = new System.Drawing.Point(119, 310);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(85, 13);
             this.label32.TabIndex = 78;
@@ -1024,7 +1011,7 @@
             // 
             // txtMoneyC
             // 
-            this.txtMoneyC.Location = new System.Drawing.Point(516, 265);
+            this.txtMoneyC.Location = new System.Drawing.Point(207, 285);
             this.txtMoneyC.Name = "txtMoneyC";
             this.txtMoneyC.ReadOnly = true;
             this.txtMoneyC.Size = new System.Drawing.Size(30, 20);
@@ -1033,7 +1020,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(428, 268);
+            this.label34.Location = new System.Drawing.Point(119, 288);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(73, 13);
             this.label34.TabIndex = 76;
@@ -1042,7 +1029,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(428, 245);
+            this.label35.Location = new System.Drawing.Point(119, 265);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(83, 13);
             this.label35.TabIndex = 75;
@@ -1050,7 +1037,7 @@
             // 
             // txtMoneyB
             // 
-            this.txtMoneyB.Location = new System.Drawing.Point(516, 220);
+            this.txtMoneyB.Location = new System.Drawing.Point(207, 240);
             this.txtMoneyB.Name = "txtMoneyB";
             this.txtMoneyB.ReadOnly = true;
             this.txtMoneyB.Size = new System.Drawing.Size(30, 20);
@@ -1059,7 +1046,7 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(428, 223);
+            this.label36.Location = new System.Drawing.Point(119, 243);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(82, 13);
             this.label36.TabIndex = 73;
@@ -1067,7 +1054,7 @@
             // 
             // txtMoneyA
             // 
-            this.txtMoneyA.Location = new System.Drawing.Point(516, 194);
+            this.txtMoneyA.Location = new System.Drawing.Point(207, 214);
             this.txtMoneyA.Name = "txtMoneyA";
             this.txtMoneyA.ReadOnly = true;
             this.txtMoneyA.Size = new System.Drawing.Size(30, 20);
@@ -1076,7 +1063,7 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(428, 197);
+            this.label37.Location = new System.Drawing.Point(119, 217);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(71, 13);
             this.label37.TabIndex = 71;
@@ -1084,19 +1071,57 @@
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(368, 83);
+            this.btnReset.Location = new System.Drawing.Point(743, 49);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 81;
-            this.btnReset.Text = "button1";
+            this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // cbSocialRankB
+            // 
+            this.cbSocialRankB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSocialRankB.Enabled = false;
+            this.cbSocialRankB.FormattingEnabled = true;
+            this.cbSocialRankB.Items.AddRange(new object[] {
+            "Barde",
+            "Beschwörer",
+            "Priester",
+            "Druide",
+            "Heiler",
+            "Magier",
+            "Thraumaturg",
+            "Assasine",
+            "Händler",
+            "Kundschafter",
+            "Waldläufer",
+            "Spitzbube",
+            "Andere"});
+            this.cbSocialRankB.Location = new System.Drawing.Point(131, 377);
+            this.cbSocialRankB.Name = "cbSocialRankB";
+            this.cbSocialRankB.Size = new System.Drawing.Size(85, 21);
+            this.cbSocialRankB.TabIndex = 91;
+            this.cbSocialRankB.SelectedIndexChanged += new System.EventHandler(this.cbSocialRankB_SelectedIndexChanged);
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(743, 14);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 92;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // FrmCustomizationValues
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(840, 498);
+            this.ControlBox = false;
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.cbSocialRankB);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.txtMoneyD);
             this.Controls.Add(this.label23);
@@ -1139,16 +1164,14 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.cbStartWeapons);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtZauberkuenste);
+            this.Controls.Add(this.txtUngewoehnlicheFertigkeiten);
+            this.Controls.Add(this.txtAllgemeinwissen);
+            this.Controls.Add(this.txtWaffenfertigkeiten);
             this.Controls.Add(this.txtFachkenntnisse);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.txtSocialRank);
-            this.Controls.Add(this.cbSocialRank);
+            this.Controls.Add(this.txtSocialRankGeneral);
+            this.Controls.Add(this.cbSocialRankA);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -1166,6 +1189,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmCustomizationValues";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customization";
             this.ResumeLayout(false);
@@ -1191,16 +1215,14 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox cbSocialRank;
-        private System.Windows.Forms.TextBox txtSocialRank;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.ComboBox cbSocialRankA;
+        private System.Windows.Forms.TextBox txtSocialRankGeneral;
         private System.Windows.Forms.TextBox txtFachkenntnisse;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtWaffenfertigkeiten;
+        private System.Windows.Forms.TextBox txtAllgemeinwissen;
+        private System.Windows.Forms.TextBox txtUngewoehnlicheFertigkeiten;
+        private System.Windows.Forms.TextBox txtZauberkuenste;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox cbStartWeapons;
         private System.Windows.Forms.Label label12;
@@ -1243,5 +1265,7 @@
         private System.Windows.Forms.TextBox txtMoneyA;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.ComboBox cbSocialRankB;
+        private System.Windows.Forms.Button btnExit;
     }
 }

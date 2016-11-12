@@ -135,12 +135,102 @@ namespace mcreator
 
         private void cbStartMoneyA_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cbStartMoneyB.Enabled = true;
+            if (cbStartMoneyB.Enabled == false)
+            {
+                cbStartMoneyB.Enabled = true;
+
+            }
+            if(cbStartMoneyA.SelectedItem != null || cbStartMoneyB.SelectedItem != null || cbStartMoneyC.SelectedItem != null)
+            {
+                int startMoneyCalcA = 0;
+                int startMoneyCalcB = 0;
+                int startMoneyCalcC = 0;
+
+                startMoneyCalcA = Convert.ToInt32(cbStartMoneyA.SelectedItem.ToString());
+                startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
+                startMoneyCalcC = Convert.ToInt32(cbStartMoneyC.SelectedItem.ToString());
+
+                if (txtSocialRankGeneral.Text == "Volk" || txtSocialRankGeneral.Text == "Mittelschicht")
+                {
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                }
+
+                if (txtSocialRankGeneral.Text == "Unfrei")
+                {
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) / 2);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) / 2);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) / 2);
+                }
+
+                if (txtSocialRankGeneral.Text == "Adel")
+                {
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) * 2);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) * 2);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) * 2);
+                }
+                else
+                {
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                }
+            }
         }
 
         private void cbStartMoneyB_SelectedIndexChanged(object sender, EventArgs e)
         {
-            cbStartMoneyC.Enabled = true;
+            if (cbStartMoneyC.Enabled == false)
+            {
+                cbStartMoneyC.Enabled = true;
+
+            }
+            if (cbStartMoneyA.SelectedItem != null || cbStartMoneyB.SelectedItem != null || cbStartMoneyC.SelectedItem != null)
+            {
+                int startMoneyCalcA = 0;
+                int startMoneyCalcB = 0;
+                int startMoneyCalcC = 0;
+
+                startMoneyCalcA = Convert.ToInt32(cbStartMoneyA.SelectedItem.ToString());
+                startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
+                startMoneyCalcC = Convert.ToInt32(cbStartMoneyC.SelectedItem.ToString());
+
+                if (txtSocialRankGeneral.Text == "Volk" || txtSocialRankGeneral.Text == "Mittelschicht")
+                {
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                }
+
+                if (txtSocialRankGeneral.Text == "Unfrei")
+                {
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) / 2);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) / 2);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) / 2);
+                }
+
+                if (txtSocialRankGeneral.Text == "Adel")
+                {
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) * 2);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) * 2);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) * 2);
+                }
+                else
+                {
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                }
+            }
         }
 
         private void cbStartMoneyC_SelectedIndexChanged(object sender, EventArgs e)
@@ -153,7 +243,7 @@ namespace mcreator
             startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
             startMoneyCalcC = Convert.ToInt32(cbStartMoneyC.SelectedItem.ToString());
 
-            if(txtSocialRank.Text == "Volk" || txtSocialRank.Text == "Mittelschicht")
+            if(txtSocialRankGeneral.Text == "Volk" || txtSocialRankGeneral.Text == "Mittelschicht")
             {
                 txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
                 txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
@@ -161,7 +251,7 @@ namespace mcreator
                 txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
             }
 
-            if (txtSocialRank.Text == "Unfrei")
+            if (txtSocialRankGeneral.Text == "Unfrei")
             {
                 txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3)/2);
                 txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC)/2);
@@ -169,7 +259,7 @@ namespace mcreator
                 txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3)/2);
             }
 
-            if (txtSocialRank.Text == "Adel")
+            if (txtSocialRankGeneral.Text == "Adel")
             {
                 txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3)*2);
                 txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC)*2);
@@ -187,22 +277,216 @@ namespace mcreator
 
         private void cbSocialRank_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int socialRankValue = Convert.ToInt32(cbSocialRank.SelectedItem.ToString());
-            if (socialRankValue <= 10)
+            if(cbSocialRankB.Enabled == false)
             {
-                txtSocialRank.Text = "Unfrei";
+                cbSocialRankB.Enabled = true;
             }
-            if (socialRankValue <= 50 && socialRankValue > 10)
+            if (cbSocialRankB.SelectedItem != null)
+            {      
+                    if (cbSocialRankB.SelectedItem.ToString() == "Barde" || cbSocialRankB.SelectedItem.ToString() == "Beschwörer" || cbSocialRankB.SelectedItem.ToString() == "Priester")
+                    {
+                        int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) + 20;
+                        if (socialRankValue <= 10)
+                        {
+                            txtSocialRankGeneral.Text = "Unfrei";
+                        }
+                        if (socialRankValue <= 50 && socialRankValue > 10)
+                        {
+                            txtSocialRankGeneral.Text = "Volk";
+                        }
+                        if (socialRankValue <= 90 && socialRankValue > 50)
+                        {
+                            txtSocialRankGeneral.Text = "Mittelschicht";
+                        }
+                        if (socialRankValue <= 120 && socialRankValue > 90)
+                        {
+                            txtSocialRankGeneral.Text = "Adel";
+                        }
+                    }
+                    if (cbSocialRankB.SelectedItem.ToString() == "Druide" || cbSocialRankB.SelectedItem.ToString() == "Heiler" || cbSocialRankB.SelectedItem.ToString() == "Magier" || cbSocialRankB.SelectedItem.ToString() == "Thraumaturg")
+                    {
+                        int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) + 10;
+                        if (socialRankValue <= 10)
+                        {
+                            txtSocialRankGeneral.Text = "Unfrei";
+                        }
+                        if (socialRankValue <= 50 && socialRankValue > 10)
+                        {
+                            txtSocialRankGeneral.Text = "Volk";
+                        }
+                        if (socialRankValue <= 90 && socialRankValue > 50)
+                        {
+                            txtSocialRankGeneral.Text = "Mittelschicht";
+                        }
+                        if (socialRankValue <= 110 && socialRankValue > 90)
+                        {
+                            txtSocialRankGeneral.Text = "Adel";
+                        }
+                    }
+                    if (cbSocialRankB.SelectedItem.ToString() == "Assasine" || cbSocialRankB.SelectedItem.ToString() == "Händler" || cbSocialRankB.SelectedItem.ToString() == "Kundschafter" || cbSocialRankB.SelectedItem.ToString() == "Waldläufer")
+                    {
+                        int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) - 10;
+                        if (socialRankValue <= 10)
+                        {
+                            txtSocialRankGeneral.Text = "Unfrei";
+                        }
+                        if (socialRankValue <= 50 && socialRankValue > 10)
+                        {
+                            txtSocialRankGeneral.Text = "Volk";
+                        }
+                        if (socialRankValue <= 90 && socialRankValue > 50)
+                        {
+                            txtSocialRankGeneral.Text = "Mittelschicht";
+                        }
+                        if (socialRankValue <= 100 && socialRankValue > 90)
+                        {
+                            txtSocialRankGeneral.Text = "Adel";
+                        }
+                    }
+                    if (cbSocialRankB.SelectedItem.ToString() == "Spitzbube")
+                    {
+                        int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) - 20;
+                        if (socialRankValue <= 10)
+                        {
+                            txtSocialRankGeneral.Text = "Unfrei";
+                        }
+                        if (socialRankValue <= 50 && socialRankValue > 10)
+                        {
+                            txtSocialRankGeneral.Text = "Volk";
+                        }
+                        if (socialRankValue <= 90 && socialRankValue > 50)
+                        {
+                            txtSocialRankGeneral.Text = "Mittelschicht";
+                        }
+                        if (socialRankValue <= 100 && socialRankValue > 90)
+                        {
+                            txtSocialRankGeneral.Text = "Adel";
+                        }
+                    }
+                    if (cbSocialRankB.SelectedItem.ToString() == "Andere")
+                    {
+                        int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString());
+                        if (socialRankValue <= 10)
+                        {
+                            txtSocialRankGeneral.Text = "Unfrei";
+                        }
+                        if (socialRankValue <= 50 && socialRankValue > 10)
+                        {
+                            txtSocialRankGeneral.Text = "Volk";
+                        }
+                        if (socialRankValue <= 90 && socialRankValue > 50)
+                        {
+                            txtSocialRankGeneral.Text = "Mittelschicht";
+                        }
+                        if (socialRankValue <= 100 && socialRankValue > 90)
+                        {
+                            txtSocialRankGeneral.Text = "Adel";
+                        }
+                    }                                            
+            }           
+        }
+
+        private void cbSocialRankB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbSocialRankB.SelectedItem.ToString() == "Barde" || cbSocialRankB.SelectedItem.ToString() == "Beschwörer" || cbSocialRankB.SelectedItem.ToString() == "Priester")
             {
-                txtSocialRank.Text = "Volk";
+                int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) + 20;
+                if (socialRankValue <= 10)
+                {
+                    txtSocialRankGeneral.Text = "Unfrei";
+                }
+                if (socialRankValue <= 50 && socialRankValue > 10)
+                {
+                    txtSocialRankGeneral.Text = "Volk";
+                }
+                if (socialRankValue <= 90 && socialRankValue > 50)
+                {
+                    txtSocialRankGeneral.Text = "Mittelschicht";
+                }
+                if (socialRankValue <= 120 && socialRankValue > 90)
+                {
+                    txtSocialRankGeneral.Text = "Adel";
+                }
             }
-            if (socialRankValue <= 90 && socialRankValue > 50)
+            if (cbSocialRankB.SelectedItem.ToString() == "Druide" || cbSocialRankB.SelectedItem.ToString() == "Heiler" || cbSocialRankB.SelectedItem.ToString() == "Magier" || cbSocialRankB.SelectedItem.ToString() == "Thraumaturg")
             {
-                txtSocialRank.Text = "Mittelschicht";
+                int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) + 10;
+                if (socialRankValue <= 10)
+                {
+                    txtSocialRankGeneral.Text = "Unfrei";
+                }
+                if (socialRankValue <= 50 && socialRankValue > 10)
+                {
+                    txtSocialRankGeneral.Text = "Volk";
+                }
+                if (socialRankValue <= 90 && socialRankValue > 50)
+                {
+                    txtSocialRankGeneral.Text = "Mittelschicht";
+                }
+                if (socialRankValue <= 110 && socialRankValue > 90)
+                {
+                    txtSocialRankGeneral.Text = "Adel";
+                }
             }
-            if (socialRankValue <= 100 && socialRankValue > 90)
+            if (cbSocialRankB.SelectedItem.ToString() == "Assasine" || cbSocialRankB.SelectedItem.ToString() == "Händler" || cbSocialRankB.SelectedItem.ToString() == "Kundschafter" || cbSocialRankB.SelectedItem.ToString() == "Waldläufer")
             {
-                txtSocialRank.Text = "Adel";
+                int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) - 10;
+                if (socialRankValue <= 10)
+                {
+                    txtSocialRankGeneral.Text = "Unfrei";
+                }
+                if (socialRankValue <= 50 && socialRankValue > 10)
+                {
+                    txtSocialRankGeneral.Text = "Volk";
+                }
+                if (socialRankValue <= 90 && socialRankValue > 50)
+                {
+                    txtSocialRankGeneral.Text = "Mittelschicht";
+                }
+                if (socialRankValue <= 100 && socialRankValue > 90)
+                {
+                    txtSocialRankGeneral.Text = "Adel";
+                }
+            }
+            if (cbSocialRankB.SelectedItem.ToString() == "Spitzbube")
+            {
+                int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString()) - 20;
+                if (socialRankValue <= 10)
+                {
+                    txtSocialRankGeneral.Text = "Unfrei";
+                }
+                if (socialRankValue <= 50 && socialRankValue > 10)
+                {
+                    txtSocialRankGeneral.Text = "Volk";
+                }
+                if (socialRankValue <= 90 && socialRankValue > 50)
+                {
+                    txtSocialRankGeneral.Text = "Mittelschicht";
+                }
+                if (socialRankValue <= 100 && socialRankValue > 90)
+                {
+                    txtSocialRankGeneral.Text = "Adel";
+                }
+            }
+            if (cbSocialRankB.SelectedItem.ToString() == "Andere")
+            {
+                int socialRankValue = Convert.ToInt32(cbSocialRankA.SelectedItem.ToString());
+                if (socialRankValue <= 10)
+                {
+                    txtSocialRankGeneral.Text = "Unfrei";
+                }
+                if (socialRankValue <= 50 && socialRankValue > 10)
+                {
+                    txtSocialRankGeneral.Text = "Volk";
+                }
+                if (socialRankValue <= 90 && socialRankValue > 50)
+                {
+                    txtSocialRankGeneral.Text = "Mittelschicht";
+                }
+                if (socialRankValue <= 100 && socialRankValue > 90)
+                {
+                    txtSocialRankGeneral.Text = "Adel";
+                }
             }
         }
 
@@ -213,7 +497,7 @@ namespace mcreator
                 cbFachkenntnisseB.Enabled = true;
 
             }
-            else
+            if(cbFachkenntnisseB.SelectedItem != null)
             {
                 int fachkenntnisse = 0;
                 int fachkenntnisse_ValueA = 0;
@@ -240,5 +524,98 @@ namespace mcreator
 
             txtFachkenntnisse.Text = Convert.ToString(fachkenntnisse);
         }
+
+        private void cbWaffenfertigkeitenA_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbWaffenfertigkeitenB.Enabled == false)
+            {
+                cbWaffenfertigkeitenB.Enabled = true;
+
+            }
+            if (cbWaffenfertigkeitenB.SelectedItem != null)
+            {
+                int waffenfertigkeiten = 0;
+                int waffenfertigkeiten_ValueA = 0;
+                int waffenfertigkeiten_ValueB = 0;
+
+                waffenfertigkeiten_ValueA = Convert.ToInt32(cbWaffenfertigkeitenA.SelectedItem.ToString());
+                waffenfertigkeiten_ValueB = Convert.ToInt32(cbWaffenfertigkeitenB.SelectedItem.ToString());
+                waffenfertigkeiten = waffenfertigkeiten_ValueA + waffenfertigkeiten_ValueB;
+
+                txtWaffenfertigkeiten.Text = Convert.ToString(waffenfertigkeiten);
+            }
+        }
+
+        private void cbWaffenfertigkeitenB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int waffenfertigkeiten = 0;
+            int waffenfertigkeiten_ValueA = 0;
+            int waffenfertigkeiten_ValueB = 0;
+
+            waffenfertigkeiten_ValueA = Convert.ToInt32(cbWaffenfertigkeitenA.SelectedItem.ToString());
+            waffenfertigkeiten_ValueB = Convert.ToInt32(cbWaffenfertigkeitenB.SelectedItem.ToString());
+            waffenfertigkeiten = waffenfertigkeiten_ValueA + waffenfertigkeiten_ValueB;
+
+            txtWaffenfertigkeiten.Text = Convert.ToString(waffenfertigkeiten);
+        }
+
+        private void cbAllgemeinwissen_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int allgemeinwissen = 0;
+
+            allgemeinwissen = Convert.ToInt32(cbAllgemeinwissen.SelectedItem.ToString()) + 1;
+
+            txtAllgemeinwissen.Text = Convert.ToString(allgemeinwissen);
+        }
+
+        private void cbUngewoehnlicheFertigkeiten_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int ungewoehnlicheFertigkeiten = 0;
+
+            ungewoehnlicheFertigkeiten = Convert.ToInt32(cbUngewoehnlicheFertigkeiten.SelectedItem.ToString());
+
+            txtUngewoehnlicheFertigkeiten.Text = Convert.ToString(ungewoehnlicheFertigkeiten);
+        }
+
+        private void cbZauberkünsteA_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbZauberkünsteB.Enabled == false)
+            {
+                cbZauberkünsteB.Enabled = true;
+
+            }
+            if (cbZauberkünsteB.SelectedItem != null)
+            {
+                int zauberkuenste = 0;
+                int zauberkuenste_ValueA = 0;
+                int zauberkuenste_ValueB = 0;
+
+                zauberkuenste_ValueA = Convert.ToInt32(cbZauberkünsteA.SelectedItem.ToString());
+                zauberkuenste_ValueB = Convert.ToInt32(cbZauberkünsteB.SelectedItem.ToString());
+                zauberkuenste = zauberkuenste_ValueA + zauberkuenste_ValueB;
+
+                txtZauberkuenste.Text = Convert.ToString(zauberkuenste);
+            }
+        }
+
+        private void cbZauberkünsteB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int zauberkuenste = 0;
+            int zauberkuenste_ValueA = 0;
+            int zauberkuenste_ValueB = 0;
+
+            zauberkuenste_ValueA = Convert.ToInt32(cbZauberkünsteA.SelectedItem.ToString());
+            zauberkuenste_ValueB = Convert.ToInt32(cbZauberkünsteB.SelectedItem.ToString());
+            zauberkuenste = zauberkuenste_ValueA + zauberkuenste_ValueB;
+
+            txtZauberkuenste.Text = Convert.ToString(zauberkuenste);
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        
     }
 }
