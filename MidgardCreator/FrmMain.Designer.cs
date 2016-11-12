@@ -106,7 +106,6 @@ namespace mcreator
             this.btnEXP.TabIndex = 6;
             this.btnEXP.Text = "Level Up";
             this.btnEXP.UseVisualStyleBackColor = true;
-            this.btnEXP.Visible = false;
             this.btnEXP.Click += new System.EventHandler(this.btnEXP_Click);
             // 
             // btnCustomizationValues
