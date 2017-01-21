@@ -25,8 +25,6 @@ namespace mcreator
 
         private void btnDiceValue_Click(object sender, EventArgs e)
         {
-            
-
             int ergebnis = 0;
             if (maskedTextBox1.Text != "")
             {
@@ -36,10 +34,7 @@ namespace mcreator
                     ergebnis = ergebnis + Convert.ToInt32(lbDiceValues.Items[i].ToString());
                     textBox1.Text = Convert.ToString(ergebnis);
                 }
-            }
-            
-
-           
+            }         
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

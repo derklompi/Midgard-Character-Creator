@@ -32,17 +32,22 @@ namespace mcreator.Classes
                 MessageBox.Show("Keine Hauptform vorhanden!");
                 return;
             }
-
-            string exportPlace;
-            string date;
+            
+            //Get the current date
+            string date = "";
             DateTime currentDate = DateTime.Now;
             date = currentDate.ToString("dd-MM-yyy");
 
-            string exportPath = CharExport.txtExportPath.Text;
-            string characterName = CharExport.txtCharacterName.Text;
+            //Get the ExportPlace/Path and the filename
+            string exportPlace = "";
+            string exportPath = "";
+            string characterName = "";
+            exportPath = CharExport.txtExportPath.Text;
+            characterName = CharExport.txtCharacterName.Text;
             exportPlace = @"" + exportPath + "\\" + characterName + "-MCreator_" + date + ".txt";
 
-            string formTitle = CharExport.Text;
+            string formTitle = "";
+            formTitle = CharExport.Text;
                                
             int mtxtStrength = Convert.ToInt32(CharExport.mtxtStrength.Text);
             int mtxtDexterity = Convert.ToInt32(CharExport.mtxtDexterity.Text);
@@ -108,7 +113,6 @@ namespace mcreator.Classes
            
             if (File.Exists(exportPlace) != true)
             {
-
                 string charrclass = "";
 
                 // Read the title to define the race
@@ -161,7 +165,6 @@ namespace mcreator.Classes
                         file.WriteLine("Größe:              " + txtBodySizeA + " cm");
                         file.WriteLine("Gewicht:            " + txtBodyWeightA + " kg");
                     }
-
 
                     file.WriteLine("");
 
@@ -276,7 +279,6 @@ namespace mcreator.Classes
                         System.IO.FileAttributes att = System.IO.File.GetAttributes(exportPlace);
                         System.IO.File.SetAttributes(exportPlace, att | System.IO.FileAttributes.ReadOnly);
 
-
                         // Taken from https://dotnet-snippets.de/snippet/explorer-starten-und-datei-selektieren/1200
                         Process process = new Process();
                         process.StartInfo.FileName = "explorer.exe";
@@ -287,17 +289,12 @@ namespace mcreator.Classes
                     {
                         MessageBox.Show("Datei konnte nicht erstellt werden!");
                     }
-                }
-
-                
+                }                
             }
             else
             {
                 MessageBox.Show("Datei schon vorhanden!");
-            }
-            
+            }      
         }     
     }
-
-
 }

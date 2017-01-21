@@ -16,7 +16,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,8 +26,6 @@ namespace mcreator.Classes
 {
     class Character
     {     
-        #region BodyValues
-
         // Calculate of the bodysize
         private int bodySize;
         public int BodySize(string mtxtBodySizeA, string mtxtBodySizeB, string mtxtStrength, string formTitle)
@@ -122,10 +119,6 @@ namespace mcreator.Classes
 
             return bodyWeight;
         }
-
-        #endregion
-
-        #region CombatBuffs
 
         // Calculation of the attack buff
         private int attackBuffValue;
@@ -224,9 +217,6 @@ namespace mcreator.Classes
             return magicBuffValue;
         }
 
-        #endregion
-
-        #region AdventurePoints/LifePoints
         // Calculation for adventure points of barbarians, warriors. etc.
         public void AdventurePoints()
         {
@@ -322,9 +312,7 @@ namespace mcreator.Classes
                             tempAdventurePointsBValue = tempAdventurePointsBValue - 1;
                         }
 
-
                         ce.txtAdventurePointsB.Text = Convert.ToString(tempAdventurePointsBValue);
-
                     }
                     else
                     {
@@ -434,10 +422,6 @@ namespace mcreator.Classes
             
         }
 
-        #endregion
-
-        #region InbornBuff
-
         public void InbornBuff()
         {
             if (Application.OpenForms.Count > 1)
@@ -532,10 +516,6 @@ namespace mcreator.Classes
             }
             
         }
-
-        #endregion
-
-        #region Resistances
 
         private int mtBuffGhost_Body_MagicValue;
         public int MagicTalentGhostBody(int magicTalent)
@@ -690,12 +670,7 @@ namespace mcreator.Classes
             return bodyMagicValue;
         }
 
-        #endregion
-
-        #region Soul
-
         // Calculation of the charisma
-        
         public void Charisma()
         {
             if(Application.OpenForms.Count > 1)
@@ -834,10 +809,8 @@ namespace mcreator.Classes
                     {
                         ce.txtHanded.Text = "Beidhänder";
                     }
-                }
-                
+                }           
             }
         }
-        #endregion
     }
 }
