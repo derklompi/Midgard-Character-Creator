@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.cbClass = new System.Windows.Forms.ComboBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.cbRace = new System.Windows.Forms.ComboBox();
@@ -47,7 +46,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtNeededThrows = new System.Windows.Forms.TextBox();
-            this.enable_timer = new System.Windows.Forms.Timer(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -246,11 +244,6 @@
             this.txtNeededThrows.Size = new System.Drawing.Size(176, 20);
             this.txtNeededThrows.TabIndex = 20;
             // 
-            // enable_timer
-            // 
-            this.enable_timer.Enabled = true;
-            this.enable_timer.Tick += new System.EventHandler(this.enable_timer_Tick);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -314,7 +307,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtNeededThrows;
-        private System.Windows.Forms.Timer enable_timer;
         private System.Windows.Forms.Label label4;
     }
 }

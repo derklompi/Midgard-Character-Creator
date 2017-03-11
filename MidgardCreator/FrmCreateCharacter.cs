@@ -497,6 +497,13 @@ namespace mcreator
                     txtAreaMagicMagician.Text = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text = Convert.ToString(10 + c.AgilityArea(agility));
 
+                    TimerCheck t = new TimerCheck();
+
+                    mtxtCharisma.Enabled = true;
+                    mtxtWillpower.Enabled = true;
+                    mtxtSelfControl.Enabled = true;
+
+
                     mtxtAdventurePointsA.Enabled = true;
                     mtxtAdventurePointsB.Enabled = true;
                     mtxtAdventurePointsC.Enabled = true;

@@ -550,21 +550,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 12;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 40);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 8;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 40);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 4;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 40);
                                     }
                                 }
                             }
@@ -581,21 +581,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 15;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 70);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 70);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 5;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 70);
                                     }
                                 }
                             }
@@ -612,21 +612,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 18;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 150);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 12;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 150);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 6;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 150);
                                     }
                                 }
                             }
@@ -643,21 +643,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 21;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 300);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 14;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 300);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 7;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 300);
                                     }
                                 }
                             }
@@ -674,21 +674,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 24;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 600);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 16;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 600);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 8;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 600);
                                     }
                                 }
                             }
@@ -705,21 +705,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 27;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 1200);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 18;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 1200);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 9;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 1200);
                                     }
                                 }
                             }
@@ -736,21 +736,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 30;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 1500);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 1500);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 1500);
                                     }
                                 }
                             }
@@ -767,21 +767,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 30;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -798,21 +798,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 30;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -829,21 +829,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 30;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -860,21 +860,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 30;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -891,21 +891,21 @@ namespace mcreator
                                     {
                                         apValue = diceValue + 30;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
                                         textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        textBox2.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -1011,11 +1011,6 @@ namespace mcreator
                         break;
                     }
             }
-        }
-
-        private void enable_timer_Tick(object sender, EventArgs e)
-        {
-            
-        }
+        }   
     }
 }
