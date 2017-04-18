@@ -1,6 +1,6 @@
 /*
     Mcreator
-    Copyright (C) 2016  Fabian Dörr <faflfama@outlook.com>
+    Copyright (C) 2016  Fabian DÃ¶rr <faflfama@outlook.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,7 +18,6 @@
 using System;
 using System.Windows.Forms;
 using mcreator.Classes;
-using System.Diagnostics;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -56,8 +55,7 @@ namespace mcreator
                 lblDice6F.Visible       = false;
                 //Bodyweight
                 txtBodyWeightB.Visible  = false;
-                lblBodyWeightB.Visible  = false;
-                
+                lblBodyWeightB.Visible  = false;     
 
                 // Change Text of labels
                 lblDice20A.Text     = "1W6";
@@ -67,7 +65,7 @@ namespace mcreator
 
                 // Change texts of textfields
                 // Handed
-                txtHanded.Text = "Beidhändig";
+                txtHanded.Text = "Beidhï¿½ndig";
                 //BodyWeight
                 mtxtBodyWeightD.Text = "0";
             }
@@ -81,11 +79,10 @@ namespace mcreator
                 txtBodyWeightB.Visible = false;
                 lblBodyWeightB.Visible = false;
 
-
                 // Change Text of labels
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
+                lblDice20A.Text     = "1W6";
+                lblDice20B.Text     = "1W6";
+                lblBodySizeA.Text   = "cm";
                 lblBodyWeightA.Text = "kg";
             }
             if (this.Text == "MCreator - Zwerg")
@@ -100,11 +97,10 @@ namespace mcreator
                 txtBodyWeightB.Visible = false;
                 lblBodyWeightB.Visible = false;
 
-
                 // Change Text of labels
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
+                lblDice20A.Text     = "1W6";
+                lblDice20B.Text     = "1W6";
+                lblBodySizeA.Text   = "cm";
                 lblBodyWeightA.Text = "kg";
 
                 // Change texts of textfields
@@ -125,9 +121,9 @@ namespace mcreator
                 lblBodyWeightB.Visible  = false;
                 lblDice6F.Visible       = false;               
                 // Change Text of labels
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
+                lblDice20A.Text     = "1W6";
+                lblDice20B.Text     = "1W6";
+                lblBodySizeA.Text   = "cm";
                 lblBodyWeightA.Text = "kg";
 
                 // Change texts of textfields
@@ -160,18 +156,20 @@ namespace mcreator
 
             while (statPointCheck == false)
             {
+                //Get Random numbers between 1 and 100
                 Random Rnd = new Random();
 
-                int strength = Rnd.Next(1, 101);
-                int dexterity = Rnd.Next(1, 101);
-                int agility = Rnd.Next(1, 101);
-                int constitution = Rnd.Next(1, 101);
-                int magicTalent = Rnd.Next(1, 101);
-                int intelligence = Rnd.Next(1, 101);
+                int strength        = Rnd.Next(1, 101);
+                int dexterity       = Rnd.Next(1, 101);
+                int agility         = Rnd.Next(1, 101);
+                int constitution    = Rnd.Next(1, 101);
+                int magicTalent     = Rnd.Next(1, 101);
+                int intelligence    = Rnd.Next(1, 101);
 
-                int gesamt = strength + dexterity + agility + constitution + magicTalent + intelligence;
+                //Check if StatSum is over 350
+                int StatSum = strength + dexterity + agility + constitution + magicTalent + intelligence;
 
-                if (gesamt >= 350)
+                if (StatSum >= 350)
                 {
                     Character c = new Character();
                     // Setting the check value to true, so that the cycle gets terminated
@@ -180,7 +178,7 @@ namespace mcreator
                     // Seetting the check field for the timer 
                     rbStats.Checked = true;
 
-                    // Randomizing the dice values
+                    // Set the text fields to the StatValues
                     mtxtStrength.Text       = Convert.ToString(strength);
                     mtxtDexterity.Text      = Convert.ToString(dexterity);
                     mtxtAgility.Text        = Convert.ToString(agility);
@@ -188,6 +186,7 @@ namespace mcreator
                     mtxtMagicalTalent.Text  = Convert.ToString(magicTalent);
                     mtxtIntelligence.Text   = Convert.ToString(intelligence);
 
+                    //Get the BodySize for the different races
                     if (this.Text == "MCreator - Mensch")
                     {
                         mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 21));
@@ -232,8 +231,6 @@ namespace mcreator
                         }
                     }
                                        
-                    
-
                     mtxtAppearance.Text     = Convert.ToString(Rnd.Next(1, 101));
                     mtxtCharisma.Text       = Convert.ToString(Rnd.Next(1, 101));
                     mtxtWillpower.Text      = Convert.ToString(Rnd.Next(1, 101));
@@ -245,10 +242,9 @@ namespace mcreator
                     mtxtAdventurePointsC.Text   = Convert.ToString(Rnd.Next(1, 7));
                     mtxtLifePoints.Text         = Convert.ToString(Rnd.Next(1, 7));
 
-                    mtxtInbornBuff.Text = Convert.ToString(Rnd.Next(1, 101));
+                    mtxtInbornBuff.Text = Convert.ToString(Rnd.Next(1, 101));                
 
-                    
-
+                    //Calculatin the Damage/DefenseBuff
                     int DamageBuff  = 0;
                     int DefenseBuff = 0;
 
@@ -281,9 +277,7 @@ namespace mcreator
                     txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text    = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
-
-                    
+                    txtDoMagic0.Text    = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));               
 
                     if (this.Text == "MCreator - Mensch")
                     {
@@ -304,7 +298,8 @@ namespace mcreator
                     {
                         txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
                     }
-                                      
+
+                    //Calling the CalculationFunctions            
                     c.Charisma();
                     c.Willpower();
                     c.SelfControl();
@@ -314,7 +309,7 @@ namespace mcreator
 
                     if (this.Text == "MCreator - Halfling")
                     {
-                        txtHanded.Text = "Beidhändig";
+                        txtHanded.Text = "Beidhï¿½ndig";
                     }
                     else
                     {
@@ -352,6 +347,7 @@ namespace mcreator
             }
         }
 
+        //Reset Button to clear the form
         private void btnReset_Click(object sender, EventArgs e)
         {
             foreach (Control c in this.Controls)
@@ -361,56 +357,57 @@ namespace mcreator
                 if (c.GetType() == typeof(MaskedTextBox)) c.Text = "";
 
 
-
-                string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-                txtExportPath.Text = "" + user_path + "";
+                string user_path    = "";
+                user_path           = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+                txtExportPath.Text  = "" + user_path + "";
             }
 
         }
 
+        //Timer to enable the different Buttons
         private void Enable_Timer_Tick(object sender, EventArgs e)
         {
             if (mtxtStrength.Text != "" && Convert.ToInt32(mtxtStrength.Text) <= 100 && mtxtDexterity.Text != "" && Convert.ToInt32(mtxtDexterity.Text) <= 100 && mtxtAgility.Text != "" && Convert.ToInt32(mtxtAgility.Text) <= 100 && mtxtConstitution.Text != "" && Convert.ToInt32(mtxtConstitution.Text) <= 100 && mtxtIntelligence.Text != "" && Convert.ToInt32(mtxtIntelligence.Text) <= 100 && mtxtMagicalTalent.Text != "" && Convert.ToInt32(mtxtMagicalTalent.Text) <= 100)
             {
                 int TotalAmount_Stat = 0;
 
-                int strength = Convert.ToInt32(mtxtStrength.Text);
-                int dexterity = Convert.ToInt32(mtxtDexterity.Text);
-                int agility = Convert.ToInt32(mtxtAgility.Text);
-                int constitution = Convert.ToInt32(mtxtConstitution.Text);
-                int intelligence = Convert.ToInt32(mtxtIntelligence.Text);
-                int magicTalent = Convert.ToInt32(mtxtMagicalTalent.Text);
+                int strength        = Convert.ToInt32(mtxtStrength.Text);
+                int dexterity       = Convert.ToInt32(mtxtDexterity.Text);
+                int agility         = Convert.ToInt32(mtxtAgility.Text);
+                int constitution    = Convert.ToInt32(mtxtConstitution.Text);
+                int intelligence    = Convert.ToInt32(mtxtIntelligence.Text);
+                int magicTalent     = Convert.ToInt32(mtxtMagicalTalent.Text);
 
                 TotalAmount_Stat = strength + dexterity + agility + constitution + intelligence + magicTalent;
 
                 if (TotalAmount_Stat < 350)
                 {
-                    lblStatCheck.Text = "Summe < 350";
-                    lblStatCheck.ForeColor = System.Drawing.Color.Red;
-                    rbStats.Checked = false;
+                    lblStatCheck.Text       = "Summe < 350";
+                    lblStatCheck.ForeColor  = System.Drawing.Color.Red;
+                    rbStats.Checked         = false;
 
                     // If Stat Sum is to low, values get reset
-                    txtDamageBuff.Text = "";
+                    txtDamageBuff.Text  = "";
                     txtStaminaBuff.Text = "";
-                    txtAttackBuff.Text = "";
+                    txtAttackBuff.Text  = "";
                     txtDefenseBuff.Text = "";
-                    txtMagicBuff.Text = "";
+                    txtMagicBuff.Text   = "";
 
-                    txtRumble.Text = "";
-                    txtDefense.Text = "";
-                    txtDefense0.Text = "";
-                    txtDoMagic.Text = "";
-                    txtDoMagic0.Text = "";
+                    txtRumble.Text      = "";
+                    txtDefense.Text     = "";
+                    txtDefense0.Text    = "";
+                    txtDoMagic.Text     = "";
+                    txtDoMagic0.Text    = "";
 
-                    txtGhostMagicFighter.Text = "";
-                    txtGhostMagicMagician.Text = "";
-                    txtGhostMagicNormal.Text = "";
-                    txtBodyMagicFighter.Text = "";
-                    txtBodyMagicMagician.Text = "";
-                    txtBodyMagicNormal.Text = "";
-                    txtAreaMagicFighter.Text = "";
-                    txtAreaMagicMagician.Text = "";
-                    txtAreaMagicNormal.Text = "";
+                    txtGhostMagicFighter.Text   = "";
+                    txtGhostMagicMagician.Text  = "";
+                    txtGhostMagicNormal.Text    = "";
+                    txtBodyMagicFighter.Text    = "";
+                    txtBodyMagicMagician.Text   = "";
+                    txtBodyMagicNormal.Text     = "";
+                    txtAreaMagicFighter.Text    = "";
+                    txtAreaMagicMagician.Text   = "";
+                    txtAreaMagicNormal.Text     = "";
 
                     mtxtCharisma.Enabled = false;
                     mtxtWillpower.Enabled = false;
@@ -427,16 +424,20 @@ namespace mcreator
 
                 if (TotalAmount_Stat >= 350)
                 {
-                    lblStatCheck.Text = "Summe OK";
-                    lblStatCheck.ForeColor = System.Drawing.Color.Green;
-                    rbStats.Checked = true;
+                    lblStatCheck.Text       = "Summe OK";
+                    lblStatCheck.ForeColor  = System.Drawing.Color.Green;
+                    rbStats.Checked         = true;
+
 
 
 
                     int DamageBuff = 0;
+
+                    int DamageBuff  = 0;
+
                     int DefenseBuff = 0;
 
-                    DamageBuff = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
+                    DamageBuff  = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
                     DefenseBuff = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
 
                     if (DamageBuff >= 0)
@@ -457,21 +458,21 @@ namespace mcreator
                         txtStaminaBuff.Text = "0";
                     }
 
-                    txtAttackBuff.Text = Convert.ToString(c.AttackBuff(dexterity));
+                    txtAttackBuff.Text  = Convert.ToString(c.AttackBuff(dexterity));
                     txtDefenseBuff.Text = Convert.ToString(c.DefenseBuff(agility));
-                    txtMagicBuff.Text = Convert.ToString(c.MagicBuff(magicTalent));
+                    txtMagicBuff.Text   = Convert.ToString(c.MagicBuff(magicTalent));
 
-                    txtRumble.Text = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
-                    txtDefense.Text = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDefense0.Text = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDoMagic.Text = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtRumble.Text      = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
+                    txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtDoMagic0.Text    = Convert.ToString(2  + Convert.ToInt32(txtMagicBuff.Text));
 
 
 
                     int mtBuffGhost_Body_MagicValue = 0;
-                    int intBuffGhostMagicValue = 0;
-                    int CoBuffBodyMagicValue = 0;
+                    int intBuffGhostMagicValue      = 0;
+                    int CoBuffBodyMagicValue        = 0;
 
                     //Buff MagicTalent Ghost&Body
                     mtBuffGhost_Body_MagicValue = c.MagicTalentGhostBody(magicTalent);
@@ -483,19 +484,16 @@ namespace mcreator
                     CoBuffBodyMagicValue = c.ConstitutionBody(constitution);
 
                     //Values GhostMagic
-                    txtGhostMagicFighter.Text = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicMagician.Text = Convert.ToString(17 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicNormal.Text = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicFighter.Text   = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicMagician.Text  = Convert.ToString(17 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicNormal.Text    = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
 
                     //Values BodyMagic
-                    txtBodyMagicFighter.Text = Convert.ToString(16 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicMagician.Text = Convert.ToString(17 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicNormal.Text = Convert.ToString(14 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicFighter.Text    = Convert.ToString(16 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicMagician.Text   = Convert.ToString(17 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicNormal.Text     = Convert.ToString(14 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
 
                     //Values AreaMagic
-                    txtAreaMagicFighter.Text = Convert.ToString(10 + c.AgilityArea(agility));
-                    txtAreaMagicMagician.Text = Convert.ToString(13 + c.AgilityArea(agility));
-                    txtAreaMagicNormal.Text = Convert.ToString(10 + c.AgilityArea(agility));
 
                     TimerCheck t = new TimerCheck();
 
@@ -508,6 +506,11 @@ namespace mcreator
                     mtxtAdventurePointsB.Enabled = true;
                     mtxtAdventurePointsC.Enabled = true;
                     mtxtLifePoints.Enabled = true;
+
+                    txtAreaMagicFighter.Text    = Convert.ToString(10 + c.AgilityArea(agility));
+                    txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
+                    txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
+
                 }
             }
             else
@@ -539,6 +542,7 @@ namespace mcreator
                 txtAreaMagicMagician.Text = "";
                 txtAreaMagicNormal.Text = "";
 
+
                 mtxtCharisma.Enabled = false;
                 mtxtWillpower.Enabled = false;
                 mtxtSelfControl.Enabled = false;
@@ -559,26 +563,23 @@ namespace mcreator
 
             }
         }
+
+        //Export to a .txt file
+
         private void btnExport_Click(object sender, EventArgs e)
         {
-            
-
-           
-
             if (txtCharacterName.Text !="")
             {
                 
-
+                //NonHumans dont have male/female so there isnt a second size
                 if(this.Text!="MCreator - Mensch")
                 {
                     txtBodySizeB.Text = "0";
                     txtBodyWeightB.Text = "0";
                 }
                 
-
                 Export exp = new Export();
                 exp.export();
-
 
                 //Process.Start("explorer.exe", txtExportPath.Text);
                 
@@ -591,12 +592,14 @@ namespace mcreator
             
         }
 
+        //Opens a Dialog to choose a folder
         private void txtSavepathExport_Click(object sender, EventArgs e)
         {
             if (chooseExportFolder.ShowDialog(this) == DialogResult.OK)
                 txtExportPath.Text = chooseExportFolder.SelectedPath;
         }
 
+        //Imports the charactervalues from a previously exported character
         private void btnImport_Click(object sender, EventArgs e)
         {
 
@@ -606,9 +609,6 @@ namespace mcreator
                 while (sr.Peek() != -1)
                     lines.Add(sr.ReadLine());
             }
-
-
-
 
             mtxtStrength.Text = lines[53];
             mtxtDexterity.Text = lines[55];
@@ -650,8 +650,6 @@ namespace mcreator
 
             rbStats.Checked = true;
             
-            
-
             int DamageBuff  = 0;
             int DefenseBuff = 0;
 
@@ -686,9 +684,6 @@ namespace mcreator
             txtDoMagic.Text         = Convert.ToString(10 + c.MagicBuff(magicTalent));
             txtDoMagic0.Text        = Convert.ToString(2  + c.MagicBuff(magicTalent));
 
-
-            
-
             int mtBuffGhost_Body_MagicValue = 0;
             int intBuffGhostMagicValue      = 0;
             int CoBuffBodyMagicValue        = 0;
@@ -719,6 +714,7 @@ namespace mcreator
 
         }
 
+        //Import button for a previously exported character
         private void txtImportFile_Click(object sender, EventArgs e)
         {
             string file;
@@ -731,6 +727,7 @@ namespace mcreator
             }         
         }
 
+        //Exit Button
         private void btnExit_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Beim Beenden gehen alle Werte verloren",
@@ -740,6 +737,7 @@ namespace mcreator
                 this.Close();
         }
 
+        //Automatic Calculatin during runtime
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
             c.Charisma();
@@ -755,7 +753,6 @@ namespace mcreator
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-
                     txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
                     txtBodySizeB.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
                 }
