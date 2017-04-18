@@ -367,152 +367,145 @@ namespace mcreator.Classes
         }
 
         // Calculations of the lifepoints
-        public void LifePoints()
+        private int lifePointsValue;
+        public int LifePoints(string mtxtConstitution, string mtxtLifePoints, string text)
         {
-            if (Application.OpenForms.Count > 1)
+            if (mtxtConstitution != "" && mtxtLifePoints != "" && text != "")
             {
-                FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
-                if (true)
+                // Convert the strings to Int
+                int constitution = Convert.ToInt32(mtxtConstitution);
+                int templifePoints = Convert.ToInt32(mtxtLifePoints);
+                lifePointsValue = 0;
+                // Calculations for humans
+                if (text == "MCreator - Mensch")
                 {
-                    if (ce.mtxtConstitution.Text !="" && ce.mtxtConstitution.Text !="___" && ce.mtxtLifePoints.Text !="" && ce.mtxtLifePoints.Text != "_")
-                    {
-                        // Convert the strings to Int
-                        int constitution = Convert.ToInt32(ce.mtxtConstitution.Text);
-                        int templifePoints = Convert.ToInt32(ce.mtxtLifePoints.Text);
-                        int lifePoints = 0;
-                        // Calculations for humans
-                        if (ce.Text == "MCreator - Mensch")
-                        {
-                            lifePoints = (constitution / 10) + templifePoints + 5;
-                        }
-
-                        // Calculations for elfs
-                        if (ce.Text == "MCreator - Elf")
-                        {
-                            lifePoints = (constitution / 10) + templifePoints + 4;
-                        }
-
-                        // Calculations for gnomes
-                        if (ce.Text == "MCreator - Gnom")
-                        {
-                            lifePoints = (constitution / 10) + templifePoints - 1;
-                        }
-
-                        // Calculations for halflings
-                        if (ce.Text == "MCreator - Halbling")
-                        {
-                            lifePoints = (constitution / 10) + templifePoints + 2;
-                        }
-
-                        // Calculations for dwarfs
-                        if (ce.Text == "MCreator - Zwerg")
-                        {
-                            lifePoints = (constitution / 10) + templifePoints + 4;
-                        }
-
-                        ce.txtLifePoints.Text = Convert.ToString(lifePoints);
-                    }
-                    
+                    lifePointsValue = (constitution / 10) + templifePoints + 5;
                 }
+
+                // Calculations for elfs
+                if (text == "MCreator - Elf")
+                {
+                    lifePointsValue = (constitution / 10) + templifePoints + 4;
+                }
+
+                // Calculations for gnomes
+                if (text == "MCreator - Gnom")
+                {
+                    lifePointsValue = (constitution / 10) + templifePoints - 1;
+                }
+
+                // Calculations for halflings
+                if (text == "MCreator - Halbling")
+                {
+                    lifePointsValue = (constitution / 10) + templifePoints + 2;
+                }
+
+                // Calculations for dwarfs
+                if (text == "MCreator - Zwerg")
+                {
+                    lifePointsValue = (constitution / 10) + templifePoints + 4;
+                }
+
                 
             }
-            
+            return lifePointsValue;
         }
 
-        public void InbornBuff()
-        {
-            if (Application.OpenForms.Count > 1)
-            {
-                FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
 
-                if (ce.mtxtInbornBuff.Text != "" && ce.mtxtInbornBuff.Text != "___")
-                {
+        
+
+        private string inbornBuffValue;
+        public string InbornBuff(string mtxtInbornBuff, string txtWillpower)
+        {
+            if (mtxtInbornBuff != "" && txtWillpower != "")
+            {
+                
                     int inbornBuff;
-                    inbornBuff = Convert.ToInt32(ce.mtxtInbornBuff.Text);
+                    inbornBuff = Convert.ToInt32(mtxtInbornBuff);
                     if (1 <= inbornBuff && inbornBuff <= 2)
                     {
-                        ce.txtInbornBuff.Text = "Kurzsichtigkeit (nur Sehen +4)";
+                        inbornBuffValue = "Kurzsichtigkeit (nur Sehen +4)";
                     }
                     if (3 <= inbornBuff && inbornBuff <= 4)
                     {
-                        ce.txtInbornBuff.Text = "Schwerhörigkeit (nur Hören +4)";
+                        inbornBuffValue = "Schwerhörigkeit (nur Hören +4)";
                     }
                     if (5 <= inbornBuff && inbornBuff <= 6)
                     {
-                        ce.txtInbornBuff.Text = "nur Riechen +4";
+                        inbornBuffValue = "nur Riechen +4";
                     }
                     if (7 <= inbornBuff && inbornBuff <= 8)
                     {
-                        ce.txtInbornBuff.Text = "nur Schmecken +4";
+                        inbornBuffValue = "nur Schmecken +4";
                     }
                     if (9 <= inbornBuff && inbornBuff <= 10)
                     {
-                        ce.txtInbornBuff.Text = "nur Tasten +4";
+                        inbornBuffValue = "nur Tasten +4";
                     }
                     if (11 <= inbornBuff && inbornBuff <= 20)
                     {
-                        ce.txtInbornBuff.Text = "Sehen +10";
+                        inbornBuffValue = "Sehen +10";
                     }
                     if (21 <= inbornBuff && inbornBuff <= 30)
                     {
-                        ce.txtInbornBuff.Text = "Hören +10";
+                        inbornBuffValue = "Hören +10";
                     }
                     if (31 <= inbornBuff && inbornBuff <= 40)
                     {
-                        ce.txtInbornBuff.Text = "Riechen +10";
+                        inbornBuffValue = "Riechen +10";
                     }
                     if (41 <= inbornBuff && inbornBuff <= 50)
                     {
-                        ce.txtInbornBuff.Text = "Schmecken +10";
+                        inbornBuffValue = "Schmecken +10";
                     }
                     if (51 <= inbornBuff && inbornBuff <= 60)
                     {
-                        ce.txtInbornBuff.Text = "Tasten +10";
+                        inbornBuffValue = "Tasten +10";
                     }
                     if (61 <= inbornBuff && inbornBuff <= 65)
                     {
-                        ce.txtInbornBuff.Text = "Sechster Sinn +6";
+                        inbornBuffValue = "Sechster Sinn +6";
                     }
                     if (66 <= inbornBuff && inbornBuff <= 70)
                     {
                         int berserk = 0;
-                        berserk = 18 - (Convert.ToInt32(ce.txtWillpower.Text) / 5);
-                        ce.txtInbornBuff.Text = "Berserkergang+ " + berserk;
+                        berserk = 18 - (Convert.ToInt32(txtWillpower) / 5);
+                        inbornBuffValue = "Berserkergang+ " + berserk;
                     }
                     if (71 <= inbornBuff && inbornBuff <= 75)
                     {
-                        ce.txtInbornBuff.Text = "Gute Reflexe +9";
+                        inbornBuffValue = "Gute Reflexe +9";
                     }
                     if (76 <= inbornBuff && inbornBuff <= 80)
                     {
-                        ce.txtInbornBuff.Text = "Nachtsicht +8";
+                        inbornBuffValue = "Nachtsicht +8";
                     }
                     if (81 <= inbornBuff && inbornBuff <= 85)
                     {
-                        ce.txtInbornBuff.Text = "Richtungssinn +12";
+                        inbornBuffValue = "Richtungssinn +12";
                     }
                     if (86 <= inbornBuff && inbornBuff <= 90)
                     {
-                        ce.txtInbornBuff.Text = "Robustheit +9";
+                        inbornBuffValue = "Robustheit +9";
                     }
                     if (91 <= inbornBuff && inbornBuff <= 95)
                     {
-                        ce.txtInbornBuff.Text = "Wachgabe +6";
+                        inbornBuffValue = "Wachgabe +6";
                     }
                     if (96 <= inbornBuff && inbornBuff <= 99)
                     {
-                        ce.txtInbornBuff.Text = "Einprägen +4";
+                        inbornBuffValue = "Einprägen +4";
                     }
                     if (inbornBuff == 100)
                     {
-                        ce.txtInbornBuff.Text = "Freie Wahl und zweiter Wurf";
+                        inbornBuffValue = "Freie Wahl und zweiter Wurf";
                     }
-                }
-
                 
             }
-            
+            return inbornBuffValue;
         }
+
+        
 
         private int mtBuffGhost_Body_MagicValue;
         public int MagicTalentGhostBody(int magicTalent)
@@ -767,9 +760,7 @@ namespace mcreator.Classes
                     {
                         ce.txtSelfControlC.Text = "0";
                     }
-                }
-
-                
+                }              
             }
         }
 

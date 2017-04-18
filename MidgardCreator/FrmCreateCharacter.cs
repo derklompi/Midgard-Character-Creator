@@ -311,8 +311,8 @@ namespace mcreator
                     
                     c.SelfControl();
                     c.AdventurePoints();
-                    c.LifePoints();
-                    c.InbornBuff();
+                    txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
+                    txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
 
                     if (this.Text == "MCreator - Halfling")
                     {
@@ -729,10 +729,10 @@ namespace mcreator
             txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
             txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));      
             c.SelfControl();
-            c.InbornBuff();
+            txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
             txtHanded.Text = c.Handed(mtxtHanded.Text);
             c.AdventurePoints();
-            c.LifePoints();
+            txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
 
             TimerCheck t = new TimerCheck();
             if (t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, rbStats.Checked, this.Text))
