@@ -35,6 +35,7 @@ namespace mcreator
             this.btnCreateDwarf = new System.Windows.Forms.Button();
             this.btnCreateGnome = new System.Windows.Forms.Button();
             this.btnEXP = new System.Windows.Forms.Button();
+            this.btnCustomizationValues = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCreateHuman
@@ -59,7 +60,7 @@ namespace mcreator
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(12, 361);
+            this.btnExit.Location = new System.Drawing.Point(12, 417);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(200, 50);
             this.btnExit.TabIndex = 5;
@@ -105,15 +106,25 @@ namespace mcreator
             this.btnEXP.TabIndex = 6;
             this.btnEXP.Text = "Level Up";
             this.btnEXP.UseVisualStyleBackColor = true;
-            this.btnEXP.Visible = false;
             this.btnEXP.Click += new System.EventHandler(this.btnEXP_Click);
+            // 
+            // btnCustomizationValues
+            // 
+            this.btnCustomizationValues.Location = new System.Drawing.Point(12, 361);
+            this.btnCustomizationValues.Name = "btnCustomizationValues";
+            this.btnCustomizationValues.Size = new System.Drawing.Size(200, 50);
+            this.btnCustomizationValues.TabIndex = 7;
+            this.btnCustomizationValues.Text = "Customization";
+            this.btnCustomizationValues.UseVisualStyleBackColor = true;
+            this.btnCustomizationValues.Click += new System.EventHandler(this.btnCustomizationValues_Click);
             // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 421);
+            this.ClientSize = new System.Drawing.Size(224, 481);
             this.ControlBox = false;
+            this.Controls.Add(this.btnCustomizationValues);
             this.Controls.Add(this.btnEXP);
             this.Controls.Add(this.btnCreateGnome);
             this.Controls.Add(this.btnCreateDwarf);
@@ -121,7 +132,7 @@ namespace mcreator
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnCreateElf);
             this.Controls.Add(this.btnCreateHuman);
-            this.MaximumSize = new System.Drawing.Size(240, 460);
+            this.MaximumSize = new System.Drawing.Size(240, 600);
             this.MinimumSize = new System.Drawing.Size(240, 460);
             this.Name = "FrmMain";
             this.ShowIcon = false;
@@ -140,5 +151,6 @@ namespace mcreator
         private System.Windows.Forms.Button btnCreateDwarf;
         private System.Windows.Forms.Button btnCreateGnome;
         private System.Windows.Forms.Button btnEXP;
+        private System.Windows.Forms.Button btnCustomizationValues;
     }
 }
