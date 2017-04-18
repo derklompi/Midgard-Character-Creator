@@ -1,6 +1,6 @@
 /*
     Mcreator
-    Copyright (C) 2016  Fabian Dörr <faflfama@outlook.com>
+    Copyright (C) 2016  Fabian Dï¿½rr <faflfama@outlook.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,9 +16,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace mcreator
@@ -33,8 +30,8 @@ namespace mcreator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new FrmMain());
             Application.Run(new FrmMain());
-
         }
     }
 }

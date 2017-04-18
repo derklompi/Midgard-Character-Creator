@@ -1,6 +1,6 @@
 /*
     Mcreator
-    Copyright (C) 2016  Fabian Dörr <faflfama@outlook.com>
+    Copyright (C) 2016  Fabian DÃ¶rr <faflfama@outlook.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,8 +17,6 @@
  */
 using System;
 using System.Windows.Forms;
-using System.Threading;
-
 
 namespace mcreator
 {
@@ -31,18 +29,15 @@ namespace mcreator
         }
 
         private void btnCreateHuman_Click(object sender, EventArgs e)
-        {
-            
+        {    
             //Convert.ToString(Thread.CurrentThread.CurrentUICulture) == "de-DE"
             Hide();
             FrmCreateCharacter createHuman = new FrmCreateCharacter();
             createHuman.Text = "MCreator - Mensch";
             createHuman.ShowDialog();
             createHuman = null;
-            
-            
-            Show();
-          
+                
+            Show();  
         }
 
         private void btnCreateElf_Click(object sender, EventArgs e)
