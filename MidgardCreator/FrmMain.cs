@@ -30,13 +30,10 @@ namespace mcreator
 
         private void btnCreateHuman_Click(object sender, EventArgs e)
         {    
-            //Convert.ToString(Thread.CurrentThread.CurrentUICulture) == "de-DE"
             Hide();
             FrmCreateCharacter createHuman = new FrmCreateCharacter();
             createHuman.Text = "MCreator - Mensch";
-            createHuman.ShowDialog();
-            createHuman = null;
-                
+            createHuman.ShowDialog();                     
             Show();  
         }
 
@@ -45,8 +42,7 @@ namespace mcreator
             Hide();
             FrmCreateCharacter createElf = new FrmCreateCharacter();
             createElf.Text = "MCreator - Elf";
-            createElf.ShowDialog();
-            createElf = null;         
+            createElf.ShowDialog();       
             Show();
         }
 
@@ -56,7 +52,6 @@ namespace mcreator
             FrmCreateCharacter createHalfling = new FrmCreateCharacter();
             createHalfling.Text = "MCreator - Halbling";
             createHalfling.ShowDialog();
-            createHalfling = null;
             Show();          
         }
 
@@ -66,7 +61,6 @@ namespace mcreator
             FrmCreateCharacter createDwarf = new FrmCreateCharacter();
             createDwarf.Text = "MCreator - Zwerg";
             createDwarf.ShowDialog();
-            createDwarf = null;
             Show();
         }
 
@@ -76,7 +70,6 @@ namespace mcreator
             FrmCreateCharacter createGnome = new FrmCreateCharacter();
             createGnome.Text = "MCreator - Gnom";
             createGnome.ShowDialog();
-            createGnome = null;
             Show();
         }
 
@@ -91,7 +84,6 @@ namespace mcreator
             FrmLevelUp levelUp = new FrmLevelUp();
             levelUp.Text = "MCreator - Level Up";
             levelUp.ShowDialog();
-            levelUp = null;
             Show();
         }
 
@@ -101,7 +93,6 @@ namespace mcreator
             FrmCustomizationValues customizationValues = new FrmCustomizationValues();
             customizationValues.Text = "MCreator - Customization Values";
             customizationValues.ShowDialog();
-            customizationValues = null;
             Show();
         }
     }
