@@ -8,3 +8,4 @@ E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\mcreator.FrmMain.resour
 E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\MCreator.csproj.GenerateResource.Cache
 E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\mcreator.exe
 E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\mcreator.pdb
+E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\MCreator.csprojResolveAssemblyReference.cache
