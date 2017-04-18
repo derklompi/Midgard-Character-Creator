@@ -40,7 +40,7 @@ namespace mcreator
             // 
             // btnCreateHuman
             // 
-            this.btnCreateHuman.Location = new System.Drawing.Point(12, 25);
+            this.btnCreateHuman.Location = new System.Drawing.Point(12, 12);
             this.btnCreateHuman.Name = "btnCreateHuman";
             this.btnCreateHuman.Size = new System.Drawing.Size(200, 50);
             this.btnCreateHuman.TabIndex = 0;
@@ -50,7 +50,7 @@ namespace mcreator
             // 
             // btnCreateElf
             // 
-            this.btnCreateElf.Location = new System.Drawing.Point(12, 81);
+            this.btnCreateElf.Location = new System.Drawing.Point(12, 68);
             this.btnCreateElf.Name = "btnCreateElf";
             this.btnCreateElf.Size = new System.Drawing.Size(200, 50);
             this.btnCreateElf.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace mcreator
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(12, 417);
+            this.btnExit.Location = new System.Drawing.Point(12, 404);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(200, 50);
             this.btnExit.TabIndex = 5;
@@ -70,7 +70,7 @@ namespace mcreator
             // 
             // btnCreateHalfling
             // 
-            this.btnCreateHalfling.Location = new System.Drawing.Point(12, 137);
+            this.btnCreateHalfling.Location = new System.Drawing.Point(12, 124);
             this.btnCreateHalfling.Name = "btnCreateHalfling";
             this.btnCreateHalfling.Size = new System.Drawing.Size(200, 50);
             this.btnCreateHalfling.TabIndex = 2;
@@ -80,7 +80,7 @@ namespace mcreator
             // 
             // btnCreateDwarf
             // 
-            this.btnCreateDwarf.Location = new System.Drawing.Point(12, 193);
+            this.btnCreateDwarf.Location = new System.Drawing.Point(12, 180);
             this.btnCreateDwarf.Name = "btnCreateDwarf";
             this.btnCreateDwarf.Size = new System.Drawing.Size(200, 50);
             this.btnCreateDwarf.TabIndex = 3;
@@ -90,7 +90,7 @@ namespace mcreator
             // 
             // btnCreateGnome
             // 
-            this.btnCreateGnome.Location = new System.Drawing.Point(12, 249);
+            this.btnCreateGnome.Location = new System.Drawing.Point(12, 236);
             this.btnCreateGnome.Name = "btnCreateGnome";
             this.btnCreateGnome.Size = new System.Drawing.Size(200, 50);
             this.btnCreateGnome.TabIndex = 4;
@@ -100,7 +100,7 @@ namespace mcreator
             // 
             // btnEXP
             // 
-            this.btnEXP.Location = new System.Drawing.Point(12, 305);
+            this.btnEXP.Location = new System.Drawing.Point(12, 292);
             this.btnEXP.Name = "btnEXP";
             this.btnEXP.Size = new System.Drawing.Size(200, 50);
             this.btnEXP.TabIndex = 6;
@@ -110,7 +110,7 @@ namespace mcreator
             // 
             // btnCustomizationValues
             // 
-            this.btnCustomizationValues.Location = new System.Drawing.Point(12, 361);
+            this.btnCustomizationValues.Location = new System.Drawing.Point(12, 348);
             this.btnCustomizationValues.Name = "btnCustomizationValues";
             this.btnCustomizationValues.Size = new System.Drawing.Size(200, 50);
             this.btnCustomizationValues.TabIndex = 7;
@@ -122,7 +122,7 @@ namespace mcreator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 481);
+            this.ClientSize = new System.Drawing.Size(224, 466);
             this.ControlBox = false;
             this.Controls.Add(this.btnCustomizationValues);
             this.Controls.Add(this.btnEXP);
