@@ -7,3 +7,5 @@
 /.vs
 /MidgardCreator/obj/Release/DesignTimeResolveAssemblyReferences.cache
 /MidgardCreator/obj/Release/MCreator.csprojResolveAssemblyReference.cache
+/MidgardCreator/obj/Release
+/MidgardCreator/bin/Release
