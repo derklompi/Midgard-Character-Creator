@@ -668,60 +668,55 @@ namespace mcreator.Classes
         }
 
         // Calculation of the charisma
-        public void Charisma()
-        {
-            if(Application.OpenForms.Count > 1)
-            {
-                FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
-                if (ce.mtxtCharisma.Text != "___" && ce.mtxtCharisma.Text !="")
-                {
-                    
-                    int tempCharismaValue = 0;
-                    tempCharismaValue = Convert.ToInt32(ce.mtxtCharisma.Text) + (3 * ((Convert.ToInt32(ce.mtxtIntelligence.Text) / 10) +
-                        (Convert.ToInt32(ce.mtxtAppearance.Text) / 10))) - 30;
 
-                    if (tempCharismaValue >= 0)
-                    {
-                        ce.txtCharisma.Text = Convert.ToString(tempCharismaValue);
-                    }
-                    else
-                    {
-                        ce.txtCharisma.Text = "0";
-                    }
+        private int charismavalue;
+        public int Charisma(string mtxtCharisma, string mtxtIntelligence, string mtxtAppearance)
+        {
+            if(mtxtCharisma !="" && mtxtIntelligence !="" && mtxtAppearance !="")
+            {
+                int tempCharismaValue = 0;
+                tempCharismaValue = Convert.ToInt32(mtxtCharisma) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
+                    (Convert.ToInt32(mtxtAppearance) / 10))) - 30;
+
+                if (tempCharismaValue >= 0)
+                {
+                    charismavalue = tempCharismaValue;
                 }
-                
+                else
+                {
+                    charismavalue = 0;
+                }                
             }
-            
-            
+            return charismavalue;
         }
+
+
+
 
         // Calculation of the willpower
-        public void Willpower()
+
+
+        private int willpowervalue;
+        public int Willpower(string mtxtWillpower, string mtxtIntelligence, string mtxtConstitution)
         {
-            if (Application.OpenForms.Count > 1)
+            if (mtxtWillpower != "" && mtxtIntelligence != "" && mtxtConstitution != "")
             {
-                FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
+                int tempWillpowerValue = 0;
+                tempWillpowerValue = Convert.ToInt32(mtxtWillpower) + (3 * ((Convert.ToInt32(mtxtConstitution) / 10) +
+                    (Convert.ToInt32(mtxtIntelligence) / 10))) - 40;
 
-                if (ce.mtxtWillpower.Text != "" && ce.mtxtWillpower.Text != "___")
+                if (tempWillpowerValue > 0)
                 {
-                    int tempWillpowerValue = 0;
-                    tempWillpowerValue = Convert.ToInt32(ce.mtxtWillpower.Text) + (3 * ((Convert.ToInt32(ce.mtxtConstitution.Text) / 10) +
-                        (Convert.ToInt32(ce.mtxtIntelligence.Text) / 10))) - 40;
-
-                    if (tempWillpowerValue > 0)
-                    {
-                        ce.txtWillpower.Text = Convert.ToString(tempWillpowerValue);
-                    }
-                    else
-                    {
-                        ce.txtWillpower.Text = "0";
-                    }
+                    willpowervalue = tempWillpowerValue;
                 }
-                
+                else
+                {
+                    willpowervalue = 0;
+                }
             }
-
+            return willpowervalue;
         }
-
+         
         // Calculation of the selfcontrol
         public void SelfControl()
         {
@@ -779,35 +774,31 @@ namespace mcreator.Classes
         }
 
         // Calculation of the hand specialization
-        public void Handed()
+        private string handedvalue;
+        public string Handed(string mtxtHanded)
         {
-            if (Application.OpenForms.Count > 1)
+            if (mtxtHanded != "")
             {
+                int handed = 0;
 
-                FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
+                handed = Convert.ToInt32(mtxtHanded);
 
-                if (ce.mtxtHanded.Text != "" && ce.mtxtHanded.Text != "__")
+                if (handed <= 15)
                 {
-                    int handed = 0;
+                    handedvalue = "Rechtshänder";
+                }
 
-                    handed = Convert.ToInt32(ce.mtxtHanded.Text);
+                if (handed > 15 && handed < 20)
+                {
+                    handedvalue = "Linkshänder";
+                }
 
-                    if (handed <= 15)
-                    {
-                        ce.txtHanded.Text = "Rechtshänder";
-                    }
-
-                    if (handed > 15 && handed < 20)
-                    {
-                        ce.txtHanded.Text = "Linkshänder";
-                    }
-
-                    if (handed == 20)
-                    {
-                        ce.txtHanded.Text = "Beidhänder";
-                    }
-                }           
+                if (handed == 20)
+                {
+                    handedvalue = "Beidhänder";
+                }
             }
-        }
+            return handedvalue;
+        }        
     }
 }

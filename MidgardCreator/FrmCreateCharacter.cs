@@ -34,12 +34,14 @@ namespace mcreator
             string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
             txtExportPath.Text = "" + user_path + "";
             
+            
         }
 
         Character c = new Character();
 
         private void FrmCreateCharacter_Load(object sender, EventArgs e)
         {
+            CalculationTimer.Enabled = true;
 
             // Customizing the form for the different races
             if (this.Text == "MCreator - Halbling")
@@ -302,9 +304,11 @@ namespace mcreator
                         txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
                     }
 
-                    //Calling the CalculationFunctions            
-                    c.Charisma();
-                    c.Willpower();
+                    //Calling the CalculationFunctions    
+
+                    txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
+                    txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));
+                    
                     c.SelfControl();
                     c.AdventurePoints();
                     c.LifePoints();
@@ -312,11 +316,11 @@ namespace mcreator
 
                     if (this.Text == "MCreator - Halfling")
                     {
-                        txtHanded.Text = "Beidh�ndig";
+                        txtHanded.Text = "Beidhändig";
                     }
                     else
                     {
-                        c.Handed();
+                        txtHanded.Text = c.Handed(mtxtHanded.Text);
                     }
                     
                     int mtBuffGhost_Body_MagicValue = 0;
@@ -420,9 +424,6 @@ namespace mcreator
                     mtxtAdventurePointsB.Enabled = false;
                     mtxtAdventurePointsC.Enabled = false;
                     mtxtLifePoints.Enabled = false;
-
-
-
                 }
 
                 if (TotalAmount_Stat >= 350)
@@ -718,17 +719,18 @@ namespace mcreator
                                "Warnung",
                                 MessageBoxButtons.OKCancel,
                                 MessageBoxIcon.Information) == DialogResult.OK)
-                this.Close();
+                CalculationTimer.Enabled = false;
+            this.Close();
         }
 
         //Automatic Calculatin during runtime
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
-            c.Charisma();
-            c.Willpower();
+            txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
+            txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));      
             c.SelfControl();
             c.InbornBuff();
-            c.Handed();
+            txtHanded.Text = c.Handed(mtxtHanded.Text);
             c.AdventurePoints();
             c.LifePoints();
 
