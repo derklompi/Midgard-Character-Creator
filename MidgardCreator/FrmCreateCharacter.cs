@@ -409,6 +409,17 @@ namespace mcreator
                     txtAreaMagicMagician.Text   = "";
                     txtAreaMagicNormal.Text     = "";
 
+                    mtxtCharisma.Enabled = false;
+                    mtxtWillpower.Enabled = false;
+                    mtxtSelfControl.Enabled = false;
+
+                    mtxtAdventurePointsA.Enabled = false;
+                    mtxtAdventurePointsB.Enabled = false;
+                    mtxtAdventurePointsC.Enabled = false;
+                    mtxtLifePoints.Enabled = false;
+
+
+
                 }
 
                 if (TotalAmount_Stat >= 350)
@@ -417,7 +428,13 @@ namespace mcreator
                     lblStatCheck.ForeColor  = System.Drawing.Color.Green;
                     rbStats.Checked         = true;
 
+
+
+
+                    int DamageBuff = 0;
+
                     int DamageBuff  = 0;
+
                     int DefenseBuff = 0;
 
                     DamageBuff  = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
@@ -451,7 +468,7 @@ namespace mcreator
                     txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
                     txtDoMagic0.Text    = Convert.ToString(2  + Convert.ToInt32(txtMagicBuff.Text));
 
-                    
+
 
                     int mtBuffGhost_Body_MagicValue = 0;
                     int intBuffGhostMagicValue      = 0;
@@ -477,9 +494,23 @@ namespace mcreator
                     txtBodyMagicNormal.Text     = Convert.ToString(14 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
 
                     //Values AreaMagic
+
+                    TimerCheck t = new TimerCheck();
+
+                    mtxtCharisma.Enabled = true;
+                    mtxtWillpower.Enabled = true;
+                    mtxtSelfControl.Enabled = true;
+
+
+                    mtxtAdventurePointsA.Enabled = true;
+                    mtxtAdventurePointsB.Enabled = true;
+                    mtxtAdventurePointsC.Enabled = true;
+                    mtxtLifePoints.Enabled = true;
+
                     txtAreaMagicFighter.Text    = Convert.ToString(10 + c.AgilityArea(agility));
                     txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
+
                 }
             }
             else
@@ -510,10 +541,31 @@ namespace mcreator
                 txtAreaMagicFighter.Text = "";
                 txtAreaMagicMagician.Text = "";
                 txtAreaMagicNormal.Text = "";
-            }      
+
+
+                mtxtCharisma.Enabled = false;
+                mtxtWillpower.Enabled = false;
+                mtxtSelfControl.Enabled = false;
+
+                mtxtAdventurePointsA.Enabled = false;
+                mtxtAdventurePointsB.Enabled = false;
+                mtxtAdventurePointsC.Enabled = false;
+                mtxtLifePoints.Enabled = false;
+            }
+
+            if(mtxtAppearance.Text !="")
+            {
+                mtxtCharisma.Enabled = true;
+            }
+
+            if(txtCharisma.Text !="")
+            {
+
+            }
         }
 
         //Export to a .txt file
+
         private void btnExport_Click(object sender, EventArgs e)
         {
             if (txtCharacterName.Text !="")
