@@ -32,9 +32,7 @@ namespace mcreator
 
             // Get the user home path and set it as default
             string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
-            txtExportPath.Text = "" + user_path + "";
-            
-            
+            txtExportPath.Text = "" + user_path + "";           
         }
 
         Character c = new Character();
@@ -68,7 +66,7 @@ namespace mcreator
 
                 // Change texts of textfields
                 // Handed
-                txtHanded.Text = "Beidh�ndig";
+                txtHanded.Text = "Beidhändig";
                 //BodyWeight
                 mtxtBodyWeightD.Text = "0";
             }
@@ -84,9 +82,9 @@ namespace mcreator
 
 
                 // Change Text of labels
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
+                lblDice20A.Text     = "1W6";
+                lblDice20B.Text     = "1W6";
+                lblBodySizeA.Text   = "cm";
                 lblBodyWeightA.Text = "kg";
             }
             if (this.Text == "MCreator - Zwerg")
@@ -103,9 +101,9 @@ namespace mcreator
 
 
                 // Change Text of labels
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
+                lblDice20A.Text     = "1W6";
+                lblDice20B.Text     = "1W6";
+                lblBodySizeA.Text   = "cm";
                 lblBodyWeightA.Text = "kg";
 
                 // Change texts of textfields
