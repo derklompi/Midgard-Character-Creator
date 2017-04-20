@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("retail")]
 [assembly: AssemblyCompany("Open Source Developer")]
 [assembly: AssemblyProduct("mcreator")]
-[assembly: AssemblyCopyright("Copyright © FlamFLam 2016")]
+[assembly: AssemblyCopyright("Copyright © FlamFLam 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
