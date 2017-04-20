@@ -450,52 +450,52 @@
   <data name="&gt;&gt;txtGhostMagicFighter.ZOrder" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BtnReset.Location" type="System.Drawing.Point, System.Drawing">
     <value>213, 106</value>
   </data>
-  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnReset.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+  <data name="BtnReset.TabIndex" type="System.Int32, mscorlib">
     <value>1064</value>
   </data>
-  <data name="btnReset.Text" xml:space="preserve">
+  <data name="BtnReset.Text" xml:space="preserve">
     <value>Reset</value>
   </data>
-  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
-    <value>btnReset</value>
+  <data name="&gt;&gt;BtnReset.Name" xml:space="preserve">
+    <value>BtnReset</value>
   </data>
-  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnReset.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnReset.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;BtnReset.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="btnGetRandomCharacter.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BtnGetRandomCharacter.Location" type="System.Drawing.Point, System.Drawing">
     <value>127, 106</value>
   </data>
-  <data name="btnGetRandomCharacter.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnGetRandomCharacter.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="btnGetRandomCharacter.TabIndex" type="System.Int32, mscorlib">
+  <data name="BtnGetRandomCharacter.TabIndex" type="System.Int32, mscorlib">
     <value>1063</value>
   </data>
-  <data name="btnGetRandomCharacter.Text" xml:space="preserve">
+  <data name="BtnGetRandomCharacter.Text" xml:space="preserve">
     <value>Random</value>
   </data>
-  <data name="&gt;&gt;btnGetRandomCharacter.Name" xml:space="preserve">
-    <value>btnGetRandomCharacter</value>
+  <data name="&gt;&gt;BtnGetRandomCharacter.Name" xml:space="preserve">
+    <value>BtnGetRandomCharacter</value>
   </data>
-  <data name="&gt;&gt;btnGetRandomCharacter.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnGetRandomCharacter.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnGetRandomCharacter.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnGetRandomCharacter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnGetRandomCharacter.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;BtnGetRandomCharacter.ZOrder" xml:space="preserve">
     <value>24</value>
   </data>
   <data name="mtxtInbornBuff.Location" type="System.Drawing.Point, System.Drawing">
@@ -3599,28 +3599,28 @@
   <metadata name="EnableTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="btnExport.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BtnExport.Location" type="System.Drawing.Point, System.Drawing">
     <value>704, 479</value>
   </data>
-  <data name="btnExport.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnExport.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="btnExport.TabIndex" type="System.Int32, mscorlib">
+  <data name="BtnExport.TabIndex" type="System.Int32, mscorlib">
     <value>1092</value>
   </data>
-  <data name="btnExport.Text" xml:space="preserve">
+  <data name="BtnExport.Text" xml:space="preserve">
     <value>Export</value>
   </data>
-  <data name="&gt;&gt;btnExport.Name" xml:space="preserve">
-    <value>btnExport</value>
+  <data name="&gt;&gt;BtnExport.Name" xml:space="preserve">
+    <value>BtnExport</value>
   </data>
-  <data name="&gt;&gt;btnExport.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnExport.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnExport.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnExport.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnExport.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;BtnExport.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
   <data name="txtExportPath.Location" type="System.Drawing.Point, System.Drawing">
@@ -3722,37 +3722,37 @@
   <metadata name="chooseExportFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>136, 17</value>
   </metadata>
-  <data name="btnImport.Enabled" type="System.Boolean, mscorlib">
+  <data name="BtnImport.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="btnImport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="BtnImport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnImport.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BtnImport.Location" type="System.Drawing.Point, System.Drawing">
     <value>704, 530</value>
   </data>
-  <data name="btnImport.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnImport.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="btnImport.TabIndex" type="System.Int32, mscorlib">
+  <data name="BtnImport.TabIndex" type="System.Int32, mscorlib">
     <value>1098</value>
   </data>
-  <data name="btnImport.Text" xml:space="preserve">
+  <data name="BtnImport.Text" xml:space="preserve">
     <value>Import</value>
   </data>
-  <data name="btnImport.Visible" type="System.Boolean, mscorlib">
+  <data name="BtnImport.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;btnImport.Name" xml:space="preserve">
-    <value>btnImport</value>
+  <data name="&gt;&gt;BtnImport.Name" xml:space="preserve">
+    <value>BtnImport</value>
   </data>
-  <data name="&gt;&gt;btnImport.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnImport.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnImport.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnImport.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnImport.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;BtnImport.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
@@ -3851,28 +3851,28 @@
   <data name="&gt;&gt;lblStatCheck.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BtnExit.Location" type="System.Drawing.Point, System.Drawing">
     <value>704, 4</value>
   </data>
-  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnExit.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+  <data name="BtnExit.TabIndex" type="System.Int32, mscorlib">
     <value>1102</value>
   </data>
-  <data name="btnExit.Text" xml:space="preserve">
+  <data name="BtnExit.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
-    <value>btnExit</value>
+  <data name="&gt;&gt;BtnExit.Name" xml:space="preserve">
+    <value>BtnExit</value>
   </data>
-  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnExit.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;BtnExit.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="rbStats.AutoSize" type="System.Boolean, mscorlib">

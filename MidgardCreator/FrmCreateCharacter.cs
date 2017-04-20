@@ -154,7 +154,7 @@ namespace mcreator
             }
         }
       
-        private void btnGetRandomCharacter_Click(object sender, EventArgs e)
+        private void BtnGetRandomCharacter_Click(object sender, EventArgs e)
         {
             // Reset the check value for the following cycle
             bool statPointCheck = false;
@@ -310,7 +310,9 @@ namespace mcreator
                     txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));
                     
                     c.SelfControl();
-                    c.AdventurePoints();
+                    txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
                     txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
                     txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
 
@@ -355,7 +357,7 @@ namespace mcreator
         }
 
         //Reset Button to clear the form
-        private void btnReset_Click(object sender, EventArgs e)
+        private void BtnReset_Click(object sender, EventArgs e)
         {
             foreach (Control c in this.Controls)
             {
@@ -551,7 +553,7 @@ namespace mcreator
 
         //Export to a .txt file
 
-        private void btnExport_Click(object sender, EventArgs e)
+        private void BtnExport_Click(object sender, EventArgs e)
         {
             if (txtCharacterName.Text !="")
             {
@@ -578,14 +580,14 @@ namespace mcreator
         }
 
         //Opens a Dialog to choose a folder
-        private void txtSavepathExport_Click(object sender, EventArgs e)
+        private void TxtSavepathExport_Click(object sender, EventArgs e)
         {
             if (chooseExportFolder.ShowDialog(this) == DialogResult.OK)
                 txtExportPath.Text = chooseExportFolder.SelectedPath;
         }
 
         //Imports the charactervalues from a previously exported character
-        private void btnImport_Click(object sender, EventArgs e)
+        private void BtnImport_Click(object sender, EventArgs e)
         {
 
             List<String> lines = new List<String>();
@@ -700,7 +702,7 @@ namespace mcreator
         }
 
         //Import button for a previously exported character
-        private void txtImportFile_Click(object sender, EventArgs e)
+        private void TxtImportFile_Click(object sender, EventArgs e)
         {
             string file;
 
@@ -713,7 +715,7 @@ namespace mcreator
         }
 
         //Exit Button
-        private void btnExit_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Beim Beenden gehen alle Werte verloren",
                                "Warnung",
@@ -731,7 +733,9 @@ namespace mcreator
             c.SelfControl();
             txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
             txtHanded.Text = c.Handed(mtxtHanded.Text);
-            c.AdventurePoints();
+            txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+            txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+            txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
             txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
 
             TimerCheck t = new TimerCheck();

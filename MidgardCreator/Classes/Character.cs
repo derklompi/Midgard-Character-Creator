@@ -215,155 +215,167 @@ namespace mcreator.Classes
         }
 
         // Calculation for adventure points of barbarians, warriors. etc.
-        public void AdventurePoints()
+
+        private int adventurePointsValueA;
+        public int AdventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string Text)
         {
-            if (Application.OpenForms.Count > 1)
+            if (mtxtAdventurePointsA != "" && txtStaminaBuff != "")
             {
-                FrmCreateCharacter ce = Application.OpenForms[1] as FrmCreateCharacter;
+                int tempAdventurePointsAValue = 0;
 
-                if (ce.mtxtAdventurePointsA.Text != "" && ce.mtxtAdventurePointsA.Text !="_" && ce.txtStaminaBuff.Text != "")
+                tempAdventurePointsAValue = Convert.ToInt32(mtxtAdventurePointsA) + 4 + Convert.ToInt32(txtStaminaBuff);
+
+                if (tempAdventurePointsAValue >= 4)
                 {
-                    int tempAdventurePointsAValue = 0;
 
-                    tempAdventurePointsAValue = Convert.ToInt32(ce.mtxtAdventurePointsA.Text) + 4 + Convert.ToInt32(ce.txtStaminaBuff.Text);
-
-                    if (tempAdventurePointsAValue >= 4)
+                    // Calculations for dwarfs
+                    /*
+                    if (Text == "MCreator - Zwerg")
                     {
-
-                        // Calculations for dwarfs
-                        /*
-                        if (ce.Text == "MCreator - Zwerg")
-                        {
-                            //
-                        }
-
-                        // Calculations for elfs
-                        if (ce.Text == "MCreator - Elf")
-                        {
-                            //
-                        }
-
-                        // Calculations for humans
-                        if (ce.Text == "MCreator - Mensch")
-                        {
-                            //
-                        }
-                        */
-                        // Calculations for gnomes
-                        if (ce.Text == "MCreator - Gnom")
-                        {
-                            tempAdventurePointsAValue = tempAdventurePointsAValue - 2;
-                        }
-
-                        // Calculations for halflings
-                        if (ce.Text == "MCreator - Halbling")
-                        {
-                            tempAdventurePointsAValue = tempAdventurePointsAValue - 1;
-                        }
-
-                        ce.txtAdventurePointsA.Text = Convert.ToString(tempAdventurePointsAValue);
-                    }
-                    else
-                    {
-                        ce.txtAdventurePointsA.Text = "4";
+                        //
                     }
 
+                    // Calculations for elfs
+                    if (Text == "MCreator - Elf")
+                    {
+                        //
+                    }
+
+                    // Calculations for humans
+                    if (Text == "MCreator - Mensch")
+                    {
+                        //
+                    }
+                    */
+                    // Calculations for gnomes
+                    if (Text == "MCreator - Gnom")
+                    {
+                        tempAdventurePointsAValue = tempAdventurePointsAValue - 2;
+                    }
+
+                    // Calculations for halflings
+                    if (Text == "MCreator - Halbling")
+                    {
+                        tempAdventurePointsAValue = tempAdventurePointsAValue - 1;
+                    }
+
+                    adventurePointsValueA = tempAdventurePointsAValue;
+                }
+                else
+                {
+                    adventurePointsValueA = 4;
                 }
 
-                if (ce.mtxtAdventurePointsB.Text != "" && ce.mtxtAdventurePointsB.Text != "_" && ce.txtStaminaBuff.Text != "")
+            }
+            
+
+            return adventurePointsValueA;
+        }
+
+        private int adventurePointsValueB;
+        public int AdventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string Text)
+        {
+            if (mtxtAdventurePointsB != "" && txtStaminaBuff != "")
+            {
+                int tempAdventurePointsBValue = 0;
+
+                tempAdventurePointsBValue = Convert.ToInt32(mtxtAdventurePointsB) + 3 + Convert.ToInt32(txtStaminaBuff);
+
+                if (tempAdventurePointsBValue >= 4)
                 {
-                    int tempAdventurePointsBValue = 0;
-
-                    tempAdventurePointsBValue = Convert.ToInt32(ce.mtxtAdventurePointsB.Text) + 3 + Convert.ToInt32(ce.txtStaminaBuff.Text);
-
-                    if (tempAdventurePointsBValue >= 4)
+                    // Calculations for dwarfs
+                    /*
+                    if (Text == "MCreator - Zwerg")
                     {
-                        // Calculations for dwarfs
-                        /*
-                        if (ce.Text == "MCreator - Zwerg")
-                        {
-                            //
-                        }
-
-                        // Calculations for elfs
-                        if (ce.Text == "MCreator - Elf")
-                        {
-                            //
-                        }
-
-                        // Calculations for humans
-                        if (ce.Text == "MCreator - Mensch")
-                        {
-                            //
-                        }
-                        */
-                        // Calculations for gnomes
-                        if (ce.Text == "MCreator - Gnom")
-                        {
-                            tempAdventurePointsBValue = tempAdventurePointsBValue - 2;
-                        }
-
-                        // Calculations for halflings
-                        if (ce.Text == "MCreator - Halbling")
-                        {
-                            tempAdventurePointsBValue = tempAdventurePointsBValue - 1;
-                        }
-
-                        ce.txtAdventurePointsB.Text = Convert.ToString(tempAdventurePointsBValue);
+                        //
                     }
-                    else
+
+                    // Calculations for elfs
+                    if (Text == "MCreator - Elf")
                     {
-                        ce.txtAdventurePointsB.Text = "4";
+                        //
                     }
+
+                    // Calculations for humans
+                    if (Text == "MCreator - Mensch")
+                    {
+                        //
+                    }
+                    */
+                    // Calculations for gnomes
+                    if (Text == "MCreator - Gnom")
+                    {
+                        tempAdventurePointsBValue = tempAdventurePointsBValue - 2;
+                    }
+
+                    // Calculations for halflings
+                    if (Text == "MCreator - Halbling")
+                    {
+                        tempAdventurePointsBValue = tempAdventurePointsBValue - 1;
+                    }
+
+                    adventurePointsValueB = tempAdventurePointsBValue;
                 }
-
-                if (ce.mtxtAdventurePointsC.Text != "" && ce.mtxtAdventurePointsC.Text != "_" && ce.txtStaminaBuff.Text != "")
+                else
                 {
-                    int tempAdventurePointsCValue = 0;
+                    adventurePointsValueB = 4;
+                }
+            }
+           
+            return adventurePointsValueB;
+        }
 
-                    tempAdventurePointsCValue = Convert.ToInt32(ce.mtxtAdventurePointsC.Text) + 2 + Convert.ToInt32(ce.txtStaminaBuff.Text);
+        private int adventurePointsValueC;
+        public int AdventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string Text)
+        {            
+            if (mtxtAdventurePointsC != "" && txtStaminaBuff != "")
+            {
+                int tempAdventurePointsCValue = 0;
 
-                    if (tempAdventurePointsCValue >= 4)
+                tempAdventurePointsCValue = Convert.ToInt32(mtxtAdventurePointsC) + 2 + Convert.ToInt32(txtStaminaBuff);
+
+                if (tempAdventurePointsCValue >= 4)
+                {
+                    // Calculations for dwarfs
+                    /*
+                    if (Text == "MCreator - Zwerg")
                     {
-                        // Calculations for dwarfs
-                        /*
-                        if (ce.Text == "MCreator - Zwerg")
-                        {
-                            //
-                        }
-
-                        // Calculations for elfs
-                        if (ce.Text == "MCreator - Elf")
-                        {
-                            //
-                        }
-
-                        // Calculations for humans
-                        if (ce.Text == "MCreator - Mensch")
-                        {
-                            //
-                        }
-                        */
-                        // Calculations for gnomes
-                        if (ce.Text == "MCreator - Gnom")
-                        {
-                            tempAdventurePointsCValue = tempAdventurePointsCValue - 2;
-                        }
-
-                        // Calculations for halflings
-                        if (ce.Text == "MCreator - Halbling")
-                        {
-                            tempAdventurePointsCValue = tempAdventurePointsCValue - 1;
-                        }
-
-                        ce.txtAdventurePointsC.Text = Convert.ToString(tempAdventurePointsCValue);
+                        //
                     }
-                    else
+
+                    // Calculations for elfs
+                    if (Text == "MCreator - Elf")
                     {
-                        ce.txtAdventurePointsC.Text = "4";
+                        //
                     }
-                }                
-            }           
+
+                    // Calculations for humans
+                    if (Text == "MCreator - Mensch")
+                    {
+                        //
+                    }
+                    */
+                    // Calculations for gnomes
+                    if (Text == "MCreator - Gnom")
+                    {
+                        tempAdventurePointsCValue = tempAdventurePointsCValue - 2;
+                    }
+
+                    // Calculations for halflings
+                    if (Text == "MCreator - Halbling")
+                    {
+                        tempAdventurePointsCValue = tempAdventurePointsCValue - 1;
+                    }
+
+                    adventurePointsValueC = tempAdventurePointsCValue;
+                }
+                else
+                {
+                    adventurePointsValueC = 4;
+                }
+            }
+
+            return adventurePointsValueC;
         }
 
         // Calculations of the lifepoints

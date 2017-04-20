@@ -42,8 +42,8 @@ namespace mcreator
             this.txtGhostMagicNormal = new System.Windows.Forms.TextBox();
             this.txtGhostMagicMagician = new System.Windows.Forms.TextBox();
             this.txtGhostMagicFighter = new System.Windows.Forms.TextBox();
-            this.btnReset = new System.Windows.Forms.Button();
-            this.btnGetRandomCharacter = new System.Windows.Forms.Button();
+            this.BtnReset = new System.Windows.Forms.Button();
+            this.BtnGetRandomCharacter = new System.Windows.Forms.Button();
             this.mtxtInbornBuff = new System.Windows.Forms.MaskedTextBox();
             this.txtInbornBuff = new System.Windows.Forms.TextBox();
             this.lblInbornBuff = new System.Windows.Forms.Label();
@@ -151,18 +151,18 @@ namespace mcreator
             this.mtxtWillpower = new System.Windows.Forms.MaskedTextBox();
             this.lblCharisma = new System.Windows.Forms.Label();
             this.EnableTimer = new System.Windows.Forms.Timer(this.components);
-            this.btnExport = new System.Windows.Forms.Button();
+            this.BtnExport = new System.Windows.Forms.Button();
             this.txtExportPath = new System.Windows.Forms.TextBox();
             this.txtCharacterName = new System.Windows.Forms.TextBox();
             this.lblCharactername = new System.Windows.Forms.Label();
             this.lblSavePath = new System.Windows.Forms.Label();
             this.chooseExportFolder = new System.Windows.Forms.FolderBrowserDialog();
-            this.btnImport = new System.Windows.Forms.Button();
+            this.BtnImport = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtImportFile = new System.Windows.Forms.TextBox();
             this.chooseImportFile = new System.Windows.Forms.OpenFileDialog();
             this.lblStatCheck = new System.Windows.Forms.Label();
-            this.btnExit = new System.Windows.Forms.Button();
+            this.BtnExit = new System.Windows.Forms.Button();
             this.rbStats = new System.Windows.Forms.RadioButton();
             this.CalculationTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
@@ -237,19 +237,19 @@ namespace mcreator
             this.txtGhostMagicFighter.Name = "txtGhostMagicFighter";
             this.txtGhostMagicFighter.ReadOnly = true;
             // 
-            // btnReset
+            // BtnReset
             // 
-            resources.ApplyResources(this.btnReset, "btnReset");
-            this.btnReset.Name = "btnReset";
-            this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            resources.ApplyResources(this.BtnReset, "BtnReset");
+            this.BtnReset.Name = "BtnReset";
+            this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
-            // btnGetRandomCharacter
+            // BtnGetRandomCharacter
             // 
-            resources.ApplyResources(this.btnGetRandomCharacter, "btnGetRandomCharacter");
-            this.btnGetRandomCharacter.Name = "btnGetRandomCharacter";
-            this.btnGetRandomCharacter.UseVisualStyleBackColor = true;
-            this.btnGetRandomCharacter.Click += new System.EventHandler(this.btnGetRandomCharacter_Click);
+            resources.ApplyResources(this.BtnGetRandomCharacter, "BtnGetRandomCharacter");
+            this.BtnGetRandomCharacter.Name = "BtnGetRandomCharacter";
+            this.BtnGetRandomCharacter.UseVisualStyleBackColor = true;
+            this.BtnGetRandomCharacter.Click += new System.EventHandler(this.BtnGetRandomCharacter_Click);
             // 
             // mtxtInbornBuff
             // 
@@ -833,18 +833,18 @@ namespace mcreator
             this.EnableTimer.Interval = 300;
             this.EnableTimer.Tick += new System.EventHandler(this.Enable_Timer_Tick);
             // 
-            // btnExport
+            // BtnExport
             // 
-            resources.ApplyResources(this.btnExport, "btnExport");
-            this.btnExport.Name = "btnExport";
-            this.btnExport.UseVisualStyleBackColor = true;
-            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            resources.ApplyResources(this.BtnExport, "BtnExport");
+            this.BtnExport.Name = "BtnExport";
+            this.BtnExport.UseVisualStyleBackColor = true;
+            this.BtnExport.Click += new System.EventHandler(this.BtnExport_Click);
             // 
             // txtExportPath
             // 
             resources.ApplyResources(this.txtExportPath, "txtExportPath");
             this.txtExportPath.Name = "txtExportPath";
-            this.txtExportPath.Click += new System.EventHandler(this.txtSavepathExport_Click);
+            this.txtExportPath.Click += new System.EventHandler(this.TxtSavepathExport_Click);
             // 
             // txtCharacterName
             // 
@@ -861,12 +861,12 @@ namespace mcreator
             resources.ApplyResources(this.lblSavePath, "lblSavePath");
             this.lblSavePath.Name = "lblSavePath";
             // 
-            // btnImport
+            // BtnImport
             // 
-            resources.ApplyResources(this.btnImport, "btnImport");
-            this.btnImport.Name = "btnImport";
-            this.btnImport.UseVisualStyleBackColor = true;
-            this.btnImport.Click += new System.EventHandler(this.btnImport_Click);
+            resources.ApplyResources(this.BtnImport, "BtnImport");
+            this.BtnImport.Name = "BtnImport";
+            this.BtnImport.UseVisualStyleBackColor = true;
+            this.BtnImport.Click += new System.EventHandler(this.BtnImport_Click);
             // 
             // label1
             // 
@@ -877,7 +877,7 @@ namespace mcreator
             // 
             resources.ApplyResources(this.txtImportFile, "txtImportFile");
             this.txtImportFile.Name = "txtImportFile";
-            this.txtImportFile.Click += new System.EventHandler(this.txtImportFile_Click);
+            this.txtImportFile.Click += new System.EventHandler(this.TxtImportFile_Click);
             // 
             // chooseImportFile
             // 
@@ -889,12 +889,12 @@ namespace mcreator
             this.lblStatCheck.ForeColor = System.Drawing.Color.Red;
             this.lblStatCheck.Name = "lblStatCheck";
             // 
-            // btnExit
+            // BtnExit
             // 
-            resources.ApplyResources(this.btnExit, "btnExit");
-            this.btnExit.Name = "btnExit";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            resources.ApplyResources(this.BtnExit, "BtnExit");
+            this.BtnExit.Name = "BtnExit";
+            this.BtnExit.UseVisualStyleBackColor = true;
+            this.BtnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // rbStats
             // 
@@ -905,7 +905,6 @@ namespace mcreator
             // 
             // CalculationTimer
             // 
-            this.CalculationTimer.Enabled = true;
             this.CalculationTimer.Interval = 300;
             this.CalculationTimer.Tick += new System.EventHandler(this.CalculationTimer_Tick);
             // 
@@ -915,16 +914,16 @@ namespace mcreator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
             this.Controls.Add(this.rbStats);
-            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.lblStatCheck);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtImportFile);
-            this.Controls.Add(this.btnImport);
+            this.Controls.Add(this.BtnImport);
             this.Controls.Add(this.lblSavePath);
             this.Controls.Add(this.lblCharactername);
             this.Controls.Add(this.txtCharacterName);
             this.Controls.Add(this.txtExportPath);
-            this.Controls.Add(this.btnExport);
+            this.Controls.Add(this.BtnExport);
             this.Controls.Add(this.lblExport);
             this.Controls.Add(this.lblLifePointsMen);
             this.Controls.Add(this.txtLifePoints);
@@ -937,8 +936,8 @@ namespace mcreator
             this.Controls.Add(this.txtGhostMagicNormal);
             this.Controls.Add(this.txtGhostMagicMagician);
             this.Controls.Add(this.txtGhostMagicFighter);
-            this.Controls.Add(this.btnReset);
-            this.Controls.Add(this.btnGetRandomCharacter);
+            this.Controls.Add(this.BtnReset);
+            this.Controls.Add(this.BtnGetRandomCharacter);
             this.Controls.Add(this.mtxtInbornBuff);
             this.Controls.Add(this.txtInbornBuff);
             this.Controls.Add(this.lblInbornBuff);
@@ -1058,8 +1057,8 @@ namespace mcreator
 
         private System.Windows.Forms.Label lblExport;
         private System.Windows.Forms.Label lblLifePointsMen;
-        private System.Windows.Forms.Button btnReset;
-        private System.Windows.Forms.Button btnGetRandomCharacter;
+        private System.Windows.Forms.Button BtnReset;
+        private System.Windows.Forms.Button BtnGetRandomCharacter;
         private System.Windows.Forms.Label lblInbornBuff;
         private System.Windows.Forms.Label lblAreaMagic;
         private System.Windows.Forms.Label lblBodyMagic;
@@ -1121,15 +1120,15 @@ namespace mcreator
         private System.Windows.Forms.Label lblWillpower;
         private System.Windows.Forms.Label lblCharisma;
         private System.Windows.Forms.Timer EnableTimer;
-        private System.Windows.Forms.Button btnExport;
+        private System.Windows.Forms.Button BtnExport;
         private System.Windows.Forms.Label lblCharactername;
         private System.Windows.Forms.Label lblSavePath;
         private System.Windows.Forms.FolderBrowserDialog chooseExportFolder;
-        private System.Windows.Forms.Button btnImport;
+        private System.Windows.Forms.Button BtnImport;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.OpenFileDialog chooseImportFile;
         private System.Windows.Forms.Label lblStatCheck;
-        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.RadioButton rbStats;
         protected internal System.Windows.Forms.MaskedTextBox mtxtInbornBuff;
         protected internal System.Windows.Forms.MaskedTextBox mtxtDexterity;
