@@ -728,8 +728,8 @@ namespace mcreator
         //Automatic Calculatin during runtime
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
-            txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
-            txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));      
+            txtCharisma.Text    = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
+            txtWillpower.Text   = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));      
             c.SelfControl();
             txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
             txtHanded.Text = c.Handed(mtxtHanded.Text);
