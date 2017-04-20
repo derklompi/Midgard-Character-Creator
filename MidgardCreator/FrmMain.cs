@@ -32,8 +32,10 @@ namespace mcreator
         private void BtnCreateHuman_Click(object sender, EventArgs e)
         {    
             Hide();
-            FrmCreateCharacter createHuman = new FrmCreateCharacter();
-            createHuman.Text = "MCreator - Mensch";
+            FrmCreateCharacter createHuman = new FrmCreateCharacter()
+            {
+                Text = "MCreator - Mensch"
+            };
             createHuman.ShowDialog();                     
             Show();  
         }
@@ -41,8 +43,10 @@ namespace mcreator
         private void BtnCreateElf_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmCreateCharacter createElf = new FrmCreateCharacter();
-            createElf.Text = "MCreator - Elf";
+            FrmCreateCharacter createElf = new FrmCreateCharacter()
+            {
+                Text = "MCreator - Elf"
+            };
             createElf.ShowDialog();       
             Show();
         }
@@ -50,8 +54,10 @@ namespace mcreator
         private void BtnCreateHalfling_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmCreateCharacter createHalfling = new FrmCreateCharacter();
-            createHalfling.Text = "MCreator - Halbling";
+            FrmCreateCharacter createHalfling = new FrmCreateCharacter()
+            {
+                Text = "MCreator - Halbling"
+            };
             createHalfling.ShowDialog();
             Show();          
         }
@@ -59,8 +65,10 @@ namespace mcreator
         private void BtnCreateDwarf_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmCreateCharacter createDwarf = new FrmCreateCharacter();
-            createDwarf.Text = "MCreator - Zwerg";
+            FrmCreateCharacter createDwarf = new FrmCreateCharacter()
+            {
+                Text = "MCreator - Zwerg"
+            };
             createDwarf.ShowDialog();
             Show();
         }
@@ -68,8 +76,10 @@ namespace mcreator
         private void BtnCreateGnome_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmCreateCharacter createGnome = new FrmCreateCharacter();
-            createGnome.Text = "MCreator - Gnom";
+            FrmCreateCharacter createGnome = new FrmCreateCharacter()
+            {
+                Text = "MCreator - Gnom"
+            };
             createGnome.ShowDialog();
             Show();
         }
@@ -82,8 +92,10 @@ namespace mcreator
         private void BtnEXP_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmLevelUp levelUp = new FrmLevelUp();
-            levelUp.Text = "MCreator - Level Up";
+            FrmLevelUp levelUp = new FrmLevelUp()
+            {
+                Text = "MCreator - Level Up"
+            };
             levelUp.ShowDialog();
             Show();
         }
@@ -91,8 +103,10 @@ namespace mcreator
         private void BtnCustomizationValues_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmCustomizationValues customizationValues = new FrmCustomizationValues();
-            customizationValues.Text = "MCreator - Customization Values";
+            FrmCustomizationValues customizationValues = new FrmCustomizationValues()
+            {
+                Text = "MCreator - Customization Values"
+            };
             customizationValues.ShowDialog();
             Show();
         }
