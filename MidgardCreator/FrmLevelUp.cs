@@ -441,8 +441,8 @@ namespace mcreator
 
                 levelKey = cbCurrentLevel.SelectedItem.ToString();
 
-                int diceValue = 0;
-                int apValue = 0;
+                int diceValue   = 0;
+                int apValue     = 0;
 
                 string claass = cbClass.SelectedItem.ToString();
 
