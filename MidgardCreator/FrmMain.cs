@@ -29,7 +29,7 @@ namespace mcreator
             InitializeComponent();
         }
 
-        private void btnCreateHuman_Click(object sender, EventArgs e)
+        private void BtnCreateHuman_Click(object sender, EventArgs e)
         {    
             Hide();
             FrmCreateCharacter createHuman = new FrmCreateCharacter();
@@ -38,7 +38,7 @@ namespace mcreator
             Show();  
         }
 
-        private void btnCreateElf_Click(object sender, EventArgs e)
+        private void BtnCreateElf_Click(object sender, EventArgs e)
         {
             Hide();
             FrmCreateCharacter createElf = new FrmCreateCharacter();
@@ -47,7 +47,7 @@ namespace mcreator
             Show();
         }
 
-        private void btnCreateHalfling_Click(object sender, EventArgs e)
+        private void BtnCreateHalfling_Click(object sender, EventArgs e)
         {
             Hide();
             FrmCreateCharacter createHalfling = new FrmCreateCharacter();
@@ -56,7 +56,7 @@ namespace mcreator
             Show();          
         }
 
-        private void btnCreateDwarf_Click(object sender, EventArgs e)
+        private void BtnCreateDwarf_Click(object sender, EventArgs e)
         {
             Hide();
             FrmCreateCharacter createDwarf = new FrmCreateCharacter();
@@ -65,7 +65,7 @@ namespace mcreator
             Show();
         }
 
-        private void btnCreateGnome_Click(object sender, EventArgs e)
+        private void BtnCreateGnome_Click(object sender, EventArgs e)
         {
             Hide();
             FrmCreateCharacter createGnome = new FrmCreateCharacter();
@@ -74,12 +74,12 @@ namespace mcreator
             Show();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void btnEXP_Click(object sender, EventArgs e)
+        private void BtnEXP_Click(object sender, EventArgs e)
         {
             Hide();
             FrmLevelUp levelUp = new FrmLevelUp();
@@ -88,7 +88,7 @@ namespace mcreator
             Show();
         }
 
-        private void btnCustomizationValues_Click(object sender, EventArgs e)
+        private void BtnCustomizationValues_Click(object sender, EventArgs e)
         {
             Hide();
             FrmCustomizationValues customizationValues = new FrmCustomizationValues();

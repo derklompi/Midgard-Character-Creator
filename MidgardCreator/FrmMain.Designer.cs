@@ -46,7 +46,7 @@ namespace mcreator
             this.btnCreateHuman.TabIndex = 0;
             this.btnCreateHuman.Text = "Mensch";
             this.btnCreateHuman.UseVisualStyleBackColor = true;
-            this.btnCreateHuman.Click += new System.EventHandler(this.btnCreateHuman_Click);
+            this.btnCreateHuman.Click += new System.EventHandler(this.BtnCreateHuman_Click);
             // 
             // btnCreateElf
             // 
@@ -56,7 +56,7 @@ namespace mcreator
             this.btnCreateElf.TabIndex = 1;
             this.btnCreateElf.Text = "Elf";
             this.btnCreateElf.UseVisualStyleBackColor = true;
-            this.btnCreateElf.Click += new System.EventHandler(this.btnCreateElf_Click);
+            this.btnCreateElf.Click += new System.EventHandler(this.BtnCreateElf_Click);
             // 
             // btnExit
             // 
@@ -66,7 +66,7 @@ namespace mcreator
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // btnCreateHalfling
             // 
@@ -76,7 +76,7 @@ namespace mcreator
             this.btnCreateHalfling.TabIndex = 2;
             this.btnCreateHalfling.Text = "Halbling";
             this.btnCreateHalfling.UseVisualStyleBackColor = true;
-            this.btnCreateHalfling.Click += new System.EventHandler(this.btnCreateHalfling_Click);
+            this.btnCreateHalfling.Click += new System.EventHandler(this.BtnCreateHalfling_Click);
             // 
             // btnCreateDwarf
             // 
@@ -86,7 +86,7 @@ namespace mcreator
             this.btnCreateDwarf.TabIndex = 3;
             this.btnCreateDwarf.Text = "Zwerg";
             this.btnCreateDwarf.UseVisualStyleBackColor = true;
-            this.btnCreateDwarf.Click += new System.EventHandler(this.btnCreateDwarf_Click);
+            this.btnCreateDwarf.Click += new System.EventHandler(this.BtnCreateDwarf_Click);
             // 
             // btnCreateGnome
             // 
@@ -96,7 +96,7 @@ namespace mcreator
             this.btnCreateGnome.TabIndex = 4;
             this.btnCreateGnome.Text = "Gnom";
             this.btnCreateGnome.UseVisualStyleBackColor = true;
-            this.btnCreateGnome.Click += new System.EventHandler(this.btnCreateGnome_Click);
+            this.btnCreateGnome.Click += new System.EventHandler(this.BtnCreateGnome_Click);
             // 
             // btnEXP
             // 
@@ -106,7 +106,7 @@ namespace mcreator
             this.btnEXP.TabIndex = 6;
             this.btnEXP.Text = "Level Up";
             this.btnEXP.UseVisualStyleBackColor = true;
-            this.btnEXP.Click += new System.EventHandler(this.btnEXP_Click);
+            this.btnEXP.Click += new System.EventHandler(this.BtnEXP_Click);
             // 
             // btnCustomizationValues
             // 
@@ -116,7 +116,7 @@ namespace mcreator
             this.btnCustomizationValues.TabIndex = 7;
             this.btnCustomizationValues.Text = "Customization";
             this.btnCustomizationValues.UseVisualStyleBackColor = true;
-            this.btnCustomizationValues.Click += new System.EventHandler(this.btnCustomizationValues_Click);
+            this.btnCustomizationValues.Click += new System.EventHandler(this.BtnCustomizationValues_Click);
             // 
             // FrmMain
             // 
