@@ -905,7 +905,7 @@ namespace mcreator
             // 
             // CalculationTimer
             // 
-            this.CalculationTimer.Interval = 300;
+            this.CalculationTimer.Interval = 1000;
             this.CalculationTimer.Tick += new System.EventHandler(this.CalculationTimer_Tick);
             // 
             // FrmCreateCharacter
