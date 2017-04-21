@@ -307,8 +307,9 @@ namespace mcreator
 
                     txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
                     txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));
-                    
-                    c.SelfControl();
+                    txtSelfControlA.Text = Convert.ToString(c.SelfControlA(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
+                    txtSelfControlB.Text = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
+                    txtSelfControlC.Text = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
                     txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
                     txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
                     txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
@@ -728,8 +729,10 @@ namespace mcreator
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
             txtCharisma.Text    = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
-            txtWillpower.Text   = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));      
-            c.SelfControl();
+            txtWillpower.Text   = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));
+            txtSelfControlA.Text = Convert.ToString(c.SelfControlA(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
+            txtSelfControlB.Text = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
+            txtSelfControlC.Text = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
             txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
             txtHanded.Text = c.Handed(mtxtHanded.Text);
             txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
