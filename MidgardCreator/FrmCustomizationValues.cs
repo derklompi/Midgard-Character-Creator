@@ -29,7 +29,7 @@ namespace mcreator
             
         }
 
-        private void cbStartWeapons_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbStartWeapons_SelectedIndexChanged(object sender, EventArgs e)
         {
             int weaponValue = Convert.ToInt32(cbStartWeapons.SelectedItem.ToString());
             if (weaponValue <= 10)
@@ -84,7 +84,7 @@ namespace mcreator
             }
         }
 
-        private void cbStartArmor_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbStartArmor_SelectedIndexChanged(object sender, EventArgs e)
         {
             int armorValue = Convert.ToInt32(cbStartArmor.SelectedItem.ToString());
             if (armorValue <= 10)
@@ -139,12 +139,12 @@ namespace mcreator
             }
         }
       
-        private void btnReset_Click(object sender, EventArgs e)
+        private void BtnReset_Click(object sender, EventArgs e)
         {
             cbStartArmor.Items.Clear();
         }
 
-        private void cbStartMoneyA_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbStartMoneyA_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbStartMoneyB.Enabled == false)
             {
@@ -194,7 +194,7 @@ namespace mcreator
             }
         }
 
-        private void cbStartMoneyB_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbStartMoneyB_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbStartMoneyC.Enabled == false)
             {
@@ -244,7 +244,7 @@ namespace mcreator
             }
         }
 
-        private void cbStartMoneyC_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbStartMoneyC_SelectedIndexChanged(object sender, EventArgs e)
         {
             int startMoneyCalcA = 0;
             int startMoneyCalcB = 0;
@@ -286,7 +286,7 @@ namespace mcreator
             }
         }
 
-        private void cbSocialRank_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbSocialRank_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(cbSocialRankB.Enabled == false)
             {
@@ -397,7 +397,7 @@ namespace mcreator
             }           
         }
 
-        private void cbSocialRankB_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbSocialRankB_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbSocialRankB.SelectedItem.ToString() == "Barde" || cbSocialRankB.SelectedItem.ToString() == "Beschwörer" || cbSocialRankB.SelectedItem.ToString() == "Priester")
             {
@@ -501,7 +501,7 @@ namespace mcreator
             }
         }
 
-        private void cbFachkenntnisseA_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbFachkenntnisseA_SelectedIndexChanged(object sender, EventArgs e)
         {
             if(cbFachkenntnisseB.Enabled == false)
             {
@@ -523,7 +523,7 @@ namespace mcreator
             
         }
 
-        private void cbFachkenntnisseB_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbFachkenntnisseB_SelectedIndexChanged(object sender, EventArgs e)
         {
             int fachkenntnisse = 0;
             int fachkenntnisse_ValueA = 0;
@@ -536,7 +536,7 @@ namespace mcreator
             txtFachkenntnisse.Text = Convert.ToString(fachkenntnisse);
         }
 
-        private void cbWaffenfertigkeitenA_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbWaffenfertigkeitenA_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbWaffenfertigkeitenB.Enabled == false)
             {
@@ -557,7 +557,7 @@ namespace mcreator
             }
         }
 
-        private void cbWaffenfertigkeitenB_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbWaffenfertigkeitenB_SelectedIndexChanged(object sender, EventArgs e)
         {
             int waffenfertigkeiten = 0;
             int waffenfertigkeiten_ValueA = 0;
@@ -570,7 +570,7 @@ namespace mcreator
             txtWaffenfertigkeiten.Text = Convert.ToString(waffenfertigkeiten);
         }
 
-        private void cbAllgemeinwissen_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbAllgemeinwissen_SelectedIndexChanged(object sender, EventArgs e)
         {
             int allgemeinwissen = 0;
 
@@ -579,7 +579,7 @@ namespace mcreator
             txtAllgemeinwissen.Text = Convert.ToString(allgemeinwissen);
         }
 
-        private void cbUngewoehnlicheFertigkeiten_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbUngewoehnlicheFertigkeiten_SelectedIndexChanged(object sender, EventArgs e)
         {
             int ungewoehnlicheFertigkeiten = 0;
 
@@ -588,7 +588,7 @@ namespace mcreator
             txtUngewoehnlicheFertigkeiten.Text = Convert.ToString(ungewoehnlicheFertigkeiten);
         }
 
-        private void cbZauberkünsteA_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbZauberkünsteA_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (cbZauberkünsteB.Enabled == false)
             {
@@ -609,7 +609,7 @@ namespace mcreator
             }
         }
 
-        private void cbZauberkünsteB_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbZauberkünsteB_SelectedIndexChanged(object sender, EventArgs e)
         {
             int zauberkuenste = 0;
             int zauberkuenste_ValueA = 0;
@@ -622,7 +622,7 @@ namespace mcreator
             txtZauberkuenste.Text = Convert.ToString(zauberkuenste);
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }

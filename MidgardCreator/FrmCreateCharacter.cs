@@ -365,8 +365,6 @@ namespace mcreator
                 if (c.GetType() == typeof(TextBox)) c.Text = "";
                 if (c.GetType() == typeof(MaskedTextBox)) c.Text = "";
 
-
-
                 string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
                 txtExportPath.Text = "" + user_path + "";
             }
@@ -498,6 +496,14 @@ namespace mcreator
                     txtAreaMagicFighter.Text    = Convert.ToString(10 + c.AgilityArea(agility));
                     txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
+
+                    if (mtxtAppearance.Text != "")
+                    {
+                        mtxtCharisma.Enabled = true;
+                    }
+
+                    mtxtSelfControl.Enabled = true;
+                    mtxtWillpower.Enabled = true;
                 }
             }
             else
@@ -540,15 +546,7 @@ namespace mcreator
                 mtxtLifePoints.Enabled = false;
             }
 
-            if(mtxtAppearance.Text !="")
-            {
-                mtxtCharisma.Enabled = true;
-            }
-
-            if(txtCharisma.Text !="")
-            {
-
-            }
+            
         }
 
         //Export to a .txt file

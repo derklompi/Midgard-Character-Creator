@@ -28,13 +28,13 @@ namespace mcreator
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
             lbDiceValues.Items.Clear();
         }
 
-        private void btnDiceValue_Click(object sender, EventArgs e)
+        private void BtnDiceValue_Click(object sender, EventArgs e)
         {
 
             if (maskedTextBox1.Text != "")
@@ -247,10 +247,9 @@ namespace mcreator
                     textBox1.Text = Convert.ToString(ergebnis);
                 }
             }         
-
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
+        private void BtnDelete_Click(object sender, EventArgs e)
         {
             lbDiceValues.Items.Remove(lbDiceValues.SelectedItem);
             string valueNumberCheck = "";
@@ -446,12 +445,12 @@ namespace mcreator
             }
         }
 
-        private void btnReset_Click(object sender, EventArgs e)
+        private void BtnReset_Click(object sender, EventArgs e)
         {
             lbDiceValues.Items.Clear();
         }
 
-        private void btnCalculateAP_Click(object sender, EventArgs e)
+        private void BtnCalculateAP_Click(object sender, EventArgs e)
         {
             if(lbDiceValues.Items.Count >= 1)
             {
@@ -939,13 +938,11 @@ namespace mcreator
                         {
                             break;
                         }
-                }
-            
+                }          
             }
-
         }
 
-        private void cbCurrentLevel_SelectedIndexChanged(object sender, EventArgs e)
+        private void CbCurrentLevel_SelectedIndexChanged(object sender, EventArgs e)
         {
             btnDiceValue.Enabled = true;
 

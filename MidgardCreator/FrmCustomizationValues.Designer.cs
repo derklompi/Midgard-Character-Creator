@@ -149,7 +149,7 @@
             this.cbFachkenntnisseA.Name = "cbFachkenntnisseA";
             this.cbFachkenntnisseA.Size = new System.Drawing.Size(34, 21);
             this.cbFachkenntnisseA.TabIndex = 4;
-            this.cbFachkenntnisseA.SelectedIndexChanged += new System.EventHandler(this.cbFachkenntnisseA_SelectedIndexChanged);
+            this.cbFachkenntnisseA.SelectedIndexChanged += new System.EventHandler(this.CbFachkenntnisseA_SelectedIndexChanged);
             // 
             // cbFachkenntnisseB
             // 
@@ -167,7 +167,7 @@
             this.cbFachkenntnisseB.Name = "cbFachkenntnisseB";
             this.cbFachkenntnisseB.Size = new System.Drawing.Size(34, 21);
             this.cbFachkenntnisseB.TabIndex = 5;
-            this.cbFachkenntnisseB.SelectedIndexChanged += new System.EventHandler(this.cbFachkenntnisseB_SelectedIndexChanged);
+            this.cbFachkenntnisseB.SelectedIndexChanged += new System.EventHandler(this.CbFachkenntnisseB_SelectedIndexChanged);
             // 
             // cbWaffenfertigkeitenB
             // 
@@ -185,7 +185,7 @@
             this.cbWaffenfertigkeitenB.Name = "cbWaffenfertigkeitenB";
             this.cbWaffenfertigkeitenB.Size = new System.Drawing.Size(34, 21);
             this.cbWaffenfertigkeitenB.TabIndex = 7;
-            this.cbWaffenfertigkeitenB.SelectedIndexChanged += new System.EventHandler(this.cbWaffenfertigkeitenB_SelectedIndexChanged);
+            this.cbWaffenfertigkeitenB.SelectedIndexChanged += new System.EventHandler(this.CbWaffenfertigkeitenB_SelectedIndexChanged);
             // 
             // cbWaffenfertigkeitenA
             // 
@@ -202,7 +202,7 @@
             this.cbWaffenfertigkeitenA.Name = "cbWaffenfertigkeitenA";
             this.cbWaffenfertigkeitenA.Size = new System.Drawing.Size(34, 21);
             this.cbWaffenfertigkeitenA.TabIndex = 6;
-            this.cbWaffenfertigkeitenA.SelectedIndexChanged += new System.EventHandler(this.cbWaffenfertigkeitenA_SelectedIndexChanged);
+            this.cbWaffenfertigkeitenA.SelectedIndexChanged += new System.EventHandler(this.CbWaffenfertigkeitenA_SelectedIndexChanged);
             // 
             // cbAllgemeinwissen
             // 
@@ -219,7 +219,7 @@
             this.cbAllgemeinwissen.Name = "cbAllgemeinwissen";
             this.cbAllgemeinwissen.Size = new System.Drawing.Size(34, 21);
             this.cbAllgemeinwissen.TabIndex = 8;
-            this.cbAllgemeinwissen.SelectedIndexChanged += new System.EventHandler(this.cbAllgemeinwissen_SelectedIndexChanged);
+            this.cbAllgemeinwissen.SelectedIndexChanged += new System.EventHandler(this.CbAllgemeinwissen_SelectedIndexChanged);
             // 
             // cbUngewoehnlicheFertigkeiten
             // 
@@ -236,7 +236,7 @@
             this.cbUngewoehnlicheFertigkeiten.Name = "cbUngewoehnlicheFertigkeiten";
             this.cbUngewoehnlicheFertigkeiten.Size = new System.Drawing.Size(34, 21);
             this.cbUngewoehnlicheFertigkeiten.TabIndex = 10;
-            this.cbUngewoehnlicheFertigkeiten.SelectedIndexChanged += new System.EventHandler(this.cbUngewoehnlicheFertigkeiten_SelectedIndexChanged);
+            this.cbUngewoehnlicheFertigkeiten.SelectedIndexChanged += new System.EventHandler(this.CbUngewoehnlicheFertigkeiten_SelectedIndexChanged);
             // 
             // cbZauberkünsteB
             // 
@@ -254,7 +254,7 @@
             this.cbZauberkünsteB.Name = "cbZauberkünsteB";
             this.cbZauberkünsteB.Size = new System.Drawing.Size(34, 21);
             this.cbZauberkünsteB.TabIndex = 14;
-            this.cbZauberkünsteB.SelectedIndexChanged += new System.EventHandler(this.cbZauberkünsteB_SelectedIndexChanged);
+            this.cbZauberkünsteB.SelectedIndexChanged += new System.EventHandler(this.CbZauberkünsteB_SelectedIndexChanged);
             // 
             // cbZauberkünsteA
             // 
@@ -271,7 +271,7 @@
             this.cbZauberkünsteA.Name = "cbZauberkünsteA";
             this.cbZauberkünsteA.Size = new System.Drawing.Size(34, 21);
             this.cbZauberkünsteA.TabIndex = 13;
-            this.cbZauberkünsteA.SelectedIndexChanged += new System.EventHandler(this.cbZauberkünsteA_SelectedIndexChanged);
+            this.cbZauberkünsteA.SelectedIndexChanged += new System.EventHandler(this.CbZauberkünsteA_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -427,7 +427,7 @@
             this.cbSocialRankA.Name = "cbSocialRankA";
             this.cbSocialRankA.Size = new System.Drawing.Size(46, 21);
             this.cbSocialRankA.TabIndex = 20;
-            this.cbSocialRankA.SelectedIndexChanged += new System.EventHandler(this.cbSocialRank_SelectedIndexChanged);
+            this.cbSocialRankA.SelectedIndexChanged += new System.EventHandler(this.CbSocialRank_SelectedIndexChanged);
             // 
             // txtSocialRankGeneral
             // 
@@ -600,7 +600,7 @@
             this.cbStartWeapons.Name = "cbStartWeapons";
             this.cbStartWeapons.Size = new System.Drawing.Size(46, 21);
             this.cbStartWeapons.TabIndex = 29;
-            this.cbStartWeapons.SelectedIndexChanged += new System.EventHandler(this.cbStartWeapons_SelectedIndexChanged);
+            this.cbStartWeapons.SelectedIndexChanged += new System.EventHandler(this.CbStartWeapons_SelectedIndexChanged);
             // 
             // label12
             // 
@@ -901,7 +901,7 @@
             this.cbStartArmor.Name = "cbStartArmor";
             this.cbStartArmor.Size = new System.Drawing.Size(46, 21);
             this.cbStartArmor.TabIndex = 43;
-            this.cbStartArmor.SelectedIndexChanged += new System.EventHandler(this.cbStartArmor_SelectedIndexChanged);
+            this.cbStartArmor.SelectedIndexChanged += new System.EventHandler(this.CbStartArmor_SelectedIndexChanged);
             // 
             // label27
             // 
@@ -946,7 +946,7 @@
             this.cbStartMoneyB.Name = "cbStartMoneyB";
             this.cbStartMoneyB.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyB.TabIndex = 67;
-            this.cbStartMoneyB.SelectedIndexChanged += new System.EventHandler(this.cbStartMoneyB_SelectedIndexChanged);
+            this.cbStartMoneyB.SelectedIndexChanged += new System.EventHandler(this.CbStartMoneyB_SelectedIndexChanged);
             // 
             // cbStartMoneyA
             // 
@@ -963,7 +963,7 @@
             this.cbStartMoneyA.Name = "cbStartMoneyA";
             this.cbStartMoneyA.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyA.TabIndex = 65;
-            this.cbStartMoneyA.SelectedIndexChanged += new System.EventHandler(this.cbStartMoneyA_SelectedIndexChanged);
+            this.cbStartMoneyA.SelectedIndexChanged += new System.EventHandler(this.CbStartMoneyA_SelectedIndexChanged);
             // 
             // cbStartMoneyC
             // 
@@ -981,7 +981,7 @@
             this.cbStartMoneyC.Name = "cbStartMoneyC";
             this.cbStartMoneyC.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyC.TabIndex = 70;
-            this.cbStartMoneyC.SelectedIndexChanged += new System.EventHandler(this.cbStartMoneyC_SelectedIndexChanged);
+            this.cbStartMoneyC.SelectedIndexChanged += new System.EventHandler(this.CbStartMoneyC_SelectedIndexChanged);
             // 
             // txtMoneyD
             // 
@@ -1077,7 +1077,7 @@
             this.btnReset.TabIndex = 81;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // cbSocialRankB
             // 
@@ -1102,7 +1102,7 @@
             this.cbSocialRankB.Name = "cbSocialRankB";
             this.cbSocialRankB.Size = new System.Drawing.Size(85, 21);
             this.cbSocialRankB.TabIndex = 91;
-            this.cbSocialRankB.SelectedIndexChanged += new System.EventHandler(this.cbSocialRankB_SelectedIndexChanged);
+            this.cbSocialRankB.SelectedIndexChanged += new System.EventHandler(this.CbSocialRankB_SelectedIndexChanged);
             // 
             // btnExit
             // 
@@ -1112,7 +1112,7 @@
             this.btnExit.TabIndex = 92;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // FrmCustomizationValues
             // 

@@ -75,7 +75,7 @@
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // cbRace
             // 
@@ -141,7 +141,7 @@
             this.cbCurrentLevel.Name = "cbCurrentLevel";
             this.cbCurrentLevel.Size = new System.Drawing.Size(176, 21);
             this.cbCurrentLevel.TabIndex = 5;
-            this.cbCurrentLevel.SelectedIndexChanged += new System.EventHandler(this.cbCurrentLevel_SelectedIndexChanged);
+            this.cbCurrentLevel.SelectedIndexChanged += new System.EventHandler(this.CbCurrentLevel_SelectedIndexChanged);
             // 
             // lbDiceValues
             // 
@@ -169,7 +169,7 @@
             this.btnDiceValue.TabIndex = 11;
             this.btnDiceValue.Text = "->";
             this.btnDiceValue.UseVisualStyleBackColor = true;
-            this.btnDiceValue.Click += new System.EventHandler(this.btnDiceValue_Click);
+            this.btnDiceValue.Click += new System.EventHandler(this.BtnDiceValue_Click);
             // 
             // textBox1
             // 
@@ -187,7 +187,7 @@
             this.btnDelete.TabIndex = 13;
             this.btnDelete.Text = "löschen";
             this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            this.btnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // btnReset
             // 
@@ -197,7 +197,7 @@
             this.btnReset.TabIndex = 14;
             this.btnReset.Text = "reset";
             this.btnReset.UseVisualStyleBackColor = true;
-            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // btnCalculateAP
             // 
@@ -208,7 +208,7 @@
             this.btnCalculateAP.TabIndex = 15;
             this.btnCalculateAP.Text = "GO";
             this.btnCalculateAP.UseVisualStyleBackColor = true;
-            this.btnCalculateAP.Click += new System.EventHandler(this.btnCalculateAP_Click);
+            this.btnCalculateAP.Click += new System.EventHandler(this.BtnCalculateAP_Click);
             // 
             // textBox2
             // 
