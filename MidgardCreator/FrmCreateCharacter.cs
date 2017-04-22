@@ -458,8 +458,6 @@ namespace mcreator
                     txtDoMagic.Text = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
                     txtDoMagic0.Text = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
 
-
-
                     int mtBuffGhost_Body_MagicValue = 0;
                     int intBuffGhostMagicValue = 0;
                     int CoBuffBodyMagicValue = 0;
@@ -545,7 +543,6 @@ namespace mcreator
                 txtAreaMagicMagician.Text = "";
                 txtAreaMagicNormal.Text = "";
 
-
                 mtxtCharisma.Enabled = false;
                 mtxtWillpower.Enabled = false;
                 mtxtSelfControl.Enabled = false;
@@ -554,9 +551,7 @@ namespace mcreator
                 mtxtAdventurePointsB.Enabled = false;
                 mtxtAdventurePointsC.Enabled = false;
                 mtxtLifePoints.Enabled = false;
-            }
-
-            
+            }            
         }
 
         //Export to a .txt file
@@ -574,17 +569,12 @@ namespace mcreator
                 }
                 
                 Export exp = new Export();
-                exp.export();
-
-                //Process.Start("explorer.exe", txtExportPath.Text);
-                
+                exp.export();             
             }
             else
             {
-                MessageBox.Show("Bitte einen Charakternamen eingeben!", "Fehler");
-                
+                MessageBox.Show("Bitte einen Charakternamen eingeben!", "Fehler");              
             }
-            
         }
 
         //Opens a Dialog to choose a folder
@@ -597,7 +587,6 @@ namespace mcreator
         //Imports the charactervalues from a previously exported character
         private void BtnImport_Click(object sender, EventArgs e)
         {
-
             List<String> lines = new List<String>();
             using (StreamReader sr = new StreamReader(txtImportFile.Text, Encoding.Default))
             {
@@ -706,7 +695,6 @@ namespace mcreator
             txtAreaMagicFighter.Text    = Convert.ToString(10 + c.AgilityArea(agility));
             txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
             txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
-
         }
 
         //Import button for a previously exported character
@@ -751,7 +739,6 @@ namespace mcreator
                 if (TotalAmount_Stat >= 350)
                 {
                     int DamageBuff = 0;
-
                     int DefenseBuff = 0;
 
                     DamageBuff = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
@@ -815,8 +802,6 @@ namespace mcreator
                 }
             }
             
-
-
             if (mtxtCharisma.Text !="")
             {
                 txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));           
