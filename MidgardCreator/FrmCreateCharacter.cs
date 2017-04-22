@@ -746,7 +746,90 @@ namespace mcreator
         //Automatic Calculatin during runtime
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
-            if(mtxtCharisma.Text !="")
+            if (mtxtStrength.Text != "" && Convert.ToInt32(mtxtStrength.Text) <= 100 && mtxtDexterity.Text != "" && Convert.ToInt32(mtxtDexterity.Text) <= 100 && mtxtAgility.Text != "" && Convert.ToInt32(mtxtAgility.Text) <= 100 && mtxtConstitution.Text != "" && Convert.ToInt32(mtxtConstitution.Text) <= 100 && mtxtIntelligence.Text != "" && Convert.ToInt32(mtxtIntelligence.Text) <= 100 && mtxtMagicalTalent.Text != "" && Convert.ToInt32(mtxtMagicalTalent.Text) <= 100)
+            {
+                int TotalAmount_Stat = 0;
+
+                int strength = Convert.ToInt32(mtxtStrength.Text);
+                int dexterity = Convert.ToInt32(mtxtDexterity.Text);
+                int agility = Convert.ToInt32(mtxtAgility.Text);
+                int constitution = Convert.ToInt32(mtxtConstitution.Text);
+                int intelligence = Convert.ToInt32(mtxtIntelligence.Text);
+                int magicTalent = Convert.ToInt32(mtxtMagicalTalent.Text);
+
+                TotalAmount_Stat = strength + dexterity + agility + constitution + intelligence + magicTalent;
+                if (TotalAmount_Stat >= 350)
+                {
+                    int DamageBuff = 0;
+
+                    int DefenseBuff = 0;
+
+                    DamageBuff = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
+                    DefenseBuff = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
+
+                    if (DamageBuff >= 0)
+                    {
+                        txtDamageBuff.Text = Convert.ToString(DamageBuff);
+                    }
+                    else
+                    {
+                        txtDamageBuff.Text = "0";
+                    }
+
+                    if (DefenseBuff >= 0)
+                    {
+                        txtStaminaBuff.Text = Convert.ToString(DefenseBuff);
+                    }
+                    else
+                    {
+                        txtStaminaBuff.Text = "0";
+                    }
+
+                    txtAttackBuff.Text = Convert.ToString(c.AttackBuff(dexterity));
+                    txtDefenseBuff.Text = Convert.ToString(c.DefenseBuff(agility));
+                    txtMagicBuff.Text = Convert.ToString(c.MagicBuff(magicTalent));
+
+                    txtRumble.Text = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
+                    txtDefense.Text = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDefense0.Text = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDoMagic.Text = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtDoMagic0.Text = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
+
+
+
+                    int mtBuffGhost_Body_MagicValue = 0;
+                    int intBuffGhostMagicValue = 0;
+                    int CoBuffBodyMagicValue = 0;
+
+                    //Buff MagicTalent Ghost&Body
+                    mtBuffGhost_Body_MagicValue = c.MagicTalentGhostBody(magicTalent);
+
+                    //Buff Intelligence Ghost
+                    intBuffGhostMagicValue = c.IntelligenceGhost(intelligence);
+
+                    //Buff Constitution Body
+                    CoBuffBodyMagicValue = c.ConstitutionBody(constitution);
+
+                    //Values GhostMagic
+                    txtGhostMagicFighter.Text = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicMagician.Text = Convert.ToString(17 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+                    txtGhostMagicNormal.Text = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
+
+                    //Values BodyMagic
+                    txtBodyMagicFighter.Text = Convert.ToString(16 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicMagician.Text = Convert.ToString(17 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+                    txtBodyMagicNormal.Text = Convert.ToString(14 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
+
+                    //Values AreaMagic
+                    txtAreaMagicFighter.Text = Convert.ToString(10 + c.AgilityArea(agility));
+                    txtAreaMagicMagician.Text = Convert.ToString(13 + c.AgilityArea(agility));
+                    txtAreaMagicNormal.Text = Convert.ToString(10 + c.AgilityArea(agility));
+                }
+            }
+            
+
+
+            if (mtxtCharisma.Text !="")
             {
                 txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));           
             }
