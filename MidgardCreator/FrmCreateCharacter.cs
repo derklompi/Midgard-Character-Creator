@@ -324,11 +324,11 @@ namespace mcreator
                     {
                         txtHanded.Text = c.Handed(mtxtHanded.Text);
                     }
-                    
+                    /*
                     int mtBuffGhost_Body_MagicValue = 0;
                     int intBuffGhostMagicValue      = 0;
                     int CoBuffBodyMagicValue        = 0;
-                    /*
+                    
                     // Buff MagicTalent Ghost&Body
                     mtBuffGhost_Body_MagicValue = c.MagicTalentGhostBody(magicTalent);
 
