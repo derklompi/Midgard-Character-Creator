@@ -43,114 +43,104 @@ namespace mcreator
             CalculationTimer.Enabled = true;
 
             // Customizing the form for the different races
-            if (this.Text == "MCreator - Halbling")
+            switch (this.Text)
             {
-                // Hide not needed fields
-                // Handed
-                mtxtHanded.Visible      = false;
-                lblDice20C.Visible      = false;
-                // Bodysize
-                mtxtBodyWeightD.Visible = false;
-                txtBodySizeB.Visible    = false;
-                lblBodySizeB.Visible    = false;
-                lblDice6F.Visible       = false;
-                //Bodyweight
-                txtBodyWeightB.Visible  = false;
-                lblBodyWeightB.Visible  = false;
-                
-
-                // Change Text of labels
-                lblDice20A.Text     = "1W6";
-                lblDice20B.Text     = "1W6";
-                lblBodySizeA.Text   = "cm";
-                lblBodyWeightA.Text = "kg";
-
-                // Change texts of textfields
-                // Handed
-                txtHanded.Text = "Beidhändig";
-                //BodyWeight
-                mtxtBodyWeightD.Text = "0";
-            }
-            if (this.Text == "MCreator - Elf")
-            {
-                // Hide not needed fields
-                // Bodysize               
-                txtBodySizeB.Visible = false;
-                lblBodySizeB.Visible = false;
-                //Bodyweight
-                txtBodyWeightB.Visible = false;
-                lblBodyWeightB.Visible = false;
-
-
-                // Change Text of labels
-                lblDice20A.Text     = "1W6";
-                lblDice20B.Text     = "1W6";
-                lblBodySizeA.Text   = "cm";
-                lblBodyWeightA.Text = "kg";
-            }
-            if (this.Text == "MCreator - Zwerg")
-            {
-                // Hide not needed fields
-                // Bodysize               
-                txtBodySizeB.Visible    = false;
-                lblBodySizeB.Visible    = false;
-                lblDice20B.Visible      = false;
-                mtxtBodySizeB.Visible   = false;
-                //Bodyweight
-                txtBodyWeightB.Visible = false;
-                lblBodyWeightB.Visible = false;
-
-
-                // Change Text of labels
-                lblDice20A.Text     = "1W6";
-                lblDice20B.Text     = "1W6";
-                lblBodySizeA.Text   = "cm";
-                lblBodyWeightA.Text = "kg";
-
-                // Change texts of textfields
-                //BodySize
-                mtxtBodySizeB.Text = "0";
-            }
-            if (this.Text == "MCreator - Gnom")
-            {
-                // Hide not needed fields
-                // Bodysize                
-                txtBodySizeB.Visible    = false;
-                lblBodySizeB.Visible    = false;
-                lblDice20B.Visible      = false;
-                mtxtBodySizeB.Visible   = false;
-                //Bodyweight
-                mtxtBodyWeightD.Visible = false;
-                txtBodyWeightB.Visible  = false;
-                lblBodyWeightB.Visible  = false;
-                lblDice6F.Visible       = false;               
-                // Change Text of labels
-                lblDice20A.Text = "1W6";
-                lblDice20B.Text = "1W6";
-                lblBodySizeA.Text = "cm";
-                lblBodyWeightA.Text = "kg";
-
-                // Change texts of textfields
-                //BodySize
-                mtxtBodySizeB.Text = "0";
-                //BodyWeight
-                mtxtBodyWeightD.Text = "0";
-            }
-            if (this.Text == "MCreator - Mensch")
-            {
-                // UnHide not needed fields
-                // Bodysize 
-                txtBodySizeB.Visible    = true;
-                lblBodySizeB.Visible    = true;
-                txtBodyWeightB.Visible  = true;
-                lblBodyWeightB.Visible  = true;
-
-                // Change Text of labels
-                lblDice20A.Text     = "1W20";
-                lblDice20B.Text     = "1W20";
-                lblBodySizeA.Text   = "cm (Mann)";
-                lblBodyWeightA.Text = "kg (Mann)";
-            }
+                case "MCreator - Halbling":
+                    // Hide not needed fields
+                    // Handed
+                    mtxtHanded.Visible = false;
+                    lblDice20C.Visible = false;
+                    // Bodysize
+                    mtxtBodyWeightD.Visible = false;
+                    txtBodySizeB.Visible = false;
+                    lblBodySizeB.Visible = false;
+                    lblDice6F.Visible = false;
+                    //Bodyweight
+                    txtBodyWeightB.Visible = false;
+                    lblBodyWeightB.Visible = false;
+                    // Change Text of labels
+                    lblDice20A.Text = "1W6";
+                    lblDice20B.Text = "1W6";
+                    lblBodySizeA.Text = "cm";
+                    lblBodyWeightA.Text = "kg";
+                    // Change texts of textfields
+                    // Handed
+                    txtHanded.Text = "Beidhändig";
+                    //BodyWeight
+                    mtxtBodyWeightD.Text = "0";
+                    break;
+                case "MCreator - Elf":
+                    // Hide not needed fields
+                    // Bodysize               
+                    txtBodySizeB.Visible = false;
+                    lblBodySizeB.Visible = false;
+                    //Bodyweight
+                    txtBodyWeightB.Visible = false;
+                    lblBodyWeightB.Visible = false;
+                    // Change Text of labels
+                    lblDice20A.Text = "1W6";
+                    lblDice20B.Text = "1W6";
+                    lblBodySizeA.Text = "cm";
+                    lblBodyWeightA.Text = "kg";
+                    break;
+                case "MCreator - Zwerg":
+                    // Hide not needed fields
+                    // Bodysize               
+                    txtBodySizeB.Visible = false;
+                    lblBodySizeB.Visible = false;
+                    lblDice20B.Visible = false;
+                    mtxtBodySizeB.Visible = false;
+                    //Bodyweight
+                    txtBodyWeightB.Visible = false;
+                    lblBodyWeightB.Visible = false;
+                    // Change Text of labels
+                    lblDice20A.Text = "1W6";
+                    lblDice20B.Text = "1W6";
+                    lblBodySizeA.Text = "cm";
+                    lblBodyWeightA.Text = "kg";
+                    // Change texts of textfields
+                    //BodySize
+                    mtxtBodySizeB.Text = "0";
+                    break;
+                case "MCreator - Gnom":
+                    // Hide not needed fields
+                    // Bodysize                
+                    txtBodySizeB.Visible = false;
+                    lblBodySizeB.Visible = false;
+                    lblDice20B.Visible = false;
+                    mtxtBodySizeB.Visible = false;
+                    //Bodyweight
+                    mtxtBodyWeightD.Visible = false;
+                    txtBodyWeightB.Visible = false;
+                    lblBodyWeightB.Visible = false;
+                    lblDice6F.Visible = false;
+                    // Change Text of labels
+                    lblDice20A.Text = "1W6";
+                    lblDice20B.Text = "1W6";
+                    lblBodySizeA.Text = "cm";
+                    lblBodyWeightA.Text = "kg";
+                    // Change texts of textfields
+                    //BodySize
+                    mtxtBodySizeB.Text = "0";
+                    //BodyWeight
+                    mtxtBodyWeightD.Text = "0";
+                    break;
+                case "MCreator - Mensch":
+                    // UnHide not needed fields
+                    // Bodysize 
+                    txtBodySizeB.Visible = true;
+                    lblBodySizeB.Visible = true;
+                    txtBodyWeightB.Visible = true;
+                    lblBodyWeightB.Visible = true;
+                    // Change Text of labels
+                    lblDice20A.Text = "1W20";
+                    lblDice20B.Text = "1W20";
+                    lblBodySizeA.Text = "cm (Mann)";
+                    lblBodyWeightA.Text = "kg (Mann)";
+                    break;
+                default:
+                    break;
+            }          
         }
       
         private void BtnGetRandomCharacter_Click(object sender, EventArgs e)
@@ -794,8 +784,6 @@ namespace mcreator
                     txtDefense0.Text = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDoMagic.Text = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
                     txtDoMagic0.Text = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
-
-
 
                     int mtBuffGhost_Body_MagicValue = 0;
                     int intBuffGhostMagicValue = 0;
