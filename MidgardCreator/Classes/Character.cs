@@ -32,35 +32,27 @@ namespace mcreator.Classes
             int bodysizeB = Convert.ToInt32(mtxtBodySizeB);
 
             int strength = Convert.ToInt32(mtxtStrength);
-
-            //Calculation for dwarfs
-            if (formTitle == "MCreator - Zwerg")
+           
+            switch (formTitle)
             {
-                bodySize = bodysizeA + (strength / 10) + 130;
-            }
-
-            //Calculation for elfs
-            if (formTitle == "MCreator - Elf")
-            {
-                bodySize = bodysizeA + bodysizeB + (strength / 10) + 160;
-            }
-
-            //Calculation for gnomes
-            if (formTitle == "MCreator - Gnom")
-            {
-                bodySize = bodysizeA + (strength / 10) + 90;
-            }
-
-            //Calculation for halflings
-            if (formTitle == "MCreator - Halbling")
-            {
-                bodySize = bodysizeA + bodysizeB + (strength / 10) + 100;
-            }
-
-            //Calculation for human
-            if (formTitle == "MCreator - Mensch")
-            {
-                bodySize = bodysizeA + bodysizeB + (strength / 10);
+                case "MCreator - Zwerg":
+                    bodySize = bodysizeA + (strength / 10) + 130;
+                    break;
+                case "MCreator - Elf":
+                    bodySize = bodysizeA + bodysizeB + (strength / 10) + 160;
+                    break;
+                case "MCreator - Gnom":
+                    bodySize = bodysizeA + (strength / 10) + 90;
+                    break;
+                case "MCreator - Halbling":
+                    bodySize = bodysizeA + bodysizeB + (strength / 10) + 100;
+                    break;
+                case "MCreator - Mensch":
+                    bodySize = bodysizeA + bodysizeB + (strength / 10);
+                    break;
+                default:
+                    MessageBox.Show("fail");
+                    break;
             }
             return bodySize;
         }
@@ -79,41 +71,32 @@ namespace mcreator.Classes
             int strength = Convert.ToInt32(mtxtStrength);
             int bodysize = Convert.ToInt32(txtBodySize);
 
-            //Calculation for dwarfs
-            if (formTitle == "MCreator - Zwerg")
+            switch (formTitle)
             {
-                bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                case "MCreator - Zwerg":
+                    bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 90;
-            }
-
-            //Calculation for elfs
-            if (formTitle == "MCreator - Elf")
-            {
-                bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    break;
+                case "MCreator - Elf":
+                    bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 128;
-            }
-
-            //Calculation for gnomes
-            if (formTitle == "MCreator - Gnom")
-            {
-                bodyWeight = bodyweightA + bodyweightB + bodyweightC +
+                    break;
+                case "MCreator - Gnom":
+                    bodyWeight = bodyweightA + bodyweightB + bodyweightC +
                     (strength / 10) + bodysize - 90;
-            }
-
-            //Calculation for halflings
-            if (formTitle == "MCreator - Halbling")
-            {
-                bodyWeight = bodyweightA + bodyweightB + bodyweightC +
+                    break;
+                case "MCreator - Halbling":
+                    bodyWeight = bodyweightA + bodyweightB + bodyweightC +
                     (strength / 10) + bodysize - 87;
-            }
-
-            //Calculation for human
-            if (formTitle == "MCreator - Mensch")
-            {
-                bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    break;
+                case "MCreator - Mensch":
+                    bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 120;
-            }
-
+                    break;
+                default:
+                    MessageBox.Show("fail");
+                    break;
+            }           
             return bodyWeight;
         }
 
@@ -122,23 +105,23 @@ namespace mcreator.Classes
         public int AttackBuff(int dexterity)
         {
 
-            if (0 <= dexterity && dexterity <= 5)
+            if (0 <= dexterity && dexterity < 6)
             {
                 attackBuffValue = -2;
             }
-            if (6 <= dexterity && dexterity <= 20)
+            else if (dexterity < 21)
             {
                 attackBuffValue = -1;
             }
-            if (21 <= dexterity && dexterity <= 80)
+            else if (dexterity < 81)
             {
                 attackBuffValue = 0;
             }
-            if (81 <= dexterity && dexterity <= 95)
+            else if (dexterity < 96)
             {
                 attackBuffValue = +1;
             }
-            if (96 <= dexterity && dexterity <= 100)
+            else if (dexterity < 101)
             {
                 attackBuffValue = +2;
             }
@@ -150,23 +133,23 @@ namespace mcreator.Classes
         private int defenseBufValue;
         public int DefenseBuff(int agility)
         {
-            if (0 <= agility && agility <= 5)
+            if (0 <= agility && agility < 6)
             {
                 defenseBufValue = -2;
             }
-            if (6 <= agility && agility <= 20)
+            else if (agility < 21)
             {
                 defenseBufValue = -1;
             }
-            if (21 <= agility && agility <= 80)
+            else if (agility < 81)
             {
                 defenseBufValue = 0;
             }
-            if (81 <= agility && agility <= 95)
+            else if (agility < 96)
             {
                 defenseBufValue = +1;
             }
-            if (96 <= agility && agility <= 100)
+            else if (agility < 101)
             {
                 defenseBufValue = +2;
             }
@@ -178,35 +161,35 @@ namespace mcreator.Classes
         private int magicBuffValue;
         public int MagicBuff(int magicTalent)
         {
-            if (0 <= magicTalent && magicTalent <= 5)
+            if (0 <= magicTalent && magicTalent < 6)
             {
                 magicBuffValue = -3;
             }
-            if (6 <= magicTalent && magicTalent <= 20)
+            else if (magicTalent < 21)
             {
                 magicBuffValue = -2;
             }
-            if (21 <= magicTalent && magicTalent <= 40)
+            else if (magicTalent < 41)
             {
                 magicBuffValue = -1;
             }
-            if (41 <= magicTalent && magicTalent <= 60)
+            else if (magicTalent < 61)
             {
                 magicBuffValue = 0;
             }
-            if (61 <= magicTalent && magicTalent <= 80)
+            else if (magicTalent < 81)
             {
                 magicBuffValue = +1;
             }
-            if (81 <= magicTalent && magicTalent <= 95)
+            else if (magicTalent < 96)
             {
                 magicBuffValue = +2;
             }
-            if (96 <= magicTalent && magicTalent <= 99)
+            else if (magicTalent < 100)
             {
                 magicBuffValue = +3;
             }
-            if (magicTalent == 100)
+            else if (magicTalent == 100)
             {
                 magicBuffValue = +4;
             }
@@ -227,48 +210,34 @@ namespace mcreator.Classes
 
                 if (tempAdventurePointsAValue >= 4)
                 {
-
-                    // Calculations for dwarfs
-                    /*
-                    if (Text == "MCreator - Zwerg")
+                    switch (Text)
                     {
-                        //
-                    }
-
-                    // Calculations for elfs
-                    if (Text == "MCreator - Elf")
-                    {
-                        //
-                    }
-
-                    // Calculations for humans
-                    if (Text == "MCreator - Mensch")
-                    {
-                        //
-                    }
-                    */
-                    // Calculations for gnomes
-                    if (Text == "MCreator - Gnom")
-                    {
-                        tempAdventurePointsAValue = tempAdventurePointsAValue - 2;
-                    }
-
-                    // Calculations for halflings
-                    if (Text == "MCreator - Halbling")
-                    {
-                        tempAdventurePointsAValue = tempAdventurePointsAValue - 1;
-                    }
-
-                    adventurePointsValueA = tempAdventurePointsAValue;
+                        case "MCreator - Zwerg":
+                            adventurePointsValueA = tempAdventurePointsAValue;
+                            break;
+                        case "MCreator - Elf":
+                            adventurePointsValueA = tempAdventurePointsAValue;  
+                            break;
+                        case "MCreator - Gnom":
+                            tempAdventurePointsAValue = tempAdventurePointsAValue - 2;
+                            break;
+                        case "MCreator - Halbling":
+                            tempAdventurePointsAValue = tempAdventurePointsAValue - 1;
+                            break;
+                        case "MCreator - Mensch":   
+                            adventurePointsValueA = tempAdventurePointsAValue;
+                            break;
+                        default:
+                            MessageBox.Show("fail");
+                            break;
+                    }                                  
                 }
                 else
                 {
                     adventurePointsValueA = 4;
                 }
 
-            }
-            
-
+            }            
             return adventurePointsValueA;
         }
 
@@ -283,38 +252,27 @@ namespace mcreator.Classes
 
                 if (tempAdventurePointsBValue >= 4)
                 {
-                    // Calculations for dwarfs
-                    /*
-                    if (Text == "MCreator - Zwerg")
+                    switch (Text)
                     {
-                        //
+                        case "MCreator - Zwerg":
+                            adventurePointsValueB = tempAdventurePointsBValue;
+                            break;
+                        case "MCreator - Elf":
+                            adventurePointsValueB = tempAdventurePointsBValue;
+                            break;
+                        case "MCreator - Gnom":
+                            tempAdventurePointsBValue = tempAdventurePointsBValue - 2;
+                            break;
+                        case "MCreator - Halbling":
+                            tempAdventurePointsBValue = tempAdventurePointsBValue - 1;
+                            break;
+                        case "MCreator - Mensch":
+                            adventurePointsValueB = tempAdventurePointsBValue;
+                            break;
+                        default:
+                            MessageBox.Show("fail");
+                            break;
                     }
-
-                    // Calculations for elfs
-                    if (Text == "MCreator - Elf")
-                    {
-                        //
-                    }
-
-                    // Calculations for humans
-                    if (Text == "MCreator - Mensch")
-                    {
-                        //
-                    }
-                    */
-                    // Calculations for gnomes
-                    if (Text == "MCreator - Gnom")
-                    {
-                        tempAdventurePointsBValue = tempAdventurePointsBValue - 2;
-                    }
-
-                    // Calculations for halflings
-                    if (Text == "MCreator - Halbling")
-                    {
-                        tempAdventurePointsBValue = tempAdventurePointsBValue - 1;
-                    }
-
-                    adventurePointsValueB = tempAdventurePointsBValue;
                 }
                 else
                 {
@@ -336,38 +294,27 @@ namespace mcreator.Classes
 
                 if (tempAdventurePointsCValue >= 4)
                 {
-                    // Calculations for dwarfs
-                    /*
-                    if (Text == "MCreator - Zwerg")
+                    switch (Text)
                     {
-                        //
+                        case "MCreator - Zwerg":
+                            adventurePointsValueC = tempAdventurePointsCValue;
+                            break;
+                        case "MCreator - Elf":
+                            adventurePointsValueC = tempAdventurePointsCValue;
+                            break;
+                        case "MCreator - Gnom":
+                            tempAdventurePointsCValue = tempAdventurePointsCValue - 2;
+                            break;
+                        case "MCreator - Halbling":
+                            tempAdventurePointsCValue = tempAdventurePointsCValue - 1;
+                            break;
+                        case "MCreator - Mensch":
+                            adventurePointsValueC = tempAdventurePointsCValue;
+                            break;
+                        default:
+                            MessageBox.Show("fail");
+                            break;
                     }
-
-                    // Calculations for elfs
-                    if (Text == "MCreator - Elf")
-                    {
-                        //
-                    }
-
-                    // Calculations for humans
-                    if (Text == "MCreator - Mensch")
-                    {
-                        //
-                    }
-                    */
-                    // Calculations for gnomes
-                    if (Text == "MCreator - Gnom")
-                    {
-                        tempAdventurePointsCValue = tempAdventurePointsCValue - 2;
-                    }
-
-                    // Calculations for halflings
-                    if (Text == "MCreator - Halbling")
-                    {
-                        tempAdventurePointsCValue = tempAdventurePointsCValue - 1;
-                    }
-
-                    adventurePointsValueC = tempAdventurePointsCValue;
                 }
                 else
                 {
@@ -388,37 +335,28 @@ namespace mcreator.Classes
                 int constitution = Convert.ToInt32(mtxtConstitution);
                 int templifePoints = Convert.ToInt32(mtxtLifePoints);
                 lifePointsValue = 0;
-                // Calculations for humans
-                if (text == "MCreator - Mensch")
-                {
-                    lifePointsValue = (constitution / 10) + templifePoints + 5;
-                }
 
-                // Calculations for elfs
-                if (text == "MCreator - Elf")
+                switch (text)
                 {
-                    lifePointsValue = (constitution / 10) + templifePoints + 4;
-                }
-
-                // Calculations for gnomes
-                if (text == "MCreator - Gnom")
-                {
-                    lifePointsValue = (constitution / 10) + templifePoints - 1;
-                }
-
-                // Calculations for halflings
-                if (text == "MCreator - Halbling")
-                {
-                    lifePointsValue = (constitution / 10) + templifePoints + 2;
-                }
-
-                // Calculations for dwarfs
-                if (text == "MCreator - Zwerg")
-                {
-                    lifePointsValue = (constitution / 10) + templifePoints + 4;
-                }
-
-                
+                    case "MCreator - Zwerg":
+                        lifePointsValue = (constitution / 10) + templifePoints + 4;
+                        break;
+                    case "MCreator - Elf":
+                        lifePointsValue = (constitution / 10) + templifePoints + 4;
+                        break;
+                    case "MCreator - Gnom":
+                        lifePointsValue = (constitution / 10) + templifePoints - 1;
+                        break;
+                    case "MCreator - Halbling":
+                        lifePointsValue = (constitution / 10) + templifePoints + 2;
+                        break;
+                    case "MCreator - Mensch":
+                        lifePointsValue = (constitution / 10) + templifePoints + 5;
+                        break;
+                    default:
+                        MessageBox.Show("fail");
+                        break;
+                }                              
             }
             return lifePointsValue;
         }
@@ -432,85 +370,85 @@ namespace mcreator.Classes
             {   
                 int inbornBuff;
                 inbornBuff = Convert.ToInt32(mtxtInbornBuff);
-                if (1 <= inbornBuff && inbornBuff <= 2)
+
+                if (1 <= inbornBuff && inbornBuff < 3)
                 {
                     inbornBuffValue = "Kurzsichtigkeit (nur Sehen +4)";
                 }
-                if (3 <= inbornBuff && inbornBuff <= 4)
+                else if (inbornBuff < 5)
                 {
                     inbornBuffValue = "Schwerhörigkeit (nur Hören +4)";
                 }
-                if (5 <= inbornBuff && inbornBuff <= 6)
+                else if (inbornBuff < 7)
                 {
                     inbornBuffValue = "nur Riechen +4";
                 }
-                if (7 <= inbornBuff && inbornBuff <= 8)
+                else if (inbornBuff < 9)
                 {
                     inbornBuffValue = "nur Schmecken +4";
                 }
-                if (9 <= inbornBuff && inbornBuff <= 10)
+                else if (inbornBuff < 11)
                 {
                     inbornBuffValue = "nur Tasten +4";
                 }
-                if (11 <= inbornBuff && inbornBuff <= 20)
+                else if (inbornBuff < 21)
                 {
                     inbornBuffValue = "Sehen +10";
                 }
-                if (21 <= inbornBuff && inbornBuff <= 30)
+                else if (inbornBuff < 31)
                 {
                     inbornBuffValue = "Hören +10";
                 }
-                if (31 <= inbornBuff && inbornBuff <= 40)
+                else if (inbornBuff < 41)
                 {
                     inbornBuffValue = "Riechen +10";
                 }
-                if (41 <= inbornBuff && inbornBuff <= 50)
+                else if (inbornBuff < 51)
                 {
                     inbornBuffValue = "Schmecken +10";
                 }
-                if (51 <= inbornBuff && inbornBuff <= 60)
+                else if (inbornBuff < 61)
                 {
                     inbornBuffValue = "Tasten +10";
                 }
-                if (61 <= inbornBuff && inbornBuff <= 65)
+                else if (inbornBuff < 66)
                 {
                     inbornBuffValue = "Sechster Sinn +6";
                 }
-                if (66 <= inbornBuff && inbornBuff <= 70)
+                else if (inbornBuff < 71)
                 {
                     int berserk = 0;
                     berserk = 18 - (Convert.ToInt32(txtWillpower) / 5);
                     inbornBuffValue = "Berserkergang+ " + berserk;
                 }
-                if (71 <= inbornBuff && inbornBuff <= 75)
+                else if (inbornBuff < 76)
                 {
                     inbornBuffValue = "Gute Reflexe +9";
                 }
-                if (76 <= inbornBuff && inbornBuff <= 80)
+                else if (inbornBuff < 81)
                 {
                     inbornBuffValue = "Nachtsicht +8";
                 }
-                if (81 <= inbornBuff && inbornBuff <= 85)
+                else if (inbornBuff < 86)
                 {
                     inbornBuffValue = "Richtungssinn +12";
                 }
-                if (86 <= inbornBuff && inbornBuff <= 90)
+                else if (inbornBuff < 91)
                 {
                     inbornBuffValue = "Robustheit +9";
                 }
-                if (91 <= inbornBuff && inbornBuff <= 95)
+                else if (inbornBuff < 96)
                 {
                     inbornBuffValue = "Wachgabe +6";
                 }
-                if (96 <= inbornBuff && inbornBuff <= 99)
+                else if (inbornBuff < 100)
                 {
                     inbornBuffValue = "Einprägen +4";
                 }
-                if (inbornBuff == 100)
+                else if (inbornBuff == 100)
                 {
                     inbornBuffValue = "Freie Wahl und zweiter Wurf";
-                }
-                
+                }                
             }
             return inbornBuffValue;
         }
@@ -519,23 +457,23 @@ namespace mcreator.Classes
         public int MagicTalentGhostBody(int magicTalent)
         {
             
-            if (1 <= magicTalent && magicTalent <= 5)
+            if (1 <= magicTalent && magicTalent < 6)
             {
                 mtBuffGhost_Body_MagicValue = -2;
             }
-            if (6 <= magicTalent && magicTalent <= 20)
+            else if (magicTalent < 21)
             {
                 mtBuffGhost_Body_MagicValue = -1;
             }
-            if (81 <= magicTalent && magicTalent <= 95)
+            else if (magicTalent < 96)
             {
                 mtBuffGhost_Body_MagicValue = 1;
             }
-            if (96 <= magicTalent && magicTalent <= 99)
+            else if (magicTalent < 100)
             {
                 mtBuffGhost_Body_MagicValue = 2;
             }
-            if (magicTalent == 100)
+            else if (magicTalent == 100)
             {
                 mtBuffGhost_Body_MagicValue = 3;
             }
@@ -547,19 +485,19 @@ namespace mcreator.Classes
         public int IntelligenceGhost(int intelligence)
         {
             
-            if (1 <= intelligence && intelligence <= 5)
+            if (1 <= intelligence && intelligence < 6)
             {
                 intBuffGhostMagicValue = -2;
             }
-            if (6 <= intelligence && intelligence <= 20)
+            else if (intelligence < 21)
             {
                 intBuffGhostMagicValue = -1;
             }
-            if (81 <= intelligence && intelligence <= 95)
+            else if (intelligence < 96)
             {
                 intBuffGhostMagicValue = 1;
             }
-            if (96 <= intelligence && intelligence <= 100)
+            else if (intelligence < 101)
             {
                 intBuffGhostMagicValue = 2;
             }
@@ -571,19 +509,19 @@ namespace mcreator.Classes
         public int ConstitutionBody(int constitution)
         {
             
-            if (1 <= constitution && constitution <= 5)
+            if (1 <= constitution && constitution < 6)
             {
                 CoBuffBodyMagicValue = -2;
             }
-            if (6 <= constitution && constitution <= 20)
+            else if (constitution < 21)
             {
                 CoBuffBodyMagicValue = -1;
             }
-            if (81 <= constitution && constitution <= 95)
+            else if (constitution < 96)
             {
                 CoBuffBodyMagicValue = 1;
             }
-            if (96 <= constitution && constitution <= 100)
+            else if (constitution < 101)
             {
                 CoBuffBodyMagicValue = 2;
             }
@@ -595,19 +533,19 @@ namespace mcreator.Classes
         public int AgilityArea(int agility)
         {
             
-            if (1 <= agility && agility <= 5)
+            if (1 <= agility && agility < 6)
             {
                 areaMagicValue = -2;
             }
-            if (6 <= agility && agility <= 20)
+            else if (agility < 21)
             {
                 areaMagicValue = -1;
             }
-            if (81 <= agility && agility <= 95)
+            else if (agility < 96)
             {
                 areaMagicValue = 1;
             }
-            if (96 <= agility && agility <= 100)
+            else if (agility < 101)
             {
                 areaMagicValue = 2;
             }
@@ -792,17 +730,15 @@ namespace mcreator.Classes
 
                 handed = Convert.ToInt32(mtxtHanded);
 
-                if (handed <= 15)
+                if (handed < 16)
                 {
                     handedvalue = "Rechtshänder";
                 }
-
-                if (handed > 15 && handed < 20)
+                else if (handed < 20)
                 {
                     handedvalue = "Linkshänder";
                 }
-
-                if (handed == 20)
+                else if (handed == 20)
                 {
                     handedvalue = "Beidhänder";
                 }
