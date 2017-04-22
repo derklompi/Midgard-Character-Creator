@@ -363,12 +363,9 @@ namespace mcreator.Classes
             }
             return lifePointsValue;
         }
-      
-        private string inbornBuffValue;
+
         public string InbornBuff(string mtxtInbornBuff, string txtWillpower)
         {
-            inbornBuffValue = "";
-
             if (mtxtInbornBuff != "" && txtWillpower != "")
             {   
                 int inbornBuff;
@@ -376,183 +373,196 @@ namespace mcreator.Classes
 
                 if (1 <= inbornBuff && inbornBuff < 3)
                 {
-                    inbornBuffValue = "Kurzsichtigkeit (nur Sehen +4)";
+                    return "Kurzsichtigkeit (nur Sehen +4)";
                 }
                 else if (inbornBuff < 5)
                 {
-                    inbornBuffValue = "Schwerhörigkeit (nur Hören +4)";
+                    return "Schwerhörigkeit (nur Hören +4)";
                 }
                 else if (inbornBuff < 7)
                 {
-                    inbornBuffValue = "nur Riechen +4";
+                    return "nur Riechen +4";
                 }
                 else if (inbornBuff < 9)
                 {
-                    inbornBuffValue = "nur Schmecken +4";
+                    return "nur Schmecken +4";
                 }
                 else if (inbornBuff < 11)
                 {
-                    inbornBuffValue = "nur Tasten +4";
+                    return "nur Tasten +4";
                 }
                 else if (inbornBuff < 21)
                 {
-                    inbornBuffValue = "Sehen +10";
+                    return "Sehen +10";
                 }
                 else if (inbornBuff < 31)
                 {
-                    inbornBuffValue = "Hören +10";
+                    return "Hören +10";
                 }
                 else if (inbornBuff < 41)
                 {
-                    inbornBuffValue = "Riechen +10";
+                    return "Riechen +10";
                 }
                 else if (inbornBuff < 51)
                 {
-                    inbornBuffValue = "Schmecken +10";
+                    return "Schmecken +10";
                 }
                 else if (inbornBuff < 61)
                 {
-                    inbornBuffValue = "Tasten +10";
+                    return "Tasten +10";
                 }
                 else if (inbornBuff < 66)
                 {
-                    inbornBuffValue = "Sechster Sinn +6";
+                    return "Sechster Sinn +6";
                 }
                 else if (inbornBuff < 71)
                 {
                     int berserk = 0;
                     berserk = 18 - (Convert.ToInt32(txtWillpower) / 5);
-                    inbornBuffValue = "Berserkergang+ " + berserk;
+                    return "Berserkergang+ " + berserk;
                 }
                 else if (inbornBuff < 76)
                 {
-                    inbornBuffValue = "Gute Reflexe +9";
+                    return "Gute Reflexe +9";
                 }
                 else if (inbornBuff < 81)
                 {
-                    inbornBuffValue = "Nachtsicht +8";
+                    return "Nachtsicht +8";
                 }
                 else if (inbornBuff < 86)
                 {
-                    inbornBuffValue = "Richtungssinn +12";
+                    return "Richtungssinn +12";
                 }
                 else if (inbornBuff < 91)
                 {
-                    inbornBuffValue = "Robustheit +9";
+                    return "Robustheit +9";
                 }
                 else if (inbornBuff < 96)
                 {
-                    inbornBuffValue = "Wachgabe +6";
+                    return "Wachgabe +6";
                 }
                 else if (inbornBuff < 100)
                 {
-                    inbornBuffValue = "Einprägen +4";
+                    return "Einprägen +4";
                 }
                 else if (inbornBuff == 100)
                 {
-                    inbornBuffValue = "Freie Wahl und zweiter Wurf";
-                }                
+                    return "Freie Wahl und zweiter Wurf";
+                }
+                else
+                {
+                    return "";
+                }
             }
-            return inbornBuffValue;
+            else
+            {
+                return "";
+            }
+            
         }
    
-        private int mtBuffGhost_Body_MagicValue;
         public int MagicTalentGhostBody(int magicTalent)
         {
             
             if (1 <= magicTalent && magicTalent < 6)
             {
-                mtBuffGhost_Body_MagicValue = -2;
+                return -2;
             }
             else if (magicTalent < 21)
             {
-                mtBuffGhost_Body_MagicValue = -1;
+                return -1;
             }
             else if (magicTalent < 96)
             {
-                mtBuffGhost_Body_MagicValue = 1;
+                return 1;
             }
             else if (magicTalent < 100)
             {
-                mtBuffGhost_Body_MagicValue = 2;
+                return 2;
             }
             else if (magicTalent == 100)
             {
-                mtBuffGhost_Body_MagicValue = 3;
+                return 3;
             }
-
-            return mtBuffGhost_Body_MagicValue;
+            else
+            {
+                return 0;
+            }
         }
 
-        private int intBuffGhostMagicValue;
         public int IntelligenceGhost(int intelligence)
         {
             
             if (1 <= intelligence && intelligence < 6)
             {
-                intBuffGhostMagicValue = -2;
+                return -2;
             }
             else if (intelligence < 21)
             {
-                intBuffGhostMagicValue = -1;
+                return -1;
             }
             else if (intelligence < 96)
             {
-                intBuffGhostMagicValue = 1;
+                return 1;
             }
             else if (intelligence < 101)
             {
-                intBuffGhostMagicValue = 2;
+                return 2;
             }
-
-            return intBuffGhostMagicValue;
+            else
+            {
+                return 0;
+            }
         }
 
-        private int CoBuffBodyMagicValue;
         public int ConstitutionBody(int constitution)
         {
             
             if (1 <= constitution && constitution < 6)
             {
-                CoBuffBodyMagicValue = -2;
+                return -2;
             }
             else if (constitution < 21)
             {
-                CoBuffBodyMagicValue = -1;
+                return -1;
             }
             else if (constitution < 96)
             {
-                CoBuffBodyMagicValue = 1;
+                return 1;
             }
             else if (constitution < 101)
             {
-                CoBuffBodyMagicValue = 2;
+                return 2;
             }
-
-            return CoBuffBodyMagicValue;
+            else
+            {
+                return 0;
+            }
         }
 
-        private int areaMagicValue;
         public int AgilityArea(int agility)
         {
             
             if (1 <= agility && agility < 6)
             {
-                areaMagicValue = -2;
+                return -2;
             }
             else if (agility < 21)
             {
-                areaMagicValue = -1;
+                return -1;
             }
             else if (agility < 96)
             {
-                areaMagicValue = 1;
+                return 1;
             }
             else if (agility < 101)
             {
-                areaMagicValue = 2;
+                return 2;
             }
-            return areaMagicValue;
+            else
+            {
+                return 0;
+            }
         }
 
         private int ghostMagicValue;
@@ -722,11 +732,8 @@ namespace mcreator.Classes
         }
         
         // Calculation of the hand specialization
-        private string handedvalue;
         public string Handed(string mtxtHanded)
         {
-            handedvalue = "";
-
             if (mtxtHanded != "")
             {
                 int handed = 0;
@@ -735,18 +742,25 @@ namespace mcreator.Classes
 
                 if (handed < 16)
                 {
-                    handedvalue = "Rechtshänder";
+                    return "Rechtshänder";
                 }
                 else if (handed < 20)
                 {
-                    handedvalue = "Linkshänder";
+                    return "Linkshänder";
                 }
                 else if (handed == 20)
                 {
-                    handedvalue = "Beidhänder";
+                    return "Beidhänder";
+                }
+                else
+                {
+                    return "";
                 }
             }
-            return handedvalue;
+            else
+            {
+                return "";
+            }
         }        
     }
 }
