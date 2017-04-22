@@ -101,100 +101,103 @@ namespace mcreator.Classes
         }
 
         // Calculation of the attack buff
-        private int attackBuffValue;
         public int AttackBuff(int dexterity)
         {
 
             if (0 <= dexterity && dexterity < 6)
             {
-                attackBuffValue = -2;
+                return -2;
             }
             else if (dexterity < 21)
             {
-                attackBuffValue = -1;
+                return -1;
             }
             else if (dexterity < 81)
             {
-                attackBuffValue = 0;
+                return 0;
             }
             else if (dexterity < 96)
             {
-                attackBuffValue = +1;
+                return +1;
             }
             else if (dexterity < 101)
             {
-                attackBuffValue = +2;
+                return +2;
             }
-
-            return attackBuffValue;
+            else
+            {
+                return 0;
+            }
         }
 
         // Calculation of the defense buff
-        private int defenseBufValue;
         public int DefenseBuff(int agility)
         {
             if (0 <= agility && agility < 6)
             {
-                defenseBufValue = -2;
+                return -2;
             }
             else if (agility < 21)
             {
-                defenseBufValue = -1;
+                return -1;
             }
             else if (agility < 81)
             {
-                defenseBufValue = 0;
+                return 0;
             }
             else if (agility < 96)
             {
-                defenseBufValue = +1;
+                return +1;
             }
             else if (agility < 101)
             {
-                defenseBufValue = +2;
+                return +2;
             }
-
-            return defenseBufValue;
+            else
+            {
+                return 0;
+            }
         }
 
         // Calculation of the magic buff
-        private int magicBuffValue;
         public int MagicBuff(int magicTalent)
         {
             if (0 <= magicTalent && magicTalent < 6)
             {
-                magicBuffValue = -3;
+                return -3;
             }
             else if (magicTalent < 21)
             {
-                magicBuffValue = -2;
+                return -2;
             }
             else if (magicTalent < 41)
             {
-                magicBuffValue = -1;
+                return -1;
             }
             else if (magicTalent < 61)
             {
-                magicBuffValue = 0;
+                return 0;
             }
             else if (magicTalent < 81)
             {
-                magicBuffValue = +1;
+                return +1;
             }
             else if (magicTalent < 96)
             {
-                magicBuffValue = +2;
+                return +2;
             }
             else if (magicTalent < 100)
             {
-                magicBuffValue = +3;
+                return +3;
             }
             else if (magicTalent == 100)
             {
-                magicBuffValue = +4;
+                return +4;
             }
-
-            return magicBuffValue;
+            else
+            {
+                return 0;
+            }
         }
 
         // Calculation for adventure points of barbarians, warriors. etc.
