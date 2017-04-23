@@ -203,7 +203,7 @@ namespace mcreator.Classes
         // Calculation for adventure points of barbarians, warriors. etc.
 
         private int adventurePointsValueA;
-        public int AdventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string Text)
+        public int AdventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string formTitle)
         {
             if (mtxtAdventurePointsA != "" && txtStaminaBuff != "")
             {
@@ -213,7 +213,7 @@ namespace mcreator.Classes
 
                 if (tempAdventurePointsAValue >= 4)
                 {
-                    switch (Text)
+                    switch (formTitle)
                     {
                         case "MCreator - Zwerg":
                             adventurePointsValueA = tempAdventurePointsAValue;
@@ -245,7 +245,7 @@ namespace mcreator.Classes
         }
 
         private int adventurePointsValueB;
-        public int AdventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string Text)
+        public int AdventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string formTitle)
         {
             if (mtxtAdventurePointsB != "" && txtStaminaBuff != "")
             {
@@ -255,7 +255,7 @@ namespace mcreator.Classes
 
                 if (tempAdventurePointsBValue >= 4)
                 {
-                    switch (Text)
+                    switch (formTitle)
                     {
                         case "MCreator - Zwerg":
                             adventurePointsValueB = tempAdventurePointsBValue;
@@ -287,7 +287,7 @@ namespace mcreator.Classes
         }
 
         private int adventurePointsValueC;
-        public int AdventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string Text)
+        public int AdventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string formTitle)
         {            
             if (mtxtAdventurePointsC != "" && txtStaminaBuff != "")
             {
@@ -297,7 +297,7 @@ namespace mcreator.Classes
 
                 if (tempAdventurePointsCValue >= 4)
                 {
-                    switch (Text)
+                    switch (formTitle)
                     {
                         case "MCreator - Zwerg":
                             adventurePointsValueC = tempAdventurePointsCValue;
@@ -330,16 +330,16 @@ namespace mcreator.Classes
 
         // Calculations of the lifepoints
         private int lifePointsValue;
-        public int LifePoints(string mtxtConstitution, string mtxtLifePoints, string text)
+        public int LifePoints(string mtxtConstitution, string mtxtLifePoints, string formTitle)
         {
-            if (mtxtConstitution != "" && mtxtLifePoints != "" && text != "")
+            if (mtxtConstitution != "" && mtxtLifePoints != "" && formTitle != "")
             {
                 // Convert the strings to Int
                 int constitution = Convert.ToInt32(mtxtConstitution);
                 int templifePoints = Convert.ToInt32(mtxtLifePoints);
                 lifePointsValue = 0;
 
-                switch (text)
+                switch (formTitle)
                 {
                     case "MCreator - Zwerg":
                         lifePointsValue = (constitution / 10) + templifePoints + 4;
@@ -624,7 +624,7 @@ namespace mcreator.Classes
         private int charismavalue;
         public int Charisma(string mtxtCharisma, string mtxtIntelligence, string mtxtAppearance)
         {
-            if(mtxtCharisma !="" && mtxtIntelligence !="" && mtxtAppearance !="")
+            if(mtxtCharisma != "" && mtxtIntelligence != "" && mtxtAppearance != "")
             {
                 int tempCharismaValue = 0;
                 tempCharismaValue = Convert.ToInt32(mtxtCharisma) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
@@ -665,7 +665,6 @@ namespace mcreator.Classes
         }
 
         // Calculation of the selfcontrol
-        private int selfControlValueA;
         public int SelfControlA(string mtxtSelfControl, string txtWillpower, string mtxtIntelligence)
         {
             if (mtxtSelfControl != "" && txtWillpower != "" && mtxtIntelligence !="")
@@ -677,14 +676,17 @@ namespace mcreator.Classes
 
                 if (tempSelfControlAValue > 0)
                 {
-                    selfControlValueA = tempSelfControlAValue;
+                    return tempSelfControlAValue;
                 }
                 else
                 {
-                    selfControlValueA = 0;
+                    return 0;
                 }               
             }
-            return selfControlValueA;
+            else
+            {
+                return 0;
+            }
         }
 
         private int selfControlValueB;
