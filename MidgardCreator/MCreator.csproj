@@ -83,6 +83,7 @@
   <ItemGroup>
     <Compile Include="Classes\Character.cs" />
     <Compile Include="Classes\Export.cs" />
+    <Compile Include="Classes\RangeTest.cs" />
     <Compile Include="Classes\TimerCheck.cs" />
     <Compile Include="FrmCustomizationValues.cs">
       <SubType>Form</SubType>

@@ -45,6 +45,7 @@ namespace mcreator
             // Customizing the form for the different races
             switch (this.Text)
             {
+                
                 case "MCreator - Halbling":
                     // Hide not needed fields
                     // Handed
@@ -861,6 +862,11 @@ namespace mcreator
                     txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
                 }
             }   
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(""+c.MagicTalentGhostBody(15));
         }
     }
 }

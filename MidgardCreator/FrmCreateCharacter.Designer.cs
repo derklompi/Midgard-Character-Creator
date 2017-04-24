@@ -165,6 +165,7 @@ namespace mcreator
             this.BtnExit = new System.Windows.Forms.Button();
             this.rbStats = new System.Windows.Forms.RadioButton();
             this.CalculationTimer = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblExport
@@ -908,11 +909,19 @@ namespace mcreator
             this.CalculationTimer.Interval = 1000;
             this.CalculationTimer.Tick += new System.EventHandler(this.CalculationTimer_Tick);
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.rbStats);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.lblStatCheck);
@@ -1190,5 +1199,6 @@ namespace mcreator
         protected internal System.Windows.Forms.TextBox txtBodySizeB;
         protected internal System.Windows.Forms.TextBox txtHanded;
         private System.Windows.Forms.Timer CalculationTimer;
+        private System.Windows.Forms.Button button1;
     }
 }

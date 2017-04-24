@@ -460,59 +460,53 @@ namespace mcreator.Classes
             }
             
         }
-   
+
+        public int inrange_single(int check, int[,] range, int defval)
+        {
+            int rc;
+            // range.Length < values.Length ? range.Length-1 : values.Length-1
+            // 		get the lovest of the two arrays lengths , subtract 1 since the index is 0 based
+            //		search backwards to find the value in range that is lower than the value we are searching for
+            //		we do not need to compare with the upper bound since it is implicit ie the upper bound +1
+            //		is equal to previous lower bound
+
+            for (rc = range.GetLength(0) - 1; rc >= 0; rc--)
+            {
+                if (check > range[rc, 0]) return range[rc, 1]; ;
+            }
+            // not found ? return defval
+            return defval;
+        }
+
         public int MagicTalentGhostBody(int magicTalent)
         {
-            
-            if (1 <= magicTalent && magicTalent < 6)
-            {
-                return -2;
-            }
-            else if (magicTalent < 21)
-            {
-                return -1;
-            }
-            else if (magicTalent < 96)
-            {
-                return 1;
-            }
-            else if (magicTalent < 100)
-            {
-                return 2;
-            }
-            else if (magicTalent == 100)
-            {
-                return 3;
-            }
-            else
-            {
-                return 0;
-            }
+            int MagicTalentGhostBodyValue;
+
+            MagicTalentGhostBodyValue = inrange_single(magicTalent,
+            new int[,] {
+				{0,-2},	    // 0-5      = -2
+				{6,-1},	    // 6-20     = -1
+				{21,1},	    // 21-95    =  1
+				{96,2},	    // 96-99    =  2
+				{100,3}	    // 100-     =  3
+				}, 7        // Count
+            );
+            return MagicTalentGhostBodyValue;
         }
 
         public int IntelligenceGhost(int intelligence)
         {
-            
-            if (1 <= intelligence && intelligence < 6)
-            {
-                return -2;
-            }
-            else if (intelligence < 21)
-            {
-                return -1;
-            }
-            else if (intelligence < 96)
-            {
-                return 1;
-            }
-            else if (intelligence < 101)
-            {
-                return 2;
-            }
-            else
-            {
-                return 0;
-            }
+            int IntelligenceGhostValue;
+
+            IntelligenceGhostValue = inrange_single(intelligence,
+            new int[,] {
+                {0,-2},	    // 0-5      = -2
+				{6,-1},	    // 6-20     = -1
+				{21,1},	    // 21-95    =  1
+				{96,2},	    // 96-99    =  2
+				}, 7        // Count
+            );
+            return IntelligenceGhostValue;
         }
 
         public int ConstitutionBody(int constitution)
