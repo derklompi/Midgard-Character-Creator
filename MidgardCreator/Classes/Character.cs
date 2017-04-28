@@ -511,52 +511,32 @@ namespace mcreator.Classes
 
         public int ConstitutionBody(int constitution)
         {
-            
-            if (1 <= constitution && constitution < 6)
-            {
-                return -2;
-            }
-            else if (constitution < 21)
-            {
-                return -1;
-            }
-            else if (constitution < 96)
-            {
-                return 1;
-            }
-            else if (constitution < 101)
-            {
-                return 2;
-            }
-            else
-            {
-                return 0;
-            }
+            int ConstitutionBodyValue;
+
+            ConstitutionBodyValue = inrange_single(constitution,
+            new int[,] {
+                {0,-2},	    // 0-5      = -2
+				{6,-1},	    // 6-20     = -1
+				{21,1},	    // 21-95    =  1
+				{96,2},	    // 96-99    =  2
+				}, 7        // Count
+            );
+            return ConstitutionBodyValue;
         }
 
         public int AgilityArea(int agility)
         {
-            
-            if (1 <= agility && agility < 6)
-            {
-                return -2;
-            }
-            else if (agility < 21)
-            {
-                return -1;
-            }
-            else if (agility < 96)
-            {
-                return 1;
-            }
-            else if (agility < 101)
-            {
-                return 2;
-            }
-            else
-            {
-                return 0;
-            }
+            int AgilityAreaValue;
+
+            AgilityAreaValue = inrange_single(agility,
+            new int[,] {
+                {0,-2},	    // 0-5      = -2
+				{6,-1},	    // 6-20     = -1
+				{21,1},	    // 21-95    =  1
+				{96,2},	    // 96-99    =  2
+				}, 7        // Count
+            );
+            return AgilityAreaValue;           
         }
 
         private int ghostMagicValue;
