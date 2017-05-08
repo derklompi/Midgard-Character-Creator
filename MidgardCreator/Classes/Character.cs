@@ -18,11 +18,16 @@
 
 using System;
 using System.Windows.Forms;
+using mcreator.Classes;
 
 namespace mcreator.Classes
 {
+    
     class Character
-    {     
+    {
+        CharacterArrayStore a = new CharacterArrayStore();
+      
+
         // Calculate of the bodysize
         private int bodySize;
         public int BodySize(string mtxtBodySizeA, string mtxtBodySizeB, string mtxtStrength, string formTitle)
@@ -103,101 +108,31 @@ namespace mcreator.Classes
         // Calculation of the attack buff
         public int AttackBuff(int dexterity)
         {
+            int AttackBuffValue;
 
-            if (0 <= dexterity && dexterity < 6)
-            {
-                return -2;
-            }
-            else if (dexterity < 21)
-            {
-                return -1;
-            }
-            else if (dexterity < 81)
-            {
-                return 0;
-            }
-            else if (dexterity < 96)
-            {
-                return +1;
-            }
-            else if (dexterity < 101)
-            {
-                return +2;
-            }
-            else
-            {
-                return 0;
-            }
+            AttackBuffValue = inrange_single(dexterity, a.AttackBuffArray, 0);
+
+            return AttackBuffValue;
         }
 
         // Calculation of the defense buff
         public int DefenseBuff(int agility)
         {
-            if (0 <= agility && agility < 6)
-            {
-                return -2;
-            }
-            else if (agility < 21)
-            {
-                return -1;
-            }
-            else if (agility < 81)
-            {
-                return 0;
-            }
-            else if (agility < 96)
-            {
-                return +1;
-            }
-            else if (agility < 101)
-            {
-                return +2;
-            }
-            else
-            {
-                return 0;
-            }
+            int DefenceBuffValue;
+
+            DefenceBuffValue = inrange_single(agility, a.DefenseBuffArray, 0);
+
+            return DefenceBuffValue;
         }
 
         // Calculation of the magic buff
         public int MagicBuff(int magicTalent)
         {
-            if (0 <= magicTalent && magicTalent < 6)
-            {
-                return -3;
-            }
-            else if (magicTalent < 21)
-            {
-                return -2;
-            }
-            else if (magicTalent < 41)
-            {
-                return -1;
-            }
-            else if (magicTalent < 61)
-            {
-                return 0;
-            }
-            else if (magicTalent < 81)
-            {
-                return +1;
-            }
-            else if (magicTalent < 96)
-            {
-                return +2;
-            }
-            else if (magicTalent < 100)
-            {
-                return +3;
-            }
-            else if (magicTalent == 100)
-            {
-                return +4;
-            }
-            else
-            {
-                return 0;
-            }
+            int MagicBuffValue;
+
+            MagicBuffValue = inrange_single(magicTalent,a.MagicBuffArray, 0);
+
+            return MagicBuffValue;                   
         }
 
         // Calculation for adventure points of barbarians, warriors. etc.
@@ -482,15 +417,8 @@ namespace mcreator.Classes
         {
             int MagicTalentGhostBodyValue;
 
-            MagicTalentGhostBodyValue = inrange_single(magicTalent,
-            new int[,] {
-				{0,-2},	    // 0-5      = -2
-				{6,-1},	    // 6-20     = -1
-				{21,1},	    // 21-95    =  1
-				{96,2},	    // 96-99    =  2
-				{100,3}	    // 100-     =  3
-				}, 7        // Count
-            );
+            MagicTalentGhostBodyValue = inrange_single(magicTalent, a.MagicTalentGhostBodyArray, 7);
+
             return MagicTalentGhostBodyValue;
         }
 
@@ -498,14 +426,8 @@ namespace mcreator.Classes
         {
             int IntelligenceGhostValue;
 
-            IntelligenceGhostValue = inrange_single(intelligence,
-            new int[,] {
-                {0,-2},	    // 0-5      = -2
-				{6,-1},	    // 6-20     = -1
-				{21,1},	    // 21-95    =  1
-				{96,2},	    // 96-99    =  2
-				}, 7        // Count
-            );
+            IntelligenceGhostValue = inrange_single(intelligence,a.IntelligenceGhostArray, 0);
+
             return IntelligenceGhostValue;
         }
 
@@ -513,14 +435,8 @@ namespace mcreator.Classes
         {
             int ConstitutionBodyValue;
 
-            ConstitutionBodyValue = inrange_single(constitution,
-            new int[,] {
-                {0,-2},	    // 0-5      = -2
-				{6,-1},	    // 6-20     = -1
-				{21,1},	    // 21-95    =  1
-				{96,2},	    // 96-99    =  2
-				}, 7        // Count
-            );
+            ConstitutionBodyValue = inrange_single(constitution,a.ConstitutionBodyArray, 0);
+
             return ConstitutionBodyValue;
         }
 
@@ -528,14 +444,7 @@ namespace mcreator.Classes
         {
             int AgilityAreaValue;
 
-            AgilityAreaValue = inrange_single(agility,
-            new int[,] {
-                {0,-2},	    // 0-5      = -2
-				{6,-1},	    // 6-20     = -1
-				{21,1},	    // 21-95    =  1
-				{96,2},	    // 96-99    =  2
-				}, 7        // Count
-            );
+            AgilityAreaValue = inrange_single(agility, a.AgilityAreaÁrray, 0);
             return AgilityAreaValue;           
         }
 

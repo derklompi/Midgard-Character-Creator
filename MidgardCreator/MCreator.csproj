@@ -81,7 +81,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\ArrayStore.cs" />
+    <Compile Include="Classes\CharacterArrayStore.cs" />
     <Compile Include="Classes\Character.cs" />
     <Compile Include="Classes\Export.cs" />
     <Compile Include="Classes\RangeTest.cs" />
