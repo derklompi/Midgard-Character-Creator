@@ -386,30 +386,30 @@ namespace mcreator
                     rbStats.Checked = false;
 
                     // If Stat Sum is to low, values get reset
-                    txtDamageBuff.Text = "";
+                    txtDamageBuff.Text  = "";
                     txtStaminaBuff.Text = "";
-                    txtAttackBuff.Text = "";
+                    txtAttackBuff.Text  = "";
                     txtDefenseBuff.Text = "";
-                    txtMagicBuff.Text = "";
+                    txtMagicBuff.Text   = "";
 
-                    txtRumble.Text = "";
-                    txtDefense.Text = "";
-                    txtDefense0.Text = "";
-                    txtDoMagic.Text = "";
-                    txtDoMagic0.Text = "";
+                    txtRumble.Text      = "";
+                    txtDefense.Text     = "";
+                    txtDefense0.Text    = "";
+                    txtDoMagic.Text     = "";
+                    txtDoMagic0.Text    = "";
 
-                    txtGhostMagicFighter.Text = "";
-                    txtGhostMagicMagician.Text = "";
-                    txtGhostMagicNormal.Text = "";
-                    txtBodyMagicFighter.Text = "";
-                    txtBodyMagicMagician.Text = "";
-                    txtBodyMagicNormal.Text = "";
-                    txtAreaMagicFighter.Text = "";
-                    txtAreaMagicMagician.Text = "";
-                    txtAreaMagicNormal.Text = "";
+                    txtGhostMagicFighter.Text   = "";
+                    txtGhostMagicMagician.Text  = "";
+                    txtGhostMagicNormal.Text    = "";
+                    txtBodyMagicFighter.Text    = "";
+                    txtBodyMagicMagician.Text   = "";
+                    txtBodyMagicNormal.Text     = "";
+                    txtAreaMagicFighter.Text    = "";
+                    txtAreaMagicMagician.Text   = "";
+                    txtAreaMagicNormal.Text     = "";
 
-                    mtxtCharisma.Enabled = false;
-                    mtxtWillpower.Enabled = false;
+                    mtxtCharisma.Enabled    = false;
+                    mtxtWillpower.Enabled   = false;
                     mtxtSelfControl.Enabled = false;
 
                     mtxtAdventurePointsA.Enabled = false;
@@ -862,11 +862,6 @@ namespace mcreator
                     txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
                 }
             }   
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(""+c.MagicTalentGhostBody(15));
         }
     }
 }

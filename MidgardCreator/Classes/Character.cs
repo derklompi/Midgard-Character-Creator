@@ -29,9 +29,9 @@ namespace mcreator.Classes
       
 
         // Calculate of the bodysize
-        private int bodySize;
         public int BodySize(string mtxtBodySizeA, string mtxtBodySizeB, string mtxtStrength, string formTitle)
-        {         
+        {
+            int bodySize = 0;
             // Convert to int for better usability
             int bodysizeA = Convert.ToInt32(mtxtBodySizeA);
             int bodysizeB = Convert.ToInt32(mtxtBodySizeB);
@@ -63,10 +63,11 @@ namespace mcreator.Classes
         }
 
         // Calculate of the bodyweight
-        private int bodyWeight;
         public int BodyWeight(string mtxtBodyWeightA, string mtxtBodyWeightB, string mtxtBodyWeightC,
             string mtxtBodyWeightD, string mtxtStrength, string txtBodySize, string formTitle)
         {
+            int BodyWeightValue = 0;
+
             // Convert to int for better usability
             int bodyweightA = Convert.ToInt32(mtxtBodyWeightA);
             int bodyweightB = Convert.ToInt32(mtxtBodyWeightB);
@@ -79,30 +80,30 @@ namespace mcreator.Classes
             switch (formTitle)
             {
                 case "MCreator - Zwerg":
-                    bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 90;
                     break;
                 case "MCreator - Elf":
-                    bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 128;
                     break;
                 case "MCreator - Gnom":
-                    bodyWeight = bodyweightA + bodyweightB + bodyweightC +
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC +
                     (strength / 10) + bodysize - 90;
                     break;
                 case "MCreator - Halbling":
-                    bodyWeight = bodyweightA + bodyweightB + bodyweightC +
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC +
                     (strength / 10) + bodysize - 87;
                     break;
                 case "MCreator - Mensch":
-                    bodyWeight = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
                     (strength / 10) + bodysize - 120;
                     break;
                 default:
                     MessageBox.Show("fail");
                     break;
-            }           
-            return bodyWeight;
+            }
+            return BodyWeightValue; 
         }
 
         // Calculation of the attack buff
@@ -396,7 +397,7 @@ namespace mcreator.Classes
             
         }
 
-        public int inrange_single(int check, int[,] range, int defval)
+        public int inrange_single(int value, int[,] range, int defval)
         {
             int rc;
             // range.Length < values.Length ? range.Length-1 : values.Length-1
@@ -407,7 +408,7 @@ namespace mcreator.Classes
 
             for (rc = range.GetLength(0) - 1; rc >= 0; rc--)
             {
-                if (check > range[rc, 0]) return range[rc, 1]; ;
+                if (value > range[rc, 0]) return range[rc, 1]; ;
             }
             // not found ? return defval
             return defval;
