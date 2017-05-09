@@ -817,9 +817,11 @@ namespace mcreator
                 txtSelfControlB.Text = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
                 txtSelfControlC.Text = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
             }   
+
             txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
             txtHanded.Text = c.Handed(mtxtHanded.Text);
-            if(mtxtAdventurePointsA.Text != "")
+
+            if (mtxtAdventurePointsA.Text != "")
             {
                 txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
             }

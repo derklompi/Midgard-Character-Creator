@@ -18,11 +18,9 @@
 
 using System;
 using System.Windows.Forms;
-using mcreator.Classes;
 
 namespace mcreator.Classes
-{
-    
+{   
     class Character
     {
         CharacterArrayStore a = new CharacterArrayStore();
@@ -137,10 +135,10 @@ namespace mcreator.Classes
         }
 
         // Calculation for adventure points of barbarians, warriors. etc.
-
-        private int adventurePointsValueA;
         public int AdventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string formTitle)
         {
+            int adventurePointsValueA = 0;
+
             if (mtxtAdventurePointsA != "" && txtStaminaBuff != "")
             {
                 int tempAdventurePointsAValue = 0;
@@ -180,9 +178,10 @@ namespace mcreator.Classes
             return adventurePointsValueA;
         }
 
-        private int adventurePointsValueB;
         public int AdventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string formTitle)
         {
+            int adventurePointsValueB = 0;
+
             if (mtxtAdventurePointsB != "" && txtStaminaBuff != "")
             {
                 int tempAdventurePointsBValue = 0;
@@ -222,9 +221,10 @@ namespace mcreator.Classes
             return adventurePointsValueB;
         }
 
-        private int adventurePointsValueC;
         public int AdventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string formTitle)
-        {            
+        {
+            int adventurePointsValueC = 0;
+
             if (mtxtAdventurePointsC != "" && txtStaminaBuff != "")
             {
                 int tempAdventurePointsCValue = 0;
@@ -265,9 +265,10 @@ namespace mcreator.Classes
         }
 
         // Calculations of the lifepoints
-        private int lifePointsValue;
         public int LifePoints(string mtxtConstitution, string mtxtLifePoints, string formTitle)
         {
+            int lifePointsValue = 0;
+
             if (mtxtConstitution != "" && mtxtLifePoints != "" && formTitle != "")
             {
                 // Convert the strings to Int
@@ -449,63 +450,66 @@ namespace mcreator.Classes
             return AgilityAreaValue;           
         }
 
-        private int ghostMagicValue;
         public int GhostMagic(int mtBuffGhost_Body_MagicValue, int intBuffGhostMagicValue)
         {
             
             if (mtBuffGhost_Body_MagicValue > intBuffGhostMagicValue && intBuffGhostMagicValue < 0)
             {
-                ghostMagicValue = mtBuffGhost_Body_MagicValue + intBuffGhostMagicValue;
+                return mtBuffGhost_Body_MagicValue + intBuffGhostMagicValue;
             }
-            if (mtBuffGhost_Body_MagicValue > intBuffGhostMagicValue && intBuffGhostMagicValue >= 0)
+            else if (mtBuffGhost_Body_MagicValue > intBuffGhostMagicValue && intBuffGhostMagicValue >= 0)
             {
-                ghostMagicValue = mtBuffGhost_Body_MagicValue;
+                return mtBuffGhost_Body_MagicValue;
             }
-            if (intBuffGhostMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue < 0)
+            else if (intBuffGhostMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue < 0)
             {
-                ghostMagicValue = intBuffGhostMagicValue + mtBuffGhost_Body_MagicValue;
+                return intBuffGhostMagicValue + mtBuffGhost_Body_MagicValue;
             }
-            if (intBuffGhostMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue >= 0)
+            else if (intBuffGhostMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue >= 0)
             {
-                ghostMagicValue = intBuffGhostMagicValue;
+                return intBuffGhostMagicValue;
             }
-            if (intBuffGhostMagicValue == mtBuffGhost_Body_MagicValue)
+            else if (intBuffGhostMagicValue == mtBuffGhost_Body_MagicValue)
             {
-                ghostMagicValue = intBuffGhostMagicValue;
+                return intBuffGhostMagicValue;
             }
-            return ghostMagicValue;
+            else
+            {
+                return 0;
+            }
         }
 
-        private int bodyMagicValue;
         public int BodyMagic(int mtBuffGhost_Body_MagicValue, int CoBuffBodyMagicValue)
         {
             
             if (mtBuffGhost_Body_MagicValue > CoBuffBodyMagicValue && CoBuffBodyMagicValue < 0)
             {
-                bodyMagicValue = mtBuffGhost_Body_MagicValue + CoBuffBodyMagicValue;
+                return mtBuffGhost_Body_MagicValue + CoBuffBodyMagicValue;
             }
-            if (mtBuffGhost_Body_MagicValue > CoBuffBodyMagicValue && CoBuffBodyMagicValue >= 0)
+            else if (mtBuffGhost_Body_MagicValue > CoBuffBodyMagicValue && CoBuffBodyMagicValue >= 0)
             {
-                bodyMagicValue = mtBuffGhost_Body_MagicValue;
+                return mtBuffGhost_Body_MagicValue;
             }
-            if (CoBuffBodyMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue < 0)
+            else if (CoBuffBodyMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue < 0)
             {
-                bodyMagicValue = CoBuffBodyMagicValue + mtBuffGhost_Body_MagicValue;
+                return CoBuffBodyMagicValue + mtBuffGhost_Body_MagicValue;
             }
-            if (CoBuffBodyMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue >= 0)
+            else if (CoBuffBodyMagicValue > mtBuffGhost_Body_MagicValue && mtBuffGhost_Body_MagicValue >= 0)
             {
-                bodyMagicValue = CoBuffBodyMagicValue;
+                return CoBuffBodyMagicValue;
             }
-            if (CoBuffBodyMagicValue == mtBuffGhost_Body_MagicValue)
+            else if (CoBuffBodyMagicValue == mtBuffGhost_Body_MagicValue)
             {
-                bodyMagicValue = CoBuffBodyMagicValue;
+                return CoBuffBodyMagicValue;
             }
-            return bodyMagicValue;
+            else
+            {
+                return 0;
+            }
         }
 
         // Calculation of the charisma
 
-        private int charismavalue;
         public int Charisma(string mtxtCharisma, string mtxtIntelligence, string mtxtAppearance)
         {
             if(mtxtCharisma != "" && mtxtIntelligence != "" && mtxtAppearance != "")
@@ -516,18 +520,20 @@ namespace mcreator.Classes
 
                 if (tempCharismaValue >= 0)
                 {
-                    charismavalue = tempCharismaValue;
+                    return tempCharismaValue;
                 }
                 else
                 {
-                    charismavalue = 0;
+                    return 0;
                 }                
             }
-            return charismavalue;
+            else
+            {
+                return 0;
+            }
         }
 
         // Calculation of the willpower
-        private int willpowervalue;
         public int Willpower(string mtxtWillpower, string mtxtIntelligence, string mtxtConstitution)
         {
             if (mtxtWillpower != "" && mtxtIntelligence != "" && mtxtConstitution != "")
@@ -538,14 +544,17 @@ namespace mcreator.Classes
 
                 if (tempWillpowerValue > 0)
                 {
-                    willpowervalue = tempWillpowerValue;
+                    return tempWillpowerValue;
                 }
                 else
                 {
-                    willpowervalue = 0;
+                    return 0;
                 }
             }
-            return willpowervalue;
+            else
+            {
+                return 0;
+            }
         }
 
         // Calculation of the selfcontrol
@@ -573,7 +582,6 @@ namespace mcreator.Classes
             }
         }
 
-        private int selfControlValueB;
         public int SelfControlB(string mtxtSelfControl, string txtWillpower, string mtxtIntelligence)
         {
             if (mtxtSelfControl != "" && txtWillpower != "" && mtxtIntelligence != "")
@@ -585,36 +593,41 @@ namespace mcreator.Classes
 
                 if (tempSelfControlBValue > 0)
                 {
-                    selfControlValueB = tempSelfControlBValue;
+                    return tempSelfControlBValue;
                 }
                 else
                 {
-                    selfControlValueB = 0;
-                }              
+                    return 0;
+                }
             }
-            return selfControlValueB;
+            else
+            {
+                return 0;
+            }               
         }
 
-        private int selfControlValueC;
         public int SelfControlC(string mtxtSelfControl, string txtWillpower, string mtxtIntelligence)
         {
             if (mtxtSelfControl != "" && txtWillpower != "" && mtxtIntelligence != "")
             {
-               int tempSelfControlCValue = 0;
+                int tempSelfControlCValue = 0;
 
                 tempSelfControlCValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
                     (Convert.ToInt32(txtWillpower) / 10))) - 30;
 
                 if (tempSelfControlCValue > 0)
                 {
-                    selfControlValueC = tempSelfControlCValue;
+                    return tempSelfControlCValue;
                 }
                 else
                 {
-                    selfControlValueC = 0;
+                    return 0;
                 }
             }
-            return selfControlValueC;
+            else
+            {
+                return 0;
+            }
         }
         
         // Calculation of the hand specialization
@@ -647,6 +660,6 @@ namespace mcreator.Classes
             {
                 return "";
             }
-        }        
+        }  
     }
 }
