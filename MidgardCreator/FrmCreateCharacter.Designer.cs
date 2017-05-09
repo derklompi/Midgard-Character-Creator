@@ -99,7 +99,6 @@ namespace mcreator
             this.mtxtAdventurePointsC = new System.Windows.Forms.MaskedTextBox();
             this.lblIntelligence = new System.Windows.Forms.Label();
             this.mtxtAdventurePointsB = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtBodySizeA = new System.Windows.Forms.MaskedTextBox();
             this.mtxtAdventurePointsA = new System.Windows.Forms.MaskedTextBox();
             this.mtxtConstitution = new System.Windows.Forms.MaskedTextBox();
             this.lblAdventurePointsB = new System.Windows.Forms.Label();
@@ -165,6 +164,7 @@ namespace mcreator
             this.BtnExit = new System.Windows.Forms.Button();
             this.rbStats = new System.Windows.Forms.RadioButton();
             this.CalculationTimer = new System.Windows.Forms.Timer(this.components);
+            this.cbBodySizeA = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblExport
@@ -548,12 +548,6 @@ namespace mcreator
             resources.ApplyResources(this.mtxtAdventurePointsB, "mtxtAdventurePointsB");
             this.mtxtAdventurePointsB.Name = "mtxtAdventurePointsB";
             // 
-            // mtxtBodySizeA
-            // 
-            this.mtxtBodySizeA.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtBodySizeA, "mtxtBodySizeA");
-            this.mtxtBodySizeA.Name = "mtxtBodySizeA";
-            // 
             // mtxtAdventurePointsA
             // 
             this.mtxtAdventurePointsA.HidePromptOnLeave = true;
@@ -907,11 +901,19 @@ namespace mcreator
             this.CalculationTimer.Interval = 1000;
             this.CalculationTimer.Tick += new System.EventHandler(this.CalculationTimer_Tick);
             // 
+            // cbBodySizeA
+            // 
+            this.cbBodySizeA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbBodySizeA.FormattingEnabled = true;
+            resources.ApplyResources(this.cbBodySizeA, "cbBodySizeA");
+            this.cbBodySizeA.Name = "cbBodySizeA";
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
+            this.Controls.Add(this.cbBodySizeA);
             this.Controls.Add(this.rbStats);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.lblStatCheck);
@@ -992,7 +994,6 @@ namespace mcreator
             this.Controls.Add(this.mtxtAdventurePointsC);
             this.Controls.Add(this.lblIntelligence);
             this.Controls.Add(this.mtxtAdventurePointsB);
-            this.Controls.Add(this.mtxtBodySizeA);
             this.Controls.Add(this.mtxtAdventurePointsA);
             this.Controls.Add(this.mtxtConstitution);
             this.Controls.Add(this.lblAdventurePointsB);
@@ -1136,7 +1137,6 @@ namespace mcreator
         protected internal System.Windows.Forms.MaskedTextBox mtxtMagicalTalent;
         protected internal System.Windows.Forms.MaskedTextBox mtxtAdventurePointsC;
         protected internal System.Windows.Forms.MaskedTextBox mtxtAdventurePointsB;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtBodySizeA;
         protected internal System.Windows.Forms.MaskedTextBox mtxtAdventurePointsA;
         protected internal System.Windows.Forms.MaskedTextBox mtxtConstitution;
         protected internal System.Windows.Forms.MaskedTextBox mtxtIntelligence;
@@ -1189,5 +1189,6 @@ namespace mcreator
         protected internal System.Windows.Forms.TextBox txtBodySizeB;
         protected internal System.Windows.Forms.TextBox txtHanded;
         private System.Windows.Forms.Timer CalculationTimer;
+        protected internal System.Windows.Forms.ComboBox cbBodySizeA;
     }
 }

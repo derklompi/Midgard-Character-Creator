@@ -40,6 +40,8 @@ namespace mcreator
 
         private void FrmCreateCharacter_Load(object sender, EventArgs e)
         {
+            ComboBoxValue cbv = new ComboBoxValue();
+            cbv.SetComboBoxValue();
             CalculationTimer.Enabled = true;
             EnableTimer.Enabled = true;
 
@@ -185,19 +187,19 @@ namespace mcreator
                     //Get the BodySize for the different races
                     if (this.Text == "MCreator - Mensch")
                     {
-                        mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 21));
+                        cbBodySizeA.SelectedIndex = Rnd.Next(1, 21);
                         mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 21));
                     }
                     else
                     {
                         if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Gnom")
                         {
-                            mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 7));
+                            cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
                             mtxtBodySizeB.Text = Convert.ToString(0);
                         }
                         if (this.Text == "MCreator - Elf" || this.Text == "MCreator - Halbling")
                         {
-                            mtxtBodySizeA.Text = Convert.ToString(Rnd.Next(1, 7));
+                            cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
                             mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 7));
                         }           
                     }
@@ -277,12 +279,12 @@ namespace mcreator
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
-                        txtBodySizeB.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
+                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
                     }
                     else
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
                     }
 
                     if (this.Text == "MCreator - Mensch")
@@ -603,7 +605,7 @@ namespace mcreator
             mtxtIntelligence.Text   = lines[61];
             mtxtMagicalTalent.Text  = lines[63];
 
-            mtxtBodySizeA.Text      = lines[65];
+            cbBodySizeA.SelectedItem = lines[65];
             mtxtBodySizeB.Text      = lines[67];
 
             mtxtBodyWeightA.Text    = lines[69];
@@ -842,18 +844,19 @@ namespace mcreator
             {
                 txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
             }
-                        
+            
+            
             TimerCheck t = new TimerCheck();
-            if (t.BodySizeCheck(mtxtBodySizeA.Text, mtxtBodySizeB.Text, rbStats.Checked, this.Text))
+            if (t.BodySizeCheck(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, rbStats.Checked, this.Text))
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
-                    txtBodySizeB.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
+                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
                 }
                 else
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(mtxtBodySizeA.Text, mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
                 }
             }
 
@@ -868,7 +871,7 @@ namespace mcreator
                 {
                     txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
                 }
-            }   
-        }
+            }  
+        }     
     }
 }
