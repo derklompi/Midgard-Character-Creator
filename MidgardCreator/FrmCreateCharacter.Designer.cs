@@ -829,7 +829,6 @@ namespace mcreator
             // 
             // EnableTimer
             // 
-            this.EnableTimer.Enabled = true;
             this.EnableTimer.Interval = 300;
             this.EnableTimer.Tick += new System.EventHandler(this.Enable_Timer_Tick);
             // 

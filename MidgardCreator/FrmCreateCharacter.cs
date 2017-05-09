@@ -41,6 +41,7 @@ namespace mcreator
         private void FrmCreateCharacter_Load(object sender, EventArgs e)
         {
             CalculationTimer.Enabled = true;
+            EnableTimer.Enabled = true;
 
             // Customizing the form for the different races
             switch (this.Text)
@@ -718,8 +719,12 @@ namespace mcreator
                                "Warnung",
                                 MessageBoxButtons.OKCancel,
                                 MessageBoxIcon.Information) == DialogResult.OK)
+            {
                 CalculationTimer.Enabled = false;
-            this.Close();
+                EnableTimer.Enabled = false;
+                this.Close();
+            }
+                
         }
 
         //Automatic Calculatin during runtime
