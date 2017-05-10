@@ -102,7 +102,7 @@ namespace mcreator.Classes
             int txtBodySizeA = Convert.ToInt32(CharExport.txtBodySizeA.Text);
             int txtBodySizeB = Convert.ToInt32(CharExport.txtBodySizeB.Text);
             int mtxtBodySizeA = Convert.ToInt32(CharExport.cbBodySizeA.ToString());
-            int mtxtBodySizeB = Convert.ToInt32(CharExport.mtxtBodySizeB.Text);
+            int mtxtBodySizeB = Convert.ToInt32(CharExport.cbBodySizeB.ToString());
             
             int txtBodyWeightA = Convert.ToInt32(CharExport.txtBodyWeightA.Text);
             int txtBodyWeightB = Convert.ToInt32(CharExport.txtBodyWeightB.Text);

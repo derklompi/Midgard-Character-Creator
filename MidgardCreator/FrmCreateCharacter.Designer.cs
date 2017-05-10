@@ -117,7 +117,6 @@ namespace mcreator
             this.txtSelfControlC = new System.Windows.Forms.TextBox();
             this.txtBodyWeightA = new System.Windows.Forms.TextBox();
             this.txtSelfControlB = new System.Windows.Forms.TextBox();
-            this.mtxtBodySizeB = new System.Windows.Forms.MaskedTextBox();
             this.txtSelfControlA = new System.Windows.Forms.TextBox();
             this.lblDice20A = new System.Windows.Forms.Label();
             this.lblDice20B = new System.Windows.Forms.Label();
@@ -165,6 +164,7 @@ namespace mcreator
             this.rbStats = new System.Windows.Forms.RadioButton();
             this.CalculationTimer = new System.Windows.Forms.Timer(this.components);
             this.cbBodySizeA = new System.Windows.Forms.ComboBox();
+            this.cbBodySizeB = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblExport
@@ -649,12 +649,6 @@ namespace mcreator
             this.txtSelfControlB.Name = "txtSelfControlB";
             this.txtSelfControlB.ReadOnly = true;
             // 
-            // mtxtBodySizeB
-            // 
-            this.mtxtBodySizeB.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtBodySizeB, "mtxtBodySizeB");
-            this.mtxtBodySizeB.Name = "mtxtBodySizeB";
-            // 
             // txtSelfControlA
             // 
             resources.ApplyResources(this.txtSelfControlA, "txtSelfControlA");
@@ -908,11 +902,19 @@ namespace mcreator
             resources.ApplyResources(this.cbBodySizeA, "cbBodySizeA");
             this.cbBodySizeA.Name = "cbBodySizeA";
             // 
+            // cbBodySizeB
+            // 
+            this.cbBodySizeB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbBodySizeB.FormattingEnabled = true;
+            resources.ApplyResources(this.cbBodySizeB, "cbBodySizeB");
+            this.cbBodySizeB.Name = "cbBodySizeB";
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
+            this.Controls.Add(this.cbBodySizeB);
             this.Controls.Add(this.cbBodySizeA);
             this.Controls.Add(this.rbStats);
             this.Controls.Add(this.BtnExit);
@@ -1012,7 +1014,6 @@ namespace mcreator
             this.Controls.Add(this.txtSelfControlC);
             this.Controls.Add(this.txtBodyWeightA);
             this.Controls.Add(this.txtSelfControlB);
-            this.Controls.Add(this.mtxtBodySizeB);
             this.Controls.Add(this.txtSelfControlA);
             this.Controls.Add(this.lblDice20A);
             this.Controls.Add(this.lblDice20B);
@@ -1142,7 +1143,6 @@ namespace mcreator
         protected internal System.Windows.Forms.MaskedTextBox mtxtIntelligence;
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightC;
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightD;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtBodySizeB;
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightB;
         protected internal System.Windows.Forms.MaskedTextBox mtxtSelfControl;
         protected internal System.Windows.Forms.MaskedTextBox mtxtAppearance;
@@ -1190,5 +1190,6 @@ namespace mcreator
         protected internal System.Windows.Forms.TextBox txtHanded;
         private System.Windows.Forms.Timer CalculationTimer;
         protected internal System.Windows.Forms.ComboBox cbBodySizeA;
+        protected internal System.Windows.Forms.ComboBox cbBodySizeB;
     }
 }

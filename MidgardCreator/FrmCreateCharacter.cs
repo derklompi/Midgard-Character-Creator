@@ -93,7 +93,7 @@ namespace mcreator
                     txtBodySizeB.Visible = false;
                     lblBodySizeB.Visible = false;
                     lblDice20B.Visible = false;
-                    mtxtBodySizeB.Visible = false;
+                    cbBodySizeB.Visible = false;
                     //Bodyweight
                     txtBodyWeightB.Visible = false;
                     lblBodyWeightB.Visible = false;
@@ -104,7 +104,7 @@ namespace mcreator
                     lblBodyWeightA.Text = "kg";
                     // Change texts of textfields
                     //BodySize
-                    mtxtBodySizeB.Text = "0";
+                    cbBodySizeB.SelectedIndex = 0;
                     break;
                 case "MCreator - Gnom":
                     // Hide not needed fields
@@ -112,7 +112,7 @@ namespace mcreator
                     txtBodySizeB.Visible = false;
                     lblBodySizeB.Visible = false;
                     lblDice20B.Visible = false;
-                    mtxtBodySizeB.Visible = false;
+                    cbBodySizeB.Visible = false;
                     //Bodyweight
                     mtxtBodyWeightD.Visible = false;
                     txtBodyWeightB.Visible = false;
@@ -125,7 +125,7 @@ namespace mcreator
                     lblBodyWeightA.Text = "kg";
                     // Change texts of textfields
                     //BodySize
-                    mtxtBodySizeB.Text = "0";
+                    cbBodySizeB.SelectedIndex = 0;
                     //BodyWeight
                     mtxtBodyWeightD.Text = "0";
                     break;
@@ -188,19 +188,19 @@ namespace mcreator
                     if (this.Text == "MCreator - Mensch")
                     {
                         cbBodySizeA.SelectedIndex = Rnd.Next(1, 21);
-                        mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 21));
+                        cbBodySizeB.SelectedIndex = Rnd.Next(1, 21);
                     }
                     else
                     {
                         if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Gnom")
                         {
                             cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
-                            mtxtBodySizeB.Text = Convert.ToString(0);
+                            cbBodySizeB.SelectedIndex= 0;
                         }
                         if (this.Text == "MCreator - Elf" || this.Text == "MCreator - Halbling")
                         {
                             cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
-                            mtxtBodySizeB.Text = Convert.ToString(Rnd.Next(1, 7));
+                            cbBodySizeB.SelectedIndex = Rnd.Next(1, 7);
                         }           
                     }
 
@@ -279,12 +279,12 @@ namespace mcreator
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
-                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 150);
+                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 140);
                     }
                     else
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text));
                     }
 
                     if (this.Text == "MCreator - Mensch")
@@ -605,8 +605,8 @@ namespace mcreator
             mtxtIntelligence.Text   = lines[61];
             mtxtMagicalTalent.Text  = lines[63];
 
-            cbBodySizeA.SelectedItem = lines[65];
-            mtxtBodySizeB.Text      = lines[67];
+            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[65]);
+            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[67]);
 
             mtxtBodyWeightA.Text    = lines[69];
             mtxtBodyWeightB.Text    = lines[71];
@@ -847,16 +847,16 @@ namespace mcreator
             
             
             TimerCheck t = new TimerCheck();
-            if (t.BodySizeCheck(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, rbStats.Checked, this.Text))
+            if (t.BodySizeCheck(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), rbStats.Checked, this.Text))
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 150);
-                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text) + 140);
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 150);
+                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 140);
                 }
                 else
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), mtxtBodySizeB.Text, mtxtStrength.Text, this.Text));
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text));
                 }
             }
 
