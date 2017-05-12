@@ -55,7 +55,7 @@ namespace mcreator.Classes
             int mtxtConstitution = Convert.ToInt32(CharExport.mtxtConstitution.Text);
             int mtxtIntelligence = Convert.ToInt32(CharExport.mtxtIntelligence.Text);
             int mtxtMagicalTalent = Convert.ToInt32(CharExport.mtxtMagicalTalent.Text);
-            int mtxtAppearance = Convert.ToInt32(CharExport.mtxtAppearance.Text);
+            int mtxtAppearance = Convert.ToInt32(CharExport.cbAppearance.SelectedItem.ToString());
 
             int txtCharisma = Convert.ToInt32(CharExport.txtCharisma.Text);
             int txtWillpower = Convert.ToInt32(CharExport.txtWillpower.Text);
@@ -64,11 +64,11 @@ namespace mcreator.Classes
             int txtSelfControlC = Convert.ToInt32(CharExport.txtSelfControlC.Text);
             string txtInbornBuff = CharExport.txtInbornBuff.Text;
             string txtHanded = CharExport.txtHanded.Text;
-            int mtxtCharisma = Convert.ToInt32(CharExport.mtxtCharisma.Text);
-            int mtxtWillpower = Convert.ToInt32(CharExport.mtxtWillpower.Text);
-            int mtxtSelfControl = Convert.ToInt32(CharExport.mtxtSelfControl.Text);
-            int mtxtInbornBuff = Convert.ToInt32(CharExport.mtxtInbornBuff.Text);
-            int mtxtHanded = Convert.ToInt32(CharExport.mtxtHanded.Text);
+            int mtxtCharisma = Convert.ToInt32(CharExport.cbCharisma.ToString());
+            int mtxtWillpower = Convert.ToInt32(CharExport.cbWillpower.ToString());
+            int mtxtSelfControl = Convert.ToInt32(CharExport.cbSelfControl.ToString());
+            int mtxtInbornBuff = Convert.ToInt32(CharExport.cbInbornBuff.ToString());
+            int mtxtHanded = Convert.ToInt32(CharExport.cbHanded.ToString());
 
             int txtDamageBuff = Convert.ToInt32(CharExport.txtDamageBuff.Text);
             int txtStaminaBuff = Convert.ToInt32(CharExport.txtStaminaBuff.Text);

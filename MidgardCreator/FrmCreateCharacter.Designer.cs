@@ -44,7 +44,6 @@ namespace mcreator
             this.txtGhostMagicFighter = new System.Windows.Forms.TextBox();
             this.BtnReset = new System.Windows.Forms.Button();
             this.BtnGetRandomCharacter = new System.Windows.Forms.Button();
-            this.mtxtInbornBuff = new System.Windows.Forms.MaskedTextBox();
             this.txtInbornBuff = new System.Windows.Forms.TextBox();
             this.lblInbornBuff = new System.Windows.Forms.Label();
             this.lblAreaMagic = new System.Windows.Forms.Label();
@@ -130,14 +129,11 @@ namespace mcreator
             this.mtxtBodyWeightB = new System.Windows.Forms.MaskedTextBox();
             this.lblSelfControlA = new System.Windows.Forms.Label();
             this.txtBodySizeB = new System.Windows.Forms.TextBox();
-            this.mtxtSelfControl = new System.Windows.Forms.MaskedTextBox();
             this.txtHanded = new System.Windows.Forms.TextBox();
             this.lblDice20C = new System.Windows.Forms.Label();
             this.lblCharismaValues = new System.Windows.Forms.Label();
             this.lblHanded = new System.Windows.Forms.Label();
-            this.mtxtAppearance = new System.Windows.Forms.MaskedTextBox();
             this.lblBodySizeA = new System.Windows.Forms.Label();
-            this.mtxtHanded = new System.Windows.Forms.MaskedTextBox();
             this.lblAppearance = new System.Windows.Forms.Label();
             this.lblBodySizeB = new System.Windows.Forms.Label();
             this.lblBodyWeight = new System.Windows.Forms.Label();
@@ -145,8 +141,6 @@ namespace mcreator
             this.lblDice100C = new System.Windows.Forms.Label();
             this.mtxtBodyWeightA = new System.Windows.Forms.MaskedTextBox();
             this.lblWillpower = new System.Windows.Forms.Label();
-            this.mtxtCharisma = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtWillpower = new System.Windows.Forms.MaskedTextBox();
             this.lblCharisma = new System.Windows.Forms.Label();
             this.EnableTimer = new System.Windows.Forms.Timer(this.components);
             this.BtnExport = new System.Windows.Forms.Button();
@@ -165,6 +159,12 @@ namespace mcreator
             this.CalculationTimer = new System.Windows.Forms.Timer(this.components);
             this.cbBodySizeA = new System.Windows.Forms.ComboBox();
             this.cbBodySizeB = new System.Windows.Forms.ComboBox();
+            this.cbHanded = new System.Windows.Forms.ComboBox();
+            this.cbAppearance = new System.Windows.Forms.ComboBox();
+            this.cbCharisma = new System.Windows.Forms.ComboBox();
+            this.cbWillpower = new System.Windows.Forms.ComboBox();
+            this.cbSelfControl = new System.Windows.Forms.ComboBox();
+            this.cbInbornBuff = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblExport
@@ -250,12 +250,6 @@ namespace mcreator
             this.BtnGetRandomCharacter.Name = "BtnGetRandomCharacter";
             this.BtnGetRandomCharacter.UseVisualStyleBackColor = true;
             this.BtnGetRandomCharacter.Click += new System.EventHandler(this.BtnGetRandomCharacter_Click);
-            // 
-            // mtxtInbornBuff
-            // 
-            this.mtxtInbornBuff.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtInbornBuff, "mtxtInbornBuff");
-            this.mtxtInbornBuff.Name = "mtxtInbornBuff";
             // 
             // txtInbornBuff
             // 
@@ -718,12 +712,6 @@ namespace mcreator
             this.txtBodySizeB.Name = "txtBodySizeB";
             this.txtBodySizeB.ReadOnly = true;
             // 
-            // mtxtSelfControl
-            // 
-            this.mtxtSelfControl.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtSelfControl, "mtxtSelfControl");
-            this.mtxtSelfControl.Name = "mtxtSelfControl";
-            // 
             // txtHanded
             // 
             resources.ApplyResources(this.txtHanded, "txtHanded");
@@ -745,22 +733,10 @@ namespace mcreator
             resources.ApplyResources(this.lblHanded, "lblHanded");
             this.lblHanded.Name = "lblHanded";
             // 
-            // mtxtAppearance
-            // 
-            this.mtxtAppearance.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtAppearance, "mtxtAppearance");
-            this.mtxtAppearance.Name = "mtxtAppearance";
-            // 
             // lblBodySizeA
             // 
             resources.ApplyResources(this.lblBodySizeA, "lblBodySizeA");
             this.lblBodySizeA.Name = "lblBodySizeA";
-            // 
-            // mtxtHanded
-            // 
-            this.mtxtHanded.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtHanded, "mtxtHanded");
-            this.mtxtHanded.Name = "mtxtHanded";
             // 
             // lblAppearance
             // 
@@ -797,18 +773,6 @@ namespace mcreator
             // 
             resources.ApplyResources(this.lblWillpower, "lblWillpower");
             this.lblWillpower.Name = "lblWillpower";
-            // 
-            // mtxtCharisma
-            // 
-            this.mtxtCharisma.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtCharisma, "mtxtCharisma");
-            this.mtxtCharisma.Name = "mtxtCharisma";
-            // 
-            // mtxtWillpower
-            // 
-            this.mtxtWillpower.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtWillpower, "mtxtWillpower");
-            this.mtxtWillpower.Name = "mtxtWillpower";
             // 
             // lblCharisma
             // 
@@ -909,11 +873,591 @@ namespace mcreator
             resources.ApplyResources(this.cbBodySizeB, "cbBodySizeB");
             this.cbBodySizeB.Name = "cbBodySizeB";
             // 
+            // cbHanded
+            // 
+            this.cbHanded.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbHanded.FormattingEnabled = true;
+            this.cbHanded.Items.AddRange(new object[] {
+            resources.GetString("cbHanded.Items"),
+            resources.GetString("cbHanded.Items1"),
+            resources.GetString("cbHanded.Items2"),
+            resources.GetString("cbHanded.Items3"),
+            resources.GetString("cbHanded.Items4"),
+            resources.GetString("cbHanded.Items5"),
+            resources.GetString("cbHanded.Items6"),
+            resources.GetString("cbHanded.Items7"),
+            resources.GetString("cbHanded.Items8"),
+            resources.GetString("cbHanded.Items9"),
+            resources.GetString("cbHanded.Items10"),
+            resources.GetString("cbHanded.Items11"),
+            resources.GetString("cbHanded.Items12"),
+            resources.GetString("cbHanded.Items13"),
+            resources.GetString("cbHanded.Items14"),
+            resources.GetString("cbHanded.Items15"),
+            resources.GetString("cbHanded.Items16"),
+            resources.GetString("cbHanded.Items17"),
+            resources.GetString("cbHanded.Items18"),
+            resources.GetString("cbHanded.Items19"),
+            resources.GetString("cbHanded.Items20")});
+            resources.ApplyResources(this.cbHanded, "cbHanded");
+            this.cbHanded.Name = "cbHanded";
+            // 
+            // cbAppearance
+            // 
+            this.cbAppearance.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAppearance.FormattingEnabled = true;
+            this.cbAppearance.Items.AddRange(new object[] {
+            resources.GetString("cbAppearance.Items"),
+            resources.GetString("cbAppearance.Items1"),
+            resources.GetString("cbAppearance.Items2"),
+            resources.GetString("cbAppearance.Items3"),
+            resources.GetString("cbAppearance.Items4"),
+            resources.GetString("cbAppearance.Items5"),
+            resources.GetString("cbAppearance.Items6"),
+            resources.GetString("cbAppearance.Items7"),
+            resources.GetString("cbAppearance.Items8"),
+            resources.GetString("cbAppearance.Items9"),
+            resources.GetString("cbAppearance.Items10"),
+            resources.GetString("cbAppearance.Items11"),
+            resources.GetString("cbAppearance.Items12"),
+            resources.GetString("cbAppearance.Items13"),
+            resources.GetString("cbAppearance.Items14"),
+            resources.GetString("cbAppearance.Items15"),
+            resources.GetString("cbAppearance.Items16"),
+            resources.GetString("cbAppearance.Items17"),
+            resources.GetString("cbAppearance.Items18"),
+            resources.GetString("cbAppearance.Items19"),
+            resources.GetString("cbAppearance.Items20"),
+            resources.GetString("cbAppearance.Items21"),
+            resources.GetString("cbAppearance.Items22"),
+            resources.GetString("cbAppearance.Items23"),
+            resources.GetString("cbAppearance.Items24"),
+            resources.GetString("cbAppearance.Items25"),
+            resources.GetString("cbAppearance.Items26"),
+            resources.GetString("cbAppearance.Items27"),
+            resources.GetString("cbAppearance.Items28"),
+            resources.GetString("cbAppearance.Items29"),
+            resources.GetString("cbAppearance.Items30"),
+            resources.GetString("cbAppearance.Items31"),
+            resources.GetString("cbAppearance.Items32"),
+            resources.GetString("cbAppearance.Items33"),
+            resources.GetString("cbAppearance.Items34"),
+            resources.GetString("cbAppearance.Items35"),
+            resources.GetString("cbAppearance.Items36"),
+            resources.GetString("cbAppearance.Items37"),
+            resources.GetString("cbAppearance.Items38"),
+            resources.GetString("cbAppearance.Items39"),
+            resources.GetString("cbAppearance.Items40"),
+            resources.GetString("cbAppearance.Items41"),
+            resources.GetString("cbAppearance.Items42"),
+            resources.GetString("cbAppearance.Items43"),
+            resources.GetString("cbAppearance.Items44"),
+            resources.GetString("cbAppearance.Items45"),
+            resources.GetString("cbAppearance.Items46"),
+            resources.GetString("cbAppearance.Items47"),
+            resources.GetString("cbAppearance.Items48"),
+            resources.GetString("cbAppearance.Items49"),
+            resources.GetString("cbAppearance.Items50"),
+            resources.GetString("cbAppearance.Items51"),
+            resources.GetString("cbAppearance.Items52"),
+            resources.GetString("cbAppearance.Items53"),
+            resources.GetString("cbAppearance.Items54"),
+            resources.GetString("cbAppearance.Items55"),
+            resources.GetString("cbAppearance.Items56"),
+            resources.GetString("cbAppearance.Items57"),
+            resources.GetString("cbAppearance.Items58"),
+            resources.GetString("cbAppearance.Items59"),
+            resources.GetString("cbAppearance.Items60"),
+            resources.GetString("cbAppearance.Items61"),
+            resources.GetString("cbAppearance.Items62"),
+            resources.GetString("cbAppearance.Items63"),
+            resources.GetString("cbAppearance.Items64"),
+            resources.GetString("cbAppearance.Items65"),
+            resources.GetString("cbAppearance.Items66"),
+            resources.GetString("cbAppearance.Items67"),
+            resources.GetString("cbAppearance.Items68"),
+            resources.GetString("cbAppearance.Items69"),
+            resources.GetString("cbAppearance.Items70"),
+            resources.GetString("cbAppearance.Items71"),
+            resources.GetString("cbAppearance.Items72"),
+            resources.GetString("cbAppearance.Items73"),
+            resources.GetString("cbAppearance.Items74"),
+            resources.GetString("cbAppearance.Items75"),
+            resources.GetString("cbAppearance.Items76"),
+            resources.GetString("cbAppearance.Items77"),
+            resources.GetString("cbAppearance.Items78"),
+            resources.GetString("cbAppearance.Items79"),
+            resources.GetString("cbAppearance.Items80"),
+            resources.GetString("cbAppearance.Items81"),
+            resources.GetString("cbAppearance.Items82"),
+            resources.GetString("cbAppearance.Items83"),
+            resources.GetString("cbAppearance.Items84"),
+            resources.GetString("cbAppearance.Items85"),
+            resources.GetString("cbAppearance.Items86"),
+            resources.GetString("cbAppearance.Items87"),
+            resources.GetString("cbAppearance.Items88"),
+            resources.GetString("cbAppearance.Items89"),
+            resources.GetString("cbAppearance.Items90"),
+            resources.GetString("cbAppearance.Items91"),
+            resources.GetString("cbAppearance.Items92"),
+            resources.GetString("cbAppearance.Items93"),
+            resources.GetString("cbAppearance.Items94"),
+            resources.GetString("cbAppearance.Items95"),
+            resources.GetString("cbAppearance.Items96"),
+            resources.GetString("cbAppearance.Items97"),
+            resources.GetString("cbAppearance.Items98"),
+            resources.GetString("cbAppearance.Items99"),
+            resources.GetString("cbAppearance.Items100")});
+            resources.ApplyResources(this.cbAppearance, "cbAppearance");
+            this.cbAppearance.Name = "cbAppearance";
+            // 
+            // cbCharisma
+            // 
+            this.cbCharisma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCharisma.FormattingEnabled = true;
+            this.cbCharisma.Items.AddRange(new object[] {
+            resources.GetString("cbCharisma.Items"),
+            resources.GetString("cbCharisma.Items1"),
+            resources.GetString("cbCharisma.Items2"),
+            resources.GetString("cbCharisma.Items3"),
+            resources.GetString("cbCharisma.Items4"),
+            resources.GetString("cbCharisma.Items5"),
+            resources.GetString("cbCharisma.Items6"),
+            resources.GetString("cbCharisma.Items7"),
+            resources.GetString("cbCharisma.Items8"),
+            resources.GetString("cbCharisma.Items9"),
+            resources.GetString("cbCharisma.Items10"),
+            resources.GetString("cbCharisma.Items11"),
+            resources.GetString("cbCharisma.Items12"),
+            resources.GetString("cbCharisma.Items13"),
+            resources.GetString("cbCharisma.Items14"),
+            resources.GetString("cbCharisma.Items15"),
+            resources.GetString("cbCharisma.Items16"),
+            resources.GetString("cbCharisma.Items17"),
+            resources.GetString("cbCharisma.Items18"),
+            resources.GetString("cbCharisma.Items19"),
+            resources.GetString("cbCharisma.Items20"),
+            resources.GetString("cbCharisma.Items21"),
+            resources.GetString("cbCharisma.Items22"),
+            resources.GetString("cbCharisma.Items23"),
+            resources.GetString("cbCharisma.Items24"),
+            resources.GetString("cbCharisma.Items25"),
+            resources.GetString("cbCharisma.Items26"),
+            resources.GetString("cbCharisma.Items27"),
+            resources.GetString("cbCharisma.Items28"),
+            resources.GetString("cbCharisma.Items29"),
+            resources.GetString("cbCharisma.Items30"),
+            resources.GetString("cbCharisma.Items31"),
+            resources.GetString("cbCharisma.Items32"),
+            resources.GetString("cbCharisma.Items33"),
+            resources.GetString("cbCharisma.Items34"),
+            resources.GetString("cbCharisma.Items35"),
+            resources.GetString("cbCharisma.Items36"),
+            resources.GetString("cbCharisma.Items37"),
+            resources.GetString("cbCharisma.Items38"),
+            resources.GetString("cbCharisma.Items39"),
+            resources.GetString("cbCharisma.Items40"),
+            resources.GetString("cbCharisma.Items41"),
+            resources.GetString("cbCharisma.Items42"),
+            resources.GetString("cbCharisma.Items43"),
+            resources.GetString("cbCharisma.Items44"),
+            resources.GetString("cbCharisma.Items45"),
+            resources.GetString("cbCharisma.Items46"),
+            resources.GetString("cbCharisma.Items47"),
+            resources.GetString("cbCharisma.Items48"),
+            resources.GetString("cbCharisma.Items49"),
+            resources.GetString("cbCharisma.Items50"),
+            resources.GetString("cbCharisma.Items51"),
+            resources.GetString("cbCharisma.Items52"),
+            resources.GetString("cbCharisma.Items53"),
+            resources.GetString("cbCharisma.Items54"),
+            resources.GetString("cbCharisma.Items55"),
+            resources.GetString("cbCharisma.Items56"),
+            resources.GetString("cbCharisma.Items57"),
+            resources.GetString("cbCharisma.Items58"),
+            resources.GetString("cbCharisma.Items59"),
+            resources.GetString("cbCharisma.Items60"),
+            resources.GetString("cbCharisma.Items61"),
+            resources.GetString("cbCharisma.Items62"),
+            resources.GetString("cbCharisma.Items63"),
+            resources.GetString("cbCharisma.Items64"),
+            resources.GetString("cbCharisma.Items65"),
+            resources.GetString("cbCharisma.Items66"),
+            resources.GetString("cbCharisma.Items67"),
+            resources.GetString("cbCharisma.Items68"),
+            resources.GetString("cbCharisma.Items69"),
+            resources.GetString("cbCharisma.Items70"),
+            resources.GetString("cbCharisma.Items71"),
+            resources.GetString("cbCharisma.Items72"),
+            resources.GetString("cbCharisma.Items73"),
+            resources.GetString("cbCharisma.Items74"),
+            resources.GetString("cbCharisma.Items75"),
+            resources.GetString("cbCharisma.Items76"),
+            resources.GetString("cbCharisma.Items77"),
+            resources.GetString("cbCharisma.Items78"),
+            resources.GetString("cbCharisma.Items79"),
+            resources.GetString("cbCharisma.Items80"),
+            resources.GetString("cbCharisma.Items81"),
+            resources.GetString("cbCharisma.Items82"),
+            resources.GetString("cbCharisma.Items83"),
+            resources.GetString("cbCharisma.Items84"),
+            resources.GetString("cbCharisma.Items85"),
+            resources.GetString("cbCharisma.Items86"),
+            resources.GetString("cbCharisma.Items87"),
+            resources.GetString("cbCharisma.Items88"),
+            resources.GetString("cbCharisma.Items89"),
+            resources.GetString("cbCharisma.Items90"),
+            resources.GetString("cbCharisma.Items91"),
+            resources.GetString("cbCharisma.Items92"),
+            resources.GetString("cbCharisma.Items93"),
+            resources.GetString("cbCharisma.Items94"),
+            resources.GetString("cbCharisma.Items95"),
+            resources.GetString("cbCharisma.Items96"),
+            resources.GetString("cbCharisma.Items97"),
+            resources.GetString("cbCharisma.Items98"),
+            resources.GetString("cbCharisma.Items99"),
+            resources.GetString("cbCharisma.Items100")});
+            resources.ApplyResources(this.cbCharisma, "cbCharisma");
+            this.cbCharisma.Name = "cbCharisma";
+            // 
+            // cbWillpower
+            // 
+            this.cbWillpower.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbWillpower.FormattingEnabled = true;
+            this.cbWillpower.Items.AddRange(new object[] {
+            resources.GetString("cbWillpower.Items"),
+            resources.GetString("cbWillpower.Items1"),
+            resources.GetString("cbWillpower.Items2"),
+            resources.GetString("cbWillpower.Items3"),
+            resources.GetString("cbWillpower.Items4"),
+            resources.GetString("cbWillpower.Items5"),
+            resources.GetString("cbWillpower.Items6"),
+            resources.GetString("cbWillpower.Items7"),
+            resources.GetString("cbWillpower.Items8"),
+            resources.GetString("cbWillpower.Items9"),
+            resources.GetString("cbWillpower.Items10"),
+            resources.GetString("cbWillpower.Items11"),
+            resources.GetString("cbWillpower.Items12"),
+            resources.GetString("cbWillpower.Items13"),
+            resources.GetString("cbWillpower.Items14"),
+            resources.GetString("cbWillpower.Items15"),
+            resources.GetString("cbWillpower.Items16"),
+            resources.GetString("cbWillpower.Items17"),
+            resources.GetString("cbWillpower.Items18"),
+            resources.GetString("cbWillpower.Items19"),
+            resources.GetString("cbWillpower.Items20"),
+            resources.GetString("cbWillpower.Items21"),
+            resources.GetString("cbWillpower.Items22"),
+            resources.GetString("cbWillpower.Items23"),
+            resources.GetString("cbWillpower.Items24"),
+            resources.GetString("cbWillpower.Items25"),
+            resources.GetString("cbWillpower.Items26"),
+            resources.GetString("cbWillpower.Items27"),
+            resources.GetString("cbWillpower.Items28"),
+            resources.GetString("cbWillpower.Items29"),
+            resources.GetString("cbWillpower.Items30"),
+            resources.GetString("cbWillpower.Items31"),
+            resources.GetString("cbWillpower.Items32"),
+            resources.GetString("cbWillpower.Items33"),
+            resources.GetString("cbWillpower.Items34"),
+            resources.GetString("cbWillpower.Items35"),
+            resources.GetString("cbWillpower.Items36"),
+            resources.GetString("cbWillpower.Items37"),
+            resources.GetString("cbWillpower.Items38"),
+            resources.GetString("cbWillpower.Items39"),
+            resources.GetString("cbWillpower.Items40"),
+            resources.GetString("cbWillpower.Items41"),
+            resources.GetString("cbWillpower.Items42"),
+            resources.GetString("cbWillpower.Items43"),
+            resources.GetString("cbWillpower.Items44"),
+            resources.GetString("cbWillpower.Items45"),
+            resources.GetString("cbWillpower.Items46"),
+            resources.GetString("cbWillpower.Items47"),
+            resources.GetString("cbWillpower.Items48"),
+            resources.GetString("cbWillpower.Items49"),
+            resources.GetString("cbWillpower.Items50"),
+            resources.GetString("cbWillpower.Items51"),
+            resources.GetString("cbWillpower.Items52"),
+            resources.GetString("cbWillpower.Items53"),
+            resources.GetString("cbWillpower.Items54"),
+            resources.GetString("cbWillpower.Items55"),
+            resources.GetString("cbWillpower.Items56"),
+            resources.GetString("cbWillpower.Items57"),
+            resources.GetString("cbWillpower.Items58"),
+            resources.GetString("cbWillpower.Items59"),
+            resources.GetString("cbWillpower.Items60"),
+            resources.GetString("cbWillpower.Items61"),
+            resources.GetString("cbWillpower.Items62"),
+            resources.GetString("cbWillpower.Items63"),
+            resources.GetString("cbWillpower.Items64"),
+            resources.GetString("cbWillpower.Items65"),
+            resources.GetString("cbWillpower.Items66"),
+            resources.GetString("cbWillpower.Items67"),
+            resources.GetString("cbWillpower.Items68"),
+            resources.GetString("cbWillpower.Items69"),
+            resources.GetString("cbWillpower.Items70"),
+            resources.GetString("cbWillpower.Items71"),
+            resources.GetString("cbWillpower.Items72"),
+            resources.GetString("cbWillpower.Items73"),
+            resources.GetString("cbWillpower.Items74"),
+            resources.GetString("cbWillpower.Items75"),
+            resources.GetString("cbWillpower.Items76"),
+            resources.GetString("cbWillpower.Items77"),
+            resources.GetString("cbWillpower.Items78"),
+            resources.GetString("cbWillpower.Items79"),
+            resources.GetString("cbWillpower.Items80"),
+            resources.GetString("cbWillpower.Items81"),
+            resources.GetString("cbWillpower.Items82"),
+            resources.GetString("cbWillpower.Items83"),
+            resources.GetString("cbWillpower.Items84"),
+            resources.GetString("cbWillpower.Items85"),
+            resources.GetString("cbWillpower.Items86"),
+            resources.GetString("cbWillpower.Items87"),
+            resources.GetString("cbWillpower.Items88"),
+            resources.GetString("cbWillpower.Items89"),
+            resources.GetString("cbWillpower.Items90"),
+            resources.GetString("cbWillpower.Items91"),
+            resources.GetString("cbWillpower.Items92"),
+            resources.GetString("cbWillpower.Items93"),
+            resources.GetString("cbWillpower.Items94"),
+            resources.GetString("cbWillpower.Items95"),
+            resources.GetString("cbWillpower.Items96"),
+            resources.GetString("cbWillpower.Items97"),
+            resources.GetString("cbWillpower.Items98"),
+            resources.GetString("cbWillpower.Items99"),
+            resources.GetString("cbWillpower.Items100")});
+            resources.ApplyResources(this.cbWillpower, "cbWillpower");
+            this.cbWillpower.Name = "cbWillpower";
+            // 
+            // cbSelfControl
+            // 
+            this.cbSelfControl.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSelfControl.FormattingEnabled = true;
+            this.cbSelfControl.Items.AddRange(new object[] {
+            resources.GetString("cbSelfControl.Items"),
+            resources.GetString("cbSelfControl.Items1"),
+            resources.GetString("cbSelfControl.Items2"),
+            resources.GetString("cbSelfControl.Items3"),
+            resources.GetString("cbSelfControl.Items4"),
+            resources.GetString("cbSelfControl.Items5"),
+            resources.GetString("cbSelfControl.Items6"),
+            resources.GetString("cbSelfControl.Items7"),
+            resources.GetString("cbSelfControl.Items8"),
+            resources.GetString("cbSelfControl.Items9"),
+            resources.GetString("cbSelfControl.Items10"),
+            resources.GetString("cbSelfControl.Items11"),
+            resources.GetString("cbSelfControl.Items12"),
+            resources.GetString("cbSelfControl.Items13"),
+            resources.GetString("cbSelfControl.Items14"),
+            resources.GetString("cbSelfControl.Items15"),
+            resources.GetString("cbSelfControl.Items16"),
+            resources.GetString("cbSelfControl.Items17"),
+            resources.GetString("cbSelfControl.Items18"),
+            resources.GetString("cbSelfControl.Items19"),
+            resources.GetString("cbSelfControl.Items20"),
+            resources.GetString("cbSelfControl.Items21"),
+            resources.GetString("cbSelfControl.Items22"),
+            resources.GetString("cbSelfControl.Items23"),
+            resources.GetString("cbSelfControl.Items24"),
+            resources.GetString("cbSelfControl.Items25"),
+            resources.GetString("cbSelfControl.Items26"),
+            resources.GetString("cbSelfControl.Items27"),
+            resources.GetString("cbSelfControl.Items28"),
+            resources.GetString("cbSelfControl.Items29"),
+            resources.GetString("cbSelfControl.Items30"),
+            resources.GetString("cbSelfControl.Items31"),
+            resources.GetString("cbSelfControl.Items32"),
+            resources.GetString("cbSelfControl.Items33"),
+            resources.GetString("cbSelfControl.Items34"),
+            resources.GetString("cbSelfControl.Items35"),
+            resources.GetString("cbSelfControl.Items36"),
+            resources.GetString("cbSelfControl.Items37"),
+            resources.GetString("cbSelfControl.Items38"),
+            resources.GetString("cbSelfControl.Items39"),
+            resources.GetString("cbSelfControl.Items40"),
+            resources.GetString("cbSelfControl.Items41"),
+            resources.GetString("cbSelfControl.Items42"),
+            resources.GetString("cbSelfControl.Items43"),
+            resources.GetString("cbSelfControl.Items44"),
+            resources.GetString("cbSelfControl.Items45"),
+            resources.GetString("cbSelfControl.Items46"),
+            resources.GetString("cbSelfControl.Items47"),
+            resources.GetString("cbSelfControl.Items48"),
+            resources.GetString("cbSelfControl.Items49"),
+            resources.GetString("cbSelfControl.Items50"),
+            resources.GetString("cbSelfControl.Items51"),
+            resources.GetString("cbSelfControl.Items52"),
+            resources.GetString("cbSelfControl.Items53"),
+            resources.GetString("cbSelfControl.Items54"),
+            resources.GetString("cbSelfControl.Items55"),
+            resources.GetString("cbSelfControl.Items56"),
+            resources.GetString("cbSelfControl.Items57"),
+            resources.GetString("cbSelfControl.Items58"),
+            resources.GetString("cbSelfControl.Items59"),
+            resources.GetString("cbSelfControl.Items60"),
+            resources.GetString("cbSelfControl.Items61"),
+            resources.GetString("cbSelfControl.Items62"),
+            resources.GetString("cbSelfControl.Items63"),
+            resources.GetString("cbSelfControl.Items64"),
+            resources.GetString("cbSelfControl.Items65"),
+            resources.GetString("cbSelfControl.Items66"),
+            resources.GetString("cbSelfControl.Items67"),
+            resources.GetString("cbSelfControl.Items68"),
+            resources.GetString("cbSelfControl.Items69"),
+            resources.GetString("cbSelfControl.Items70"),
+            resources.GetString("cbSelfControl.Items71"),
+            resources.GetString("cbSelfControl.Items72"),
+            resources.GetString("cbSelfControl.Items73"),
+            resources.GetString("cbSelfControl.Items74"),
+            resources.GetString("cbSelfControl.Items75"),
+            resources.GetString("cbSelfControl.Items76"),
+            resources.GetString("cbSelfControl.Items77"),
+            resources.GetString("cbSelfControl.Items78"),
+            resources.GetString("cbSelfControl.Items79"),
+            resources.GetString("cbSelfControl.Items80"),
+            resources.GetString("cbSelfControl.Items81"),
+            resources.GetString("cbSelfControl.Items82"),
+            resources.GetString("cbSelfControl.Items83"),
+            resources.GetString("cbSelfControl.Items84"),
+            resources.GetString("cbSelfControl.Items85"),
+            resources.GetString("cbSelfControl.Items86"),
+            resources.GetString("cbSelfControl.Items87"),
+            resources.GetString("cbSelfControl.Items88"),
+            resources.GetString("cbSelfControl.Items89"),
+            resources.GetString("cbSelfControl.Items90"),
+            resources.GetString("cbSelfControl.Items91"),
+            resources.GetString("cbSelfControl.Items92"),
+            resources.GetString("cbSelfControl.Items93"),
+            resources.GetString("cbSelfControl.Items94"),
+            resources.GetString("cbSelfControl.Items95"),
+            resources.GetString("cbSelfControl.Items96"),
+            resources.GetString("cbSelfControl.Items97"),
+            resources.GetString("cbSelfControl.Items98"),
+            resources.GetString("cbSelfControl.Items99"),
+            resources.GetString("cbSelfControl.Items100")});
+            resources.ApplyResources(this.cbSelfControl, "cbSelfControl");
+            this.cbSelfControl.Name = "cbSelfControl";
+            // 
+            // cbInbornBuff
+            // 
+            this.cbInbornBuff.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbInbornBuff.FormattingEnabled = true;
+            this.cbInbornBuff.Items.AddRange(new object[] {
+            resources.GetString("cbInbornBuff.Items"),
+            resources.GetString("cbInbornBuff.Items1"),
+            resources.GetString("cbInbornBuff.Items2"),
+            resources.GetString("cbInbornBuff.Items3"),
+            resources.GetString("cbInbornBuff.Items4"),
+            resources.GetString("cbInbornBuff.Items5"),
+            resources.GetString("cbInbornBuff.Items6"),
+            resources.GetString("cbInbornBuff.Items7"),
+            resources.GetString("cbInbornBuff.Items8"),
+            resources.GetString("cbInbornBuff.Items9"),
+            resources.GetString("cbInbornBuff.Items10"),
+            resources.GetString("cbInbornBuff.Items11"),
+            resources.GetString("cbInbornBuff.Items12"),
+            resources.GetString("cbInbornBuff.Items13"),
+            resources.GetString("cbInbornBuff.Items14"),
+            resources.GetString("cbInbornBuff.Items15"),
+            resources.GetString("cbInbornBuff.Items16"),
+            resources.GetString("cbInbornBuff.Items17"),
+            resources.GetString("cbInbornBuff.Items18"),
+            resources.GetString("cbInbornBuff.Items19"),
+            resources.GetString("cbInbornBuff.Items20"),
+            resources.GetString("cbInbornBuff.Items21"),
+            resources.GetString("cbInbornBuff.Items22"),
+            resources.GetString("cbInbornBuff.Items23"),
+            resources.GetString("cbInbornBuff.Items24"),
+            resources.GetString("cbInbornBuff.Items25"),
+            resources.GetString("cbInbornBuff.Items26"),
+            resources.GetString("cbInbornBuff.Items27"),
+            resources.GetString("cbInbornBuff.Items28"),
+            resources.GetString("cbInbornBuff.Items29"),
+            resources.GetString("cbInbornBuff.Items30"),
+            resources.GetString("cbInbornBuff.Items31"),
+            resources.GetString("cbInbornBuff.Items32"),
+            resources.GetString("cbInbornBuff.Items33"),
+            resources.GetString("cbInbornBuff.Items34"),
+            resources.GetString("cbInbornBuff.Items35"),
+            resources.GetString("cbInbornBuff.Items36"),
+            resources.GetString("cbInbornBuff.Items37"),
+            resources.GetString("cbInbornBuff.Items38"),
+            resources.GetString("cbInbornBuff.Items39"),
+            resources.GetString("cbInbornBuff.Items40"),
+            resources.GetString("cbInbornBuff.Items41"),
+            resources.GetString("cbInbornBuff.Items42"),
+            resources.GetString("cbInbornBuff.Items43"),
+            resources.GetString("cbInbornBuff.Items44"),
+            resources.GetString("cbInbornBuff.Items45"),
+            resources.GetString("cbInbornBuff.Items46"),
+            resources.GetString("cbInbornBuff.Items47"),
+            resources.GetString("cbInbornBuff.Items48"),
+            resources.GetString("cbInbornBuff.Items49"),
+            resources.GetString("cbInbornBuff.Items50"),
+            resources.GetString("cbInbornBuff.Items51"),
+            resources.GetString("cbInbornBuff.Items52"),
+            resources.GetString("cbInbornBuff.Items53"),
+            resources.GetString("cbInbornBuff.Items54"),
+            resources.GetString("cbInbornBuff.Items55"),
+            resources.GetString("cbInbornBuff.Items56"),
+            resources.GetString("cbInbornBuff.Items57"),
+            resources.GetString("cbInbornBuff.Items58"),
+            resources.GetString("cbInbornBuff.Items59"),
+            resources.GetString("cbInbornBuff.Items60"),
+            resources.GetString("cbInbornBuff.Items61"),
+            resources.GetString("cbInbornBuff.Items62"),
+            resources.GetString("cbInbornBuff.Items63"),
+            resources.GetString("cbInbornBuff.Items64"),
+            resources.GetString("cbInbornBuff.Items65"),
+            resources.GetString("cbInbornBuff.Items66"),
+            resources.GetString("cbInbornBuff.Items67"),
+            resources.GetString("cbInbornBuff.Items68"),
+            resources.GetString("cbInbornBuff.Items69"),
+            resources.GetString("cbInbornBuff.Items70"),
+            resources.GetString("cbInbornBuff.Items71"),
+            resources.GetString("cbInbornBuff.Items72"),
+            resources.GetString("cbInbornBuff.Items73"),
+            resources.GetString("cbInbornBuff.Items74"),
+            resources.GetString("cbInbornBuff.Items75"),
+            resources.GetString("cbInbornBuff.Items76"),
+            resources.GetString("cbInbornBuff.Items77"),
+            resources.GetString("cbInbornBuff.Items78"),
+            resources.GetString("cbInbornBuff.Items79"),
+            resources.GetString("cbInbornBuff.Items80"),
+            resources.GetString("cbInbornBuff.Items81"),
+            resources.GetString("cbInbornBuff.Items82"),
+            resources.GetString("cbInbornBuff.Items83"),
+            resources.GetString("cbInbornBuff.Items84"),
+            resources.GetString("cbInbornBuff.Items85"),
+            resources.GetString("cbInbornBuff.Items86"),
+            resources.GetString("cbInbornBuff.Items87"),
+            resources.GetString("cbInbornBuff.Items88"),
+            resources.GetString("cbInbornBuff.Items89"),
+            resources.GetString("cbInbornBuff.Items90"),
+            resources.GetString("cbInbornBuff.Items91"),
+            resources.GetString("cbInbornBuff.Items92"),
+            resources.GetString("cbInbornBuff.Items93"),
+            resources.GetString("cbInbornBuff.Items94"),
+            resources.GetString("cbInbornBuff.Items95"),
+            resources.GetString("cbInbornBuff.Items96"),
+            resources.GetString("cbInbornBuff.Items97"),
+            resources.GetString("cbInbornBuff.Items98"),
+            resources.GetString("cbInbornBuff.Items99"),
+            resources.GetString("cbInbornBuff.Items100")});
+            resources.ApplyResources(this.cbInbornBuff, "cbInbornBuff");
+            this.cbInbornBuff.Name = "cbInbornBuff";
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
+            this.Controls.Add(this.cbInbornBuff);
+            this.Controls.Add(this.cbSelfControl);
+            this.Controls.Add(this.cbWillpower);
+            this.Controls.Add(this.cbCharisma);
+            this.Controls.Add(this.cbAppearance);
+            this.Controls.Add(this.cbHanded);
             this.Controls.Add(this.cbBodySizeB);
             this.Controls.Add(this.cbBodySizeA);
             this.Controls.Add(this.rbStats);
@@ -941,7 +1485,6 @@ namespace mcreator
             this.Controls.Add(this.txtGhostMagicFighter);
             this.Controls.Add(this.BtnReset);
             this.Controls.Add(this.BtnGetRandomCharacter);
-            this.Controls.Add(this.mtxtInbornBuff);
             this.Controls.Add(this.txtInbornBuff);
             this.Controls.Add(this.lblInbornBuff);
             this.Controls.Add(this.lblAreaMagic);
@@ -1027,14 +1570,11 @@ namespace mcreator
             this.Controls.Add(this.mtxtBodyWeightB);
             this.Controls.Add(this.lblSelfControlA);
             this.Controls.Add(this.txtBodySizeB);
-            this.Controls.Add(this.mtxtSelfControl);
             this.Controls.Add(this.txtHanded);
             this.Controls.Add(this.lblDice20C);
             this.Controls.Add(this.lblCharismaValues);
             this.Controls.Add(this.lblHanded);
-            this.Controls.Add(this.mtxtAppearance);
             this.Controls.Add(this.lblBodySizeA);
-            this.Controls.Add(this.mtxtHanded);
             this.Controls.Add(this.lblAppearance);
             this.Controls.Add(this.lblBodySizeB);
             this.Controls.Add(this.lblBodyWeight);
@@ -1042,8 +1582,6 @@ namespace mcreator
             this.Controls.Add(this.lblDice100C);
             this.Controls.Add(this.mtxtBodyWeightA);
             this.Controls.Add(this.lblWillpower);
-            this.Controls.Add(this.mtxtCharisma);
-            this.Controls.Add(this.mtxtWillpower);
             this.Controls.Add(this.lblCharisma);
             this.MaximizeBox = false;
             this.Name = "FrmCreateCharacter";
@@ -1131,7 +1669,6 @@ namespace mcreator
         private System.Windows.Forms.Label lblStatCheck;
         private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.RadioButton rbStats;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtInbornBuff;
         protected internal System.Windows.Forms.MaskedTextBox mtxtDexterity;
         protected internal System.Windows.Forms.MaskedTextBox mtxtAgility;
         protected internal System.Windows.Forms.MaskedTextBox mtxtLifePoints;
@@ -1144,12 +1681,7 @@ namespace mcreator
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightC;
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightD;
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightB;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtSelfControl;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtAppearance;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtHanded;
         protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightA;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtCharisma;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtWillpower;
         protected internal System.Windows.Forms.TextBox txtExportPath;
         protected internal System.Windows.Forms.TextBox txtCharacterName;
         protected internal System.Windows.Forms.TextBox txtImportFile;
@@ -1191,5 +1723,11 @@ namespace mcreator
         private System.Windows.Forms.Timer CalculationTimer;
         protected internal System.Windows.Forms.ComboBox cbBodySizeA;
         protected internal System.Windows.Forms.ComboBox cbBodySizeB;
+        protected internal System.Windows.Forms.ComboBox cbHanded;
+        protected internal System.Windows.Forms.ComboBox cbAppearance;
+        protected internal System.Windows.Forms.ComboBox cbCharisma;
+        protected internal System.Windows.Forms.ComboBox cbWillpower;
+        protected internal System.Windows.Forms.ComboBox cbSelfControl;
+        protected internal System.Windows.Forms.ComboBox cbInbornBuff;
     }
 }

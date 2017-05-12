@@ -52,7 +52,7 @@ namespace mcreator
                 case "MCreator - Halbling":
                     // Hide not needed fields
                     // Handed
-                    mtxtHanded.Visible = false;
+                    cbHanded.Visible = false;
                     lblDice20C.Visible = false;
                     // Bodysize
                     mtxtBodyWeightD.Visible = false;
@@ -195,7 +195,7 @@ namespace mcreator
                         if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Gnom")
                         {
                             cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodySizeB.SelectedIndex= 0;
+                            cbBodySizeB.SelectedIndex = 0;
                         }
                         if (this.Text == "MCreator - Elf" || this.Text == "MCreator - Halbling")
                         {
@@ -229,18 +229,18 @@ namespace mcreator
                         }
                     }
                                        
-                    mtxtAppearance.Text     = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtCharisma.Text       = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtWillpower.Text      = Convert.ToString(Rnd.Next(1, 101));
-                    mtxtSelfControl.Text    = Convert.ToString(Rnd.Next(1, 100));
-                    mtxtHanded.Text         = Convert.ToString(Rnd.Next(1, 21));
+                    cbAppearance.SelectedIndex     = Rnd.Next(1, 101);
+                    cbCharisma.SelectedIndex = Rnd.Next(1, 101);
+                    cbWillpower.SelectedIndex = Rnd.Next(1, 101);
+                    cbSelfControl.SelectedIndex = Rnd.Next(1, 101);
+                    cbHanded.SelectedIndex  = Rnd.Next(1, 21);
 
                     mtxtAdventurePointsA.Text   = Convert.ToString(Rnd.Next(1, 7));
                     mtxtAdventurePointsB.Text   = Convert.ToString(Rnd.Next(1, 7));
                     mtxtAdventurePointsC.Text   = Convert.ToString(Rnd.Next(1, 7));
                     mtxtLifePoints.Text         = Convert.ToString(Rnd.Next(1, 7));
 
-                    mtxtInbornBuff.Text = Convert.ToString(Rnd.Next(1, 101));                
+                    cbInbornBuff.SelectedIndex = Rnd.Next(1, 101);                
 
                     //Calculatin the Damage/DefenseBuff
                     int DamageBuff  = 0;
@@ -299,16 +299,16 @@ namespace mcreator
 
                     //Calling the CalculationFunctions    
 
-                    txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));
-                    txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));
-                    txtSelfControlA.Text = Convert.ToString(c.SelfControlA(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
-                    txtSelfControlB.Text = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
-                    txtSelfControlC.Text = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
+                    txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), mtxtIntelligence.Text, cbAppearance.SelectedItem.ToString()));
+                    txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), mtxtIntelligence.Text, mtxtConstitution.Text));
+                    txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
+                    txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
+                    txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
                     txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
                     txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
                     txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
                     txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
-                    txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
+                    txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
 
                     if (this.Text == "MCreator - Halfling")
                     {
@@ -316,7 +316,7 @@ namespace mcreator
                     }
                     else
                     {
-                        txtHanded.Text = c.Handed(mtxtHanded.Text);
+                        txtHanded.Text = c.Handed(cbHanded.SelectedItem.ToString());
                     }
                     /*
                     int mtBuffGhost_Body_MagicValue = 0;
@@ -411,9 +411,9 @@ namespace mcreator
                     txtAreaMagicMagician.Text   = "";
                     txtAreaMagicNormal.Text     = "";
 
-                    mtxtCharisma.Enabled    = false;
-                    mtxtWillpower.Enabled   = false;
-                    mtxtSelfControl.Enabled = false;
+                    cbCharisma.Enabled    = false;
+                    cbWillpower.Enabled   = false;
+                    cbSelfControl.Enabled = false;
 
                     mtxtAdventurePointsA.Enabled = false;
                     mtxtAdventurePointsB.Enabled = false;
@@ -490,19 +490,19 @@ namespace mcreator
                     txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
 
-                    if (mtxtAppearance.Text != "")
+                    if (cbAppearance.SelectedItem.ToString() != "")
                     {
-                        mtxtCharisma.Enabled = true;
+                        cbCharisma.Enabled = true;
                     }
 
                     if(mtxtIntelligence.Text != "" && mtxtConstitution.Text != "")
                     {
-                        mtxtWillpower.Enabled = true;
+                        cbWillpower.Enabled = true;
                     }
 
                     if(txtWillpower.Text != "" && mtxtIntelligence.Text != "")
                     {
-                        mtxtSelfControl.Enabled = true;
+                        cbSelfControl.Enabled = true;
                     }                   
 
                     if(txtStaminaBuff.Text != "")
@@ -547,9 +547,9 @@ namespace mcreator
                 txtAreaMagicMagician.Text   = "";
                 txtAreaMagicNormal.Text     = "";
 
-                mtxtCharisma.Enabled    = false;
-                mtxtWillpower.Enabled   = false;
-                mtxtSelfControl.Enabled = false;
+                cbCharisma.Enabled    = false;
+                cbWillpower.Enabled   = false;
+                cbSelfControl.Enabled = false;
 
                 mtxtAdventurePointsA.Enabled = false;
                 mtxtAdventurePointsB.Enabled = false;
@@ -605,21 +605,21 @@ namespace mcreator
             mtxtIntelligence.Text   = lines[61];
             mtxtMagicalTalent.Text  = lines[63];
 
-            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[65]);
-            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[67]);
+            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[65]) - 1;
+            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[67]) - 1;
 
             mtxtBodyWeightA.Text    = lines[69];
             mtxtBodyWeightB.Text    = lines[71];
             mtxtBodyWeightC.Text    = lines[73];
             mtxtBodyWeightD.Text    = lines[75];
 
-            mtxtAppearance.Text     = lines[78];
-            mtxtCharisma.Text       = lines[80];
-            mtxtWillpower.Text      = lines[82];
-            mtxtSelfControl.Text    = lines[84];
+            cbAppearance.SelectedIndex = Convert.ToInt32(lines[78]) - 1;
+            cbCharisma.SelectedIndex = Convert.ToInt32(lines[80]) - 1;
+            cbWillpower.SelectedIndex = Convert.ToInt32(lines[82]);
+            cbSelfControl.SelectedIndex = Convert.ToInt32(lines[84]) - 1;
 
-            mtxtInbornBuff.Text     = lines[86];
-            mtxtHanded.Text         = lines[88];
+            cbInbornBuff.SelectedIndex = Convert.ToInt32(lines[86]) - 1;
+            cbHanded.SelectedIndex  = Convert.ToInt32(lines[88]) - 1;
 
             mtxtAdventurePointsA.Text = lines[90];
             mtxtAdventurePointsB.Text = lines[92];
@@ -810,23 +810,23 @@ namespace mcreator
                 }
             }
             
-            if (mtxtCharisma.Text !="")
+            if (cbCharisma.SelectedItem.ToString() !="")
             {
-                txtCharisma.Text = Convert.ToString(c.Charisma(mtxtCharisma.Text, mtxtIntelligence.Text, mtxtAppearance.Text));           
+                txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), mtxtIntelligence.Text, cbAppearance.SelectedItem.ToString()));           
             }
-            if(mtxtWillpower.Text != "")
+            if(cbWillpower.SelectedItem.ToString() != "")
             {
-                txtWillpower.Text = Convert.ToString(c.Willpower(mtxtWillpower.Text, mtxtIntelligence.Text, mtxtConstitution.Text));
+                txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), mtxtIntelligence.Text, mtxtConstitution.Text));
             }
-            if(mtxtSelfControl.Text !="")
+            if(cbSelfControl.SelectedItem.ToString() != "")
             {
-                txtSelfControlA.Text = Convert.ToString(c.SelfControlA(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
-                txtSelfControlB.Text = Convert.ToString(c.SelfControlB(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
-                txtSelfControlC.Text = Convert.ToString(c.SelfControlC(mtxtSelfControl.Text, txtWillpower.Text, mtxtIntelligence.Text));
+                txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
+                txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
+                txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
             }   
 
-            txtInbornBuff.Text = c.InbornBuff(mtxtInbornBuff.Text, txtWillpower.Text);
-            txtHanded.Text = c.Handed(mtxtHanded.Text);
+            txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
+            txtHanded.Text = c.Handed(cbHanded.SelectedItem.ToString());
 
             if (mtxtAdventurePointsA.Text != "")
             {
