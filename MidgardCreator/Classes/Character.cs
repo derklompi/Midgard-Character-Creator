@@ -27,14 +27,14 @@ namespace mcreator.Classes
       
 
         // Calculate of the bodysize
-        public int BodySize(string mtxtBodySizeA, string mtxtBodySizeB, string mtxtStrength, string formTitle)
+        public int BodySize(string cbBodySizeA, string cbBodySizeB, string cbStrength, string formTitle)
         {
             int bodySize = 0;
             // Convert to int for better usability
-            int bodysizeA = Convert.ToInt32(mtxtBodySizeA);
-            int bodysizeB = Convert.ToInt32(mtxtBodySizeB);
+            int bodysizeA = Convert.ToInt32(cbBodySizeA);
+            int bodysizeB = Convert.ToInt32(cbBodySizeB);
 
-            int strength = Convert.ToInt32(mtxtStrength);
+            int strength = Convert.ToInt32(cbStrength);
            
             switch (formTitle)
             {
@@ -61,18 +61,18 @@ namespace mcreator.Classes
         }
 
         // Calculate of the bodyweight
-        public int BodyWeight(string mtxtBodyWeightA, string mtxtBodyWeightB, string mtxtBodyWeightC,
-            string mtxtBodyWeightD, string mtxtStrength, string txtBodySize, string formTitle)
+        public int BodyWeight(string cbBodyWeightA, string cbBodyWeightB, string cbBodyWeightC,
+            string cbBodyWeightD, string cbStrength, string txtBodySize, string formTitle)
         {
             int BodyWeightValue = 0;
 
             // Convert to int for better usability
-            int bodyweightA = Convert.ToInt32(mtxtBodyWeightA);
-            int bodyweightB = Convert.ToInt32(mtxtBodyWeightB);
-            int bodyweightC = Convert.ToInt32(mtxtBodyWeightC);
-            int bodyweightD = Convert.ToInt32(mtxtBodyWeightD);
+            int bodyweightA = Convert.ToInt32(cbBodyWeightA);
+            int bodyweightB = Convert.ToInt32(cbBodyWeightB);
+            int bodyweightC = Convert.ToInt32(cbBodyWeightC);
+            int bodyweightD = Convert.ToInt32(cbBodyWeightD);
 
-            int strength = Convert.ToInt32(mtxtStrength);
+            int strength = Convert.ToInt32(cbStrength);
             int bodysize = Convert.ToInt32(txtBodySize);
 
             switch (formTitle)
@@ -135,15 +135,15 @@ namespace mcreator.Classes
         }
 
         // Calculation for adventure points of barbarians, warriors. etc.
-        public int AdventurePointsA(string mtxtAdventurePointsA, string txtStaminaBuff, string formTitle)
+        public int AdventurePointsA(string cbAdventurePointsA, string txtStaminaBuff, string formTitle)
         {
             int adventurePointsValueA = 0;
 
-            if (mtxtAdventurePointsA != "" && txtStaminaBuff != "")
+            if (cbAdventurePointsA != "" && txtStaminaBuff != "")
             {
                 int tempAdventurePointsAValue = 0;
 
-                tempAdventurePointsAValue = Convert.ToInt32(mtxtAdventurePointsA) + 4 + Convert.ToInt32(txtStaminaBuff);
+                tempAdventurePointsAValue = Convert.ToInt32(cbAdventurePointsA) + 4 + Convert.ToInt32(txtStaminaBuff);
 
                 if (tempAdventurePointsAValue >= 4)
                 {
@@ -178,15 +178,15 @@ namespace mcreator.Classes
             return adventurePointsValueA;
         }
 
-        public int AdventurePointsB(string mtxtAdventurePointsB, string txtStaminaBuff, string formTitle)
+        public int AdventurePointsB(string cbAdventurePointsB, string txtStaminaBuff, string formTitle)
         {
             int adventurePointsValueB = 0;
 
-            if (mtxtAdventurePointsB != "" && txtStaminaBuff != "")
+            if (cbAdventurePointsB != "" && txtStaminaBuff != "")
             {
                 int tempAdventurePointsBValue = 0;
 
-                tempAdventurePointsBValue = Convert.ToInt32(mtxtAdventurePointsB) + 3 + Convert.ToInt32(txtStaminaBuff);
+                tempAdventurePointsBValue = Convert.ToInt32(cbAdventurePointsB) + 3 + Convert.ToInt32(txtStaminaBuff);
 
                 if (tempAdventurePointsBValue >= 4)
                 {
@@ -221,15 +221,15 @@ namespace mcreator.Classes
             return adventurePointsValueB;
         }
 
-        public int AdventurePointsC(string mtxtAdventurePointsC, string txtStaminaBuff, string formTitle)
+        public int AdventurePointsC(string cbAdventurePointsC, string txtStaminaBuff, string formTitle)
         {
             int adventurePointsValueC = 0;
 
-            if (mtxtAdventurePointsC != "" && txtStaminaBuff != "")
+            if (cbAdventurePointsC != "" && txtStaminaBuff != "")
             {
                 int tempAdventurePointsCValue = 0;
 
-                tempAdventurePointsCValue = Convert.ToInt32(mtxtAdventurePointsC) + 2 + Convert.ToInt32(txtStaminaBuff);
+                tempAdventurePointsCValue = Convert.ToInt32(cbAdventurePointsC) + 2 + Convert.ToInt32(txtStaminaBuff);
 
                 if (tempAdventurePointsCValue >= 4)
                 {
@@ -265,15 +265,15 @@ namespace mcreator.Classes
         }
 
         // Calculations of the lifepoints
-        public int LifePoints(string mtxtConstitution, string mtxtLifePoints, string formTitle)
+        public int LifePoints(string cbConstitution, string cbLifePoints, string formTitle)
         {
             int lifePointsValue = 0;
 
-            if (mtxtConstitution != "" && mtxtLifePoints != "" && formTitle != "")
+            if (cbConstitution != "" && cbLifePoints != "" && formTitle != "")
             {
                 // Convert the strings to Int
-                int constitution = Convert.ToInt32(mtxtConstitution);
-                int templifePoints = Convert.ToInt32(mtxtLifePoints);
+                int constitution = Convert.ToInt32(cbConstitution);
+                int templifePoints = Convert.ToInt32(cbLifePoints);
                 lifePointsValue = 0;
 
                 switch (formTitle)
@@ -301,12 +301,12 @@ namespace mcreator.Classes
             return lifePointsValue;
         }
 
-        public string InbornBuff(string mtxtInbornBuff, string txtWillpower)
+        public string InbornBuff(string cbInbornBuff, string txtWillpower)
         {
-            if (mtxtInbornBuff != "" && txtWillpower != "")
+            if (cbInbornBuff != "" && txtWillpower != "")
             {   
                 int inbornBuff;
-                inbornBuff = Convert.ToInt32(mtxtInbornBuff);
+                inbornBuff = Convert.ToInt32(cbInbornBuff);
 
                 if (1 <= inbornBuff && inbornBuff < 3)
                 {
@@ -514,13 +514,13 @@ namespace mcreator.Classes
 
         // Calculation of the charisma
 
-        public int Charisma(string mtxtCharisma, string mtxtIntelligence, string mtxtAppearance)
+        public int Charisma(string cbCharisma, string cbIntelligence, string cbAppearance)
         {
-            if(mtxtCharisma != "" && mtxtIntelligence != "" && mtxtAppearance != "")
+            if(cbCharisma != "" && cbIntelligence != "" && cbAppearance != "")
             {
                 int tempCharismaValue = 0;
-                tempCharismaValue = Convert.ToInt32(mtxtCharisma) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
-                    (Convert.ToInt32(mtxtAppearance) / 10))) - 30;
+                tempCharismaValue = Convert.ToInt32(cbCharisma) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
+                    (Convert.ToInt32(cbAppearance) / 10))) - 30;
 
                 if (tempCharismaValue >= 0)
                 {
@@ -538,13 +538,13 @@ namespace mcreator.Classes
         }
 
         // Calculation of the willpower
-        public int Willpower(string mtxtWillpower, string mtxtIntelligence, string mtxtConstitution)
+        public int Willpower(string cbWillpower, string cbIntelligence, string cbConstitution)
         {
-            if (mtxtWillpower != "" && mtxtIntelligence != "" && mtxtConstitution != "")
+            if (cbWillpower != "" && cbIntelligence != "" && cbConstitution != "")
             {
                 int tempWillpowerValue = 0;
-                tempWillpowerValue = Convert.ToInt32(mtxtWillpower) + (3 * ((Convert.ToInt32(mtxtConstitution) / 10) +
-                    (Convert.ToInt32(mtxtIntelligence) / 10))) - 40;
+                tempWillpowerValue = Convert.ToInt32(cbWillpower) + (3 * ((Convert.ToInt32(cbConstitution) / 10) +
+                    (Convert.ToInt32(cbIntelligence) / 10))) - 40;
 
                 if (tempWillpowerValue > 0)
                 {
@@ -562,13 +562,13 @@ namespace mcreator.Classes
         }
 
         // Calculation of the selfcontrol
-        public int SelfControlA(string mtxtSelfControl, string txtWillpower, string mtxtIntelligence)
+        public int SelfControlA(string cbSelfControl, string txtWillpower, string cbIntelligence)
         {
-            if (mtxtSelfControl != "" && txtWillpower != "" && mtxtIntelligence !="")
+            if (cbSelfControl != "" && txtWillpower != "" && cbIntelligence !="")
             {
                 int tempSelfControlAValue = 0;
 
-                tempSelfControlAValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
+                tempSelfControlAValue = Convert.ToInt32(cbSelfControl) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
                     (Convert.ToInt32(txtWillpower) / 10)));
 
                 if (tempSelfControlAValue > 0)
@@ -586,13 +586,13 @@ namespace mcreator.Classes
             }
         }
 
-        public int SelfControlB(string mtxtSelfControl, string txtWillpower, string mtxtIntelligence)
+        public int SelfControlB(string cbSelfControl, string txtWillpower, string cbIntelligence)
         {
-            if (mtxtSelfControl != "" && txtWillpower != "" && mtxtIntelligence != "")
+            if (cbSelfControl != "" && txtWillpower != "" && cbIntelligence != "")
             {
                 int tempSelfControlBValue = 0;
 
-                tempSelfControlBValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
+                tempSelfControlBValue = Convert.ToInt32(cbSelfControl) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
                     (Convert.ToInt32(txtWillpower) / 10))) - 50;
 
                 if (tempSelfControlBValue > 0)
@@ -610,13 +610,13 @@ namespace mcreator.Classes
             }               
         }
 
-        public int SelfControlC(string mtxtSelfControl, string txtWillpower, string mtxtIntelligence)
+        public int SelfControlC(string cbSelfControl, string txtWillpower, string cbIntelligence)
         {
-            if (mtxtSelfControl != "" && txtWillpower != "" && mtxtIntelligence != "")
+            if (cbSelfControl != "" && txtWillpower != "" && cbIntelligence != "")
             {
                 int tempSelfControlCValue = 0;
 
-                tempSelfControlCValue = Convert.ToInt32(mtxtSelfControl) + (3 * ((Convert.ToInt32(mtxtIntelligence) / 10) +
+                tempSelfControlCValue = Convert.ToInt32(cbSelfControl) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
                     (Convert.ToInt32(txtWillpower) / 10))) - 30;
 
                 if (tempSelfControlCValue > 0)
@@ -635,13 +635,13 @@ namespace mcreator.Classes
         }
         
         // Calculation of the hand specialization
-        public string Handed(string mtxtHanded)
+        public string Handed(string cbHanded)
         {
-            if (mtxtHanded != "")
+            if (cbHanded != "")
             {
                 int handed = 0;
 
-                handed = Convert.ToInt32(mtxtHanded);
+                handed = Convert.ToInt32(cbHanded);
 
                 if (handed == 0)
                 {

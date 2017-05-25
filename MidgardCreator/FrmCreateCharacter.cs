@@ -363,28 +363,28 @@ namespace mcreator
                 txtExportPath.Text = "" + user_path + "";
             }
 
-            cbBodySizeA.SelectedIndex = 0;
-            cbBodySizeB.SelectedIndex = 0;
-            cbHanded.SelectedIndex = 0;
-            cbAppearance.SelectedIndex = 0;
-            cbCharisma.SelectedIndex = 0;
-            cbWillpower.SelectedIndex = 0;
-            cbSelfControl.SelectedIndex = 0;
-            cbInbornBuff.SelectedIndex = 0;
-            cbBodyWeightA.SelectedIndex = 0;
-            cbBodyWeightB.SelectedIndex = 0;
-            cbBodyWeightC.SelectedIndex = 0;
-            cbBodyWeightD.SelectedIndex = 0;
-            cbStrength.SelectedIndex = 0;
-            cbDexterity.SelectedIndex = 0;
-            cbAgility.SelectedIndex = 0;
-            cbConstitution.SelectedIndex = 0;
-            cbIntelligence.SelectedIndex = 0;
-            cbMagicalTalent.SelectedIndex = 0;
-            cbAdventurePointsA.SelectedIndex = 0;
-            cbAdventurePointsB.SelectedIndex = 0;
-            cbAdventurePointsC.SelectedIndex = 0;
-            cbLifePoints.SelectedIndex = 0;
+            cbBodySizeA.SelectedIndex           = 0;
+            cbBodySizeB.SelectedIndex           = 0;
+            cbHanded.SelectedIndex              = 0;
+            cbAppearance.SelectedIndex          = 0;
+            cbCharisma.SelectedIndex            = 0;
+            cbWillpower.SelectedIndex           = 0;
+            cbSelfControl.SelectedIndex         = 0;
+            cbInbornBuff.SelectedIndex          = 0;
+            cbBodyWeightA.SelectedIndex         = 0;
+            cbBodyWeightB.SelectedIndex         = 0;
+            cbBodyWeightC.SelectedIndex         = 0;
+            cbBodyWeightD.SelectedIndex         = 0;
+            cbStrength.SelectedIndex            = 0;
+            cbDexterity.SelectedIndex           = 0;
+            cbAgility.SelectedIndex             = 0;
+            cbConstitution.SelectedIndex        = 0;
+            cbIntelligence.SelectedIndex        = 0;
+            cbMagicalTalent.SelectedIndex       = 0;
+            cbAdventurePointsA.SelectedIndex    = 0;
+            cbAdventurePointsB.SelectedIndex    = 0;
+            cbAdventurePointsC.SelectedIndex    = 0;
+            cbLifePoints.SelectedIndex          = 0;
 
         }
 
@@ -487,11 +487,11 @@ namespace mcreator
                     txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text    = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtDoMagic0.Text    = Convert.ToString( 2 + Convert.ToInt32(txtMagicBuff.Text));
 
                     int mtBuffGhost_Body_MagicValue = 0;
-                    int intBuffGhostMagicValue = 0;
-                    int CoBuffBodyMagicValue = 0;
+                    int intBuffGhostMagicValue      = 0;
+                    int CoBuffBodyMagicValue        = 0;
 
                     //Buff MagicTalent Ghost&Body
                     mtBuffGhost_Body_MagicValue = c.MagicTalentGhostBody(magicTalent);
