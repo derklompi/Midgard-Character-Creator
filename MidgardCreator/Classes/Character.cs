@@ -312,6 +312,10 @@ namespace mcreator.Classes
                 {
                     return "Kurzsichtigkeit (nur Sehen +4)";
                 }
+                else if (inbornBuff == 0)
+                {
+                    return "";
+                }
                 else if (inbornBuff < 5)
                 {
                     return "Schwerhörigkeit (nur Hören +4)";
@@ -639,7 +643,11 @@ namespace mcreator.Classes
 
                 handed = Convert.ToInt32(mtxtHanded);
 
-                if (handed < 16)
+                if (handed == 0)
+                {
+                    return "";
+                }
+                else if (handed < 16)
                 {
                     return "Rechtshänder";
                 }

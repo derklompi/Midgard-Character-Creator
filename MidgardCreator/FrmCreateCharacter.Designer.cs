@@ -83,35 +83,23 @@ namespace mcreator
             this.txtDamageBuff = new System.Windows.Forms.TextBox();
             this.lblDice100A = new System.Windows.Forms.Label();
             this.txtStaminaBuff = new System.Windows.Forms.TextBox();
-            this.mtxtStrength = new System.Windows.Forms.MaskedTextBox();
             this.lblStrength = new System.Windows.Forms.Label();
-            this.mtxtDexterity = new System.Windows.Forms.MaskedTextBox();
             this.lblLifePoints = new System.Windows.Forms.Label();
             this.lblDexterity = new System.Windows.Forms.Label();
-            this.mtxtAgility = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtLifePoints = new System.Windows.Forms.MaskedTextBox();
             this.lblMagicTalent = new System.Windows.Forms.Label();
             this.lblAgility = new System.Windows.Forms.Label();
             this.lblDice6G = new System.Windows.Forms.Label();
-            this.mtxtMagicalTalent = new System.Windows.Forms.MaskedTextBox();
             this.lblAdventurePointsC = new System.Windows.Forms.Label();
-            this.mtxtAdventurePointsC = new System.Windows.Forms.MaskedTextBox();
             this.lblIntelligence = new System.Windows.Forms.Label();
-            this.mtxtAdventurePointsB = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtAdventurePointsA = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtConstitution = new System.Windows.Forms.MaskedTextBox();
             this.lblAdventurePointsB = new System.Windows.Forms.Label();
-            this.mtxtIntelligence = new System.Windows.Forms.MaskedTextBox();
             this.lblAdventurePointsA = new System.Windows.Forms.Label();
             this.lblBodySize = new System.Windows.Forms.Label();
             this.lblAdventurePoints = new System.Windows.Forms.Label();
             this.lblConstitution = new System.Windows.Forms.Label();
-            this.mtxtBodyWeightC = new System.Windows.Forms.MaskedTextBox();
             this.lblBodyWeightB = new System.Windows.Forms.Label();
             this.lblBodyWeightA = new System.Windows.Forms.Label();
             this.txtWillpower = new System.Windows.Forms.TextBox();
             this.txtCharisma = new System.Windows.Forms.TextBox();
-            this.mtxtBodyWeightD = new System.Windows.Forms.MaskedTextBox();
             this.txtBodyWeightB = new System.Windows.Forms.TextBox();
             this.txtSelfControlC = new System.Windows.Forms.TextBox();
             this.txtBodyWeightA = new System.Windows.Forms.TextBox();
@@ -126,7 +114,6 @@ namespace mcreator
             this.lblDice6E = new System.Windows.Forms.Label();
             this.lblDice6F = new System.Windows.Forms.Label();
             this.txtBodySizeA = new System.Windows.Forms.TextBox();
-            this.mtxtBodyWeightB = new System.Windows.Forms.MaskedTextBox();
             this.lblSelfControlA = new System.Windows.Forms.Label();
             this.txtBodySizeB = new System.Windows.Forms.TextBox();
             this.txtHanded = new System.Windows.Forms.TextBox();
@@ -139,7 +126,6 @@ namespace mcreator
             this.lblBodyWeight = new System.Windows.Forms.Label();
             this.lblSelfControlValues = new System.Windows.Forms.Label();
             this.lblDice100C = new System.Windows.Forms.Label();
-            this.mtxtBodyWeightA = new System.Windows.Forms.MaskedTextBox();
             this.lblWillpower = new System.Windows.Forms.Label();
             this.lblCharisma = new System.Windows.Forms.Label();
             this.EnableTimer = new System.Windows.Forms.Timer(this.components);
@@ -165,6 +151,20 @@ namespace mcreator
             this.cbWillpower = new System.Windows.Forms.ComboBox();
             this.cbSelfControl = new System.Windows.Forms.ComboBox();
             this.cbInbornBuff = new System.Windows.Forms.ComboBox();
+            this.cbBodyWeightA = new System.Windows.Forms.ComboBox();
+            this.cbBodyWeightB = new System.Windows.Forms.ComboBox();
+            this.cbBodyWeightC = new System.Windows.Forms.ComboBox();
+            this.cbBodyWeightD = new System.Windows.Forms.ComboBox();
+            this.cbMagicalTalent = new System.Windows.Forms.ComboBox();
+            this.cbIntelligence = new System.Windows.Forms.ComboBox();
+            this.cbConstitution = new System.Windows.Forms.ComboBox();
+            this.cbAgility = new System.Windows.Forms.ComboBox();
+            this.cbDexterity = new System.Windows.Forms.ComboBox();
+            this.cbStrength = new System.Windows.Forms.ComboBox();
+            this.cbLifePoints = new System.Windows.Forms.ComboBox();
+            this.cbAdventurePointsC = new System.Windows.Forms.ComboBox();
+            this.cbAdventurePointsB = new System.Windows.Forms.ComboBox();
+            this.cbAdventurePointsA = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblExport
@@ -460,22 +460,10 @@ namespace mcreator
             this.txtStaminaBuff.Name = "txtStaminaBuff";
             this.txtStaminaBuff.ReadOnly = true;
             // 
-            // mtxtStrength
-            // 
-            this.mtxtStrength.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtStrength, "mtxtStrength");
-            this.mtxtStrength.Name = "mtxtStrength";
-            // 
             // lblStrength
             // 
             resources.ApplyResources(this.lblStrength, "lblStrength");
             this.lblStrength.Name = "lblStrength";
-            // 
-            // mtxtDexterity
-            // 
-            this.mtxtDexterity.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtDexterity, "mtxtDexterity");
-            this.mtxtDexterity.Name = "mtxtDexterity";
             // 
             // lblLifePoints
             // 
@@ -486,18 +474,6 @@ namespace mcreator
             // 
             resources.ApplyResources(this.lblDexterity, "lblDexterity");
             this.lblDexterity.Name = "lblDexterity";
-            // 
-            // mtxtAgility
-            // 
-            this.mtxtAgility.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtAgility, "mtxtAgility");
-            this.mtxtAgility.Name = "mtxtAgility";
-            // 
-            // mtxtLifePoints
-            // 
-            this.mtxtLifePoints.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtLifePoints, "mtxtLifePoints");
-            this.mtxtLifePoints.Name = "mtxtLifePoints";
             // 
             // lblMagicTalent
             // 
@@ -514,56 +490,20 @@ namespace mcreator
             resources.ApplyResources(this.lblDice6G, "lblDice6G");
             this.lblDice6G.Name = "lblDice6G";
             // 
-            // mtxtMagicalTalent
-            // 
-            this.mtxtMagicalTalent.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtMagicalTalent, "mtxtMagicalTalent");
-            this.mtxtMagicalTalent.Name = "mtxtMagicalTalent";
-            // 
             // lblAdventurePointsC
             // 
             resources.ApplyResources(this.lblAdventurePointsC, "lblAdventurePointsC");
             this.lblAdventurePointsC.Name = "lblAdventurePointsC";
-            // 
-            // mtxtAdventurePointsC
-            // 
-            this.mtxtAdventurePointsC.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtAdventurePointsC, "mtxtAdventurePointsC");
-            this.mtxtAdventurePointsC.Name = "mtxtAdventurePointsC";
             // 
             // lblIntelligence
             // 
             resources.ApplyResources(this.lblIntelligence, "lblIntelligence");
             this.lblIntelligence.Name = "lblIntelligence";
             // 
-            // mtxtAdventurePointsB
-            // 
-            this.mtxtAdventurePointsB.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtAdventurePointsB, "mtxtAdventurePointsB");
-            this.mtxtAdventurePointsB.Name = "mtxtAdventurePointsB";
-            // 
-            // mtxtAdventurePointsA
-            // 
-            this.mtxtAdventurePointsA.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtAdventurePointsA, "mtxtAdventurePointsA");
-            this.mtxtAdventurePointsA.Name = "mtxtAdventurePointsA";
-            // 
-            // mtxtConstitution
-            // 
-            this.mtxtConstitution.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtConstitution, "mtxtConstitution");
-            this.mtxtConstitution.Name = "mtxtConstitution";
-            // 
             // lblAdventurePointsB
             // 
             resources.ApplyResources(this.lblAdventurePointsB, "lblAdventurePointsB");
             this.lblAdventurePointsB.Name = "lblAdventurePointsB";
-            // 
-            // mtxtIntelligence
-            // 
-            this.mtxtIntelligence.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtIntelligence, "mtxtIntelligence");
-            this.mtxtIntelligence.Name = "mtxtIntelligence";
             // 
             // lblAdventurePointsA
             // 
@@ -584,12 +524,6 @@ namespace mcreator
             // 
             resources.ApplyResources(this.lblConstitution, "lblConstitution");
             this.lblConstitution.Name = "lblConstitution";
-            // 
-            // mtxtBodyWeightC
-            // 
-            this.mtxtBodyWeightC.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtBodyWeightC, "mtxtBodyWeightC");
-            this.mtxtBodyWeightC.Name = "mtxtBodyWeightC";
             // 
             // lblBodyWeightB
             // 
@@ -612,12 +546,6 @@ namespace mcreator
             resources.ApplyResources(this.txtCharisma, "txtCharisma");
             this.txtCharisma.Name = "txtCharisma";
             this.txtCharisma.ReadOnly = true;
-            // 
-            // mtxtBodyWeightD
-            // 
-            this.mtxtBodyWeightD.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtBodyWeightD, "mtxtBodyWeightD");
-            this.mtxtBodyWeightD.Name = "mtxtBodyWeightD";
             // 
             // txtBodyWeightB
             // 
@@ -695,12 +623,6 @@ namespace mcreator
             this.txtBodySizeA.Name = "txtBodySizeA";
             this.txtBodySizeA.ReadOnly = true;
             // 
-            // mtxtBodyWeightB
-            // 
-            this.mtxtBodyWeightB.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtBodyWeightB, "mtxtBodyWeightB");
-            this.mtxtBodyWeightB.Name = "mtxtBodyWeightB";
-            // 
             // lblSelfControlA
             // 
             resources.ApplyResources(this.lblSelfControlA, "lblSelfControlA");
@@ -762,12 +684,6 @@ namespace mcreator
             // 
             resources.ApplyResources(this.lblDice100C, "lblDice100C");
             this.lblDice100C.Name = "lblDice100C";
-            // 
-            // mtxtBodyWeightA
-            // 
-            this.mtxtBodyWeightA.HidePromptOnLeave = true;
-            resources.ApplyResources(this.mtxtBodyWeightA, "mtxtBodyWeightA");
-            this.mtxtBodyWeightA.Name = "mtxtBodyWeightA";
             // 
             // lblWillpower
             // 
@@ -1447,11 +1363,799 @@ namespace mcreator
             resources.ApplyResources(this.cbInbornBuff, "cbInbornBuff");
             this.cbInbornBuff.Name = "cbInbornBuff";
             // 
+            // cbBodyWeightA
+            // 
+            this.cbBodyWeightA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbBodyWeightA.FormattingEnabled = true;
+            this.cbBodyWeightA.Items.AddRange(new object[] {
+            resources.GetString("cbBodyWeightA.Items"),
+            resources.GetString("cbBodyWeightA.Items1"),
+            resources.GetString("cbBodyWeightA.Items2"),
+            resources.GetString("cbBodyWeightA.Items3"),
+            resources.GetString("cbBodyWeightA.Items4"),
+            resources.GetString("cbBodyWeightA.Items5"),
+            resources.GetString("cbBodyWeightA.Items6")});
+            resources.ApplyResources(this.cbBodyWeightA, "cbBodyWeightA");
+            this.cbBodyWeightA.Name = "cbBodyWeightA";
+            // 
+            // cbBodyWeightB
+            // 
+            this.cbBodyWeightB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbBodyWeightB.FormattingEnabled = true;
+            this.cbBodyWeightB.Items.AddRange(new object[] {
+            resources.GetString("cbBodyWeightB.Items"),
+            resources.GetString("cbBodyWeightB.Items1"),
+            resources.GetString("cbBodyWeightB.Items2"),
+            resources.GetString("cbBodyWeightB.Items3"),
+            resources.GetString("cbBodyWeightB.Items4"),
+            resources.GetString("cbBodyWeightB.Items5"),
+            resources.GetString("cbBodyWeightB.Items6")});
+            resources.ApplyResources(this.cbBodyWeightB, "cbBodyWeightB");
+            this.cbBodyWeightB.Name = "cbBodyWeightB";
+            // 
+            // cbBodyWeightC
+            // 
+            this.cbBodyWeightC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbBodyWeightC.FormattingEnabled = true;
+            this.cbBodyWeightC.Items.AddRange(new object[] {
+            resources.GetString("cbBodyWeightC.Items"),
+            resources.GetString("cbBodyWeightC.Items1"),
+            resources.GetString("cbBodyWeightC.Items2"),
+            resources.GetString("cbBodyWeightC.Items3"),
+            resources.GetString("cbBodyWeightC.Items4"),
+            resources.GetString("cbBodyWeightC.Items5"),
+            resources.GetString("cbBodyWeightC.Items6")});
+            resources.ApplyResources(this.cbBodyWeightC, "cbBodyWeightC");
+            this.cbBodyWeightC.Name = "cbBodyWeightC";
+            // 
+            // cbBodyWeightD
+            // 
+            this.cbBodyWeightD.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbBodyWeightD.FormattingEnabled = true;
+            this.cbBodyWeightD.Items.AddRange(new object[] {
+            resources.GetString("cbBodyWeightD.Items"),
+            resources.GetString("cbBodyWeightD.Items1"),
+            resources.GetString("cbBodyWeightD.Items2"),
+            resources.GetString("cbBodyWeightD.Items3"),
+            resources.GetString("cbBodyWeightD.Items4"),
+            resources.GetString("cbBodyWeightD.Items5"),
+            resources.GetString("cbBodyWeightD.Items6")});
+            resources.ApplyResources(this.cbBodyWeightD, "cbBodyWeightD");
+            this.cbBodyWeightD.Name = "cbBodyWeightD";
+            // 
+            // cbMagicalTalent
+            // 
+            this.cbMagicalTalent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbMagicalTalent.FormattingEnabled = true;
+            this.cbMagicalTalent.Items.AddRange(new object[] {
+            resources.GetString("cbMagicalTalent.Items"),
+            resources.GetString("cbMagicalTalent.Items1"),
+            resources.GetString("cbMagicalTalent.Items2"),
+            resources.GetString("cbMagicalTalent.Items3"),
+            resources.GetString("cbMagicalTalent.Items4"),
+            resources.GetString("cbMagicalTalent.Items5"),
+            resources.GetString("cbMagicalTalent.Items6"),
+            resources.GetString("cbMagicalTalent.Items7"),
+            resources.GetString("cbMagicalTalent.Items8"),
+            resources.GetString("cbMagicalTalent.Items9"),
+            resources.GetString("cbMagicalTalent.Items10"),
+            resources.GetString("cbMagicalTalent.Items11"),
+            resources.GetString("cbMagicalTalent.Items12"),
+            resources.GetString("cbMagicalTalent.Items13"),
+            resources.GetString("cbMagicalTalent.Items14"),
+            resources.GetString("cbMagicalTalent.Items15"),
+            resources.GetString("cbMagicalTalent.Items16"),
+            resources.GetString("cbMagicalTalent.Items17"),
+            resources.GetString("cbMagicalTalent.Items18"),
+            resources.GetString("cbMagicalTalent.Items19"),
+            resources.GetString("cbMagicalTalent.Items20"),
+            resources.GetString("cbMagicalTalent.Items21"),
+            resources.GetString("cbMagicalTalent.Items22"),
+            resources.GetString("cbMagicalTalent.Items23"),
+            resources.GetString("cbMagicalTalent.Items24"),
+            resources.GetString("cbMagicalTalent.Items25"),
+            resources.GetString("cbMagicalTalent.Items26"),
+            resources.GetString("cbMagicalTalent.Items27"),
+            resources.GetString("cbMagicalTalent.Items28"),
+            resources.GetString("cbMagicalTalent.Items29"),
+            resources.GetString("cbMagicalTalent.Items30"),
+            resources.GetString("cbMagicalTalent.Items31"),
+            resources.GetString("cbMagicalTalent.Items32"),
+            resources.GetString("cbMagicalTalent.Items33"),
+            resources.GetString("cbMagicalTalent.Items34"),
+            resources.GetString("cbMagicalTalent.Items35"),
+            resources.GetString("cbMagicalTalent.Items36"),
+            resources.GetString("cbMagicalTalent.Items37"),
+            resources.GetString("cbMagicalTalent.Items38"),
+            resources.GetString("cbMagicalTalent.Items39"),
+            resources.GetString("cbMagicalTalent.Items40"),
+            resources.GetString("cbMagicalTalent.Items41"),
+            resources.GetString("cbMagicalTalent.Items42"),
+            resources.GetString("cbMagicalTalent.Items43"),
+            resources.GetString("cbMagicalTalent.Items44"),
+            resources.GetString("cbMagicalTalent.Items45"),
+            resources.GetString("cbMagicalTalent.Items46"),
+            resources.GetString("cbMagicalTalent.Items47"),
+            resources.GetString("cbMagicalTalent.Items48"),
+            resources.GetString("cbMagicalTalent.Items49"),
+            resources.GetString("cbMagicalTalent.Items50"),
+            resources.GetString("cbMagicalTalent.Items51"),
+            resources.GetString("cbMagicalTalent.Items52"),
+            resources.GetString("cbMagicalTalent.Items53"),
+            resources.GetString("cbMagicalTalent.Items54"),
+            resources.GetString("cbMagicalTalent.Items55"),
+            resources.GetString("cbMagicalTalent.Items56"),
+            resources.GetString("cbMagicalTalent.Items57"),
+            resources.GetString("cbMagicalTalent.Items58"),
+            resources.GetString("cbMagicalTalent.Items59"),
+            resources.GetString("cbMagicalTalent.Items60"),
+            resources.GetString("cbMagicalTalent.Items61"),
+            resources.GetString("cbMagicalTalent.Items62"),
+            resources.GetString("cbMagicalTalent.Items63"),
+            resources.GetString("cbMagicalTalent.Items64"),
+            resources.GetString("cbMagicalTalent.Items65"),
+            resources.GetString("cbMagicalTalent.Items66"),
+            resources.GetString("cbMagicalTalent.Items67"),
+            resources.GetString("cbMagicalTalent.Items68"),
+            resources.GetString("cbMagicalTalent.Items69"),
+            resources.GetString("cbMagicalTalent.Items70"),
+            resources.GetString("cbMagicalTalent.Items71"),
+            resources.GetString("cbMagicalTalent.Items72"),
+            resources.GetString("cbMagicalTalent.Items73"),
+            resources.GetString("cbMagicalTalent.Items74"),
+            resources.GetString("cbMagicalTalent.Items75"),
+            resources.GetString("cbMagicalTalent.Items76"),
+            resources.GetString("cbMagicalTalent.Items77"),
+            resources.GetString("cbMagicalTalent.Items78"),
+            resources.GetString("cbMagicalTalent.Items79"),
+            resources.GetString("cbMagicalTalent.Items80"),
+            resources.GetString("cbMagicalTalent.Items81"),
+            resources.GetString("cbMagicalTalent.Items82"),
+            resources.GetString("cbMagicalTalent.Items83"),
+            resources.GetString("cbMagicalTalent.Items84"),
+            resources.GetString("cbMagicalTalent.Items85"),
+            resources.GetString("cbMagicalTalent.Items86"),
+            resources.GetString("cbMagicalTalent.Items87"),
+            resources.GetString("cbMagicalTalent.Items88"),
+            resources.GetString("cbMagicalTalent.Items89"),
+            resources.GetString("cbMagicalTalent.Items90"),
+            resources.GetString("cbMagicalTalent.Items91"),
+            resources.GetString("cbMagicalTalent.Items92"),
+            resources.GetString("cbMagicalTalent.Items93"),
+            resources.GetString("cbMagicalTalent.Items94"),
+            resources.GetString("cbMagicalTalent.Items95"),
+            resources.GetString("cbMagicalTalent.Items96"),
+            resources.GetString("cbMagicalTalent.Items97"),
+            resources.GetString("cbMagicalTalent.Items98"),
+            resources.GetString("cbMagicalTalent.Items99"),
+            resources.GetString("cbMagicalTalent.Items100")});
+            resources.ApplyResources(this.cbMagicalTalent, "cbMagicalTalent");
+            this.cbMagicalTalent.Name = "cbMagicalTalent";
+            // 
+            // cbIntelligence
+            // 
+            this.cbIntelligence.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbIntelligence.FormattingEnabled = true;
+            this.cbIntelligence.Items.AddRange(new object[] {
+            resources.GetString("cbIntelligence.Items"),
+            resources.GetString("cbIntelligence.Items1"),
+            resources.GetString("cbIntelligence.Items2"),
+            resources.GetString("cbIntelligence.Items3"),
+            resources.GetString("cbIntelligence.Items4"),
+            resources.GetString("cbIntelligence.Items5"),
+            resources.GetString("cbIntelligence.Items6"),
+            resources.GetString("cbIntelligence.Items7"),
+            resources.GetString("cbIntelligence.Items8"),
+            resources.GetString("cbIntelligence.Items9"),
+            resources.GetString("cbIntelligence.Items10"),
+            resources.GetString("cbIntelligence.Items11"),
+            resources.GetString("cbIntelligence.Items12"),
+            resources.GetString("cbIntelligence.Items13"),
+            resources.GetString("cbIntelligence.Items14"),
+            resources.GetString("cbIntelligence.Items15"),
+            resources.GetString("cbIntelligence.Items16"),
+            resources.GetString("cbIntelligence.Items17"),
+            resources.GetString("cbIntelligence.Items18"),
+            resources.GetString("cbIntelligence.Items19"),
+            resources.GetString("cbIntelligence.Items20"),
+            resources.GetString("cbIntelligence.Items21"),
+            resources.GetString("cbIntelligence.Items22"),
+            resources.GetString("cbIntelligence.Items23"),
+            resources.GetString("cbIntelligence.Items24"),
+            resources.GetString("cbIntelligence.Items25"),
+            resources.GetString("cbIntelligence.Items26"),
+            resources.GetString("cbIntelligence.Items27"),
+            resources.GetString("cbIntelligence.Items28"),
+            resources.GetString("cbIntelligence.Items29"),
+            resources.GetString("cbIntelligence.Items30"),
+            resources.GetString("cbIntelligence.Items31"),
+            resources.GetString("cbIntelligence.Items32"),
+            resources.GetString("cbIntelligence.Items33"),
+            resources.GetString("cbIntelligence.Items34"),
+            resources.GetString("cbIntelligence.Items35"),
+            resources.GetString("cbIntelligence.Items36"),
+            resources.GetString("cbIntelligence.Items37"),
+            resources.GetString("cbIntelligence.Items38"),
+            resources.GetString("cbIntelligence.Items39"),
+            resources.GetString("cbIntelligence.Items40"),
+            resources.GetString("cbIntelligence.Items41"),
+            resources.GetString("cbIntelligence.Items42"),
+            resources.GetString("cbIntelligence.Items43"),
+            resources.GetString("cbIntelligence.Items44"),
+            resources.GetString("cbIntelligence.Items45"),
+            resources.GetString("cbIntelligence.Items46"),
+            resources.GetString("cbIntelligence.Items47"),
+            resources.GetString("cbIntelligence.Items48"),
+            resources.GetString("cbIntelligence.Items49"),
+            resources.GetString("cbIntelligence.Items50"),
+            resources.GetString("cbIntelligence.Items51"),
+            resources.GetString("cbIntelligence.Items52"),
+            resources.GetString("cbIntelligence.Items53"),
+            resources.GetString("cbIntelligence.Items54"),
+            resources.GetString("cbIntelligence.Items55"),
+            resources.GetString("cbIntelligence.Items56"),
+            resources.GetString("cbIntelligence.Items57"),
+            resources.GetString("cbIntelligence.Items58"),
+            resources.GetString("cbIntelligence.Items59"),
+            resources.GetString("cbIntelligence.Items60"),
+            resources.GetString("cbIntelligence.Items61"),
+            resources.GetString("cbIntelligence.Items62"),
+            resources.GetString("cbIntelligence.Items63"),
+            resources.GetString("cbIntelligence.Items64"),
+            resources.GetString("cbIntelligence.Items65"),
+            resources.GetString("cbIntelligence.Items66"),
+            resources.GetString("cbIntelligence.Items67"),
+            resources.GetString("cbIntelligence.Items68"),
+            resources.GetString("cbIntelligence.Items69"),
+            resources.GetString("cbIntelligence.Items70"),
+            resources.GetString("cbIntelligence.Items71"),
+            resources.GetString("cbIntelligence.Items72"),
+            resources.GetString("cbIntelligence.Items73"),
+            resources.GetString("cbIntelligence.Items74"),
+            resources.GetString("cbIntelligence.Items75"),
+            resources.GetString("cbIntelligence.Items76"),
+            resources.GetString("cbIntelligence.Items77"),
+            resources.GetString("cbIntelligence.Items78"),
+            resources.GetString("cbIntelligence.Items79"),
+            resources.GetString("cbIntelligence.Items80"),
+            resources.GetString("cbIntelligence.Items81"),
+            resources.GetString("cbIntelligence.Items82"),
+            resources.GetString("cbIntelligence.Items83"),
+            resources.GetString("cbIntelligence.Items84"),
+            resources.GetString("cbIntelligence.Items85"),
+            resources.GetString("cbIntelligence.Items86"),
+            resources.GetString("cbIntelligence.Items87"),
+            resources.GetString("cbIntelligence.Items88"),
+            resources.GetString("cbIntelligence.Items89"),
+            resources.GetString("cbIntelligence.Items90"),
+            resources.GetString("cbIntelligence.Items91"),
+            resources.GetString("cbIntelligence.Items92"),
+            resources.GetString("cbIntelligence.Items93"),
+            resources.GetString("cbIntelligence.Items94"),
+            resources.GetString("cbIntelligence.Items95"),
+            resources.GetString("cbIntelligence.Items96"),
+            resources.GetString("cbIntelligence.Items97"),
+            resources.GetString("cbIntelligence.Items98"),
+            resources.GetString("cbIntelligence.Items99"),
+            resources.GetString("cbIntelligence.Items100")});
+            resources.ApplyResources(this.cbIntelligence, "cbIntelligence");
+            this.cbIntelligence.Name = "cbIntelligence";
+            // 
+            // cbConstitution
+            // 
+            this.cbConstitution.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbConstitution.FormattingEnabled = true;
+            this.cbConstitution.Items.AddRange(new object[] {
+            resources.GetString("cbConstitution.Items"),
+            resources.GetString("cbConstitution.Items1"),
+            resources.GetString("cbConstitution.Items2"),
+            resources.GetString("cbConstitution.Items3"),
+            resources.GetString("cbConstitution.Items4"),
+            resources.GetString("cbConstitution.Items5"),
+            resources.GetString("cbConstitution.Items6"),
+            resources.GetString("cbConstitution.Items7"),
+            resources.GetString("cbConstitution.Items8"),
+            resources.GetString("cbConstitution.Items9"),
+            resources.GetString("cbConstitution.Items10"),
+            resources.GetString("cbConstitution.Items11"),
+            resources.GetString("cbConstitution.Items12"),
+            resources.GetString("cbConstitution.Items13"),
+            resources.GetString("cbConstitution.Items14"),
+            resources.GetString("cbConstitution.Items15"),
+            resources.GetString("cbConstitution.Items16"),
+            resources.GetString("cbConstitution.Items17"),
+            resources.GetString("cbConstitution.Items18"),
+            resources.GetString("cbConstitution.Items19"),
+            resources.GetString("cbConstitution.Items20"),
+            resources.GetString("cbConstitution.Items21"),
+            resources.GetString("cbConstitution.Items22"),
+            resources.GetString("cbConstitution.Items23"),
+            resources.GetString("cbConstitution.Items24"),
+            resources.GetString("cbConstitution.Items25"),
+            resources.GetString("cbConstitution.Items26"),
+            resources.GetString("cbConstitution.Items27"),
+            resources.GetString("cbConstitution.Items28"),
+            resources.GetString("cbConstitution.Items29"),
+            resources.GetString("cbConstitution.Items30"),
+            resources.GetString("cbConstitution.Items31"),
+            resources.GetString("cbConstitution.Items32"),
+            resources.GetString("cbConstitution.Items33"),
+            resources.GetString("cbConstitution.Items34"),
+            resources.GetString("cbConstitution.Items35"),
+            resources.GetString("cbConstitution.Items36"),
+            resources.GetString("cbConstitution.Items37"),
+            resources.GetString("cbConstitution.Items38"),
+            resources.GetString("cbConstitution.Items39"),
+            resources.GetString("cbConstitution.Items40"),
+            resources.GetString("cbConstitution.Items41"),
+            resources.GetString("cbConstitution.Items42"),
+            resources.GetString("cbConstitution.Items43"),
+            resources.GetString("cbConstitution.Items44"),
+            resources.GetString("cbConstitution.Items45"),
+            resources.GetString("cbConstitution.Items46"),
+            resources.GetString("cbConstitution.Items47"),
+            resources.GetString("cbConstitution.Items48"),
+            resources.GetString("cbConstitution.Items49"),
+            resources.GetString("cbConstitution.Items50"),
+            resources.GetString("cbConstitution.Items51"),
+            resources.GetString("cbConstitution.Items52"),
+            resources.GetString("cbConstitution.Items53"),
+            resources.GetString("cbConstitution.Items54"),
+            resources.GetString("cbConstitution.Items55"),
+            resources.GetString("cbConstitution.Items56"),
+            resources.GetString("cbConstitution.Items57"),
+            resources.GetString("cbConstitution.Items58"),
+            resources.GetString("cbConstitution.Items59"),
+            resources.GetString("cbConstitution.Items60"),
+            resources.GetString("cbConstitution.Items61"),
+            resources.GetString("cbConstitution.Items62"),
+            resources.GetString("cbConstitution.Items63"),
+            resources.GetString("cbConstitution.Items64"),
+            resources.GetString("cbConstitution.Items65"),
+            resources.GetString("cbConstitution.Items66"),
+            resources.GetString("cbConstitution.Items67"),
+            resources.GetString("cbConstitution.Items68"),
+            resources.GetString("cbConstitution.Items69"),
+            resources.GetString("cbConstitution.Items70"),
+            resources.GetString("cbConstitution.Items71"),
+            resources.GetString("cbConstitution.Items72"),
+            resources.GetString("cbConstitution.Items73"),
+            resources.GetString("cbConstitution.Items74"),
+            resources.GetString("cbConstitution.Items75"),
+            resources.GetString("cbConstitution.Items76"),
+            resources.GetString("cbConstitution.Items77"),
+            resources.GetString("cbConstitution.Items78"),
+            resources.GetString("cbConstitution.Items79"),
+            resources.GetString("cbConstitution.Items80"),
+            resources.GetString("cbConstitution.Items81"),
+            resources.GetString("cbConstitution.Items82"),
+            resources.GetString("cbConstitution.Items83"),
+            resources.GetString("cbConstitution.Items84"),
+            resources.GetString("cbConstitution.Items85"),
+            resources.GetString("cbConstitution.Items86"),
+            resources.GetString("cbConstitution.Items87"),
+            resources.GetString("cbConstitution.Items88"),
+            resources.GetString("cbConstitution.Items89"),
+            resources.GetString("cbConstitution.Items90"),
+            resources.GetString("cbConstitution.Items91"),
+            resources.GetString("cbConstitution.Items92"),
+            resources.GetString("cbConstitution.Items93"),
+            resources.GetString("cbConstitution.Items94"),
+            resources.GetString("cbConstitution.Items95"),
+            resources.GetString("cbConstitution.Items96"),
+            resources.GetString("cbConstitution.Items97"),
+            resources.GetString("cbConstitution.Items98"),
+            resources.GetString("cbConstitution.Items99"),
+            resources.GetString("cbConstitution.Items100")});
+            resources.ApplyResources(this.cbConstitution, "cbConstitution");
+            this.cbConstitution.Name = "cbConstitution";
+            // 
+            // cbAgility
+            // 
+            this.cbAgility.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAgility.FormattingEnabled = true;
+            this.cbAgility.Items.AddRange(new object[] {
+            resources.GetString("cbAgility.Items"),
+            resources.GetString("cbAgility.Items1"),
+            resources.GetString("cbAgility.Items2"),
+            resources.GetString("cbAgility.Items3"),
+            resources.GetString("cbAgility.Items4"),
+            resources.GetString("cbAgility.Items5"),
+            resources.GetString("cbAgility.Items6"),
+            resources.GetString("cbAgility.Items7"),
+            resources.GetString("cbAgility.Items8"),
+            resources.GetString("cbAgility.Items9"),
+            resources.GetString("cbAgility.Items10"),
+            resources.GetString("cbAgility.Items11"),
+            resources.GetString("cbAgility.Items12"),
+            resources.GetString("cbAgility.Items13"),
+            resources.GetString("cbAgility.Items14"),
+            resources.GetString("cbAgility.Items15"),
+            resources.GetString("cbAgility.Items16"),
+            resources.GetString("cbAgility.Items17"),
+            resources.GetString("cbAgility.Items18"),
+            resources.GetString("cbAgility.Items19"),
+            resources.GetString("cbAgility.Items20"),
+            resources.GetString("cbAgility.Items21"),
+            resources.GetString("cbAgility.Items22"),
+            resources.GetString("cbAgility.Items23"),
+            resources.GetString("cbAgility.Items24"),
+            resources.GetString("cbAgility.Items25"),
+            resources.GetString("cbAgility.Items26"),
+            resources.GetString("cbAgility.Items27"),
+            resources.GetString("cbAgility.Items28"),
+            resources.GetString("cbAgility.Items29"),
+            resources.GetString("cbAgility.Items30"),
+            resources.GetString("cbAgility.Items31"),
+            resources.GetString("cbAgility.Items32"),
+            resources.GetString("cbAgility.Items33"),
+            resources.GetString("cbAgility.Items34"),
+            resources.GetString("cbAgility.Items35"),
+            resources.GetString("cbAgility.Items36"),
+            resources.GetString("cbAgility.Items37"),
+            resources.GetString("cbAgility.Items38"),
+            resources.GetString("cbAgility.Items39"),
+            resources.GetString("cbAgility.Items40"),
+            resources.GetString("cbAgility.Items41"),
+            resources.GetString("cbAgility.Items42"),
+            resources.GetString("cbAgility.Items43"),
+            resources.GetString("cbAgility.Items44"),
+            resources.GetString("cbAgility.Items45"),
+            resources.GetString("cbAgility.Items46"),
+            resources.GetString("cbAgility.Items47"),
+            resources.GetString("cbAgility.Items48"),
+            resources.GetString("cbAgility.Items49"),
+            resources.GetString("cbAgility.Items50"),
+            resources.GetString("cbAgility.Items51"),
+            resources.GetString("cbAgility.Items52"),
+            resources.GetString("cbAgility.Items53"),
+            resources.GetString("cbAgility.Items54"),
+            resources.GetString("cbAgility.Items55"),
+            resources.GetString("cbAgility.Items56"),
+            resources.GetString("cbAgility.Items57"),
+            resources.GetString("cbAgility.Items58"),
+            resources.GetString("cbAgility.Items59"),
+            resources.GetString("cbAgility.Items60"),
+            resources.GetString("cbAgility.Items61"),
+            resources.GetString("cbAgility.Items62"),
+            resources.GetString("cbAgility.Items63"),
+            resources.GetString("cbAgility.Items64"),
+            resources.GetString("cbAgility.Items65"),
+            resources.GetString("cbAgility.Items66"),
+            resources.GetString("cbAgility.Items67"),
+            resources.GetString("cbAgility.Items68"),
+            resources.GetString("cbAgility.Items69"),
+            resources.GetString("cbAgility.Items70"),
+            resources.GetString("cbAgility.Items71"),
+            resources.GetString("cbAgility.Items72"),
+            resources.GetString("cbAgility.Items73"),
+            resources.GetString("cbAgility.Items74"),
+            resources.GetString("cbAgility.Items75"),
+            resources.GetString("cbAgility.Items76"),
+            resources.GetString("cbAgility.Items77"),
+            resources.GetString("cbAgility.Items78"),
+            resources.GetString("cbAgility.Items79"),
+            resources.GetString("cbAgility.Items80"),
+            resources.GetString("cbAgility.Items81"),
+            resources.GetString("cbAgility.Items82"),
+            resources.GetString("cbAgility.Items83"),
+            resources.GetString("cbAgility.Items84"),
+            resources.GetString("cbAgility.Items85"),
+            resources.GetString("cbAgility.Items86"),
+            resources.GetString("cbAgility.Items87"),
+            resources.GetString("cbAgility.Items88"),
+            resources.GetString("cbAgility.Items89"),
+            resources.GetString("cbAgility.Items90"),
+            resources.GetString("cbAgility.Items91"),
+            resources.GetString("cbAgility.Items92"),
+            resources.GetString("cbAgility.Items93"),
+            resources.GetString("cbAgility.Items94"),
+            resources.GetString("cbAgility.Items95"),
+            resources.GetString("cbAgility.Items96"),
+            resources.GetString("cbAgility.Items97"),
+            resources.GetString("cbAgility.Items98"),
+            resources.GetString("cbAgility.Items99"),
+            resources.GetString("cbAgility.Items100")});
+            resources.ApplyResources(this.cbAgility, "cbAgility");
+            this.cbAgility.Name = "cbAgility";
+            // 
+            // cbDexterity
+            // 
+            this.cbDexterity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbDexterity.FormattingEnabled = true;
+            this.cbDexterity.Items.AddRange(new object[] {
+            resources.GetString("cbDexterity.Items"),
+            resources.GetString("cbDexterity.Items1"),
+            resources.GetString("cbDexterity.Items2"),
+            resources.GetString("cbDexterity.Items3"),
+            resources.GetString("cbDexterity.Items4"),
+            resources.GetString("cbDexterity.Items5"),
+            resources.GetString("cbDexterity.Items6"),
+            resources.GetString("cbDexterity.Items7"),
+            resources.GetString("cbDexterity.Items8"),
+            resources.GetString("cbDexterity.Items9"),
+            resources.GetString("cbDexterity.Items10"),
+            resources.GetString("cbDexterity.Items11"),
+            resources.GetString("cbDexterity.Items12"),
+            resources.GetString("cbDexterity.Items13"),
+            resources.GetString("cbDexterity.Items14"),
+            resources.GetString("cbDexterity.Items15"),
+            resources.GetString("cbDexterity.Items16"),
+            resources.GetString("cbDexterity.Items17"),
+            resources.GetString("cbDexterity.Items18"),
+            resources.GetString("cbDexterity.Items19"),
+            resources.GetString("cbDexterity.Items20"),
+            resources.GetString("cbDexterity.Items21"),
+            resources.GetString("cbDexterity.Items22"),
+            resources.GetString("cbDexterity.Items23"),
+            resources.GetString("cbDexterity.Items24"),
+            resources.GetString("cbDexterity.Items25"),
+            resources.GetString("cbDexterity.Items26"),
+            resources.GetString("cbDexterity.Items27"),
+            resources.GetString("cbDexterity.Items28"),
+            resources.GetString("cbDexterity.Items29"),
+            resources.GetString("cbDexterity.Items30"),
+            resources.GetString("cbDexterity.Items31"),
+            resources.GetString("cbDexterity.Items32"),
+            resources.GetString("cbDexterity.Items33"),
+            resources.GetString("cbDexterity.Items34"),
+            resources.GetString("cbDexterity.Items35"),
+            resources.GetString("cbDexterity.Items36"),
+            resources.GetString("cbDexterity.Items37"),
+            resources.GetString("cbDexterity.Items38"),
+            resources.GetString("cbDexterity.Items39"),
+            resources.GetString("cbDexterity.Items40"),
+            resources.GetString("cbDexterity.Items41"),
+            resources.GetString("cbDexterity.Items42"),
+            resources.GetString("cbDexterity.Items43"),
+            resources.GetString("cbDexterity.Items44"),
+            resources.GetString("cbDexterity.Items45"),
+            resources.GetString("cbDexterity.Items46"),
+            resources.GetString("cbDexterity.Items47"),
+            resources.GetString("cbDexterity.Items48"),
+            resources.GetString("cbDexterity.Items49"),
+            resources.GetString("cbDexterity.Items50"),
+            resources.GetString("cbDexterity.Items51"),
+            resources.GetString("cbDexterity.Items52"),
+            resources.GetString("cbDexterity.Items53"),
+            resources.GetString("cbDexterity.Items54"),
+            resources.GetString("cbDexterity.Items55"),
+            resources.GetString("cbDexterity.Items56"),
+            resources.GetString("cbDexterity.Items57"),
+            resources.GetString("cbDexterity.Items58"),
+            resources.GetString("cbDexterity.Items59"),
+            resources.GetString("cbDexterity.Items60"),
+            resources.GetString("cbDexterity.Items61"),
+            resources.GetString("cbDexterity.Items62"),
+            resources.GetString("cbDexterity.Items63"),
+            resources.GetString("cbDexterity.Items64"),
+            resources.GetString("cbDexterity.Items65"),
+            resources.GetString("cbDexterity.Items66"),
+            resources.GetString("cbDexterity.Items67"),
+            resources.GetString("cbDexterity.Items68"),
+            resources.GetString("cbDexterity.Items69"),
+            resources.GetString("cbDexterity.Items70"),
+            resources.GetString("cbDexterity.Items71"),
+            resources.GetString("cbDexterity.Items72"),
+            resources.GetString("cbDexterity.Items73"),
+            resources.GetString("cbDexterity.Items74"),
+            resources.GetString("cbDexterity.Items75"),
+            resources.GetString("cbDexterity.Items76"),
+            resources.GetString("cbDexterity.Items77"),
+            resources.GetString("cbDexterity.Items78"),
+            resources.GetString("cbDexterity.Items79"),
+            resources.GetString("cbDexterity.Items80"),
+            resources.GetString("cbDexterity.Items81"),
+            resources.GetString("cbDexterity.Items82"),
+            resources.GetString("cbDexterity.Items83"),
+            resources.GetString("cbDexterity.Items84"),
+            resources.GetString("cbDexterity.Items85"),
+            resources.GetString("cbDexterity.Items86"),
+            resources.GetString("cbDexterity.Items87"),
+            resources.GetString("cbDexterity.Items88"),
+            resources.GetString("cbDexterity.Items89"),
+            resources.GetString("cbDexterity.Items90"),
+            resources.GetString("cbDexterity.Items91"),
+            resources.GetString("cbDexterity.Items92"),
+            resources.GetString("cbDexterity.Items93"),
+            resources.GetString("cbDexterity.Items94"),
+            resources.GetString("cbDexterity.Items95"),
+            resources.GetString("cbDexterity.Items96"),
+            resources.GetString("cbDexterity.Items97"),
+            resources.GetString("cbDexterity.Items98"),
+            resources.GetString("cbDexterity.Items99"),
+            resources.GetString("cbDexterity.Items100")});
+            resources.ApplyResources(this.cbDexterity, "cbDexterity");
+            this.cbDexterity.Name = "cbDexterity";
+            // 
+            // cbStrength
+            // 
+            this.cbStrength.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbStrength.FormattingEnabled = true;
+            this.cbStrength.Items.AddRange(new object[] {
+            resources.GetString("cbStrength.Items"),
+            resources.GetString("cbStrength.Items1"),
+            resources.GetString("cbStrength.Items2"),
+            resources.GetString("cbStrength.Items3"),
+            resources.GetString("cbStrength.Items4"),
+            resources.GetString("cbStrength.Items5"),
+            resources.GetString("cbStrength.Items6"),
+            resources.GetString("cbStrength.Items7"),
+            resources.GetString("cbStrength.Items8"),
+            resources.GetString("cbStrength.Items9"),
+            resources.GetString("cbStrength.Items10"),
+            resources.GetString("cbStrength.Items11"),
+            resources.GetString("cbStrength.Items12"),
+            resources.GetString("cbStrength.Items13"),
+            resources.GetString("cbStrength.Items14"),
+            resources.GetString("cbStrength.Items15"),
+            resources.GetString("cbStrength.Items16"),
+            resources.GetString("cbStrength.Items17"),
+            resources.GetString("cbStrength.Items18"),
+            resources.GetString("cbStrength.Items19"),
+            resources.GetString("cbStrength.Items20"),
+            resources.GetString("cbStrength.Items21"),
+            resources.GetString("cbStrength.Items22"),
+            resources.GetString("cbStrength.Items23"),
+            resources.GetString("cbStrength.Items24"),
+            resources.GetString("cbStrength.Items25"),
+            resources.GetString("cbStrength.Items26"),
+            resources.GetString("cbStrength.Items27"),
+            resources.GetString("cbStrength.Items28"),
+            resources.GetString("cbStrength.Items29"),
+            resources.GetString("cbStrength.Items30"),
+            resources.GetString("cbStrength.Items31"),
+            resources.GetString("cbStrength.Items32"),
+            resources.GetString("cbStrength.Items33"),
+            resources.GetString("cbStrength.Items34"),
+            resources.GetString("cbStrength.Items35"),
+            resources.GetString("cbStrength.Items36"),
+            resources.GetString("cbStrength.Items37"),
+            resources.GetString("cbStrength.Items38"),
+            resources.GetString("cbStrength.Items39"),
+            resources.GetString("cbStrength.Items40"),
+            resources.GetString("cbStrength.Items41"),
+            resources.GetString("cbStrength.Items42"),
+            resources.GetString("cbStrength.Items43"),
+            resources.GetString("cbStrength.Items44"),
+            resources.GetString("cbStrength.Items45"),
+            resources.GetString("cbStrength.Items46"),
+            resources.GetString("cbStrength.Items47"),
+            resources.GetString("cbStrength.Items48"),
+            resources.GetString("cbStrength.Items49"),
+            resources.GetString("cbStrength.Items50"),
+            resources.GetString("cbStrength.Items51"),
+            resources.GetString("cbStrength.Items52"),
+            resources.GetString("cbStrength.Items53"),
+            resources.GetString("cbStrength.Items54"),
+            resources.GetString("cbStrength.Items55"),
+            resources.GetString("cbStrength.Items56"),
+            resources.GetString("cbStrength.Items57"),
+            resources.GetString("cbStrength.Items58"),
+            resources.GetString("cbStrength.Items59"),
+            resources.GetString("cbStrength.Items60"),
+            resources.GetString("cbStrength.Items61"),
+            resources.GetString("cbStrength.Items62"),
+            resources.GetString("cbStrength.Items63"),
+            resources.GetString("cbStrength.Items64"),
+            resources.GetString("cbStrength.Items65"),
+            resources.GetString("cbStrength.Items66"),
+            resources.GetString("cbStrength.Items67"),
+            resources.GetString("cbStrength.Items68"),
+            resources.GetString("cbStrength.Items69"),
+            resources.GetString("cbStrength.Items70"),
+            resources.GetString("cbStrength.Items71"),
+            resources.GetString("cbStrength.Items72"),
+            resources.GetString("cbStrength.Items73"),
+            resources.GetString("cbStrength.Items74"),
+            resources.GetString("cbStrength.Items75"),
+            resources.GetString("cbStrength.Items76"),
+            resources.GetString("cbStrength.Items77"),
+            resources.GetString("cbStrength.Items78"),
+            resources.GetString("cbStrength.Items79"),
+            resources.GetString("cbStrength.Items80"),
+            resources.GetString("cbStrength.Items81"),
+            resources.GetString("cbStrength.Items82"),
+            resources.GetString("cbStrength.Items83"),
+            resources.GetString("cbStrength.Items84"),
+            resources.GetString("cbStrength.Items85"),
+            resources.GetString("cbStrength.Items86"),
+            resources.GetString("cbStrength.Items87"),
+            resources.GetString("cbStrength.Items88"),
+            resources.GetString("cbStrength.Items89"),
+            resources.GetString("cbStrength.Items90"),
+            resources.GetString("cbStrength.Items91"),
+            resources.GetString("cbStrength.Items92"),
+            resources.GetString("cbStrength.Items93"),
+            resources.GetString("cbStrength.Items94"),
+            resources.GetString("cbStrength.Items95"),
+            resources.GetString("cbStrength.Items96"),
+            resources.GetString("cbStrength.Items97"),
+            resources.GetString("cbStrength.Items98"),
+            resources.GetString("cbStrength.Items99"),
+            resources.GetString("cbStrength.Items100")});
+            resources.ApplyResources(this.cbStrength, "cbStrength");
+            this.cbStrength.Name = "cbStrength";
+            // 
+            // cbLifePoints
+            // 
+            this.cbLifePoints.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLifePoints.FormattingEnabled = true;
+            this.cbLifePoints.Items.AddRange(new object[] {
+            resources.GetString("cbLifePoints.Items"),
+            resources.GetString("cbLifePoints.Items1"),
+            resources.GetString("cbLifePoints.Items2"),
+            resources.GetString("cbLifePoints.Items3"),
+            resources.GetString("cbLifePoints.Items4"),
+            resources.GetString("cbLifePoints.Items5"),
+            resources.GetString("cbLifePoints.Items6")});
+            resources.ApplyResources(this.cbLifePoints, "cbLifePoints");
+            this.cbLifePoints.Name = "cbLifePoints";
+            // 
+            // cbAdventurePointsC
+            // 
+            this.cbAdventurePointsC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAdventurePointsC.FormattingEnabled = true;
+            this.cbAdventurePointsC.Items.AddRange(new object[] {
+            resources.GetString("cbAdventurePointsC.Items"),
+            resources.GetString("cbAdventurePointsC.Items1"),
+            resources.GetString("cbAdventurePointsC.Items2"),
+            resources.GetString("cbAdventurePointsC.Items3"),
+            resources.GetString("cbAdventurePointsC.Items4"),
+            resources.GetString("cbAdventurePointsC.Items5"),
+            resources.GetString("cbAdventurePointsC.Items6")});
+            resources.ApplyResources(this.cbAdventurePointsC, "cbAdventurePointsC");
+            this.cbAdventurePointsC.Name = "cbAdventurePointsC";
+            // 
+            // cbAdventurePointsB
+            // 
+            this.cbAdventurePointsB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAdventurePointsB.FormattingEnabled = true;
+            this.cbAdventurePointsB.Items.AddRange(new object[] {
+            resources.GetString("cbAdventurePointsB.Items"),
+            resources.GetString("cbAdventurePointsB.Items1"),
+            resources.GetString("cbAdventurePointsB.Items2"),
+            resources.GetString("cbAdventurePointsB.Items3"),
+            resources.GetString("cbAdventurePointsB.Items4"),
+            resources.GetString("cbAdventurePointsB.Items5"),
+            resources.GetString("cbAdventurePointsB.Items6")});
+            resources.ApplyResources(this.cbAdventurePointsB, "cbAdventurePointsB");
+            this.cbAdventurePointsB.Name = "cbAdventurePointsB";
+            // 
+            // cbAdventurePointsA
+            // 
+            this.cbAdventurePointsA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAdventurePointsA.FormattingEnabled = true;
+            this.cbAdventurePointsA.Items.AddRange(new object[] {
+            resources.GetString("cbAdventurePointsA.Items"),
+            resources.GetString("cbAdventurePointsA.Items1"),
+            resources.GetString("cbAdventurePointsA.Items2"),
+            resources.GetString("cbAdventurePointsA.Items3"),
+            resources.GetString("cbAdventurePointsA.Items4"),
+            resources.GetString("cbAdventurePointsA.Items5"),
+            resources.GetString("cbAdventurePointsA.Items6")});
+            resources.ApplyResources(this.cbAdventurePointsA, "cbAdventurePointsA");
+            this.cbAdventurePointsA.Name = "cbAdventurePointsA";
+            // 
             // FrmCreateCharacter
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
+            this.Controls.Add(this.cbAdventurePointsA);
+            this.Controls.Add(this.cbAdventurePointsB);
+            this.Controls.Add(this.cbAdventurePointsC);
+            this.Controls.Add(this.cbLifePoints);
+            this.Controls.Add(this.cbStrength);
+            this.Controls.Add(this.cbDexterity);
+            this.Controls.Add(this.cbAgility);
+            this.Controls.Add(this.cbConstitution);
+            this.Controls.Add(this.cbIntelligence);
+            this.Controls.Add(this.cbMagicalTalent);
+            this.Controls.Add(this.cbBodyWeightD);
+            this.Controls.Add(this.cbBodyWeightC);
+            this.Controls.Add(this.cbBodyWeightB);
+            this.Controls.Add(this.cbBodyWeightA);
             this.Controls.Add(this.cbInbornBuff);
             this.Controls.Add(this.cbSelfControl);
             this.Controls.Add(this.cbWillpower);
@@ -1524,35 +2228,23 @@ namespace mcreator
             this.Controls.Add(this.txtDamageBuff);
             this.Controls.Add(this.lblDice100A);
             this.Controls.Add(this.txtStaminaBuff);
-            this.Controls.Add(this.mtxtStrength);
             this.Controls.Add(this.lblStrength);
-            this.Controls.Add(this.mtxtDexterity);
             this.Controls.Add(this.lblLifePoints);
             this.Controls.Add(this.lblDexterity);
-            this.Controls.Add(this.mtxtAgility);
-            this.Controls.Add(this.mtxtLifePoints);
             this.Controls.Add(this.lblMagicTalent);
             this.Controls.Add(this.lblAgility);
             this.Controls.Add(this.lblDice6G);
-            this.Controls.Add(this.mtxtMagicalTalent);
             this.Controls.Add(this.lblAdventurePointsC);
-            this.Controls.Add(this.mtxtAdventurePointsC);
             this.Controls.Add(this.lblIntelligence);
-            this.Controls.Add(this.mtxtAdventurePointsB);
-            this.Controls.Add(this.mtxtAdventurePointsA);
-            this.Controls.Add(this.mtxtConstitution);
             this.Controls.Add(this.lblAdventurePointsB);
-            this.Controls.Add(this.mtxtIntelligence);
             this.Controls.Add(this.lblAdventurePointsA);
             this.Controls.Add(this.lblBodySize);
             this.Controls.Add(this.lblAdventurePoints);
             this.Controls.Add(this.lblConstitution);
-            this.Controls.Add(this.mtxtBodyWeightC);
             this.Controls.Add(this.lblBodyWeightB);
             this.Controls.Add(this.lblBodyWeightA);
             this.Controls.Add(this.txtWillpower);
             this.Controls.Add(this.txtCharisma);
-            this.Controls.Add(this.mtxtBodyWeightD);
             this.Controls.Add(this.txtBodyWeightB);
             this.Controls.Add(this.txtSelfControlC);
             this.Controls.Add(this.txtBodyWeightA);
@@ -1567,7 +2259,6 @@ namespace mcreator
             this.Controls.Add(this.lblDice6E);
             this.Controls.Add(this.lblDice6F);
             this.Controls.Add(this.txtBodySizeA);
-            this.Controls.Add(this.mtxtBodyWeightB);
             this.Controls.Add(this.lblSelfControlA);
             this.Controls.Add(this.txtBodySizeB);
             this.Controls.Add(this.txtHanded);
@@ -1580,7 +2271,6 @@ namespace mcreator
             this.Controls.Add(this.lblBodyWeight);
             this.Controls.Add(this.lblSelfControlValues);
             this.Controls.Add(this.lblDice100C);
-            this.Controls.Add(this.mtxtBodyWeightA);
             this.Controls.Add(this.lblWillpower);
             this.Controls.Add(this.lblCharisma);
             this.MaximizeBox = false;
@@ -1669,23 +2359,9 @@ namespace mcreator
         private System.Windows.Forms.Label lblStatCheck;
         private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.RadioButton rbStats;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtDexterity;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtAgility;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtLifePoints;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtMagicalTalent;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtAdventurePointsC;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtAdventurePointsB;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtAdventurePointsA;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtConstitution;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtIntelligence;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightC;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightD;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightB;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtBodyWeightA;
         protected internal System.Windows.Forms.TextBox txtExportPath;
         protected internal System.Windows.Forms.TextBox txtCharacterName;
         protected internal System.Windows.Forms.TextBox txtImportFile;
-        protected internal System.Windows.Forms.MaskedTextBox mtxtStrength;
         protected internal System.Windows.Forms.TextBox txtLifePoints;
         protected internal System.Windows.Forms.TextBox txtAreaMagicNormal;
         protected internal System.Windows.Forms.TextBox txtAreaMagicMagician;
@@ -1729,5 +2405,19 @@ namespace mcreator
         protected internal System.Windows.Forms.ComboBox cbWillpower;
         protected internal System.Windows.Forms.ComboBox cbSelfControl;
         protected internal System.Windows.Forms.ComboBox cbInbornBuff;
+        protected internal System.Windows.Forms.ComboBox cbBodyWeightA;
+        protected internal System.Windows.Forms.ComboBox cbBodyWeightB;
+        protected internal System.Windows.Forms.ComboBox cbBodyWeightC;
+        protected internal System.Windows.Forms.ComboBox cbBodyWeightD;
+        protected internal System.Windows.Forms.ComboBox cbMagicalTalent;
+        protected internal System.Windows.Forms.ComboBox cbIntelligence;
+        protected internal System.Windows.Forms.ComboBox cbConstitution;
+        protected internal System.Windows.Forms.ComboBox cbAgility;
+        protected internal System.Windows.Forms.ComboBox cbDexterity;
+        protected internal System.Windows.Forms.ComboBox cbStrength;
+        protected internal System.Windows.Forms.ComboBox cbLifePoints;
+        protected internal System.Windows.Forms.ComboBox cbAdventurePointsC;
+        protected internal System.Windows.Forms.ComboBox cbAdventurePointsB;
+        protected internal System.Windows.Forms.ComboBox cbAdventurePointsA;
     }
 }

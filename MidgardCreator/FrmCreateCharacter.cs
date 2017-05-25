@@ -55,7 +55,7 @@ namespace mcreator
                     cbHanded.Visible = false;
                     lblDice20C.Visible = false;
                     // Bodysize
-                    mtxtBodyWeightD.Visible = false;
+                    cbBodyWeightD.Visible = false;
                     txtBodySizeB.Visible = false;
                     lblBodySizeB.Visible = false;
                     lblDice6F.Visible = false;
@@ -71,7 +71,7 @@ namespace mcreator
                     // Handed
                     txtHanded.Text = "Beidhändig";
                     //BodyWeight
-                    mtxtBodyWeightD.Text = "0";
+                    cbBodyWeightD.SelectedIndex = 0;
                     break;
                 case "MCreator - Elf":
                     // Hide not needed fields
@@ -114,7 +114,7 @@ namespace mcreator
                     lblDice20B.Visible = false;
                     cbBodySizeB.Visible = false;
                     //Bodyweight
-                    mtxtBodyWeightD.Visible = false;
+                    cbBodyWeightD.Visible = false;
                     txtBodyWeightB.Visible = false;
                     lblBodyWeightB.Visible = false;
                     lblDice6F.Visible = false;
@@ -127,7 +127,7 @@ namespace mcreator
                     //BodySize
                     cbBodySizeB.SelectedIndex = 0;
                     //BodyWeight
-                    mtxtBodyWeightD.Text = "0";
+                    cbBodyWeightD.SelectedIndex = 0;
                     break;
                 case "MCreator - Mensch":
                     // UnHide not needed fields
@@ -177,12 +177,12 @@ namespace mcreator
                     rbStats.Checked = true;
 
                     // Set the text fields to the StatValues
-                    mtxtStrength.Text       = Convert.ToString(strength);
-                    mtxtDexterity.Text      = Convert.ToString(dexterity);
-                    mtxtAgility.Text        = Convert.ToString(agility);
-                    mtxtConstitution.Text   = Convert.ToString(constitution);
-                    mtxtMagicalTalent.Text  = Convert.ToString(magicTalent);
-                    mtxtIntelligence.Text   = Convert.ToString(intelligence);
+                    cbStrength.SelectedIndex        = strength;
+                    cbDexterity.SelectedIndex       = dexterity;
+                    cbAgility.SelectedIndex         = agility;
+                    cbConstitution.SelectedIndex    = constitution;
+                    cbMagicalTalent.SelectedIndex   = magicTalent;
+                    cbIntelligence.SelectedIndex    = intelligence;
 
                     //Get the BodySize for the different races
                     if (this.Text == "MCreator - Mensch")
@@ -206,26 +206,26 @@ namespace mcreator
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
-                        mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
-                        mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
-                        mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(1, 7));
+                        cbBodyWeightA.SelectedIndex = Rnd.Next(1, 7);
+                        cbBodyWeightB.SelectedIndex = Rnd.Next(1, 7);
+                        cbBodyWeightC.SelectedIndex = Rnd.Next(1, 7);
+                        cbBodyWeightD.SelectedIndex = Rnd.Next(1, 7);
                     }
                     else
                     {
                         if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Elf")
                         {
-                            mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
-                            mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
-                            mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
-                            mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(1, 7));
+                            cbBodyWeightA.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightB.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightC.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightD.SelectedIndex = Rnd.Next(1, 7);
                         }
                         if (this.Text == "MCreator - Gnom" || this.Text == "MCreator - Halbling")
                         {
-                            mtxtBodyWeightA.Text = Convert.ToString(Rnd.Next(1, 7));
-                            mtxtBodyWeightB.Text = Convert.ToString(Rnd.Next(1, 7));
-                            mtxtBodyWeightC.Text = Convert.ToString(Rnd.Next(1, 7));
-                            mtxtBodyWeightD.Text = Convert.ToString(Rnd.Next(0));
+                            cbBodyWeightA.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightB.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightC.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightD.SelectedIndex = 0;
                         }
                     }
                                        
@@ -235,10 +235,10 @@ namespace mcreator
                     cbSelfControl.SelectedIndex = Rnd.Next(1, 101);
                     cbHanded.SelectedIndex  = Rnd.Next(1, 21);
 
-                    mtxtAdventurePointsA.Text   = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtAdventurePointsB.Text   = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtAdventurePointsC.Text   = Convert.ToString(Rnd.Next(1, 7));
-                    mtxtLifePoints.Text         = Convert.ToString(Rnd.Next(1, 7));
+                    cbAdventurePointsA.SelectedIndex    = Rnd.Next(1, 7);
+                    cbAdventurePointsB.SelectedIndex    = Rnd.Next(1, 7);
+                    cbAdventurePointsC.SelectedIndex    = Rnd.Next(1, 7);
+                    cbLifePoints.SelectedIndex          = Rnd.Next(1, 7);
 
                     cbInbornBuff.SelectedIndex = Rnd.Next(1, 101);                
 
@@ -279,35 +279,35 @@ namespace mcreator
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 150);
-                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 140);
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150);
+                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140);
                     }
                     else
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text));
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text));
                     }
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text,mtxtBodyWeightB.Text,mtxtBodyWeightC.Text,mtxtBodyWeightD.Text,mtxtStrength.Text,txtBodySizeA.Text,this.Text));
-                        txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text) -4);
+                        txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text,this.Text));
+                        txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) -4);
                     }
                     else
                     {
-                        txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
+                        txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
                     }
 
                     //Calling the CalculationFunctions    
 
-                    txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), mtxtIntelligence.Text, cbAppearance.SelectedItem.ToString()));
-                    txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), mtxtIntelligence.Text, mtxtConstitution.Text));
-                    txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
-                    txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
-                    txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
-                    txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
-                    txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
+                    txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));
+                    txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString()));
+                    txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                    txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                    txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                    txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                    txtLifePoints.Text = Convert.ToString(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text));
                     txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
 
                     if (this.Text == "MCreator - Halfling")
@@ -358,27 +358,54 @@ namespace mcreator
             {
                 //taken from https://dotnet-snippets.de/snippet/alle-textboxen-in-einer-form-loeschen/156
                 if (c.GetType() == typeof(TextBox)) c.Text = "";
-                if (c.GetType() == typeof(MaskedTextBox)) c.Text = "";
 
                 string user_path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
                 txtExportPath.Text = "" + user_path + "";
             }
+
+            cbBodySizeA.SelectedIndex = 0;
+            cbBodySizeB.SelectedIndex = 0;
+            cbHanded.SelectedIndex = 0;
+            cbAppearance.SelectedIndex = 0;
+            cbCharisma.SelectedIndex = 0;
+            cbWillpower.SelectedIndex = 0;
+            cbSelfControl.SelectedIndex = 0;
+            cbInbornBuff.SelectedIndex = 0;
+            cbBodyWeightA.SelectedIndex = 0;
+            cbBodyWeightB.SelectedIndex = 0;
+            cbBodyWeightC.SelectedIndex = 0;
+            cbBodyWeightD.SelectedIndex = 0;
+            cbStrength.SelectedIndex = 0;
+            cbDexterity.SelectedIndex = 0;
+            cbAgility.SelectedIndex = 0;
+            cbConstitution.SelectedIndex = 0;
+            cbIntelligence.SelectedIndex = 0;
+            cbMagicalTalent.SelectedIndex = 0;
+            cbAdventurePointsA.SelectedIndex = 0;
+            cbAdventurePointsB.SelectedIndex = 0;
+            cbAdventurePointsC.SelectedIndex = 0;
+            cbLifePoints.SelectedIndex = 0;
 
         }
 
         //Timer to enable the different Buttons
         private void Enable_Timer_Tick(object sender, EventArgs e)
         {
-            if (mtxtStrength.Text != "" && Convert.ToInt32(mtxtStrength.Text) <= 100 && mtxtDexterity.Text != "" && Convert.ToInt32(mtxtDexterity.Text) <= 100 && mtxtAgility.Text != "" && Convert.ToInt32(mtxtAgility.Text) <= 100 && mtxtConstitution.Text != "" && Convert.ToInt32(mtxtConstitution.Text) <= 100 && mtxtIntelligence.Text != "" && Convert.ToInt32(mtxtIntelligence.Text) <= 100 && mtxtMagicalTalent.Text != "" && Convert.ToInt32(mtxtMagicalTalent.Text) <= 100)
+            if (cbStrength.SelectedItem.ToString()      != "" && Convert.ToInt32(cbStrength.SelectedItem.ToString())        <= 100 && 
+                cbDexterity.SelectedItem.ToString()     != "" && Convert.ToInt32(cbDexterity.SelectedItem.ToString())       <= 100 && 
+                cbAgility.SelectedItem.ToString()       != "" && Convert.ToInt32(cbAgility.SelectedItem.ToString())         <= 100 && 
+                cbConstitution.SelectedItem.ToString()  != "" && Convert.ToInt32(cbConstitution.SelectedItem.ToString())    <= 100 && 
+                cbIntelligence.SelectedItem.ToString()  != "" && Convert.ToInt32(cbIntelligence.SelectedItem.ToString())    <= 100 && 
+                cbMagicalTalent.SelectedItem.ToString() != "" && Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString())   <= 100)
             {
                 int TotalAmount_Stat = 0;
 
-                int strength = Convert.ToInt32(mtxtStrength.Text);
-                int dexterity = Convert.ToInt32(mtxtDexterity.Text);
-                int agility = Convert.ToInt32(mtxtAgility.Text);
-                int constitution = Convert.ToInt32(mtxtConstitution.Text);
-                int intelligence = Convert.ToInt32(mtxtIntelligence.Text);
-                int magicTalent = Convert.ToInt32(mtxtMagicalTalent.Text);
+                int strength        = Convert.ToInt32(cbStrength.SelectedItem.ToString());
+                int dexterity       = Convert.ToInt32(cbDexterity.SelectedItem.ToString());
+                int agility         = Convert.ToInt32(cbAgility.SelectedItem.ToString());
+                int constitution    = Convert.ToInt32(cbConstitution.SelectedItem.ToString());
+                int intelligence    = Convert.ToInt32(cbIntelligence.SelectedItem.ToString());
+                int magicTalent     = Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString());
 
                 TotalAmount_Stat = strength + dexterity + agility + constitution + intelligence + magicTalent;
 
@@ -415,10 +442,10 @@ namespace mcreator
                     cbWillpower.Enabled   = false;
                     cbSelfControl.Enabled = false;
 
-                    mtxtAdventurePointsA.Enabled = false;
-                    mtxtAdventurePointsB.Enabled = false;
-                    mtxtAdventurePointsC.Enabled = false;
-                    mtxtLifePoints.Enabled = false;
+                    cbAdventurePointsA.Enabled = false;
+                    cbAdventurePointsB.Enabled = false;
+                    cbAdventurePointsC.Enabled = false;
+                    cbLifePoints.Enabled = false;
                 }
 
                 if (TotalAmount_Stat >= 350)
@@ -431,8 +458,8 @@ namespace mcreator
 
                     int DefenseBuff = 0;
 
-                    DamageBuff = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
+                    DamageBuff = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
+                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10) + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
 
                     if (DamageBuff >= 0)
                     {
@@ -495,26 +522,26 @@ namespace mcreator
                         cbCharisma.Enabled = true;
                     }
 
-                    if(mtxtIntelligence.Text != "" && mtxtConstitution.Text != "")
+                    if(cbIntelligence.SelectedItem.ToString() != "" && cbConstitution.SelectedItem.ToString() != "")
                     {
                         cbWillpower.Enabled = true;
                     }
 
-                    if(txtWillpower.Text != "" && mtxtIntelligence.Text != "")
+                    if(txtWillpower.Text != "" && cbIntelligence.SelectedItem.ToString() != "")
                     {
                         cbSelfControl.Enabled = true;
                     }                   
 
                     if(txtStaminaBuff.Text != "")
                     {
-                        mtxtAdventurePointsA.Enabled = true;
-                        mtxtAdventurePointsB.Enabled = true;
-                        mtxtAdventurePointsC.Enabled = true;
+                        cbAdventurePointsA.Enabled = true;
+                        cbAdventurePointsB.Enabled = true;
+                        cbAdventurePointsC.Enabled = true;
                     }
 
-                    if(mtxtConstitution.Text != "")
+                    if(cbConstitution.SelectedItem.ToString() != "")
                     {
-                        mtxtLifePoints.Enabled = true;
+                        cbLifePoints.Enabled = true;
                     }
                 }
             }
@@ -551,10 +578,10 @@ namespace mcreator
                 cbWillpower.Enabled   = false;
                 cbSelfControl.Enabled = false;
 
-                mtxtAdventurePointsA.Enabled = false;
-                mtxtAdventurePointsB.Enabled = false;
-                mtxtAdventurePointsC.Enabled = false;
-                mtxtLifePoints.Enabled  = false;
+                cbAdventurePointsA.Enabled = false;
+                cbAdventurePointsB.Enabled = false;
+                cbAdventurePointsC.Enabled = false;
+                cbLifePoints.Enabled  = false;
             }            
         }
 
@@ -598,43 +625,43 @@ namespace mcreator
                     lines.Add(sr.ReadLine());
             }
 
-            mtxtStrength.Text       = lines[53];
-            mtxtDexterity.Text      = lines[55];
-            mtxtAgility.Text        = lines[57];
-            mtxtConstitution.Text   = lines[59];
-            mtxtIntelligence.Text   = lines[61];
-            mtxtMagicalTalent.Text  = lines[63];
+            cbStrength.SelectedIndex            = Convert.ToInt32(lines[53]);
+            cbDexterity.SelectedIndex           = Convert.ToInt32(lines[55]);
+            cbAgility.SelectedIndex             = Convert.ToInt32(lines[57]);
+            cbConstitution.SelectedIndex        = Convert.ToInt32(lines[59]);
+            cbIntelligence.SelectedIndex        = Convert.ToInt32(lines[61]);
+            cbMagicalTalent.SelectedIndex       = Convert.ToInt32(lines[63]);
 
-            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[65]) - 1;
-            cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[67]) - 1;
+            cbBodySizeA.SelectedIndex           = Convert.ToInt32(lines[65]);
+            cbBodySizeA.SelectedIndex           = Convert.ToInt32(lines[67]);
 
-            mtxtBodyWeightA.Text    = lines[69];
-            mtxtBodyWeightB.Text    = lines[71];
-            mtxtBodyWeightC.Text    = lines[73];
-            mtxtBodyWeightD.Text    = lines[75];
+            cbBodyWeightA.SelectedIndex         = Convert.ToInt32(lines[69]);
+            cbBodyWeightB.SelectedIndex         = Convert.ToInt32(lines[71]);
+            cbBodyWeightC.SelectedIndex         = Convert.ToInt32(lines[73]);
+            cbBodyWeightD.SelectedIndex         = Convert.ToInt32(lines[75]);
 
-            cbAppearance.SelectedIndex = Convert.ToInt32(lines[78]) - 1;
-            cbCharisma.SelectedIndex = Convert.ToInt32(lines[80]) - 1;
-            cbWillpower.SelectedIndex = Convert.ToInt32(lines[82]);
-            cbSelfControl.SelectedIndex = Convert.ToInt32(lines[84]) - 1;
+            cbAppearance.SelectedIndex          = Convert.ToInt32(lines[78]);
+            cbCharisma.SelectedIndex            = Convert.ToInt32(lines[80]);
+            cbWillpower.SelectedIndex           = Convert.ToInt32(lines[82]);
+            cbSelfControl.SelectedIndex         = Convert.ToInt32(lines[84]);
 
-            cbInbornBuff.SelectedIndex = Convert.ToInt32(lines[86]) - 1;
-            cbHanded.SelectedIndex  = Convert.ToInt32(lines[88]) - 1;
+            cbInbornBuff.SelectedIndex          = Convert.ToInt32(lines[86]);
+            cbHanded.SelectedIndex              = Convert.ToInt32(lines[88]);
 
-            mtxtAdventurePointsA.Text = lines[90];
-            mtxtAdventurePointsB.Text = lines[92];
-            mtxtAdventurePointsC.Text = lines[94];
-            mtxtLifePoints.Text = lines[96];
+            cbAdventurePointsA.SelectedIndex    = Convert.ToInt32(lines[90]);
+            cbAdventurePointsB.SelectedIndex    = Convert.ToInt32(lines[92]);
+            cbAdventurePointsC.SelectedIndex    = Convert.ToInt32(lines[94]);
+            cbLifePoints.SelectedIndex          = Convert.ToInt32(lines[96]);
 
             //txtCharacterName.Text = lines[];
 
             // Enabling the form
-            int strength        = Convert.ToInt32(mtxtStrength.Text);
-            int dexterity       = Convert.ToInt32(mtxtDexterity.Text);
-            int agility         = Convert.ToInt32(mtxtAgility.Text);
-            int constitution    = Convert.ToInt32(mtxtConstitution.Text);
-            int intelligence    = Convert.ToInt32(mtxtIntelligence.Text);
-            int magicTalent     = Convert.ToInt32(mtxtMagicalTalent.Text);
+            int strength        = Convert.ToInt32(cbStrength.SelectedItem.ToString());
+            int dexterity       = Convert.ToInt32(cbDexterity.SelectedItem.ToString());
+            int agility         = Convert.ToInt32(cbAgility.SelectedItem.ToString());
+            int constitution    = Convert.ToInt32(cbConstitution.SelectedItem.ToString());
+            int intelligence    = Convert.ToInt32(cbConstitution.SelectedItem.ToString());
+            int magicTalent     = Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString());
 
             rbStats.Checked = true;
             
@@ -732,25 +759,32 @@ namespace mcreator
         //Automatic Calculatin during runtime
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
-            if (mtxtStrength.Text != "" && Convert.ToInt32(mtxtStrength.Text) <= 100 && mtxtDexterity.Text != "" && Convert.ToInt32(mtxtDexterity.Text) <= 100 && mtxtAgility.Text != "" && Convert.ToInt32(mtxtAgility.Text) <= 100 && mtxtConstitution.Text != "" && Convert.ToInt32(mtxtConstitution.Text) <= 100 && mtxtIntelligence.Text != "" && Convert.ToInt32(mtxtIntelligence.Text) <= 100 && mtxtMagicalTalent.Text != "" && Convert.ToInt32(mtxtMagicalTalent.Text) <= 100)
+            if (
+                cbStrength.SelectedItem.ToString()      != "" && Convert.ToInt32(cbStrength.SelectedItem.ToString())        <= 100 &&
+                cbDexterity.SelectedItem.ToString()     != "" && Convert.ToInt32(cbDexterity.SelectedItem.ToString())       <= 100 &&
+                cbAgility.SelectedItem.ToString()       != "" && Convert.ToInt32(cbAgility.SelectedItem.ToString())         <= 100 &&
+                cbConstitution.SelectedItem.ToString()  != "" && Convert.ToInt32(cbConstitution.SelectedItem.ToString())    <= 100 &&
+                cbIntelligence.SelectedItem.ToString()  != "" && Convert.ToInt32(cbIntelligence.SelectedItem.ToString())    <= 100 &&
+                cbMagicalTalent.SelectedItem.ToString() != "" && Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString())   <= 100)
             {
                 int TotalAmount_Stat = 0;
 
-                int strength        = Convert.ToInt32(mtxtStrength.Text);
-                int dexterity       = Convert.ToInt32(mtxtDexterity.Text);
-                int agility         = Convert.ToInt32(mtxtAgility.Text);
-                int constitution    = Convert.ToInt32(mtxtConstitution.Text);
-                int intelligence    = Convert.ToInt32(mtxtIntelligence.Text);
-                int magicTalent     = Convert.ToInt32(mtxtMagicalTalent.Text);
+                int strength        = Convert.ToInt32(cbStrength.SelectedItem.ToString());
+                int dexterity       = Convert.ToInt32(cbDexterity.SelectedItem.ToString());
+                int agility         = Convert.ToInt32(cbAgility.SelectedItem.ToString());
+                int constitution    = Convert.ToInt32(cbConstitution.SelectedItem.ToString());
+                int intelligence    = Convert.ToInt32(cbIntelligence.SelectedItem.ToString());
+                int magicTalent     = Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString());
 
                 TotalAmount_Stat = strength + dexterity + agility + constitution + intelligence + magicTalent;
+
                 if (TotalAmount_Stat >= 350)
                 {
                     int DamageBuff = 0;
                     int DefenseBuff = 0;
 
-                    DamageBuff  = (Convert.ToInt32(mtxtStrength.Text) / 20) + (Convert.ToInt32(mtxtDexterity.Text) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(mtxtConstitution.Text) / 10) + (Convert.ToInt32(mtxtStrength.Text) / 20) - 7;
+                    DamageBuff  = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
+                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10) + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
 
                     if (DamageBuff >= 0)
                     {
@@ -812,37 +846,37 @@ namespace mcreator
             
             if (cbCharisma.SelectedItem.ToString() !="")
             {
-                txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), mtxtIntelligence.Text, cbAppearance.SelectedItem.ToString()));           
+                txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));           
             }
             if(cbWillpower.SelectedItem.ToString() != "")
             {
-                txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), mtxtIntelligence.Text, mtxtConstitution.Text));
+                txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString()));
             }
             if(cbSelfControl.SelectedItem.ToString() != "")
             {
-                txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
-                txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
-                txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, mtxtIntelligence.Text));
+                txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
             }   
 
             txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
             txtHanded.Text = c.Handed(cbHanded.SelectedItem.ToString());
-
-            if (mtxtAdventurePointsA.Text != "")
+            
+            if (cbAdventurePointsA.SelectedItem.ToString() != "")
             {
-                txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(mtxtAdventurePointsA.Text, txtStaminaBuff.Text, this.Text));
+                txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
             }
-            if (mtxtAdventurePointsB.Text != "")
+            if (cbAdventurePointsB.SelectedItem.ToString() != "")
             {
-                txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(mtxtAdventurePointsB.Text, txtStaminaBuff.Text, this.Text));
+                txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
             }
-            if (mtxtAdventurePointsC.Text != "")
+            if (cbAdventurePointsC.SelectedItem.ToString() != "")
             {
-                txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(mtxtAdventurePointsC.Text, txtStaminaBuff.Text, this.Text));
+                txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
             }
-            if(mtxtLifePoints.Text !="")
+            if(cbLifePoints.SelectedItem.ToString() != "")
             {
-                txtLifePoints.Text = Convert.ToString(c.LifePoints(mtxtConstitution.Text, mtxtLifePoints.Text, this.Text));
+                txtLifePoints.Text = Convert.ToString(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text));
             }
             
             
@@ -851,25 +885,25 @@ namespace mcreator
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 150);
-                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text) + 140);
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150);
+                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140);
                 }
                 else
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), mtxtStrength.Text, this.Text));
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text));
                 }
             }
 
-            if (t.BodyWeightCheck(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, rbStats.Checked, txtBodySizeA.Text))
+            if (t.BodyWeightCheck(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), rbStats.Checked, txtBodySizeA.Text))
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
-                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text) - 4);
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
                 }
                 else
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(mtxtBodyWeightA.Text, mtxtBodyWeightB.Text, mtxtBodyWeightC.Text, mtxtBodyWeightD.Text, mtxtStrength.Text, txtBodySizeA.Text, this.Text));
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
                 }
             }  
         }     

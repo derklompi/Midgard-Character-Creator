@@ -9,3 +9,14 @@ E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\MCreator.csproj.Generat
 E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\mcreator.exe
 E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\mcreator.pdb
 E:\GIT\Source\Repos\mcreator2\MidgardCreator\obj\Release\MCreator.csprojResolveAssemblyReference.cache
+E:\GIT\Source\Repos\mcreator\MidgardCreator\bin\Release\mcreator.exe.config
+E:\GIT\Source\Repos\mcreator\MidgardCreator\bin\Release\mcreator.exe
+E:\GIT\Source\Repos\mcreator\MidgardCreator\bin\Release\mcreator.pdb
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\MCreator.csprojResolveAssemblyReference.cache
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.FrmCustomizationValues.resources
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.FrmCreateCharacter.resources
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.FrmLevelUp.resources
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.FrmMain.resources
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\MCreator.csproj.GenerateResource.Cache
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.exe
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.pdb

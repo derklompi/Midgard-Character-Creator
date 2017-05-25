@@ -49,12 +49,12 @@ namespace mcreator.Classes
             string formTitle = "";
             formTitle = CharExport.Text;
                                
-            int mtxtStrength = Convert.ToInt32(CharExport.mtxtStrength.Text);
-            int mtxtDexterity = Convert.ToInt32(CharExport.mtxtDexterity.Text);
-            int mtxtAgility = Convert.ToInt32(CharExport.mtxtAgility.Text);
-            int mtxtConstitution = Convert.ToInt32(CharExport.mtxtConstitution.Text);
-            int mtxtIntelligence = Convert.ToInt32(CharExport.mtxtIntelligence.Text);
-            int mtxtMagicalTalent = Convert.ToInt32(CharExport.mtxtMagicalTalent.Text);
+            int mtxtStrength = Convert.ToInt32(CharExport.cbStrength.SelectedItem.ToString());
+            int mtxtDexterity = Convert.ToInt32(CharExport.cbDexterity.SelectedItem.ToString());
+            int mtxtAgility = Convert.ToInt32(CharExport.cbAgility.SelectedItem.ToString());
+            int mtxtConstitution = Convert.ToInt32(CharExport.cbConstitution.SelectedItem.ToString());
+            int mtxtIntelligence = Convert.ToInt32(CharExport.cbIntelligence.SelectedItem.ToString());
+            int mtxtMagicalTalent = Convert.ToInt32(CharExport.cbMagicalTalent.SelectedItem.ToString());
             int mtxtAppearance = Convert.ToInt32(CharExport.cbAppearance.SelectedItem.ToString());
 
             int txtCharisma = Convert.ToInt32(CharExport.txtCharisma.Text);
@@ -94,10 +94,10 @@ namespace mcreator.Classes
             int txtAdventurePointsB = Convert.ToInt32(CharExport.txtAdventurePointsB.Text);
             int txtAdventurePointsC = Convert.ToInt32(CharExport.txtAdventurePointsC.Text);
             int txtLifePoints = Convert.ToInt32(CharExport.txtLifePoints.Text);
-            int mtxtAdventurePointsA = Convert.ToInt32(CharExport.mtxtAdventurePointsA.Text);
-            int mtxtAdventurePointsB = Convert.ToInt32(CharExport.mtxtAdventurePointsB.Text);
-            int mtxtAdventurePointsC = Convert.ToInt32(CharExport.mtxtAdventurePointsC.Text);
-            int mtxtLifePoints = Convert.ToInt32(CharExport.mtxtLifePoints.Text);
+            int mtxtAdventurePointsA = Convert.ToInt32(CharExport.cbAdventurePointsA.SelectedItem.ToString());
+            int mtxtAdventurePointsB = Convert.ToInt32(CharExport.cbAdventurePointsB.SelectedItem.ToString());
+            int mtxtAdventurePointsC = Convert.ToInt32(CharExport.cbAdventurePointsC.SelectedItem.ToString());
+            int mtxtLifePoints = Convert.ToInt32(CharExport.cbLifePoints.SelectedItem.ToString());
 
             int txtBodySizeA = Convert.ToInt32(CharExport.txtBodySizeA.Text);
             int txtBodySizeB = Convert.ToInt32(CharExport.txtBodySizeB.Text);
@@ -106,10 +106,10 @@ namespace mcreator.Classes
             
             int txtBodyWeightA = Convert.ToInt32(CharExport.txtBodyWeightA.Text);
             int txtBodyWeightB = Convert.ToInt32(CharExport.txtBodyWeightB.Text);
-            int mtxtBodyWeightA = Convert.ToInt32(CharExport.mtxtBodyWeightA.Text);
-            int mtxtBodyWeightB = Convert.ToInt32(CharExport.mtxtBodyWeightB.Text);
-            int mtxtBodyWeightC = Convert.ToInt32(CharExport.mtxtBodyWeightC.Text);
-            int mtxtBodyWeightD = Convert.ToInt32(CharExport.mtxtBodyWeightD.Text);
+            int mtxtBodyWeightA = Convert.ToInt32(CharExport.cbBodyWeightA.SelectedItem.ToString());
+            int mtxtBodyWeightB = Convert.ToInt32(CharExport.cbBodyWeightB.SelectedItem.ToString());
+            int mtxtBodyWeightC = Convert.ToInt32(CharExport.cbBodyWeightC.SelectedItem.ToString());
+            int mtxtBodyWeightD = Convert.ToInt32(CharExport.cbBodyWeightD.SelectedItem.ToString());
            
             if (File.Exists(exportPlace) != true)
             {
