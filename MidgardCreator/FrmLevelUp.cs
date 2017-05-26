@@ -37,207 +37,17 @@ namespace mcreator
         private void BtnDiceValue_Click(object sender, EventArgs e)
         {
 
-            if (maskedTextBox1.Text != "")
+            if (cbDiceValue.SelectedIndex >= 0)
             {
-                lbDiceValues.Items.Add(maskedTextBox1.Text);
+                lbDiceValues.Items.Add(cbDiceValue.SelectedItem.ToString());
 
             }
-            string valueNumberCheck = "";
-            valueNumberCheck = cbCurrentLevel.SelectedItem.ToString();
-
-            switch (valueNumberCheck)
-            {
-
-                case "0":
-                    {
-                        if (lbDiceValues.Items.Count == 1)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "1":
-                    {
-                        if (lbDiceValues.Items.Count == 2)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "2":
-                    {
-                        if (lbDiceValues.Items.Count == 3)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "3":
-                    {
-                        if (lbDiceValues.Items.Count == 4)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "4":
-                    {
-                        if (lbDiceValues.Items.Count == 5)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "5":
-                    {
-                        if (lbDiceValues.Items.Count == 6)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "6":
-                    {
-                        if (lbDiceValues.Items.Count == 7)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "7":
-                    {
-                        if (lbDiceValues.Items.Count == 8)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "8":
-                    {
-                        if (lbDiceValues.Items.Count == 9)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "9":
-                    {
-                        if (lbDiceValues.Items.Count == 10)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "10":
-                    {
-                        if (lbDiceValues.Items.Count == 11)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "11":
-                    {
-                        if (lbDiceValues.Items.Count == 12)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "12":
-                    {
-                        if (lbDiceValues.Items.Count == 13)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "13":
-                    {
-                        if (lbDiceValues.Items.Count == 14)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                case "14":
-                    {
-                        if (lbDiceValues.Items.Count == 15)
-                        {
-                            btnCalculateAP.Enabled = true;
-                        }
-                        else
-                        {
-                            btnCalculateAP.Enabled = false;
-                        }
-                        break;
-                    }
-                default:
-                    {
-                        break;
-                    }
-            }
+            
 
 
 
 
-            int ergebnis = 0;
+           /* int ergebnis = 0;
             if (maskedTextBox1.Text != "")
             {
                 lbDiceValues.Items.Add(maskedTextBox1.Text);
@@ -246,7 +56,7 @@ namespace mcreator
                     ergebnis = ergebnis + Convert.ToInt32(lbDiceValues.Items[i].ToString());
                     textBox1.Text = Convert.ToString(ergebnis);
                 }
-            }         
+            }  */       
         }
 
         private void BtnDelete_Click(object sender, EventArgs e)
@@ -946,85 +756,99 @@ namespace mcreator
         {
             btnDiceValue.Enabled = true;
 
-            string levelKey = "";
-
+            string levelKey;
             levelKey = cbCurrentLevel.SelectedItem.ToString();
-
+            int levelKey_Int = Convert.ToInt32(levelKey);
             switch (levelKey)
             {
                 case "0":
                     {
                         txtNeededThrows.Text = "1W6 würfeln";
+                        lbDiceValues.Height = 18;
                         break;
                     }
                 case "1":
                     {
                         txtNeededThrows.Text = "2W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "2":
                     {
                         txtNeededThrows.Text = "3W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "3":
                     {
                         txtNeededThrows.Text = "4W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "4":
                     {
                         txtNeededThrows.Text = "5W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "5":
                     {
                         txtNeededThrows.Text = "6W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "6":
                     {
                         txtNeededThrows.Text = "7W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "7":
                     {
                         txtNeededThrows.Text = "8W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "8":
                     {
                         txtNeededThrows.Text = "9W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "9":
                     {
                         txtNeededThrows.Text = "10W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "10":
                     {
                         txtNeededThrows.Text = "11W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "11":
                     {
                         txtNeededThrows.Text = "12W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "12":
                     {
                         txtNeededThrows.Text = "13W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "13":
                     {
                         txtNeededThrows.Text = "14W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 case "14":
                     {
                         txtNeededThrows.Text = "15W6 würfeln";
+                        lbDiceValues.Height = 18 + (13 * levelKey_Int);
                         break;
                     }
                 default:
@@ -1032,6 +856,236 @@ namespace mcreator
                         break;
                     }
             }
-        }   
+        }
+
+        private void ButtonEnableTimer_Tick(object sender, EventArgs e)
+        {
+            string valueNumberCheck = "";
+
+            if (cbCurrentLevel.SelectedIndex >= 0 )
+            {
+                valueNumberCheck = cbCurrentLevel.SelectedItem.ToString();
+            }
+            
+
+            switch (valueNumberCheck)
+            {
+
+                case "0":
+                    {
+                        if (lbDiceValues.Items.Count == 1)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "1":
+                    {
+                        if (lbDiceValues.Items.Count == 2)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "2":
+                    {
+                        if (lbDiceValues.Items.Count == 3)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "3":
+                    {
+                        if (lbDiceValues.Items.Count == 4)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "4":
+                    {
+                        if (lbDiceValues.Items.Count == 5)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "5":
+                    {
+                        if (lbDiceValues.Items.Count == 6)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "6":
+                    {
+                        if (lbDiceValues.Items.Count == 7)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "7":
+                    {
+                        if (lbDiceValues.Items.Count == 8)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "8":
+                    {
+                        if (lbDiceValues.Items.Count == 9)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "9":
+                    {
+                        if (lbDiceValues.Items.Count == 10)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "10":
+                    {
+                        if (lbDiceValues.Items.Count == 11)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "11":
+                    {
+                        if (lbDiceValues.Items.Count == 12)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "12":
+                    {
+                        if (lbDiceValues.Items.Count == 13)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "13":
+                    {
+                        if (lbDiceValues.Items.Count == 14)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                case "14":
+                    {
+                        if (lbDiceValues.Items.Count == 15)
+                        {
+                            btnCalculateAP.Enabled = true;
+                            btnDiceValue.Enabled = false;
+                        }
+                        else
+                        {
+                            btnCalculateAP.Enabled = false;
+                            btnDiceValue.Enabled = true;
+                        }
+                        break;
+                    }
+                default:
+                    {
+                        break;
+                    }
+            }
+        }
     }
 }

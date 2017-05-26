@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.cbClass = new System.Windows.Forms.ComboBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.cbRace = new System.Windows.Forms.ComboBox();
@@ -36,7 +37,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.cbCurrentLevel = new System.Windows.Forms.ComboBox();
             this.lbDiceValues = new System.Windows.Forms.ListBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.btnDiceValue = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
@@ -47,6 +47,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtNeededThrows = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.ButtonEnableTimer = new System.Windows.Forms.Timer(this.components);
+            this.cbDiceValue = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // cbClass
@@ -146,19 +148,11 @@
             // lbDiceValues
             // 
             this.lbDiceValues.FormattingEnabled = true;
+            this.lbDiceValues.IntegralHeight = false;
             this.lbDiceValues.Location = new System.Drawing.Point(327, 40);
             this.lbDiceValues.Name = "lbDiceValues";
-            this.lbDiceValues.Size = new System.Drawing.Size(42, 199);
+            this.lbDiceValues.Size = new System.Drawing.Size(42, 18);
             this.lbDiceValues.TabIndex = 9;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(264, 40);
-            this.maskedTextBox1.Mask = "0";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(24, 20);
-            this.maskedTextBox1.TabIndex = 10;
-            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnDiceValue
             // 
@@ -253,12 +247,34 @@
             this.label4.TabIndex = 21;
             this.label4.Text = "1W6";
             // 
+            // ButtonEnableTimer
+            // 
+            this.ButtonEnableTimer.Enabled = true;
+            this.ButtonEnableTimer.Tick += new System.EventHandler(this.ButtonEnableTimer_Tick);
+            // 
+            // cbDiceValue
+            // 
+            this.cbDiceValue.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbDiceValue.FormattingEnabled = true;
+            this.cbDiceValue.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"});
+            this.cbDiceValue.Location = new System.Drawing.Point(251, 40);
+            this.cbDiceValue.Name = "cbDiceValue";
+            this.cbDiceValue.Size = new System.Drawing.Size(40, 21);
+            this.cbDiceValue.TabIndex = 1127;
+            // 
             // FrmLevelUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(844, 488);
             this.ControlBox = false;
+            this.Controls.Add(this.cbDiceValue);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtNeededThrows);
             this.Controls.Add(this.label7);
@@ -269,7 +285,6 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnDiceValue);
-            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.lbDiceValues);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.cbCurrentLevel);
@@ -297,7 +312,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbCurrentLevel;
         private System.Windows.Forms.ListBox lbDiceValues;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.Button btnDiceValue;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnDelete;
@@ -308,5 +322,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtNeededThrows;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Timer ButtonEnableTimer;
+        protected internal System.Windows.Forms.ComboBox cbDiceValue;
     }
 }
