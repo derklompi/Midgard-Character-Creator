@@ -38,11 +38,11 @@
             this.cbCurrentLevel = new System.Windows.Forms.ComboBox();
             this.lbDiceValues = new System.Windows.Forms.ListBox();
             this.btnDiceValue = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAP = new System.Windows.Forms.TextBox();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnReset = new System.Windows.Forms.Button();
             this.btnCalculateAP = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtEP = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtNeededThrows = new System.Windows.Forms.TextBox();
@@ -165,13 +165,13 @@
             this.btnDiceValue.UseVisualStyleBackColor = true;
             this.btnDiceValue.Click += new System.EventHandler(this.BtnDiceValue_Click);
             // 
-            // textBox1
+            // txtAP
             // 
-            this.textBox1.Location = new System.Drawing.Point(456, 40);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 12;
+            this.txtAP.Location = new System.Drawing.Point(456, 40);
+            this.txtAP.Name = "txtAP";
+            this.txtAP.ReadOnly = true;
+            this.txtAP.Size = new System.Drawing.Size(100, 20);
+            this.txtAP.TabIndex = 12;
             // 
             // btnDelete
             // 
@@ -204,13 +204,13 @@
             this.btnCalculateAP.UseVisualStyleBackColor = true;
             this.btnCalculateAP.Click += new System.EventHandler(this.BtnCalculateAP_Click);
             // 
-            // textBox2
+            // txtEP
             // 
-            this.textBox2.Location = new System.Drawing.Point(456, 66);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 17;
+            this.txtEP.Location = new System.Drawing.Point(456, 66);
+            this.txtEP.Name = "txtEP";
+            this.txtEP.ReadOnly = true;
+            this.txtEP.Size = new System.Drawing.Size(100, 20);
+            this.txtEP.TabIndex = 17;
             // 
             // label6
             // 
@@ -279,11 +279,11 @@
             this.Controls.Add(this.txtNeededThrows);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtEP);
             this.Controls.Add(this.btnCalculateAP);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAP);
             this.Controls.Add(this.btnDiceValue);
             this.Controls.Add(this.lbDiceValues);
             this.Controls.Add(this.label3);
@@ -313,11 +313,11 @@
         private System.Windows.Forms.ComboBox cbCurrentLevel;
         private System.Windows.Forms.ListBox lbDiceValues;
         private System.Windows.Forms.Button btnDiceValue;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAP;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnCalculateAP;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEP;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtNeededThrows;

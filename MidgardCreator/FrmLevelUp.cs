@@ -42,9 +42,6 @@ namespace mcreator
                 lbDiceValues.Items.Add(cbDiceValue.SelectedItem.ToString());
 
             }
-            
-
-
 
 
            /* int ergebnis = 0;
@@ -258,6 +255,9 @@ namespace mcreator
         private void BtnReset_Click(object sender, EventArgs e)
         {
             lbDiceValues.Items.Clear();
+
+            txtAP.Text = "";
+            txtEP.Text = "";
         }
 
         private void BtnCalculateAP_Click(object sender, EventArgs e)
@@ -286,22 +286,22 @@ namespace mcreator
                                     if(claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 4;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 3;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 2;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                 }
@@ -320,22 +320,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 6;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 4;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 2;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
                                 }
                             }
@@ -351,22 +351,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 9;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 6;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 3;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 20);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 20);
                                     }
                                 }
                             }
@@ -382,22 +382,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 12;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 40);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 40);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 8;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 40);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 40);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 4;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 40);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 40);
                                     }
                                 }
                             }
@@ -413,22 +413,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 15;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 70);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 70);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 70);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 70);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 5;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 70);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 70);
                                     }
                                 }
                             }
@@ -444,22 +444,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 18;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 150);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 150);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 12;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 150);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 150);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 6;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 150);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 150);
                                     }
                                 }
                             }
@@ -475,22 +475,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 21;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 300);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 300);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 14;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 300);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 300);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 7;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 300);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 300);
                                     }
                                 }
                             }
@@ -506,22 +506,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 24;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 600);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 600);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 16;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 600);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 600);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 8;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 600);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 600);
                                     }
                                 }
                             }
@@ -537,22 +537,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 27;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 1200);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 1200);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 18;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 1200);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 1200);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 9;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 1200);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 1200);
                                     }
                                 }
                             }
@@ -568,22 +568,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 30;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 1500);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 1500);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 1500);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 1500);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 1500);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 1500);
                                     }
                                 }
                             }
@@ -599,22 +599,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 30;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -630,22 +630,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 30;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -661,22 +661,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 30;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -692,22 +692,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 30;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
@@ -723,22 +723,22 @@ namespace mcreator
                                     if (claass == "Barbar" || claass == "Krieger" || claass == "Söldner" || claass == "Kundschafter" || claass == "Waldläufer")
                                     {
                                         apValue = diceValue + 30;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Kämpfer" || claass == "Schamane")
                                     {
                                         apValue = diceValue + 20;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
 
                                     if (claass == "anderer Zauberer")
                                     {
                                         apValue = diceValue + 10;
-                                        textBox1.Text = Convert.ToString(apValue);
-                                        textBox2.Text = Convert.ToString(apValue * 2000);
+                                        txtAP.Text = Convert.ToString(apValue);
+                                        txtEP.Text = Convert.ToString(apValue * 2000);
                                     }
                                 }
                             }
