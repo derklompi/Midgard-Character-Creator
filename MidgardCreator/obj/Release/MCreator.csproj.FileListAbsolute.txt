@@ -20,3 +20,8 @@ E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.FrmMain.resourc
 E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\MCreator.csproj.GenerateResource.Cache
 E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.exe
 E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.pdb
+E:\GIT\Source\Repos\mcreator\MidgardCreator\bin\Release\mcreator.exe.manifest
+E:\GIT\Source\Repos\mcreator\MidgardCreator\bin\Release\mcreator.application
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.TrustInfo.xml
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.exe.manifest
+E:\GIT\Source\Repos\mcreator\MidgardCreator\obj\Release\mcreator.application

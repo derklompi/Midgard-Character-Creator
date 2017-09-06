@@ -36,24 +36,11 @@ namespace mcreator
 
         private void BtnDiceValue_Click(object sender, EventArgs e)
         {
-
             if (cbDiceValue.SelectedIndex >= 0)
             {
                 lbDiceValues.Items.Add(cbDiceValue.SelectedItem.ToString());
 
-            }
-
-
-           /* int ergebnis = 0;
-            if (maskedTextBox1.Text != "")
-            {
-                lbDiceValues.Items.Add(maskedTextBox1.Text);
-                for (int i = 0; i < lbDiceValues.Items.Count; i++)
-                {
-                    ergebnis = ergebnis + Convert.ToInt32(lbDiceValues.Items[i].ToString());
-                    textBox1.Text = Convert.ToString(ergebnis);
-                }
-            }  */       
+            }      
         }
 
         private void BtnDelete_Click(object sender, EventArgs e)

@@ -312,7 +312,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(26, 380);
+            this.label10.Location = new System.Drawing.Point(26, 198);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(35, 13);
             this.label10.TabIndex = 19;
@@ -423,7 +423,7 @@
             "98",
             "99",
             "100"});
-            this.cbSocialRankA.Location = new System.Drawing.Point(79, 377);
+            this.cbSocialRankA.Location = new System.Drawing.Point(79, 195);
             this.cbSocialRankA.Name = "cbSocialRankA";
             this.cbSocialRankA.Size = new System.Drawing.Size(46, 21);
             this.cbSocialRankA.TabIndex = 20;
@@ -431,7 +431,7 @@
             // 
             // txtSocialRankGeneral
             // 
-            this.txtSocialRankGeneral.Location = new System.Drawing.Point(222, 377);
+            this.txtSocialRankGeneral.Location = new System.Drawing.Point(222, 195);
             this.txtSocialRankGeneral.Name = "txtSocialRankGeneral";
             this.txtSocialRankGeneral.ReadOnly = true;
             this.txtSocialRankGeneral.Size = new System.Drawing.Size(69, 20);
@@ -605,7 +605,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(81, 361);
+            this.label12.Location = new System.Drawing.Point(81, 179);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(32, 13);
             this.label12.TabIndex = 30;
@@ -915,7 +915,7 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(26, 217);
+            this.label33.Location = new System.Drawing.Point(26, 247);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(29, 13);
             this.label33.TabIndex = 55;
@@ -924,7 +924,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(76, 198);
+            this.label29.Location = new System.Drawing.Point(76, 228);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(30, 13);
             this.label29.TabIndex = 69;
@@ -942,7 +942,7 @@
             "4",
             "5",
             "6"});
-            this.cbStartMoneyB.Location = new System.Drawing.Point(79, 241);
+            this.cbStartMoneyB.Location = new System.Drawing.Point(79, 271);
             this.cbStartMoneyB.Name = "cbStartMoneyB";
             this.cbStartMoneyB.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyB.TabIndex = 67;
@@ -959,7 +959,7 @@
             "4",
             "5",
             "6"});
-            this.cbStartMoneyA.Location = new System.Drawing.Point(79, 214);
+            this.cbStartMoneyA.Location = new System.Drawing.Point(79, 244);
             this.cbStartMoneyA.Name = "cbStartMoneyA";
             this.cbStartMoneyA.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyA.TabIndex = 65;
@@ -977,7 +977,7 @@
             "4",
             "5",
             "6"});
-            this.cbStartMoneyC.Location = new System.Drawing.Point(79, 268);
+            this.cbStartMoneyC.Location = new System.Drawing.Point(79, 298);
             this.cbStartMoneyC.Name = "cbStartMoneyC";
             this.cbStartMoneyC.Size = new System.Drawing.Size(34, 21);
             this.cbStartMoneyC.TabIndex = 70;
@@ -985,7 +985,7 @@
             // 
             // txtMoneyD
             // 
-            this.txtMoneyD.Location = new System.Drawing.Point(207, 327);
+            this.txtMoneyD.Location = new System.Drawing.Point(207, 357);
             this.txtMoneyD.Name = "txtMoneyD";
             this.txtMoneyD.ReadOnly = true;
             this.txtMoneyD.Size = new System.Drawing.Size(30, 20);
@@ -994,7 +994,7 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(119, 330);
+            this.label23.Location = new System.Drawing.Point(119, 360);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(41, 13);
             this.label23.TabIndex = 79;
@@ -1003,7 +1003,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(119, 310);
+            this.label32.Location = new System.Drawing.Point(119, 340);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(85, 13);
             this.label32.TabIndex = 78;
@@ -1011,7 +1011,7 @@
             // 
             // txtMoneyC
             // 
-            this.txtMoneyC.Location = new System.Drawing.Point(207, 285);
+            this.txtMoneyC.Location = new System.Drawing.Point(207, 315);
             this.txtMoneyC.Name = "txtMoneyC";
             this.txtMoneyC.ReadOnly = true;
             this.txtMoneyC.Size = new System.Drawing.Size(30, 20);
@@ -1020,7 +1020,7 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(119, 288);
+            this.label34.Location = new System.Drawing.Point(119, 318);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(73, 13);
             this.label34.TabIndex = 76;
@@ -1029,7 +1029,7 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(119, 265);
+            this.label35.Location = new System.Drawing.Point(119, 295);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(83, 13);
             this.label35.TabIndex = 75;
@@ -1037,7 +1037,7 @@
             // 
             // txtMoneyB
             // 
-            this.txtMoneyB.Location = new System.Drawing.Point(207, 240);
+            this.txtMoneyB.Location = new System.Drawing.Point(207, 270);
             this.txtMoneyB.Name = "txtMoneyB";
             this.txtMoneyB.ReadOnly = true;
             this.txtMoneyB.Size = new System.Drawing.Size(30, 20);
@@ -1046,7 +1046,7 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(119, 243);
+            this.label36.Location = new System.Drawing.Point(119, 273);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(82, 13);
             this.label36.TabIndex = 73;
@@ -1054,7 +1054,7 @@
             // 
             // txtMoneyA
             // 
-            this.txtMoneyA.Location = new System.Drawing.Point(207, 214);
+            this.txtMoneyA.Location = new System.Drawing.Point(207, 244);
             this.txtMoneyA.Name = "txtMoneyA";
             this.txtMoneyA.ReadOnly = true;
             this.txtMoneyA.Size = new System.Drawing.Size(30, 20);
@@ -1063,7 +1063,7 @@
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(119, 217);
+            this.label37.Location = new System.Drawing.Point(119, 247);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(71, 13);
             this.label37.TabIndex = 71;
@@ -1098,7 +1098,7 @@
             "Waldläufer",
             "Spitzbube",
             "Andere"});
-            this.cbSocialRankB.Location = new System.Drawing.Point(131, 377);
+            this.cbSocialRankB.Location = new System.Drawing.Point(131, 195);
             this.cbSocialRankB.Name = "cbSocialRankB";
             this.cbSocialRankB.Size = new System.Drawing.Size(85, 21);
             this.cbSocialRankB.TabIndex = 91;
