@@ -103,7 +103,7 @@ namespace mcreator
         private void BtnCustomizationValues_Click(object sender, EventArgs e)
         {
             Hide();
-            FrmCustomizationValues customizationValues = new FrmCustomizationValues()
+            FrmCustomization customizationValues = new FrmCustomization()
             {
                 Text = "MCreator - Customization Values"
             };
