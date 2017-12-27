@@ -47,61 +47,60 @@ namespace mcreator
 
             // Customizing the form for the different races
             switch (this.Text)
-            {
-                
+            {               
                 case "MCreator - Halbling":
                     // Hide not needed fields
                     // Handed
-                    cbHanded.Visible = false;
-                    lblDice20C.Visible = false;
+                    cbHanded.Visible        = false;
+                    lblDice20C.Visible      = false;
                     // Bodysize
-                    cbBodyWeightD.Visible = false;
-                    txtBodySizeB.Visible = false;
-                    lblBodySizeB.Visible = false;
-                    lblDice6F.Visible = false;
+                    cbBodyWeightD.Visible   = false;
+                    txtBodySizeB.Visible    = false;
+                    lblBodySizeB.Visible    = false;
+                    lblDice6F.Visible       = false;
                     //Bodyweight
-                    txtBodyWeightB.Visible = false;
-                    lblBodyWeightB.Visible = false;
+                    txtBodyWeightB.Visible  = false;
+                    lblBodyWeightB.Visible  = false;
                     // Change Text of labels
-                    lblDice20A.Text = "1W6";
-                    lblDice20B.Text = "1W6";
-                    lblBodySizeA.Text = "cm";
-                    lblBodyWeightA.Text = "kg";
+                    lblDice20A.Text         = "1W6";
+                    lblDice20B.Text         = "1W6";
+                    lblBodySizeA.Text       = "cm";
+                    lblBodyWeightA.Text     = "kg";
                     // Change texts of textfields
                     // Handed
-                    txtHanded.Text = "Beidhändig";
+                    txtHanded.Text          = "Beidhändig";
                     //BodyWeight
                     cbBodyWeightD.SelectedIndex = 0;
                     break;
                 case "MCreator - Elf":
                     // Hide not needed fields
                     // Bodysize               
-                    txtBodySizeB.Visible = false;
-                    lblBodySizeB.Visible = false;
+                    txtBodySizeB.Visible    = false;
+                    lblBodySizeB.Visible    = false;
                     //Bodyweight
-                    txtBodyWeightB.Visible = false;
-                    lblBodyWeightB.Visible = false;
+                    txtBodyWeightB.Visible  = false;
+                    lblBodyWeightB.Visible  = false;
                     // Change Text of labels
-                    lblDice20A.Text = "1W6";
-                    lblDice20B.Text = "1W6";
-                    lblBodySizeA.Text = "cm";
-                    lblBodyWeightA.Text = "kg";
+                    lblDice20A.Text         = "1W6";
+                    lblDice20B.Text         = "1W6";
+                    lblBodySizeA.Text       = "cm";
+                    lblBodyWeightA.Text     = "kg";
                     break;
                 case "MCreator - Zwerg":
                     // Hide not needed fields
                     // Bodysize               
-                    txtBodySizeB.Visible = false;
-                    lblBodySizeB.Visible = false;
-                    lblDice20B.Visible = false;
-                    cbBodySizeB.Visible = false;
+                    txtBodySizeB.Visible    = false;
+                    lblBodySizeB.Visible    = false;
+                    lblDice20B.Visible      = false;
+                    cbBodySizeB.Visible     = false;
                     //Bodyweight
-                    txtBodyWeightB.Visible = false;
-                    lblBodyWeightB.Visible = false;
+                    txtBodyWeightB.Visible  = false;
+                    lblBodyWeightB.Visible  = false;
                     // Change Text of labels
-                    lblDice20A.Text = "1W6";
-                    lblDice20B.Text = "1W6";
-                    lblBodySizeA.Text = "cm";
-                    lblBodyWeightA.Text = "kg";
+                    lblDice20A.Text         = "1W6";
+                    lblDice20B.Text         = "1W6";
+                    lblBodySizeA.Text       = "cm";
+                    lblBodyWeightA.Text     = "kg";
                     // Change texts of textfields
                     //BodySize
                     cbBodySizeB.SelectedIndex = 0;
@@ -109,20 +108,20 @@ namespace mcreator
                 case "MCreator - Gnom":
                     // Hide not needed fields
                     // Bodysize                
-                    txtBodySizeB.Visible = false;
-                    lblBodySizeB.Visible = false;
-                    lblDice20B.Visible = false;
-                    cbBodySizeB.Visible = false;
+                    txtBodySizeB.Visible    = false;
+                    lblBodySizeB.Visible    = false;
+                    lblDice20B.Visible      = false;
+                    cbBodySizeB.Visible     = false;
                     //Bodyweight
-                    cbBodyWeightD.Visible = false;
-                    txtBodyWeightB.Visible = false;
-                    lblBodyWeightB.Visible = false;
-                    lblDice6F.Visible = false;
+                    cbBodyWeightD.Visible   = false;
+                    txtBodyWeightB.Visible  = false;
+                    lblBodyWeightB.Visible  = false;
+                    lblDice6F.Visible       = false;
                     // Change Text of labels
-                    lblDice20A.Text = "1W6";
-                    lblDice20B.Text = "1W6";
-                    lblBodySizeA.Text = "cm";
-                    lblBodyWeightA.Text = "kg";
+                    lblDice20A.Text         = "1W6";
+                    lblDice20B.Text         = "1W6";
+                    lblBodySizeA.Text       = "cm";
+                    lblBodyWeightA.Text     = "kg";
                     // Change texts of textfields
                     //BodySize
                     cbBodySizeB.SelectedIndex = 0;
@@ -132,15 +131,15 @@ namespace mcreator
                 case "MCreator - Mensch":
                     // UnHide not needed fields
                     // Bodysize 
-                    txtBodySizeB.Visible = true;
-                    lblBodySizeB.Visible = true;
-                    txtBodyWeightB.Visible = true;
-                    lblBodyWeightB.Visible = true;
+                    txtBodySizeB.Visible    = true;
+                    lblBodySizeB.Visible    = true;
+                    txtBodyWeightB.Visible  = true;
+                    lblBodyWeightB.Visible  = true;
                     // Change Text of labels
-                    lblDice20A.Text = "1W20";
-                    lblDice20B.Text = "1W20";
-                    lblBodySizeA.Text = "cm (Mann)";
-                    lblBodyWeightA.Text = "kg (Mann)";
+                    lblDice20A.Text         = "1W20";
+                    lblDice20B.Text         = "1W20";
+                    lblBodySizeA.Text       = "cm (Mann)";
+                    lblBodyWeightA.Text     = "kg (Mann)";
                     break;
                 default:
                     break;
@@ -157,12 +156,12 @@ namespace mcreator
                 //Get Random numbers between 1 and 100
                 Random Rnd = new Random();
 
-                int strength = Rnd.Next(1, 101);
-                int dexterity = Rnd.Next(1, 101);
-                int agility = Rnd.Next(1, 101);
-                int constitution = Rnd.Next(1, 101);
-                int magicTalent = Rnd.Next(1, 101);
-                int intelligence = Rnd.Next(1, 101);
+                int strength        = Rnd.Next(1, 101);
+                int dexterity       = Rnd.Next(1, 101);
+                int agility         = Rnd.Next(1, 101);
+                int constitution    = Rnd.Next(1, 101);
+                int magicTalent     = Rnd.Next(1, 101);
+                int intelligence    = Rnd.Next(1, 101);
 
                 //Check if StatSum is over 350
                 int StatSum = strength + dexterity + agility + constitution + magicTalent + intelligence;
@@ -229,11 +228,11 @@ namespace mcreator
                         }
                     }
                                        
-                    cbAppearance.SelectedIndex     = Rnd.Next(1, 101);
-                    cbCharisma.SelectedIndex = Rnd.Next(1, 101);
-                    cbWillpower.SelectedIndex = Rnd.Next(1, 101);
-                    cbSelfControl.SelectedIndex = Rnd.Next(1, 101);
-                    cbHanded.SelectedIndex  = Rnd.Next(1, 21);
+                    cbAppearance.SelectedIndex      = Rnd.Next(1, 101);
+                    cbCharisma.SelectedIndex        = Rnd.Next(1, 101);
+                    cbWillpower.SelectedIndex       = Rnd.Next(1, 101);
+                    cbSelfControl.SelectedIndex     = Rnd.Next(1, 101);
+                    cbHanded.SelectedIndex          = Rnd.Next(1, 21);
 
                     cbAdventurePointsA.SelectedIndex    = Rnd.Next(1, 7);
                     cbAdventurePointsB.SelectedIndex    = Rnd.Next(1, 7);
@@ -275,7 +274,7 @@ namespace mcreator
                     txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
                     txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text    = Convert.ToString(2 + Convert.ToInt32(txtMagicBuff.Text));               
+                    txtDoMagic0.Text    = Convert.ToString(2  + Convert.ToInt32(txtMagicBuff.Text));               
 
                     if (this.Text == "MCreator - Mensch")
                     {
@@ -299,16 +298,16 @@ namespace mcreator
 
                     //Calling the CalculationFunctions    
 
-                    txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));
-                    txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString()));
-                    txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
-                    txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
-                    txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
-                    txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
-                    txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
-                    txtLifePoints.Text = Convert.ToString(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text));
-                    txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
+                    txtCharisma.Text            = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));
+                    txtWillpower.Text           = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString()));
+                    txtSelfControlA.Text        = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                    txtSelfControlB.Text        = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                    txtSelfControlC.Text        = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                    txtAdventurePointsA.Text    = Convert.ToString(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsB.Text    = Convert.ToString(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                    txtAdventurePointsC.Text    = Convert.ToString(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                    txtLifePoints.Text          = Convert.ToString(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text));
+                    txtInbornBuff.Text          = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
 
                     if (this.Text == "MCreator - Halfling")
                     {
@@ -318,35 +317,6 @@ namespace mcreator
                     {
                         txtHanded.Text = c.Handed(cbHanded.SelectedItem.ToString());
                     }
-                    /*
-                    int mtBuffGhost_Body_MagicValue = 0;
-                    int intBuffGhostMagicValue      = 0;
-                    int CoBuffBodyMagicValue        = 0;
-                    
-                    // Buff MagicTalent Ghost&Body
-                    mtBuffGhost_Body_MagicValue = c.MagicTalentGhostBody(magicTalent);
-
-                    // Buff Intelligence Ghost
-                    intBuffGhostMagicValue = c.IntelligenceGhost(intelligence);
-
-                    // Buff Constitution Body
-                    CoBuffBodyMagicValue = c.ConstitutionBody(constitution);
-
-                    // Values GhostMagic
-                    txtGhostMagicFighter.Text   = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicMagician.Text  = Convert.ToString(17 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicNormal.Text    = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-
-                    // Values BodyMagic
-                    txtBodyMagicFighter.Text    = Convert.ToString(16 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicMagician.Text   = Convert.ToString(17 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicNormal.Text     = Convert.ToString(14 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-
-                    // Values AreaMagic
-                    txtAreaMagicFighter.Text    = Convert.ToString(10 + c.AgilityArea(agility));
-                    txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
-                    txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
-                    */
                 }
             }
         }
@@ -458,8 +428,8 @@ namespace mcreator
 
                     int DefenseBuff = 0;
 
-                    DamageBuff = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10) + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
+                    DamageBuff  = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20)        + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
+                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10)    + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
 
                     if (DamageBuff >= 0)
                     {
@@ -783,8 +753,8 @@ namespace mcreator
                     int DamageBuff = 0;
                     int DefenseBuff = 0;
 
-                    DamageBuff  = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10) + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
+                    DamageBuff  = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20)        + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
+                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10)    + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
 
                     if (DamageBuff >= 0)
                     {
