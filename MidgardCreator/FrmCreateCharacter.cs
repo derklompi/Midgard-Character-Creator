@@ -559,23 +559,32 @@ namespace mcreator
 
         private void BtnExport_Click(object sender, EventArgs e)
         {
-            if (txtCharacterName.Text !="")
+            try
             {
-                
-                //NonHumans dont have male/female so there isnt a second size
-                if(this.Text!="MCreator - Mensch")
+                if (txtCharacterName.Text != "")
                 {
-                    txtBodySizeB.Text   = "0";
-                    txtBodyWeightB.Text = "0";
+
+                    //NonHumans dont have male/female so there isnt a second size
+                    if (this.Text != "MCreator - Mensch")
+                    {
+                        txtBodySizeB.Text = "0";
+                        txtBodyWeightB.Text = "0";
+                    }
+
+                    Export exp = new Export();
+                    exp.export();
                 }
-                
-                Export exp = new Export();
-                exp.export();             
+                else
+                {
+                    MessageBox.Show("Bitte einen Charakternamen eingeben!", "Fehler", MessageBoxButtons.OK , MessageBoxIcon.Information);
+                }
             }
-            else
+            catch (Exception)
             {
-                MessageBox.Show("Bitte einen Charakternamen eingeben!", "Fehler");              
+
+                MessageBox.Show("Bitte erst alle Werte eintragen", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            
         }
 
         //Opens a Dialog to choose a folder
@@ -727,10 +736,7 @@ namespace mcreator
         //Exit Button
         private void BtnExit_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Beim Beenden gehen alle Werte verloren",
-                               "Warnung",
-                                MessageBoxButtons.OKCancel,
-                                MessageBoxIcon.Information) == DialogResult.OK)
+            if (MessageBox.Show("Beim Beenden gehen alle Werte verloren", "Warnung", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
             {
                 CalculationTimer.Enabled = false;
                 EnableTimer.Enabled = false;
