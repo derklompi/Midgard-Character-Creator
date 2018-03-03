@@ -29,6 +29,7 @@ namespace mcreator.Classes
             frmCC.cbBodySizeA.Items.Clear();
             int i = 0;
 
+            //Fill up Combobox With Values depending on the race
             switch (frmCC.Text)
             {
                 case "MCreator - Zwerg":
@@ -76,24 +77,8 @@ namespace mcreator.Classes
                     break;
             }
 
-            /*
-            int a = 0;
-            while (a < 21)
-            {
-                frmCC.cbHanded.Items.Add(a);
-                a++;
-            }
 
-            int b = 0;
-            while (b < 101)
-            {
-                frmCC.cbAppearance.Items.Add(b);
-                frmCC.cbCharisma.Items.Add(b);
-                frmCC.cbWillpower.Items.Add(b);
-                frmCC.cbSelfControl.Items.Add(b);
-                frmCC.cbInbornBuff.Items.Add(b);
-            }
-            */
+            //Set Index to 0 so the Enable FUnction wont try to use empty Values
             frmCC.cbBodySizeA.SelectedIndex = 0;
             frmCC.cbBodySizeB.SelectedIndex = 0;
             frmCC.cbHanded.SelectedIndex = 0;
