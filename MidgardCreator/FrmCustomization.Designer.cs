@@ -1,6 +1,6 @@
 ﻿namespace mcreator
 {
-    partial class FrmCustomizationValues
+    partial class FrmCustomization
     {
         /// <summary>
         /// Required designer variable.

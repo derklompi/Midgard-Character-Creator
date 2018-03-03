@@ -22,9 +22,9 @@ using mcreator.Classes;
 
 namespace mcreator
 {
-    public partial class FrmCustomizationValues : Form
+    public partial class FrmCustomization : Form
     {
-        public FrmCustomizationValues()
+        public FrmCustomization()
         {
             InitializeComponent();            
         }
