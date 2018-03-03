@@ -112,7 +112,7 @@ namespace mcreator.Classes
             int mtxtBodyWeightB     = Convert.ToInt32(CharExport.cbBodyWeightB.SelectedItem.ToString());
             int mtxtBodyWeightC     = Convert.ToInt32(CharExport.cbBodyWeightC.SelectedItem.ToString());
             int mtxtBodyWeightD     = Convert.ToInt32(CharExport.cbBodyWeightD.SelectedItem.ToString());
-           
+                       
             if (File.Exists(exportPlace) != true)
             {
                 string charrclass = "";
@@ -273,6 +273,9 @@ namespace mcreator.Classes
 
                     file.WriteLine("Lebenspunkte (1W6):");
                     file.WriteLine(mtxtLifePoints);
+
+                    file.WriteLine("Fenstertitel");
+                    file.WriteLine(formTitle);
 
                     if (File.Exists(exportPlace))
                     {
