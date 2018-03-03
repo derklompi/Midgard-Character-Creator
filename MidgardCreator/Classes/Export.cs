@@ -62,11 +62,11 @@ namespace mcreator.Classes
             int txtSelfControlA     = Convert.ToInt32(CharExport.txtSelfControlA.Text);
             int txtSelfControlB     = Convert.ToInt32(CharExport.txtSelfControlB.Text);
             int txtSelfControlC     = Convert.ToInt32(CharExport.txtSelfControlC.Text);
-            int mtxtCharisma        = Convert.ToInt32(CharExport.cbCharisma.ToString());
-            int mtxtWillpower       = Convert.ToInt32(CharExport.cbWillpower.ToString());
-            int mtxtSelfControl     = Convert.ToInt32(CharExport.cbSelfControl.ToString());
-            int mtxtInbornBuff      = Convert.ToInt32(CharExport.cbInbornBuff.ToString());
-            int mtxtHanded          = Convert.ToInt32(CharExport.cbHanded.ToString());
+            int mtxtCharisma        = Convert.ToInt32(CharExport.cbCharisma.SelectedItem.ToString());
+            int mtxtWillpower       = Convert.ToInt32(CharExport.cbWillpower.SelectedItem.ToString());
+            int mtxtSelfControl     = Convert.ToInt32(CharExport.cbSelfControl.SelectedItem.ToString());
+            int mtxtInbornBuff      = Convert.ToInt32(CharExport.cbInbornBuff.SelectedItem.ToString());
+            int mtxtHanded          = Convert.ToInt32(CharExport.cbHanded.SelectedItem.ToString());
 
             string txtInbornBuff    = CharExport.txtInbornBuff.Text;
             string txtHanded        = CharExport.txtHanded.Text;
@@ -103,8 +103,8 @@ namespace mcreator.Classes
 
             int txtBodySizeA        = Convert.ToInt32(CharExport.txtBodySizeA.Text);
             int txtBodySizeB        = Convert.ToInt32(CharExport.txtBodySizeB.Text);
-            int mtxtBodySizeA       = Convert.ToInt32(CharExport.cbBodySizeA.ToString());
-            int mtxtBodySizeB       = Convert.ToInt32(CharExport.cbBodySizeB.ToString());
+            int mtxtBodySizeA       = Convert.ToInt32(CharExport.cbBodySizeA.SelectedItem.ToString());
+            int mtxtBodySizeB       = Convert.ToInt32(CharExport.cbBodySizeB.SelectedItem.ToString());
             
             int txtBodyWeightA      = Convert.ToInt32(CharExport.txtBodyWeightA.Text);
             int txtBodyWeightB      = Convert.ToInt32(CharExport.txtBodyWeightB.Text);

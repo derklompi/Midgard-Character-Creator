@@ -153,11 +153,12 @@ namespace mcreator
                 cbStartMoneyB.Enabled = true;
 
             }
-            if(cbStartMoneyA.SelectedItem != null || cbStartMoneyB.SelectedItem != null || cbStartMoneyC.SelectedItem != null)
+            if(cbStartMoneyA.SelectedItem != null && cbStartMoneyB.SelectedItem != null && cbStartMoneyC.SelectedItem != null)
             {
                 int startMoneyCalcA = 0;
                 int startMoneyCalcB = 0;
                 int startMoneyCalcC = 0;
+
 
                 startMoneyCalcA = Convert.ToInt32(cbStartMoneyA.SelectedItem.ToString());
                 startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
@@ -203,7 +204,7 @@ namespace mcreator
                 cbStartMoneyC.Enabled = true;
 
             }
-            if (cbStartMoneyA.SelectedItem != null || cbStartMoneyB.SelectedItem != null || cbStartMoneyC.SelectedItem != null)
+            if (cbStartMoneyA.SelectedItem != null && cbStartMoneyB.SelectedItem != null && cbStartMoneyC.SelectedItem != null)
             {
                 int startMoneyCalcA = 0;
                 int startMoneyCalcB = 0;
