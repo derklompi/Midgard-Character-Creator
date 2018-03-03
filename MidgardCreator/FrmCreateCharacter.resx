@@ -3062,9 +3062,6 @@
   <metadata name="chooseExportFolder.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>136, 17</value>
   </metadata>
-  <data name="BtnImport.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="BtnImport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3079,9 +3076,6 @@
   </data>
   <data name="BtnImport.Text" xml:space="preserve">
     <value>Import</value>
-  </data>
-  <data name="BtnImport.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;BtnImport.Name" xml:space="preserve">
     <value>BtnImport</value>
@@ -3113,9 +3107,6 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Quelldatei</value>
   </data>
-  <data name="label1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
@@ -3136,9 +3127,6 @@
   </data>
   <data name="txtImportFile.TabIndex" type="System.Int32, mscorlib">
     <value>1099</value>
-  </data>
-  <data name="txtImportFile.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;txtImportFile.Name" xml:space="preserve">
     <value>txtImportFile</value>

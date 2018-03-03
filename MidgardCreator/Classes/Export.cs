@@ -231,7 +231,7 @@ namespace mcreator.Classes
                     file.WriteLine(mtxtDexterity);
                     file.WriteLine("Gewandheit (1W%):");
                     file.WriteLine(mtxtAgility);
-                    file.WriteLine("Konsitution (1W%):");
+                    file.WriteLine("Konstitution (1W%):");
                     file.WriteLine(mtxtConstitution);
                     file.WriteLine("Intelligenz (1W%):");
                     file.WriteLine(mtxtIntelligence);
