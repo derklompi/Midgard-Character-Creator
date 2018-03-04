@@ -815,8 +815,7 @@ namespace mcreator
             resources.GetString("cbHanded.Items16"),
             resources.GetString("cbHanded.Items17"),
             resources.GetString("cbHanded.Items18"),
-            resources.GetString("cbHanded.Items19"),
-            resources.GetString("cbHanded.Items20")});
+            resources.GetString("cbHanded.Items19")});
             resources.ApplyResources(this.cbHanded, "cbHanded");
             this.cbHanded.Name = "cbHanded";
             this.cbHanded.SelectedIndexChanged += new System.EventHandler(this.cbHanded_SelectedIndexChanged);
@@ -925,8 +924,7 @@ namespace mcreator
             resources.GetString("cbAppearance.Items96"),
             resources.GetString("cbAppearance.Items97"),
             resources.GetString("cbAppearance.Items98"),
-            resources.GetString("cbAppearance.Items99"),
-            resources.GetString("cbAppearance.Items100")});
+            resources.GetString("cbAppearance.Items99")});
             resources.ApplyResources(this.cbAppearance, "cbAppearance");
             this.cbAppearance.Name = "cbAppearance";
             // 
@@ -1034,8 +1032,7 @@ namespace mcreator
             resources.GetString("cbCharisma.Items96"),
             resources.GetString("cbCharisma.Items97"),
             resources.GetString("cbCharisma.Items98"),
-            resources.GetString("cbCharisma.Items99"),
-            resources.GetString("cbCharisma.Items100")});
+            resources.GetString("cbCharisma.Items99")});
             resources.ApplyResources(this.cbCharisma, "cbCharisma");
             this.cbCharisma.Name = "cbCharisma";
             this.cbCharisma.SelectedIndexChanged += new System.EventHandler(this.cbCharisma_SelectedIndexChanged);
@@ -1144,8 +1141,7 @@ namespace mcreator
             resources.GetString("cbWillpower.Items96"),
             resources.GetString("cbWillpower.Items97"),
             resources.GetString("cbWillpower.Items98"),
-            resources.GetString("cbWillpower.Items99"),
-            resources.GetString("cbWillpower.Items100")});
+            resources.GetString("cbWillpower.Items99")});
             resources.ApplyResources(this.cbWillpower, "cbWillpower");
             this.cbWillpower.Name = "cbWillpower";
             this.cbWillpower.SelectedIndexChanged += new System.EventHandler(this.cbWillpower_SelectedIndexChanged);
@@ -1254,8 +1250,7 @@ namespace mcreator
             resources.GetString("cbSelfControl.Items96"),
             resources.GetString("cbSelfControl.Items97"),
             resources.GetString("cbSelfControl.Items98"),
-            resources.GetString("cbSelfControl.Items99"),
-            resources.GetString("cbSelfControl.Items100")});
+            resources.GetString("cbSelfControl.Items99")});
             resources.ApplyResources(this.cbSelfControl, "cbSelfControl");
             this.cbSelfControl.Name = "cbSelfControl";
             this.cbSelfControl.SelectedIndexChanged += new System.EventHandler(this.cbSelfControl_SelectedIndexChanged);
@@ -1364,8 +1359,7 @@ namespace mcreator
             resources.GetString("cbInbornBuff.Items96"),
             resources.GetString("cbInbornBuff.Items97"),
             resources.GetString("cbInbornBuff.Items98"),
-            resources.GetString("cbInbornBuff.Items99"),
-            resources.GetString("cbInbornBuff.Items100")});
+            resources.GetString("cbInbornBuff.Items99")});
             resources.ApplyResources(this.cbInbornBuff, "cbInbornBuff");
             this.cbInbornBuff.Name = "cbInbornBuff";
             this.cbInbornBuff.SelectedIndexChanged += new System.EventHandler(this.cbInbornBuff_SelectedIndexChanged);
@@ -1534,8 +1528,7 @@ namespace mcreator
             resources.GetString("cbMagicalTalent.Items96"),
             resources.GetString("cbMagicalTalent.Items97"),
             resources.GetString("cbMagicalTalent.Items98"),
-            resources.GetString("cbMagicalTalent.Items99"),
-            resources.GetString("cbMagicalTalent.Items100")});
+            resources.GetString("cbMagicalTalent.Items99")});
             resources.ApplyResources(this.cbMagicalTalent, "cbMagicalTalent");
             this.cbMagicalTalent.Name = "cbMagicalTalent";
             // 
@@ -1643,8 +1636,7 @@ namespace mcreator
             resources.GetString("cbIntelligence.Items96"),
             resources.GetString("cbIntelligence.Items97"),
             resources.GetString("cbIntelligence.Items98"),
-            resources.GetString("cbIntelligence.Items99"),
-            resources.GetString("cbIntelligence.Items100")});
+            resources.GetString("cbIntelligence.Items99")});
             resources.ApplyResources(this.cbIntelligence, "cbIntelligence");
             this.cbIntelligence.Name = "cbIntelligence";
             // 
@@ -1752,8 +1744,7 @@ namespace mcreator
             resources.GetString("cbConstitution.Items96"),
             resources.GetString("cbConstitution.Items97"),
             resources.GetString("cbConstitution.Items98"),
-            resources.GetString("cbConstitution.Items99"),
-            resources.GetString("cbConstitution.Items100")});
+            resources.GetString("cbConstitution.Items99")});
             resources.ApplyResources(this.cbConstitution, "cbConstitution");
             this.cbConstitution.Name = "cbConstitution";
             // 
@@ -1861,8 +1852,7 @@ namespace mcreator
             resources.GetString("cbAgility.Items96"),
             resources.GetString("cbAgility.Items97"),
             resources.GetString("cbAgility.Items98"),
-            resources.GetString("cbAgility.Items99"),
-            resources.GetString("cbAgility.Items100")});
+            resources.GetString("cbAgility.Items99")});
             resources.ApplyResources(this.cbAgility, "cbAgility");
             this.cbAgility.Name = "cbAgility";
             // 
@@ -1970,8 +1960,7 @@ namespace mcreator
             resources.GetString("cbDexterity.Items96"),
             resources.GetString("cbDexterity.Items97"),
             resources.GetString("cbDexterity.Items98"),
-            resources.GetString("cbDexterity.Items99"),
-            resources.GetString("cbDexterity.Items100")});
+            resources.GetString("cbDexterity.Items99")});
             resources.ApplyResources(this.cbDexterity, "cbDexterity");
             this.cbDexterity.Name = "cbDexterity";
             // 
@@ -2079,8 +2068,7 @@ namespace mcreator
             resources.GetString("cbStrength.Items96"),
             resources.GetString("cbStrength.Items97"),
             resources.GetString("cbStrength.Items98"),
-            resources.GetString("cbStrength.Items99"),
-            resources.GetString("cbStrength.Items100")});
+            resources.GetString("cbStrength.Items99")});
             resources.ApplyResources(this.cbStrength, "cbStrength");
             this.cbStrength.Name = "cbStrength";
             // 
@@ -2094,8 +2082,7 @@ namespace mcreator
             resources.GetString("cbLifePoints.Items2"),
             resources.GetString("cbLifePoints.Items3"),
             resources.GetString("cbLifePoints.Items4"),
-            resources.GetString("cbLifePoints.Items5"),
-            resources.GetString("cbLifePoints.Items6")});
+            resources.GetString("cbLifePoints.Items5")});
             resources.ApplyResources(this.cbLifePoints, "cbLifePoints");
             this.cbLifePoints.Name = "cbLifePoints";
             this.cbLifePoints.SelectedIndexChanged += new System.EventHandler(this.cbLifePoints_SelectedIndexChanged);
@@ -2110,8 +2097,7 @@ namespace mcreator
             resources.GetString("cbAdventurePointsC.Items2"),
             resources.GetString("cbAdventurePointsC.Items3"),
             resources.GetString("cbAdventurePointsC.Items4"),
-            resources.GetString("cbAdventurePointsC.Items5"),
-            resources.GetString("cbAdventurePointsC.Items6")});
+            resources.GetString("cbAdventurePointsC.Items5")});
             resources.ApplyResources(this.cbAdventurePointsC, "cbAdventurePointsC");
             this.cbAdventurePointsC.Name = "cbAdventurePointsC";
             this.cbAdventurePointsC.SelectedIndexChanged += new System.EventHandler(this.cbAdventurePointsC_SelectedIndexChanged);
@@ -2126,8 +2112,7 @@ namespace mcreator
             resources.GetString("cbAdventurePointsB.Items2"),
             resources.GetString("cbAdventurePointsB.Items3"),
             resources.GetString("cbAdventurePointsB.Items4"),
-            resources.GetString("cbAdventurePointsB.Items5"),
-            resources.GetString("cbAdventurePointsB.Items6")});
+            resources.GetString("cbAdventurePointsB.Items5")});
             resources.ApplyResources(this.cbAdventurePointsB, "cbAdventurePointsB");
             this.cbAdventurePointsB.Name = "cbAdventurePointsB";
             this.cbAdventurePointsB.SelectedIndexChanged += new System.EventHandler(this.cbAdventurePointsB_SelectedIndexChanged);
@@ -2142,8 +2127,7 @@ namespace mcreator
             resources.GetString("cbAdventurePointsA.Items2"),
             resources.GetString("cbAdventurePointsA.Items3"),
             resources.GetString("cbAdventurePointsA.Items4"),
-            resources.GetString("cbAdventurePointsA.Items5"),
-            resources.GetString("cbAdventurePointsA.Items6")});
+            resources.GetString("cbAdventurePointsA.Items5")});
             resources.ApplyResources(this.cbAdventurePointsA, "cbAdventurePointsA");
             this.cbAdventurePointsA.Name = "cbAdventurePointsA";
             this.cbAdventurePointsA.SelectedIndexChanged += new System.EventHandler(this.cbAdventurePointsA_SelectedIndexChanged);

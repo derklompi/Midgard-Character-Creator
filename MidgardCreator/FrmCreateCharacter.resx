@@ -3276,66 +3276,63 @@
     <value>20</value>
   </data>
   <data name="cbHanded.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbHanded.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbHanded.Items2" xml:space="preserve">
+  <data name="cbHanded.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbHanded.Items3" xml:space="preserve">
+  <data name="cbHanded.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbHanded.Items4" xml:space="preserve">
+  <data name="cbHanded.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbHanded.Items5" xml:space="preserve">
+  <data name="cbHanded.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbHanded.Items6" xml:space="preserve">
+  <data name="cbHanded.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbHanded.Items7" xml:space="preserve">
+  <data name="cbHanded.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbHanded.Items8" xml:space="preserve">
+  <data name="cbHanded.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbHanded.Items9" xml:space="preserve">
+  <data name="cbHanded.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbHanded.Items10" xml:space="preserve">
+  <data name="cbHanded.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbHanded.Items11" xml:space="preserve">
+  <data name="cbHanded.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbHanded.Items12" xml:space="preserve">
+  <data name="cbHanded.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbHanded.Items13" xml:space="preserve">
+  <data name="cbHanded.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbHanded.Items14" xml:space="preserve">
+  <data name="cbHanded.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbHanded.Items15" xml:space="preserve">
+  <data name="cbHanded.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbHanded.Items16" xml:space="preserve">
+  <data name="cbHanded.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbHanded.Items17" xml:space="preserve">
+  <data name="cbHanded.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbHanded.Items18" xml:space="preserve">
+  <data name="cbHanded.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbHanded.Items19" xml:space="preserve">
+  <data name="cbHanded.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbHanded.Items20" xml:space="preserve">
+  <data name="cbHanded.Items19" xml:space="preserve">
     <value>20</value>
   </data>
   <data name="cbHanded.Location" type="System.Drawing.Point, System.Drawing">
@@ -3360,306 +3357,303 @@
     <value>19</value>
   </data>
   <data name="cbAppearance.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbAppearance.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbAppearance.Items2" xml:space="preserve">
+  <data name="cbAppearance.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbAppearance.Items3" xml:space="preserve">
+  <data name="cbAppearance.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbAppearance.Items4" xml:space="preserve">
+  <data name="cbAppearance.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbAppearance.Items5" xml:space="preserve">
+  <data name="cbAppearance.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbAppearance.Items6" xml:space="preserve">
+  <data name="cbAppearance.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbAppearance.Items7" xml:space="preserve">
+  <data name="cbAppearance.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbAppearance.Items8" xml:space="preserve">
+  <data name="cbAppearance.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbAppearance.Items9" xml:space="preserve">
+  <data name="cbAppearance.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbAppearance.Items10" xml:space="preserve">
+  <data name="cbAppearance.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbAppearance.Items11" xml:space="preserve">
+  <data name="cbAppearance.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbAppearance.Items12" xml:space="preserve">
+  <data name="cbAppearance.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbAppearance.Items13" xml:space="preserve">
+  <data name="cbAppearance.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbAppearance.Items14" xml:space="preserve">
+  <data name="cbAppearance.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbAppearance.Items15" xml:space="preserve">
+  <data name="cbAppearance.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbAppearance.Items16" xml:space="preserve">
+  <data name="cbAppearance.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbAppearance.Items17" xml:space="preserve">
+  <data name="cbAppearance.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbAppearance.Items18" xml:space="preserve">
+  <data name="cbAppearance.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbAppearance.Items19" xml:space="preserve">
+  <data name="cbAppearance.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbAppearance.Items20" xml:space="preserve">
+  <data name="cbAppearance.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbAppearance.Items21" xml:space="preserve">
+  <data name="cbAppearance.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbAppearance.Items22" xml:space="preserve">
+  <data name="cbAppearance.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbAppearance.Items23" xml:space="preserve">
+  <data name="cbAppearance.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbAppearance.Items24" xml:space="preserve">
+  <data name="cbAppearance.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbAppearance.Items25" xml:space="preserve">
+  <data name="cbAppearance.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbAppearance.Items26" xml:space="preserve">
+  <data name="cbAppearance.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbAppearance.Items27" xml:space="preserve">
+  <data name="cbAppearance.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbAppearance.Items28" xml:space="preserve">
+  <data name="cbAppearance.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbAppearance.Items29" xml:space="preserve">
+  <data name="cbAppearance.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbAppearance.Items30" xml:space="preserve">
+  <data name="cbAppearance.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbAppearance.Items31" xml:space="preserve">
+  <data name="cbAppearance.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbAppearance.Items32" xml:space="preserve">
+  <data name="cbAppearance.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbAppearance.Items33" xml:space="preserve">
+  <data name="cbAppearance.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbAppearance.Items34" xml:space="preserve">
+  <data name="cbAppearance.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbAppearance.Items35" xml:space="preserve">
+  <data name="cbAppearance.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbAppearance.Items36" xml:space="preserve">
+  <data name="cbAppearance.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbAppearance.Items37" xml:space="preserve">
+  <data name="cbAppearance.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbAppearance.Items38" xml:space="preserve">
+  <data name="cbAppearance.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbAppearance.Items39" xml:space="preserve">
+  <data name="cbAppearance.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbAppearance.Items40" xml:space="preserve">
+  <data name="cbAppearance.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbAppearance.Items41" xml:space="preserve">
+  <data name="cbAppearance.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbAppearance.Items42" xml:space="preserve">
+  <data name="cbAppearance.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbAppearance.Items43" xml:space="preserve">
+  <data name="cbAppearance.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbAppearance.Items44" xml:space="preserve">
+  <data name="cbAppearance.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbAppearance.Items45" xml:space="preserve">
+  <data name="cbAppearance.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbAppearance.Items46" xml:space="preserve">
+  <data name="cbAppearance.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbAppearance.Items47" xml:space="preserve">
+  <data name="cbAppearance.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbAppearance.Items48" xml:space="preserve">
+  <data name="cbAppearance.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbAppearance.Items49" xml:space="preserve">
+  <data name="cbAppearance.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbAppearance.Items50" xml:space="preserve">
+  <data name="cbAppearance.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbAppearance.Items51" xml:space="preserve">
+  <data name="cbAppearance.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbAppearance.Items52" xml:space="preserve">
+  <data name="cbAppearance.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbAppearance.Items53" xml:space="preserve">
+  <data name="cbAppearance.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbAppearance.Items54" xml:space="preserve">
+  <data name="cbAppearance.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbAppearance.Items55" xml:space="preserve">
+  <data name="cbAppearance.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbAppearance.Items56" xml:space="preserve">
+  <data name="cbAppearance.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbAppearance.Items57" xml:space="preserve">
+  <data name="cbAppearance.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbAppearance.Items58" xml:space="preserve">
+  <data name="cbAppearance.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbAppearance.Items59" xml:space="preserve">
+  <data name="cbAppearance.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbAppearance.Items60" xml:space="preserve">
+  <data name="cbAppearance.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbAppearance.Items61" xml:space="preserve">
+  <data name="cbAppearance.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbAppearance.Items62" xml:space="preserve">
+  <data name="cbAppearance.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbAppearance.Items63" xml:space="preserve">
+  <data name="cbAppearance.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbAppearance.Items64" xml:space="preserve">
+  <data name="cbAppearance.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbAppearance.Items65" xml:space="preserve">
+  <data name="cbAppearance.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbAppearance.Items66" xml:space="preserve">
+  <data name="cbAppearance.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbAppearance.Items67" xml:space="preserve">
+  <data name="cbAppearance.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbAppearance.Items68" xml:space="preserve">
+  <data name="cbAppearance.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbAppearance.Items69" xml:space="preserve">
+  <data name="cbAppearance.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbAppearance.Items70" xml:space="preserve">
+  <data name="cbAppearance.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbAppearance.Items71" xml:space="preserve">
+  <data name="cbAppearance.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbAppearance.Items72" xml:space="preserve">
+  <data name="cbAppearance.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbAppearance.Items73" xml:space="preserve">
+  <data name="cbAppearance.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbAppearance.Items74" xml:space="preserve">
+  <data name="cbAppearance.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbAppearance.Items75" xml:space="preserve">
+  <data name="cbAppearance.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbAppearance.Items76" xml:space="preserve">
+  <data name="cbAppearance.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbAppearance.Items77" xml:space="preserve">
+  <data name="cbAppearance.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbAppearance.Items78" xml:space="preserve">
+  <data name="cbAppearance.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbAppearance.Items79" xml:space="preserve">
+  <data name="cbAppearance.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbAppearance.Items80" xml:space="preserve">
+  <data name="cbAppearance.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbAppearance.Items81" xml:space="preserve">
+  <data name="cbAppearance.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbAppearance.Items82" xml:space="preserve">
+  <data name="cbAppearance.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbAppearance.Items83" xml:space="preserve">
+  <data name="cbAppearance.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbAppearance.Items84" xml:space="preserve">
+  <data name="cbAppearance.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbAppearance.Items85" xml:space="preserve">
+  <data name="cbAppearance.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbAppearance.Items86" xml:space="preserve">
+  <data name="cbAppearance.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbAppearance.Items87" xml:space="preserve">
+  <data name="cbAppearance.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbAppearance.Items88" xml:space="preserve">
+  <data name="cbAppearance.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbAppearance.Items89" xml:space="preserve">
+  <data name="cbAppearance.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbAppearance.Items90" xml:space="preserve">
+  <data name="cbAppearance.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbAppearance.Items91" xml:space="preserve">
+  <data name="cbAppearance.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbAppearance.Items92" xml:space="preserve">
+  <data name="cbAppearance.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbAppearance.Items93" xml:space="preserve">
+  <data name="cbAppearance.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbAppearance.Items94" xml:space="preserve">
+  <data name="cbAppearance.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbAppearance.Items95" xml:space="preserve">
+  <data name="cbAppearance.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbAppearance.Items96" xml:space="preserve">
+  <data name="cbAppearance.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbAppearance.Items97" xml:space="preserve">
+  <data name="cbAppearance.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbAppearance.Items98" xml:space="preserve">
+  <data name="cbAppearance.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbAppearance.Items99" xml:space="preserve">
+  <data name="cbAppearance.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbAppearance.Items100" xml:space="preserve">
+  <data name="cbAppearance.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbAppearance.Location" type="System.Drawing.Point, System.Drawing">
@@ -3684,306 +3678,303 @@
     <value>18</value>
   </data>
   <data name="cbCharisma.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbCharisma.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbCharisma.Items2" xml:space="preserve">
+  <data name="cbCharisma.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbCharisma.Items3" xml:space="preserve">
+  <data name="cbCharisma.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbCharisma.Items4" xml:space="preserve">
+  <data name="cbCharisma.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbCharisma.Items5" xml:space="preserve">
+  <data name="cbCharisma.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbCharisma.Items6" xml:space="preserve">
+  <data name="cbCharisma.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbCharisma.Items7" xml:space="preserve">
+  <data name="cbCharisma.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbCharisma.Items8" xml:space="preserve">
+  <data name="cbCharisma.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbCharisma.Items9" xml:space="preserve">
+  <data name="cbCharisma.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbCharisma.Items10" xml:space="preserve">
+  <data name="cbCharisma.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbCharisma.Items11" xml:space="preserve">
+  <data name="cbCharisma.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbCharisma.Items12" xml:space="preserve">
+  <data name="cbCharisma.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbCharisma.Items13" xml:space="preserve">
+  <data name="cbCharisma.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbCharisma.Items14" xml:space="preserve">
+  <data name="cbCharisma.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbCharisma.Items15" xml:space="preserve">
+  <data name="cbCharisma.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbCharisma.Items16" xml:space="preserve">
+  <data name="cbCharisma.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbCharisma.Items17" xml:space="preserve">
+  <data name="cbCharisma.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbCharisma.Items18" xml:space="preserve">
+  <data name="cbCharisma.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbCharisma.Items19" xml:space="preserve">
+  <data name="cbCharisma.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbCharisma.Items20" xml:space="preserve">
+  <data name="cbCharisma.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbCharisma.Items21" xml:space="preserve">
+  <data name="cbCharisma.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbCharisma.Items22" xml:space="preserve">
+  <data name="cbCharisma.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbCharisma.Items23" xml:space="preserve">
+  <data name="cbCharisma.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbCharisma.Items24" xml:space="preserve">
+  <data name="cbCharisma.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbCharisma.Items25" xml:space="preserve">
+  <data name="cbCharisma.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbCharisma.Items26" xml:space="preserve">
+  <data name="cbCharisma.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbCharisma.Items27" xml:space="preserve">
+  <data name="cbCharisma.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbCharisma.Items28" xml:space="preserve">
+  <data name="cbCharisma.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbCharisma.Items29" xml:space="preserve">
+  <data name="cbCharisma.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbCharisma.Items30" xml:space="preserve">
+  <data name="cbCharisma.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbCharisma.Items31" xml:space="preserve">
+  <data name="cbCharisma.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbCharisma.Items32" xml:space="preserve">
+  <data name="cbCharisma.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbCharisma.Items33" xml:space="preserve">
+  <data name="cbCharisma.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbCharisma.Items34" xml:space="preserve">
+  <data name="cbCharisma.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbCharisma.Items35" xml:space="preserve">
+  <data name="cbCharisma.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbCharisma.Items36" xml:space="preserve">
+  <data name="cbCharisma.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbCharisma.Items37" xml:space="preserve">
+  <data name="cbCharisma.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbCharisma.Items38" xml:space="preserve">
+  <data name="cbCharisma.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbCharisma.Items39" xml:space="preserve">
+  <data name="cbCharisma.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbCharisma.Items40" xml:space="preserve">
+  <data name="cbCharisma.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbCharisma.Items41" xml:space="preserve">
+  <data name="cbCharisma.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbCharisma.Items42" xml:space="preserve">
+  <data name="cbCharisma.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbCharisma.Items43" xml:space="preserve">
+  <data name="cbCharisma.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbCharisma.Items44" xml:space="preserve">
+  <data name="cbCharisma.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbCharisma.Items45" xml:space="preserve">
+  <data name="cbCharisma.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbCharisma.Items46" xml:space="preserve">
+  <data name="cbCharisma.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbCharisma.Items47" xml:space="preserve">
+  <data name="cbCharisma.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbCharisma.Items48" xml:space="preserve">
+  <data name="cbCharisma.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbCharisma.Items49" xml:space="preserve">
+  <data name="cbCharisma.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbCharisma.Items50" xml:space="preserve">
+  <data name="cbCharisma.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbCharisma.Items51" xml:space="preserve">
+  <data name="cbCharisma.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbCharisma.Items52" xml:space="preserve">
+  <data name="cbCharisma.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbCharisma.Items53" xml:space="preserve">
+  <data name="cbCharisma.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbCharisma.Items54" xml:space="preserve">
+  <data name="cbCharisma.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbCharisma.Items55" xml:space="preserve">
+  <data name="cbCharisma.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbCharisma.Items56" xml:space="preserve">
+  <data name="cbCharisma.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbCharisma.Items57" xml:space="preserve">
+  <data name="cbCharisma.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbCharisma.Items58" xml:space="preserve">
+  <data name="cbCharisma.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbCharisma.Items59" xml:space="preserve">
+  <data name="cbCharisma.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbCharisma.Items60" xml:space="preserve">
+  <data name="cbCharisma.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbCharisma.Items61" xml:space="preserve">
+  <data name="cbCharisma.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbCharisma.Items62" xml:space="preserve">
+  <data name="cbCharisma.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbCharisma.Items63" xml:space="preserve">
+  <data name="cbCharisma.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbCharisma.Items64" xml:space="preserve">
+  <data name="cbCharisma.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbCharisma.Items65" xml:space="preserve">
+  <data name="cbCharisma.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbCharisma.Items66" xml:space="preserve">
+  <data name="cbCharisma.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbCharisma.Items67" xml:space="preserve">
+  <data name="cbCharisma.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbCharisma.Items68" xml:space="preserve">
+  <data name="cbCharisma.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbCharisma.Items69" xml:space="preserve">
+  <data name="cbCharisma.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbCharisma.Items70" xml:space="preserve">
+  <data name="cbCharisma.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbCharisma.Items71" xml:space="preserve">
+  <data name="cbCharisma.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbCharisma.Items72" xml:space="preserve">
+  <data name="cbCharisma.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbCharisma.Items73" xml:space="preserve">
+  <data name="cbCharisma.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbCharisma.Items74" xml:space="preserve">
+  <data name="cbCharisma.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbCharisma.Items75" xml:space="preserve">
+  <data name="cbCharisma.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbCharisma.Items76" xml:space="preserve">
+  <data name="cbCharisma.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbCharisma.Items77" xml:space="preserve">
+  <data name="cbCharisma.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbCharisma.Items78" xml:space="preserve">
+  <data name="cbCharisma.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbCharisma.Items79" xml:space="preserve">
+  <data name="cbCharisma.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbCharisma.Items80" xml:space="preserve">
+  <data name="cbCharisma.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbCharisma.Items81" xml:space="preserve">
+  <data name="cbCharisma.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbCharisma.Items82" xml:space="preserve">
+  <data name="cbCharisma.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbCharisma.Items83" xml:space="preserve">
+  <data name="cbCharisma.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbCharisma.Items84" xml:space="preserve">
+  <data name="cbCharisma.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbCharisma.Items85" xml:space="preserve">
+  <data name="cbCharisma.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbCharisma.Items86" xml:space="preserve">
+  <data name="cbCharisma.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbCharisma.Items87" xml:space="preserve">
+  <data name="cbCharisma.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbCharisma.Items88" xml:space="preserve">
+  <data name="cbCharisma.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbCharisma.Items89" xml:space="preserve">
+  <data name="cbCharisma.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbCharisma.Items90" xml:space="preserve">
+  <data name="cbCharisma.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbCharisma.Items91" xml:space="preserve">
+  <data name="cbCharisma.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbCharisma.Items92" xml:space="preserve">
+  <data name="cbCharisma.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbCharisma.Items93" xml:space="preserve">
+  <data name="cbCharisma.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbCharisma.Items94" xml:space="preserve">
+  <data name="cbCharisma.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbCharisma.Items95" xml:space="preserve">
+  <data name="cbCharisma.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbCharisma.Items96" xml:space="preserve">
+  <data name="cbCharisma.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbCharisma.Items97" xml:space="preserve">
+  <data name="cbCharisma.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbCharisma.Items98" xml:space="preserve">
+  <data name="cbCharisma.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbCharisma.Items99" xml:space="preserve">
+  <data name="cbCharisma.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbCharisma.Items100" xml:space="preserve">
+  <data name="cbCharisma.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbCharisma.Location" type="System.Drawing.Point, System.Drawing">
@@ -4008,306 +3999,303 @@
     <value>17</value>
   </data>
   <data name="cbWillpower.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbWillpower.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbWillpower.Items2" xml:space="preserve">
+  <data name="cbWillpower.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbWillpower.Items3" xml:space="preserve">
+  <data name="cbWillpower.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbWillpower.Items4" xml:space="preserve">
+  <data name="cbWillpower.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbWillpower.Items5" xml:space="preserve">
+  <data name="cbWillpower.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbWillpower.Items6" xml:space="preserve">
+  <data name="cbWillpower.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbWillpower.Items7" xml:space="preserve">
+  <data name="cbWillpower.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbWillpower.Items8" xml:space="preserve">
+  <data name="cbWillpower.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbWillpower.Items9" xml:space="preserve">
+  <data name="cbWillpower.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbWillpower.Items10" xml:space="preserve">
+  <data name="cbWillpower.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbWillpower.Items11" xml:space="preserve">
+  <data name="cbWillpower.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbWillpower.Items12" xml:space="preserve">
+  <data name="cbWillpower.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbWillpower.Items13" xml:space="preserve">
+  <data name="cbWillpower.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbWillpower.Items14" xml:space="preserve">
+  <data name="cbWillpower.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbWillpower.Items15" xml:space="preserve">
+  <data name="cbWillpower.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbWillpower.Items16" xml:space="preserve">
+  <data name="cbWillpower.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbWillpower.Items17" xml:space="preserve">
+  <data name="cbWillpower.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbWillpower.Items18" xml:space="preserve">
+  <data name="cbWillpower.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbWillpower.Items19" xml:space="preserve">
+  <data name="cbWillpower.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbWillpower.Items20" xml:space="preserve">
+  <data name="cbWillpower.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbWillpower.Items21" xml:space="preserve">
+  <data name="cbWillpower.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbWillpower.Items22" xml:space="preserve">
+  <data name="cbWillpower.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbWillpower.Items23" xml:space="preserve">
+  <data name="cbWillpower.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbWillpower.Items24" xml:space="preserve">
+  <data name="cbWillpower.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbWillpower.Items25" xml:space="preserve">
+  <data name="cbWillpower.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbWillpower.Items26" xml:space="preserve">
+  <data name="cbWillpower.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbWillpower.Items27" xml:space="preserve">
+  <data name="cbWillpower.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbWillpower.Items28" xml:space="preserve">
+  <data name="cbWillpower.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbWillpower.Items29" xml:space="preserve">
+  <data name="cbWillpower.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbWillpower.Items30" xml:space="preserve">
+  <data name="cbWillpower.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbWillpower.Items31" xml:space="preserve">
+  <data name="cbWillpower.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbWillpower.Items32" xml:space="preserve">
+  <data name="cbWillpower.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbWillpower.Items33" xml:space="preserve">
+  <data name="cbWillpower.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbWillpower.Items34" xml:space="preserve">
+  <data name="cbWillpower.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbWillpower.Items35" xml:space="preserve">
+  <data name="cbWillpower.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbWillpower.Items36" xml:space="preserve">
+  <data name="cbWillpower.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbWillpower.Items37" xml:space="preserve">
+  <data name="cbWillpower.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbWillpower.Items38" xml:space="preserve">
+  <data name="cbWillpower.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbWillpower.Items39" xml:space="preserve">
+  <data name="cbWillpower.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbWillpower.Items40" xml:space="preserve">
+  <data name="cbWillpower.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbWillpower.Items41" xml:space="preserve">
+  <data name="cbWillpower.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbWillpower.Items42" xml:space="preserve">
+  <data name="cbWillpower.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbWillpower.Items43" xml:space="preserve">
+  <data name="cbWillpower.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbWillpower.Items44" xml:space="preserve">
+  <data name="cbWillpower.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbWillpower.Items45" xml:space="preserve">
+  <data name="cbWillpower.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbWillpower.Items46" xml:space="preserve">
+  <data name="cbWillpower.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbWillpower.Items47" xml:space="preserve">
+  <data name="cbWillpower.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbWillpower.Items48" xml:space="preserve">
+  <data name="cbWillpower.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbWillpower.Items49" xml:space="preserve">
+  <data name="cbWillpower.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbWillpower.Items50" xml:space="preserve">
+  <data name="cbWillpower.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbWillpower.Items51" xml:space="preserve">
+  <data name="cbWillpower.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbWillpower.Items52" xml:space="preserve">
+  <data name="cbWillpower.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbWillpower.Items53" xml:space="preserve">
+  <data name="cbWillpower.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbWillpower.Items54" xml:space="preserve">
+  <data name="cbWillpower.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbWillpower.Items55" xml:space="preserve">
+  <data name="cbWillpower.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbWillpower.Items56" xml:space="preserve">
+  <data name="cbWillpower.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbWillpower.Items57" xml:space="preserve">
+  <data name="cbWillpower.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbWillpower.Items58" xml:space="preserve">
+  <data name="cbWillpower.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbWillpower.Items59" xml:space="preserve">
+  <data name="cbWillpower.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbWillpower.Items60" xml:space="preserve">
+  <data name="cbWillpower.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbWillpower.Items61" xml:space="preserve">
+  <data name="cbWillpower.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbWillpower.Items62" xml:space="preserve">
+  <data name="cbWillpower.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbWillpower.Items63" xml:space="preserve">
+  <data name="cbWillpower.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbWillpower.Items64" xml:space="preserve">
+  <data name="cbWillpower.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbWillpower.Items65" xml:space="preserve">
+  <data name="cbWillpower.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbWillpower.Items66" xml:space="preserve">
+  <data name="cbWillpower.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbWillpower.Items67" xml:space="preserve">
+  <data name="cbWillpower.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbWillpower.Items68" xml:space="preserve">
+  <data name="cbWillpower.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbWillpower.Items69" xml:space="preserve">
+  <data name="cbWillpower.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbWillpower.Items70" xml:space="preserve">
+  <data name="cbWillpower.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbWillpower.Items71" xml:space="preserve">
+  <data name="cbWillpower.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbWillpower.Items72" xml:space="preserve">
+  <data name="cbWillpower.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbWillpower.Items73" xml:space="preserve">
+  <data name="cbWillpower.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbWillpower.Items74" xml:space="preserve">
+  <data name="cbWillpower.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbWillpower.Items75" xml:space="preserve">
+  <data name="cbWillpower.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbWillpower.Items76" xml:space="preserve">
+  <data name="cbWillpower.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbWillpower.Items77" xml:space="preserve">
+  <data name="cbWillpower.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbWillpower.Items78" xml:space="preserve">
+  <data name="cbWillpower.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbWillpower.Items79" xml:space="preserve">
+  <data name="cbWillpower.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbWillpower.Items80" xml:space="preserve">
+  <data name="cbWillpower.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbWillpower.Items81" xml:space="preserve">
+  <data name="cbWillpower.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbWillpower.Items82" xml:space="preserve">
+  <data name="cbWillpower.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbWillpower.Items83" xml:space="preserve">
+  <data name="cbWillpower.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbWillpower.Items84" xml:space="preserve">
+  <data name="cbWillpower.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbWillpower.Items85" xml:space="preserve">
+  <data name="cbWillpower.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbWillpower.Items86" xml:space="preserve">
+  <data name="cbWillpower.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbWillpower.Items87" xml:space="preserve">
+  <data name="cbWillpower.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbWillpower.Items88" xml:space="preserve">
+  <data name="cbWillpower.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbWillpower.Items89" xml:space="preserve">
+  <data name="cbWillpower.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbWillpower.Items90" xml:space="preserve">
+  <data name="cbWillpower.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbWillpower.Items91" xml:space="preserve">
+  <data name="cbWillpower.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbWillpower.Items92" xml:space="preserve">
+  <data name="cbWillpower.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbWillpower.Items93" xml:space="preserve">
+  <data name="cbWillpower.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbWillpower.Items94" xml:space="preserve">
+  <data name="cbWillpower.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbWillpower.Items95" xml:space="preserve">
+  <data name="cbWillpower.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbWillpower.Items96" xml:space="preserve">
+  <data name="cbWillpower.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbWillpower.Items97" xml:space="preserve">
+  <data name="cbWillpower.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbWillpower.Items98" xml:space="preserve">
+  <data name="cbWillpower.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbWillpower.Items99" xml:space="preserve">
+  <data name="cbWillpower.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbWillpower.Items100" xml:space="preserve">
+  <data name="cbWillpower.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbWillpower.Location" type="System.Drawing.Point, System.Drawing">
@@ -4332,306 +4320,303 @@
     <value>16</value>
   </data>
   <data name="cbSelfControl.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbSelfControl.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbSelfControl.Items2" xml:space="preserve">
+  <data name="cbSelfControl.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbSelfControl.Items3" xml:space="preserve">
+  <data name="cbSelfControl.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbSelfControl.Items4" xml:space="preserve">
+  <data name="cbSelfControl.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbSelfControl.Items5" xml:space="preserve">
+  <data name="cbSelfControl.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbSelfControl.Items6" xml:space="preserve">
+  <data name="cbSelfControl.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbSelfControl.Items7" xml:space="preserve">
+  <data name="cbSelfControl.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbSelfControl.Items8" xml:space="preserve">
+  <data name="cbSelfControl.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbSelfControl.Items9" xml:space="preserve">
+  <data name="cbSelfControl.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbSelfControl.Items10" xml:space="preserve">
+  <data name="cbSelfControl.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbSelfControl.Items11" xml:space="preserve">
+  <data name="cbSelfControl.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbSelfControl.Items12" xml:space="preserve">
+  <data name="cbSelfControl.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbSelfControl.Items13" xml:space="preserve">
+  <data name="cbSelfControl.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbSelfControl.Items14" xml:space="preserve">
+  <data name="cbSelfControl.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbSelfControl.Items15" xml:space="preserve">
+  <data name="cbSelfControl.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbSelfControl.Items16" xml:space="preserve">
+  <data name="cbSelfControl.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbSelfControl.Items17" xml:space="preserve">
+  <data name="cbSelfControl.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbSelfControl.Items18" xml:space="preserve">
+  <data name="cbSelfControl.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbSelfControl.Items19" xml:space="preserve">
+  <data name="cbSelfControl.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbSelfControl.Items20" xml:space="preserve">
+  <data name="cbSelfControl.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbSelfControl.Items21" xml:space="preserve">
+  <data name="cbSelfControl.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbSelfControl.Items22" xml:space="preserve">
+  <data name="cbSelfControl.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbSelfControl.Items23" xml:space="preserve">
+  <data name="cbSelfControl.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbSelfControl.Items24" xml:space="preserve">
+  <data name="cbSelfControl.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbSelfControl.Items25" xml:space="preserve">
+  <data name="cbSelfControl.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbSelfControl.Items26" xml:space="preserve">
+  <data name="cbSelfControl.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbSelfControl.Items27" xml:space="preserve">
+  <data name="cbSelfControl.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbSelfControl.Items28" xml:space="preserve">
+  <data name="cbSelfControl.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbSelfControl.Items29" xml:space="preserve">
+  <data name="cbSelfControl.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbSelfControl.Items30" xml:space="preserve">
+  <data name="cbSelfControl.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbSelfControl.Items31" xml:space="preserve">
+  <data name="cbSelfControl.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbSelfControl.Items32" xml:space="preserve">
+  <data name="cbSelfControl.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbSelfControl.Items33" xml:space="preserve">
+  <data name="cbSelfControl.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbSelfControl.Items34" xml:space="preserve">
+  <data name="cbSelfControl.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbSelfControl.Items35" xml:space="preserve">
+  <data name="cbSelfControl.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbSelfControl.Items36" xml:space="preserve">
+  <data name="cbSelfControl.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbSelfControl.Items37" xml:space="preserve">
+  <data name="cbSelfControl.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbSelfControl.Items38" xml:space="preserve">
+  <data name="cbSelfControl.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbSelfControl.Items39" xml:space="preserve">
+  <data name="cbSelfControl.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbSelfControl.Items40" xml:space="preserve">
+  <data name="cbSelfControl.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbSelfControl.Items41" xml:space="preserve">
+  <data name="cbSelfControl.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbSelfControl.Items42" xml:space="preserve">
+  <data name="cbSelfControl.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbSelfControl.Items43" xml:space="preserve">
+  <data name="cbSelfControl.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbSelfControl.Items44" xml:space="preserve">
+  <data name="cbSelfControl.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbSelfControl.Items45" xml:space="preserve">
+  <data name="cbSelfControl.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbSelfControl.Items46" xml:space="preserve">
+  <data name="cbSelfControl.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbSelfControl.Items47" xml:space="preserve">
+  <data name="cbSelfControl.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbSelfControl.Items48" xml:space="preserve">
+  <data name="cbSelfControl.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbSelfControl.Items49" xml:space="preserve">
+  <data name="cbSelfControl.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbSelfControl.Items50" xml:space="preserve">
+  <data name="cbSelfControl.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbSelfControl.Items51" xml:space="preserve">
+  <data name="cbSelfControl.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbSelfControl.Items52" xml:space="preserve">
+  <data name="cbSelfControl.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbSelfControl.Items53" xml:space="preserve">
+  <data name="cbSelfControl.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbSelfControl.Items54" xml:space="preserve">
+  <data name="cbSelfControl.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbSelfControl.Items55" xml:space="preserve">
+  <data name="cbSelfControl.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbSelfControl.Items56" xml:space="preserve">
+  <data name="cbSelfControl.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbSelfControl.Items57" xml:space="preserve">
+  <data name="cbSelfControl.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbSelfControl.Items58" xml:space="preserve">
+  <data name="cbSelfControl.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbSelfControl.Items59" xml:space="preserve">
+  <data name="cbSelfControl.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbSelfControl.Items60" xml:space="preserve">
+  <data name="cbSelfControl.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbSelfControl.Items61" xml:space="preserve">
+  <data name="cbSelfControl.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbSelfControl.Items62" xml:space="preserve">
+  <data name="cbSelfControl.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbSelfControl.Items63" xml:space="preserve">
+  <data name="cbSelfControl.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbSelfControl.Items64" xml:space="preserve">
+  <data name="cbSelfControl.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbSelfControl.Items65" xml:space="preserve">
+  <data name="cbSelfControl.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbSelfControl.Items66" xml:space="preserve">
+  <data name="cbSelfControl.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbSelfControl.Items67" xml:space="preserve">
+  <data name="cbSelfControl.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbSelfControl.Items68" xml:space="preserve">
+  <data name="cbSelfControl.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbSelfControl.Items69" xml:space="preserve">
+  <data name="cbSelfControl.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbSelfControl.Items70" xml:space="preserve">
+  <data name="cbSelfControl.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbSelfControl.Items71" xml:space="preserve">
+  <data name="cbSelfControl.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbSelfControl.Items72" xml:space="preserve">
+  <data name="cbSelfControl.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbSelfControl.Items73" xml:space="preserve">
+  <data name="cbSelfControl.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbSelfControl.Items74" xml:space="preserve">
+  <data name="cbSelfControl.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbSelfControl.Items75" xml:space="preserve">
+  <data name="cbSelfControl.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbSelfControl.Items76" xml:space="preserve">
+  <data name="cbSelfControl.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbSelfControl.Items77" xml:space="preserve">
+  <data name="cbSelfControl.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbSelfControl.Items78" xml:space="preserve">
+  <data name="cbSelfControl.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbSelfControl.Items79" xml:space="preserve">
+  <data name="cbSelfControl.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbSelfControl.Items80" xml:space="preserve">
+  <data name="cbSelfControl.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbSelfControl.Items81" xml:space="preserve">
+  <data name="cbSelfControl.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbSelfControl.Items82" xml:space="preserve">
+  <data name="cbSelfControl.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbSelfControl.Items83" xml:space="preserve">
+  <data name="cbSelfControl.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbSelfControl.Items84" xml:space="preserve">
+  <data name="cbSelfControl.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbSelfControl.Items85" xml:space="preserve">
+  <data name="cbSelfControl.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbSelfControl.Items86" xml:space="preserve">
+  <data name="cbSelfControl.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbSelfControl.Items87" xml:space="preserve">
+  <data name="cbSelfControl.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbSelfControl.Items88" xml:space="preserve">
+  <data name="cbSelfControl.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbSelfControl.Items89" xml:space="preserve">
+  <data name="cbSelfControl.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbSelfControl.Items90" xml:space="preserve">
+  <data name="cbSelfControl.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbSelfControl.Items91" xml:space="preserve">
+  <data name="cbSelfControl.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbSelfControl.Items92" xml:space="preserve">
+  <data name="cbSelfControl.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbSelfControl.Items93" xml:space="preserve">
+  <data name="cbSelfControl.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbSelfControl.Items94" xml:space="preserve">
+  <data name="cbSelfControl.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbSelfControl.Items95" xml:space="preserve">
+  <data name="cbSelfControl.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbSelfControl.Items96" xml:space="preserve">
+  <data name="cbSelfControl.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbSelfControl.Items97" xml:space="preserve">
+  <data name="cbSelfControl.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbSelfControl.Items98" xml:space="preserve">
+  <data name="cbSelfControl.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbSelfControl.Items99" xml:space="preserve">
+  <data name="cbSelfControl.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbSelfControl.Items100" xml:space="preserve">
+  <data name="cbSelfControl.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbSelfControl.Location" type="System.Drawing.Point, System.Drawing">
@@ -4656,306 +4641,303 @@
     <value>15</value>
   </data>
   <data name="cbInbornBuff.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbInbornBuff.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbInbornBuff.Items2" xml:space="preserve">
+  <data name="cbInbornBuff.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbInbornBuff.Items3" xml:space="preserve">
+  <data name="cbInbornBuff.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbInbornBuff.Items4" xml:space="preserve">
+  <data name="cbInbornBuff.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbInbornBuff.Items5" xml:space="preserve">
+  <data name="cbInbornBuff.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbInbornBuff.Items6" xml:space="preserve">
+  <data name="cbInbornBuff.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbInbornBuff.Items7" xml:space="preserve">
+  <data name="cbInbornBuff.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbInbornBuff.Items8" xml:space="preserve">
+  <data name="cbInbornBuff.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbInbornBuff.Items9" xml:space="preserve">
+  <data name="cbInbornBuff.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbInbornBuff.Items10" xml:space="preserve">
+  <data name="cbInbornBuff.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbInbornBuff.Items11" xml:space="preserve">
+  <data name="cbInbornBuff.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbInbornBuff.Items12" xml:space="preserve">
+  <data name="cbInbornBuff.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbInbornBuff.Items13" xml:space="preserve">
+  <data name="cbInbornBuff.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbInbornBuff.Items14" xml:space="preserve">
+  <data name="cbInbornBuff.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbInbornBuff.Items15" xml:space="preserve">
+  <data name="cbInbornBuff.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbInbornBuff.Items16" xml:space="preserve">
+  <data name="cbInbornBuff.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbInbornBuff.Items17" xml:space="preserve">
+  <data name="cbInbornBuff.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbInbornBuff.Items18" xml:space="preserve">
+  <data name="cbInbornBuff.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbInbornBuff.Items19" xml:space="preserve">
+  <data name="cbInbornBuff.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbInbornBuff.Items20" xml:space="preserve">
+  <data name="cbInbornBuff.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbInbornBuff.Items21" xml:space="preserve">
+  <data name="cbInbornBuff.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbInbornBuff.Items22" xml:space="preserve">
+  <data name="cbInbornBuff.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbInbornBuff.Items23" xml:space="preserve">
+  <data name="cbInbornBuff.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbInbornBuff.Items24" xml:space="preserve">
+  <data name="cbInbornBuff.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbInbornBuff.Items25" xml:space="preserve">
+  <data name="cbInbornBuff.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbInbornBuff.Items26" xml:space="preserve">
+  <data name="cbInbornBuff.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbInbornBuff.Items27" xml:space="preserve">
+  <data name="cbInbornBuff.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbInbornBuff.Items28" xml:space="preserve">
+  <data name="cbInbornBuff.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbInbornBuff.Items29" xml:space="preserve">
+  <data name="cbInbornBuff.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbInbornBuff.Items30" xml:space="preserve">
+  <data name="cbInbornBuff.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbInbornBuff.Items31" xml:space="preserve">
+  <data name="cbInbornBuff.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbInbornBuff.Items32" xml:space="preserve">
+  <data name="cbInbornBuff.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbInbornBuff.Items33" xml:space="preserve">
+  <data name="cbInbornBuff.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbInbornBuff.Items34" xml:space="preserve">
+  <data name="cbInbornBuff.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbInbornBuff.Items35" xml:space="preserve">
+  <data name="cbInbornBuff.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbInbornBuff.Items36" xml:space="preserve">
+  <data name="cbInbornBuff.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbInbornBuff.Items37" xml:space="preserve">
+  <data name="cbInbornBuff.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbInbornBuff.Items38" xml:space="preserve">
+  <data name="cbInbornBuff.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbInbornBuff.Items39" xml:space="preserve">
+  <data name="cbInbornBuff.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbInbornBuff.Items40" xml:space="preserve">
+  <data name="cbInbornBuff.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbInbornBuff.Items41" xml:space="preserve">
+  <data name="cbInbornBuff.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbInbornBuff.Items42" xml:space="preserve">
+  <data name="cbInbornBuff.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbInbornBuff.Items43" xml:space="preserve">
+  <data name="cbInbornBuff.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbInbornBuff.Items44" xml:space="preserve">
+  <data name="cbInbornBuff.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbInbornBuff.Items45" xml:space="preserve">
+  <data name="cbInbornBuff.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbInbornBuff.Items46" xml:space="preserve">
+  <data name="cbInbornBuff.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbInbornBuff.Items47" xml:space="preserve">
+  <data name="cbInbornBuff.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbInbornBuff.Items48" xml:space="preserve">
+  <data name="cbInbornBuff.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbInbornBuff.Items49" xml:space="preserve">
+  <data name="cbInbornBuff.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbInbornBuff.Items50" xml:space="preserve">
+  <data name="cbInbornBuff.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbInbornBuff.Items51" xml:space="preserve">
+  <data name="cbInbornBuff.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbInbornBuff.Items52" xml:space="preserve">
+  <data name="cbInbornBuff.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbInbornBuff.Items53" xml:space="preserve">
+  <data name="cbInbornBuff.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbInbornBuff.Items54" xml:space="preserve">
+  <data name="cbInbornBuff.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbInbornBuff.Items55" xml:space="preserve">
+  <data name="cbInbornBuff.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbInbornBuff.Items56" xml:space="preserve">
+  <data name="cbInbornBuff.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbInbornBuff.Items57" xml:space="preserve">
+  <data name="cbInbornBuff.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbInbornBuff.Items58" xml:space="preserve">
+  <data name="cbInbornBuff.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbInbornBuff.Items59" xml:space="preserve">
+  <data name="cbInbornBuff.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbInbornBuff.Items60" xml:space="preserve">
+  <data name="cbInbornBuff.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbInbornBuff.Items61" xml:space="preserve">
+  <data name="cbInbornBuff.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbInbornBuff.Items62" xml:space="preserve">
+  <data name="cbInbornBuff.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbInbornBuff.Items63" xml:space="preserve">
+  <data name="cbInbornBuff.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbInbornBuff.Items64" xml:space="preserve">
+  <data name="cbInbornBuff.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbInbornBuff.Items65" xml:space="preserve">
+  <data name="cbInbornBuff.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbInbornBuff.Items66" xml:space="preserve">
+  <data name="cbInbornBuff.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbInbornBuff.Items67" xml:space="preserve">
+  <data name="cbInbornBuff.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbInbornBuff.Items68" xml:space="preserve">
+  <data name="cbInbornBuff.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbInbornBuff.Items69" xml:space="preserve">
+  <data name="cbInbornBuff.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbInbornBuff.Items70" xml:space="preserve">
+  <data name="cbInbornBuff.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbInbornBuff.Items71" xml:space="preserve">
+  <data name="cbInbornBuff.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbInbornBuff.Items72" xml:space="preserve">
+  <data name="cbInbornBuff.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbInbornBuff.Items73" xml:space="preserve">
+  <data name="cbInbornBuff.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbInbornBuff.Items74" xml:space="preserve">
+  <data name="cbInbornBuff.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbInbornBuff.Items75" xml:space="preserve">
+  <data name="cbInbornBuff.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbInbornBuff.Items76" xml:space="preserve">
+  <data name="cbInbornBuff.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbInbornBuff.Items77" xml:space="preserve">
+  <data name="cbInbornBuff.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbInbornBuff.Items78" xml:space="preserve">
+  <data name="cbInbornBuff.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbInbornBuff.Items79" xml:space="preserve">
+  <data name="cbInbornBuff.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbInbornBuff.Items80" xml:space="preserve">
+  <data name="cbInbornBuff.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbInbornBuff.Items81" xml:space="preserve">
+  <data name="cbInbornBuff.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbInbornBuff.Items82" xml:space="preserve">
+  <data name="cbInbornBuff.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbInbornBuff.Items83" xml:space="preserve">
+  <data name="cbInbornBuff.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbInbornBuff.Items84" xml:space="preserve">
+  <data name="cbInbornBuff.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbInbornBuff.Items85" xml:space="preserve">
+  <data name="cbInbornBuff.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbInbornBuff.Items86" xml:space="preserve">
+  <data name="cbInbornBuff.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbInbornBuff.Items87" xml:space="preserve">
+  <data name="cbInbornBuff.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbInbornBuff.Items88" xml:space="preserve">
+  <data name="cbInbornBuff.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbInbornBuff.Items89" xml:space="preserve">
+  <data name="cbInbornBuff.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbInbornBuff.Items90" xml:space="preserve">
+  <data name="cbInbornBuff.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbInbornBuff.Items91" xml:space="preserve">
+  <data name="cbInbornBuff.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbInbornBuff.Items92" xml:space="preserve">
+  <data name="cbInbornBuff.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbInbornBuff.Items93" xml:space="preserve">
+  <data name="cbInbornBuff.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbInbornBuff.Items94" xml:space="preserve">
+  <data name="cbInbornBuff.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbInbornBuff.Items95" xml:space="preserve">
+  <data name="cbInbornBuff.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbInbornBuff.Items96" xml:space="preserve">
+  <data name="cbInbornBuff.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbInbornBuff.Items97" xml:space="preserve">
+  <data name="cbInbornBuff.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbInbornBuff.Items98" xml:space="preserve">
+  <data name="cbInbornBuff.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbInbornBuff.Items99" xml:space="preserve">
+  <data name="cbInbornBuff.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbInbornBuff.Items100" xml:space="preserve">
+  <data name="cbInbornBuff.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbInbornBuff.Location" type="System.Drawing.Point, System.Drawing">
@@ -5136,306 +5118,303 @@
     <value>10</value>
   </data>
   <data name="cbMagicalTalent.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbMagicalTalent.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbMagicalTalent.Items2" xml:space="preserve">
+  <data name="cbMagicalTalent.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbMagicalTalent.Items3" xml:space="preserve">
+  <data name="cbMagicalTalent.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbMagicalTalent.Items4" xml:space="preserve">
+  <data name="cbMagicalTalent.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbMagicalTalent.Items5" xml:space="preserve">
+  <data name="cbMagicalTalent.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbMagicalTalent.Items6" xml:space="preserve">
+  <data name="cbMagicalTalent.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbMagicalTalent.Items7" xml:space="preserve">
+  <data name="cbMagicalTalent.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbMagicalTalent.Items8" xml:space="preserve">
+  <data name="cbMagicalTalent.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbMagicalTalent.Items9" xml:space="preserve">
+  <data name="cbMagicalTalent.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbMagicalTalent.Items10" xml:space="preserve">
+  <data name="cbMagicalTalent.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbMagicalTalent.Items11" xml:space="preserve">
+  <data name="cbMagicalTalent.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbMagicalTalent.Items12" xml:space="preserve">
+  <data name="cbMagicalTalent.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbMagicalTalent.Items13" xml:space="preserve">
+  <data name="cbMagicalTalent.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbMagicalTalent.Items14" xml:space="preserve">
+  <data name="cbMagicalTalent.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbMagicalTalent.Items15" xml:space="preserve">
+  <data name="cbMagicalTalent.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbMagicalTalent.Items16" xml:space="preserve">
+  <data name="cbMagicalTalent.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbMagicalTalent.Items17" xml:space="preserve">
+  <data name="cbMagicalTalent.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbMagicalTalent.Items18" xml:space="preserve">
+  <data name="cbMagicalTalent.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbMagicalTalent.Items19" xml:space="preserve">
+  <data name="cbMagicalTalent.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbMagicalTalent.Items20" xml:space="preserve">
+  <data name="cbMagicalTalent.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbMagicalTalent.Items21" xml:space="preserve">
+  <data name="cbMagicalTalent.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbMagicalTalent.Items22" xml:space="preserve">
+  <data name="cbMagicalTalent.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbMagicalTalent.Items23" xml:space="preserve">
+  <data name="cbMagicalTalent.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbMagicalTalent.Items24" xml:space="preserve">
+  <data name="cbMagicalTalent.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbMagicalTalent.Items25" xml:space="preserve">
+  <data name="cbMagicalTalent.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbMagicalTalent.Items26" xml:space="preserve">
+  <data name="cbMagicalTalent.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbMagicalTalent.Items27" xml:space="preserve">
+  <data name="cbMagicalTalent.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbMagicalTalent.Items28" xml:space="preserve">
+  <data name="cbMagicalTalent.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbMagicalTalent.Items29" xml:space="preserve">
+  <data name="cbMagicalTalent.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbMagicalTalent.Items30" xml:space="preserve">
+  <data name="cbMagicalTalent.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbMagicalTalent.Items31" xml:space="preserve">
+  <data name="cbMagicalTalent.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbMagicalTalent.Items32" xml:space="preserve">
+  <data name="cbMagicalTalent.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbMagicalTalent.Items33" xml:space="preserve">
+  <data name="cbMagicalTalent.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbMagicalTalent.Items34" xml:space="preserve">
+  <data name="cbMagicalTalent.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbMagicalTalent.Items35" xml:space="preserve">
+  <data name="cbMagicalTalent.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbMagicalTalent.Items36" xml:space="preserve">
+  <data name="cbMagicalTalent.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbMagicalTalent.Items37" xml:space="preserve">
+  <data name="cbMagicalTalent.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbMagicalTalent.Items38" xml:space="preserve">
+  <data name="cbMagicalTalent.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbMagicalTalent.Items39" xml:space="preserve">
+  <data name="cbMagicalTalent.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbMagicalTalent.Items40" xml:space="preserve">
+  <data name="cbMagicalTalent.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbMagicalTalent.Items41" xml:space="preserve">
+  <data name="cbMagicalTalent.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbMagicalTalent.Items42" xml:space="preserve">
+  <data name="cbMagicalTalent.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbMagicalTalent.Items43" xml:space="preserve">
+  <data name="cbMagicalTalent.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbMagicalTalent.Items44" xml:space="preserve">
+  <data name="cbMagicalTalent.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbMagicalTalent.Items45" xml:space="preserve">
+  <data name="cbMagicalTalent.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbMagicalTalent.Items46" xml:space="preserve">
+  <data name="cbMagicalTalent.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbMagicalTalent.Items47" xml:space="preserve">
+  <data name="cbMagicalTalent.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbMagicalTalent.Items48" xml:space="preserve">
+  <data name="cbMagicalTalent.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbMagicalTalent.Items49" xml:space="preserve">
+  <data name="cbMagicalTalent.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbMagicalTalent.Items50" xml:space="preserve">
+  <data name="cbMagicalTalent.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbMagicalTalent.Items51" xml:space="preserve">
+  <data name="cbMagicalTalent.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbMagicalTalent.Items52" xml:space="preserve">
+  <data name="cbMagicalTalent.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbMagicalTalent.Items53" xml:space="preserve">
+  <data name="cbMagicalTalent.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbMagicalTalent.Items54" xml:space="preserve">
+  <data name="cbMagicalTalent.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbMagicalTalent.Items55" xml:space="preserve">
+  <data name="cbMagicalTalent.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbMagicalTalent.Items56" xml:space="preserve">
+  <data name="cbMagicalTalent.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbMagicalTalent.Items57" xml:space="preserve">
+  <data name="cbMagicalTalent.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbMagicalTalent.Items58" xml:space="preserve">
+  <data name="cbMagicalTalent.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbMagicalTalent.Items59" xml:space="preserve">
+  <data name="cbMagicalTalent.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbMagicalTalent.Items60" xml:space="preserve">
+  <data name="cbMagicalTalent.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbMagicalTalent.Items61" xml:space="preserve">
+  <data name="cbMagicalTalent.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbMagicalTalent.Items62" xml:space="preserve">
+  <data name="cbMagicalTalent.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbMagicalTalent.Items63" xml:space="preserve">
+  <data name="cbMagicalTalent.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbMagicalTalent.Items64" xml:space="preserve">
+  <data name="cbMagicalTalent.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbMagicalTalent.Items65" xml:space="preserve">
+  <data name="cbMagicalTalent.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbMagicalTalent.Items66" xml:space="preserve">
+  <data name="cbMagicalTalent.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbMagicalTalent.Items67" xml:space="preserve">
+  <data name="cbMagicalTalent.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbMagicalTalent.Items68" xml:space="preserve">
+  <data name="cbMagicalTalent.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbMagicalTalent.Items69" xml:space="preserve">
+  <data name="cbMagicalTalent.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbMagicalTalent.Items70" xml:space="preserve">
+  <data name="cbMagicalTalent.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbMagicalTalent.Items71" xml:space="preserve">
+  <data name="cbMagicalTalent.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbMagicalTalent.Items72" xml:space="preserve">
+  <data name="cbMagicalTalent.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbMagicalTalent.Items73" xml:space="preserve">
+  <data name="cbMagicalTalent.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbMagicalTalent.Items74" xml:space="preserve">
+  <data name="cbMagicalTalent.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbMagicalTalent.Items75" xml:space="preserve">
+  <data name="cbMagicalTalent.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbMagicalTalent.Items76" xml:space="preserve">
+  <data name="cbMagicalTalent.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbMagicalTalent.Items77" xml:space="preserve">
+  <data name="cbMagicalTalent.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbMagicalTalent.Items78" xml:space="preserve">
+  <data name="cbMagicalTalent.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbMagicalTalent.Items79" xml:space="preserve">
+  <data name="cbMagicalTalent.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbMagicalTalent.Items80" xml:space="preserve">
+  <data name="cbMagicalTalent.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbMagicalTalent.Items81" xml:space="preserve">
+  <data name="cbMagicalTalent.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbMagicalTalent.Items82" xml:space="preserve">
+  <data name="cbMagicalTalent.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbMagicalTalent.Items83" xml:space="preserve">
+  <data name="cbMagicalTalent.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbMagicalTalent.Items84" xml:space="preserve">
+  <data name="cbMagicalTalent.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbMagicalTalent.Items85" xml:space="preserve">
+  <data name="cbMagicalTalent.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbMagicalTalent.Items86" xml:space="preserve">
+  <data name="cbMagicalTalent.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbMagicalTalent.Items87" xml:space="preserve">
+  <data name="cbMagicalTalent.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbMagicalTalent.Items88" xml:space="preserve">
+  <data name="cbMagicalTalent.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbMagicalTalent.Items89" xml:space="preserve">
+  <data name="cbMagicalTalent.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbMagicalTalent.Items90" xml:space="preserve">
+  <data name="cbMagicalTalent.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbMagicalTalent.Items91" xml:space="preserve">
+  <data name="cbMagicalTalent.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbMagicalTalent.Items92" xml:space="preserve">
+  <data name="cbMagicalTalent.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbMagicalTalent.Items93" xml:space="preserve">
+  <data name="cbMagicalTalent.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbMagicalTalent.Items94" xml:space="preserve">
+  <data name="cbMagicalTalent.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbMagicalTalent.Items95" xml:space="preserve">
+  <data name="cbMagicalTalent.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbMagicalTalent.Items96" xml:space="preserve">
+  <data name="cbMagicalTalent.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbMagicalTalent.Items97" xml:space="preserve">
+  <data name="cbMagicalTalent.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbMagicalTalent.Items98" xml:space="preserve">
+  <data name="cbMagicalTalent.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbMagicalTalent.Items99" xml:space="preserve">
+  <data name="cbMagicalTalent.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbMagicalTalent.Items100" xml:space="preserve">
+  <data name="cbMagicalTalent.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbMagicalTalent.Location" type="System.Drawing.Point, System.Drawing">
@@ -5460,306 +5439,303 @@
     <value>9</value>
   </data>
   <data name="cbIntelligence.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbIntelligence.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbIntelligence.Items2" xml:space="preserve">
+  <data name="cbIntelligence.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbIntelligence.Items3" xml:space="preserve">
+  <data name="cbIntelligence.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbIntelligence.Items4" xml:space="preserve">
+  <data name="cbIntelligence.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbIntelligence.Items5" xml:space="preserve">
+  <data name="cbIntelligence.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbIntelligence.Items6" xml:space="preserve">
+  <data name="cbIntelligence.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbIntelligence.Items7" xml:space="preserve">
+  <data name="cbIntelligence.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbIntelligence.Items8" xml:space="preserve">
+  <data name="cbIntelligence.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbIntelligence.Items9" xml:space="preserve">
+  <data name="cbIntelligence.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbIntelligence.Items10" xml:space="preserve">
+  <data name="cbIntelligence.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbIntelligence.Items11" xml:space="preserve">
+  <data name="cbIntelligence.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbIntelligence.Items12" xml:space="preserve">
+  <data name="cbIntelligence.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbIntelligence.Items13" xml:space="preserve">
+  <data name="cbIntelligence.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbIntelligence.Items14" xml:space="preserve">
+  <data name="cbIntelligence.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbIntelligence.Items15" xml:space="preserve">
+  <data name="cbIntelligence.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbIntelligence.Items16" xml:space="preserve">
+  <data name="cbIntelligence.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbIntelligence.Items17" xml:space="preserve">
+  <data name="cbIntelligence.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbIntelligence.Items18" xml:space="preserve">
+  <data name="cbIntelligence.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbIntelligence.Items19" xml:space="preserve">
+  <data name="cbIntelligence.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbIntelligence.Items20" xml:space="preserve">
+  <data name="cbIntelligence.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbIntelligence.Items21" xml:space="preserve">
+  <data name="cbIntelligence.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbIntelligence.Items22" xml:space="preserve">
+  <data name="cbIntelligence.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbIntelligence.Items23" xml:space="preserve">
+  <data name="cbIntelligence.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbIntelligence.Items24" xml:space="preserve">
+  <data name="cbIntelligence.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbIntelligence.Items25" xml:space="preserve">
+  <data name="cbIntelligence.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbIntelligence.Items26" xml:space="preserve">
+  <data name="cbIntelligence.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbIntelligence.Items27" xml:space="preserve">
+  <data name="cbIntelligence.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbIntelligence.Items28" xml:space="preserve">
+  <data name="cbIntelligence.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbIntelligence.Items29" xml:space="preserve">
+  <data name="cbIntelligence.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbIntelligence.Items30" xml:space="preserve">
+  <data name="cbIntelligence.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbIntelligence.Items31" xml:space="preserve">
+  <data name="cbIntelligence.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbIntelligence.Items32" xml:space="preserve">
+  <data name="cbIntelligence.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbIntelligence.Items33" xml:space="preserve">
+  <data name="cbIntelligence.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbIntelligence.Items34" xml:space="preserve">
+  <data name="cbIntelligence.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbIntelligence.Items35" xml:space="preserve">
+  <data name="cbIntelligence.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbIntelligence.Items36" xml:space="preserve">
+  <data name="cbIntelligence.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbIntelligence.Items37" xml:space="preserve">
+  <data name="cbIntelligence.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbIntelligence.Items38" xml:space="preserve">
+  <data name="cbIntelligence.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbIntelligence.Items39" xml:space="preserve">
+  <data name="cbIntelligence.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbIntelligence.Items40" xml:space="preserve">
+  <data name="cbIntelligence.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbIntelligence.Items41" xml:space="preserve">
+  <data name="cbIntelligence.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbIntelligence.Items42" xml:space="preserve">
+  <data name="cbIntelligence.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbIntelligence.Items43" xml:space="preserve">
+  <data name="cbIntelligence.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbIntelligence.Items44" xml:space="preserve">
+  <data name="cbIntelligence.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbIntelligence.Items45" xml:space="preserve">
+  <data name="cbIntelligence.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbIntelligence.Items46" xml:space="preserve">
+  <data name="cbIntelligence.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbIntelligence.Items47" xml:space="preserve">
+  <data name="cbIntelligence.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbIntelligence.Items48" xml:space="preserve">
+  <data name="cbIntelligence.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbIntelligence.Items49" xml:space="preserve">
+  <data name="cbIntelligence.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbIntelligence.Items50" xml:space="preserve">
+  <data name="cbIntelligence.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbIntelligence.Items51" xml:space="preserve">
+  <data name="cbIntelligence.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbIntelligence.Items52" xml:space="preserve">
+  <data name="cbIntelligence.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbIntelligence.Items53" xml:space="preserve">
+  <data name="cbIntelligence.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbIntelligence.Items54" xml:space="preserve">
+  <data name="cbIntelligence.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbIntelligence.Items55" xml:space="preserve">
+  <data name="cbIntelligence.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbIntelligence.Items56" xml:space="preserve">
+  <data name="cbIntelligence.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbIntelligence.Items57" xml:space="preserve">
+  <data name="cbIntelligence.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbIntelligence.Items58" xml:space="preserve">
+  <data name="cbIntelligence.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbIntelligence.Items59" xml:space="preserve">
+  <data name="cbIntelligence.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbIntelligence.Items60" xml:space="preserve">
+  <data name="cbIntelligence.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbIntelligence.Items61" xml:space="preserve">
+  <data name="cbIntelligence.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbIntelligence.Items62" xml:space="preserve">
+  <data name="cbIntelligence.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbIntelligence.Items63" xml:space="preserve">
+  <data name="cbIntelligence.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbIntelligence.Items64" xml:space="preserve">
+  <data name="cbIntelligence.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbIntelligence.Items65" xml:space="preserve">
+  <data name="cbIntelligence.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbIntelligence.Items66" xml:space="preserve">
+  <data name="cbIntelligence.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbIntelligence.Items67" xml:space="preserve">
+  <data name="cbIntelligence.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbIntelligence.Items68" xml:space="preserve">
+  <data name="cbIntelligence.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbIntelligence.Items69" xml:space="preserve">
+  <data name="cbIntelligence.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbIntelligence.Items70" xml:space="preserve">
+  <data name="cbIntelligence.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbIntelligence.Items71" xml:space="preserve">
+  <data name="cbIntelligence.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbIntelligence.Items72" xml:space="preserve">
+  <data name="cbIntelligence.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbIntelligence.Items73" xml:space="preserve">
+  <data name="cbIntelligence.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbIntelligence.Items74" xml:space="preserve">
+  <data name="cbIntelligence.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbIntelligence.Items75" xml:space="preserve">
+  <data name="cbIntelligence.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbIntelligence.Items76" xml:space="preserve">
+  <data name="cbIntelligence.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbIntelligence.Items77" xml:space="preserve">
+  <data name="cbIntelligence.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbIntelligence.Items78" xml:space="preserve">
+  <data name="cbIntelligence.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbIntelligence.Items79" xml:space="preserve">
+  <data name="cbIntelligence.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbIntelligence.Items80" xml:space="preserve">
+  <data name="cbIntelligence.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbIntelligence.Items81" xml:space="preserve">
+  <data name="cbIntelligence.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbIntelligence.Items82" xml:space="preserve">
+  <data name="cbIntelligence.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbIntelligence.Items83" xml:space="preserve">
+  <data name="cbIntelligence.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbIntelligence.Items84" xml:space="preserve">
+  <data name="cbIntelligence.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbIntelligence.Items85" xml:space="preserve">
+  <data name="cbIntelligence.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbIntelligence.Items86" xml:space="preserve">
+  <data name="cbIntelligence.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbIntelligence.Items87" xml:space="preserve">
+  <data name="cbIntelligence.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbIntelligence.Items88" xml:space="preserve">
+  <data name="cbIntelligence.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbIntelligence.Items89" xml:space="preserve">
+  <data name="cbIntelligence.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbIntelligence.Items90" xml:space="preserve">
+  <data name="cbIntelligence.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbIntelligence.Items91" xml:space="preserve">
+  <data name="cbIntelligence.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbIntelligence.Items92" xml:space="preserve">
+  <data name="cbIntelligence.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbIntelligence.Items93" xml:space="preserve">
+  <data name="cbIntelligence.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbIntelligence.Items94" xml:space="preserve">
+  <data name="cbIntelligence.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbIntelligence.Items95" xml:space="preserve">
+  <data name="cbIntelligence.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbIntelligence.Items96" xml:space="preserve">
+  <data name="cbIntelligence.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbIntelligence.Items97" xml:space="preserve">
+  <data name="cbIntelligence.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbIntelligence.Items98" xml:space="preserve">
+  <data name="cbIntelligence.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbIntelligence.Items99" xml:space="preserve">
+  <data name="cbIntelligence.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbIntelligence.Items100" xml:space="preserve">
+  <data name="cbIntelligence.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbIntelligence.Location" type="System.Drawing.Point, System.Drawing">
@@ -5784,306 +5760,303 @@
     <value>8</value>
   </data>
   <data name="cbConstitution.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbConstitution.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbConstitution.Items2" xml:space="preserve">
+  <data name="cbConstitution.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbConstitution.Items3" xml:space="preserve">
+  <data name="cbConstitution.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbConstitution.Items4" xml:space="preserve">
+  <data name="cbConstitution.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbConstitution.Items5" xml:space="preserve">
+  <data name="cbConstitution.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbConstitution.Items6" xml:space="preserve">
+  <data name="cbConstitution.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbConstitution.Items7" xml:space="preserve">
+  <data name="cbConstitution.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbConstitution.Items8" xml:space="preserve">
+  <data name="cbConstitution.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbConstitution.Items9" xml:space="preserve">
+  <data name="cbConstitution.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbConstitution.Items10" xml:space="preserve">
+  <data name="cbConstitution.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbConstitution.Items11" xml:space="preserve">
+  <data name="cbConstitution.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbConstitution.Items12" xml:space="preserve">
+  <data name="cbConstitution.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbConstitution.Items13" xml:space="preserve">
+  <data name="cbConstitution.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbConstitution.Items14" xml:space="preserve">
+  <data name="cbConstitution.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbConstitution.Items15" xml:space="preserve">
+  <data name="cbConstitution.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbConstitution.Items16" xml:space="preserve">
+  <data name="cbConstitution.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbConstitution.Items17" xml:space="preserve">
+  <data name="cbConstitution.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbConstitution.Items18" xml:space="preserve">
+  <data name="cbConstitution.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbConstitution.Items19" xml:space="preserve">
+  <data name="cbConstitution.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbConstitution.Items20" xml:space="preserve">
+  <data name="cbConstitution.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbConstitution.Items21" xml:space="preserve">
+  <data name="cbConstitution.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbConstitution.Items22" xml:space="preserve">
+  <data name="cbConstitution.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbConstitution.Items23" xml:space="preserve">
+  <data name="cbConstitution.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbConstitution.Items24" xml:space="preserve">
+  <data name="cbConstitution.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbConstitution.Items25" xml:space="preserve">
+  <data name="cbConstitution.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbConstitution.Items26" xml:space="preserve">
+  <data name="cbConstitution.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbConstitution.Items27" xml:space="preserve">
+  <data name="cbConstitution.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbConstitution.Items28" xml:space="preserve">
+  <data name="cbConstitution.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbConstitution.Items29" xml:space="preserve">
+  <data name="cbConstitution.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbConstitution.Items30" xml:space="preserve">
+  <data name="cbConstitution.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbConstitution.Items31" xml:space="preserve">
+  <data name="cbConstitution.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbConstitution.Items32" xml:space="preserve">
+  <data name="cbConstitution.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbConstitution.Items33" xml:space="preserve">
+  <data name="cbConstitution.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbConstitution.Items34" xml:space="preserve">
+  <data name="cbConstitution.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbConstitution.Items35" xml:space="preserve">
+  <data name="cbConstitution.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbConstitution.Items36" xml:space="preserve">
+  <data name="cbConstitution.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbConstitution.Items37" xml:space="preserve">
+  <data name="cbConstitution.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbConstitution.Items38" xml:space="preserve">
+  <data name="cbConstitution.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbConstitution.Items39" xml:space="preserve">
+  <data name="cbConstitution.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbConstitution.Items40" xml:space="preserve">
+  <data name="cbConstitution.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbConstitution.Items41" xml:space="preserve">
+  <data name="cbConstitution.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbConstitution.Items42" xml:space="preserve">
+  <data name="cbConstitution.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbConstitution.Items43" xml:space="preserve">
+  <data name="cbConstitution.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbConstitution.Items44" xml:space="preserve">
+  <data name="cbConstitution.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbConstitution.Items45" xml:space="preserve">
+  <data name="cbConstitution.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbConstitution.Items46" xml:space="preserve">
+  <data name="cbConstitution.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbConstitution.Items47" xml:space="preserve">
+  <data name="cbConstitution.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbConstitution.Items48" xml:space="preserve">
+  <data name="cbConstitution.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbConstitution.Items49" xml:space="preserve">
+  <data name="cbConstitution.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbConstitution.Items50" xml:space="preserve">
+  <data name="cbConstitution.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbConstitution.Items51" xml:space="preserve">
+  <data name="cbConstitution.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbConstitution.Items52" xml:space="preserve">
+  <data name="cbConstitution.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbConstitution.Items53" xml:space="preserve">
+  <data name="cbConstitution.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbConstitution.Items54" xml:space="preserve">
+  <data name="cbConstitution.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbConstitution.Items55" xml:space="preserve">
+  <data name="cbConstitution.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbConstitution.Items56" xml:space="preserve">
+  <data name="cbConstitution.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbConstitution.Items57" xml:space="preserve">
+  <data name="cbConstitution.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbConstitution.Items58" xml:space="preserve">
+  <data name="cbConstitution.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbConstitution.Items59" xml:space="preserve">
+  <data name="cbConstitution.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbConstitution.Items60" xml:space="preserve">
+  <data name="cbConstitution.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbConstitution.Items61" xml:space="preserve">
+  <data name="cbConstitution.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbConstitution.Items62" xml:space="preserve">
+  <data name="cbConstitution.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbConstitution.Items63" xml:space="preserve">
+  <data name="cbConstitution.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbConstitution.Items64" xml:space="preserve">
+  <data name="cbConstitution.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbConstitution.Items65" xml:space="preserve">
+  <data name="cbConstitution.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbConstitution.Items66" xml:space="preserve">
+  <data name="cbConstitution.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbConstitution.Items67" xml:space="preserve">
+  <data name="cbConstitution.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbConstitution.Items68" xml:space="preserve">
+  <data name="cbConstitution.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbConstitution.Items69" xml:space="preserve">
+  <data name="cbConstitution.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbConstitution.Items70" xml:space="preserve">
+  <data name="cbConstitution.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbConstitution.Items71" xml:space="preserve">
+  <data name="cbConstitution.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbConstitution.Items72" xml:space="preserve">
+  <data name="cbConstitution.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbConstitution.Items73" xml:space="preserve">
+  <data name="cbConstitution.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbConstitution.Items74" xml:space="preserve">
+  <data name="cbConstitution.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbConstitution.Items75" xml:space="preserve">
+  <data name="cbConstitution.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbConstitution.Items76" xml:space="preserve">
+  <data name="cbConstitution.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbConstitution.Items77" xml:space="preserve">
+  <data name="cbConstitution.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbConstitution.Items78" xml:space="preserve">
+  <data name="cbConstitution.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbConstitution.Items79" xml:space="preserve">
+  <data name="cbConstitution.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbConstitution.Items80" xml:space="preserve">
+  <data name="cbConstitution.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbConstitution.Items81" xml:space="preserve">
+  <data name="cbConstitution.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbConstitution.Items82" xml:space="preserve">
+  <data name="cbConstitution.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbConstitution.Items83" xml:space="preserve">
+  <data name="cbConstitution.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbConstitution.Items84" xml:space="preserve">
+  <data name="cbConstitution.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbConstitution.Items85" xml:space="preserve">
+  <data name="cbConstitution.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbConstitution.Items86" xml:space="preserve">
+  <data name="cbConstitution.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbConstitution.Items87" xml:space="preserve">
+  <data name="cbConstitution.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbConstitution.Items88" xml:space="preserve">
+  <data name="cbConstitution.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbConstitution.Items89" xml:space="preserve">
+  <data name="cbConstitution.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbConstitution.Items90" xml:space="preserve">
+  <data name="cbConstitution.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbConstitution.Items91" xml:space="preserve">
+  <data name="cbConstitution.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbConstitution.Items92" xml:space="preserve">
+  <data name="cbConstitution.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbConstitution.Items93" xml:space="preserve">
+  <data name="cbConstitution.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbConstitution.Items94" xml:space="preserve">
+  <data name="cbConstitution.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbConstitution.Items95" xml:space="preserve">
+  <data name="cbConstitution.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbConstitution.Items96" xml:space="preserve">
+  <data name="cbConstitution.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbConstitution.Items97" xml:space="preserve">
+  <data name="cbConstitution.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbConstitution.Items98" xml:space="preserve">
+  <data name="cbConstitution.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbConstitution.Items99" xml:space="preserve">
+  <data name="cbConstitution.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbConstitution.Items100" xml:space="preserve">
+  <data name="cbConstitution.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbConstitution.Location" type="System.Drawing.Point, System.Drawing">
@@ -6108,306 +6081,303 @@
     <value>7</value>
   </data>
   <data name="cbAgility.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbAgility.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbAgility.Items2" xml:space="preserve">
+  <data name="cbAgility.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbAgility.Items3" xml:space="preserve">
+  <data name="cbAgility.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbAgility.Items4" xml:space="preserve">
+  <data name="cbAgility.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbAgility.Items5" xml:space="preserve">
+  <data name="cbAgility.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbAgility.Items6" xml:space="preserve">
+  <data name="cbAgility.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbAgility.Items7" xml:space="preserve">
+  <data name="cbAgility.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbAgility.Items8" xml:space="preserve">
+  <data name="cbAgility.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbAgility.Items9" xml:space="preserve">
+  <data name="cbAgility.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbAgility.Items10" xml:space="preserve">
+  <data name="cbAgility.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbAgility.Items11" xml:space="preserve">
+  <data name="cbAgility.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbAgility.Items12" xml:space="preserve">
+  <data name="cbAgility.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbAgility.Items13" xml:space="preserve">
+  <data name="cbAgility.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbAgility.Items14" xml:space="preserve">
+  <data name="cbAgility.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbAgility.Items15" xml:space="preserve">
+  <data name="cbAgility.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbAgility.Items16" xml:space="preserve">
+  <data name="cbAgility.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbAgility.Items17" xml:space="preserve">
+  <data name="cbAgility.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbAgility.Items18" xml:space="preserve">
+  <data name="cbAgility.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbAgility.Items19" xml:space="preserve">
+  <data name="cbAgility.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbAgility.Items20" xml:space="preserve">
+  <data name="cbAgility.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbAgility.Items21" xml:space="preserve">
+  <data name="cbAgility.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbAgility.Items22" xml:space="preserve">
+  <data name="cbAgility.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbAgility.Items23" xml:space="preserve">
+  <data name="cbAgility.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbAgility.Items24" xml:space="preserve">
+  <data name="cbAgility.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbAgility.Items25" xml:space="preserve">
+  <data name="cbAgility.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbAgility.Items26" xml:space="preserve">
+  <data name="cbAgility.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbAgility.Items27" xml:space="preserve">
+  <data name="cbAgility.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbAgility.Items28" xml:space="preserve">
+  <data name="cbAgility.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbAgility.Items29" xml:space="preserve">
+  <data name="cbAgility.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbAgility.Items30" xml:space="preserve">
+  <data name="cbAgility.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbAgility.Items31" xml:space="preserve">
+  <data name="cbAgility.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbAgility.Items32" xml:space="preserve">
+  <data name="cbAgility.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbAgility.Items33" xml:space="preserve">
+  <data name="cbAgility.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbAgility.Items34" xml:space="preserve">
+  <data name="cbAgility.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbAgility.Items35" xml:space="preserve">
+  <data name="cbAgility.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbAgility.Items36" xml:space="preserve">
+  <data name="cbAgility.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbAgility.Items37" xml:space="preserve">
+  <data name="cbAgility.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbAgility.Items38" xml:space="preserve">
+  <data name="cbAgility.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbAgility.Items39" xml:space="preserve">
+  <data name="cbAgility.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbAgility.Items40" xml:space="preserve">
+  <data name="cbAgility.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbAgility.Items41" xml:space="preserve">
+  <data name="cbAgility.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbAgility.Items42" xml:space="preserve">
+  <data name="cbAgility.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbAgility.Items43" xml:space="preserve">
+  <data name="cbAgility.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbAgility.Items44" xml:space="preserve">
+  <data name="cbAgility.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbAgility.Items45" xml:space="preserve">
+  <data name="cbAgility.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbAgility.Items46" xml:space="preserve">
+  <data name="cbAgility.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbAgility.Items47" xml:space="preserve">
+  <data name="cbAgility.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbAgility.Items48" xml:space="preserve">
+  <data name="cbAgility.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbAgility.Items49" xml:space="preserve">
+  <data name="cbAgility.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbAgility.Items50" xml:space="preserve">
+  <data name="cbAgility.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbAgility.Items51" xml:space="preserve">
+  <data name="cbAgility.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbAgility.Items52" xml:space="preserve">
+  <data name="cbAgility.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbAgility.Items53" xml:space="preserve">
+  <data name="cbAgility.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbAgility.Items54" xml:space="preserve">
+  <data name="cbAgility.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbAgility.Items55" xml:space="preserve">
+  <data name="cbAgility.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbAgility.Items56" xml:space="preserve">
+  <data name="cbAgility.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbAgility.Items57" xml:space="preserve">
+  <data name="cbAgility.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbAgility.Items58" xml:space="preserve">
+  <data name="cbAgility.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbAgility.Items59" xml:space="preserve">
+  <data name="cbAgility.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbAgility.Items60" xml:space="preserve">
+  <data name="cbAgility.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbAgility.Items61" xml:space="preserve">
+  <data name="cbAgility.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbAgility.Items62" xml:space="preserve">
+  <data name="cbAgility.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbAgility.Items63" xml:space="preserve">
+  <data name="cbAgility.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbAgility.Items64" xml:space="preserve">
+  <data name="cbAgility.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbAgility.Items65" xml:space="preserve">
+  <data name="cbAgility.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbAgility.Items66" xml:space="preserve">
+  <data name="cbAgility.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbAgility.Items67" xml:space="preserve">
+  <data name="cbAgility.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbAgility.Items68" xml:space="preserve">
+  <data name="cbAgility.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbAgility.Items69" xml:space="preserve">
+  <data name="cbAgility.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbAgility.Items70" xml:space="preserve">
+  <data name="cbAgility.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbAgility.Items71" xml:space="preserve">
+  <data name="cbAgility.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbAgility.Items72" xml:space="preserve">
+  <data name="cbAgility.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbAgility.Items73" xml:space="preserve">
+  <data name="cbAgility.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbAgility.Items74" xml:space="preserve">
+  <data name="cbAgility.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbAgility.Items75" xml:space="preserve">
+  <data name="cbAgility.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbAgility.Items76" xml:space="preserve">
+  <data name="cbAgility.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbAgility.Items77" xml:space="preserve">
+  <data name="cbAgility.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbAgility.Items78" xml:space="preserve">
+  <data name="cbAgility.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbAgility.Items79" xml:space="preserve">
+  <data name="cbAgility.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbAgility.Items80" xml:space="preserve">
+  <data name="cbAgility.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbAgility.Items81" xml:space="preserve">
+  <data name="cbAgility.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbAgility.Items82" xml:space="preserve">
+  <data name="cbAgility.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbAgility.Items83" xml:space="preserve">
+  <data name="cbAgility.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbAgility.Items84" xml:space="preserve">
+  <data name="cbAgility.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbAgility.Items85" xml:space="preserve">
+  <data name="cbAgility.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbAgility.Items86" xml:space="preserve">
+  <data name="cbAgility.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbAgility.Items87" xml:space="preserve">
+  <data name="cbAgility.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbAgility.Items88" xml:space="preserve">
+  <data name="cbAgility.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbAgility.Items89" xml:space="preserve">
+  <data name="cbAgility.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbAgility.Items90" xml:space="preserve">
+  <data name="cbAgility.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbAgility.Items91" xml:space="preserve">
+  <data name="cbAgility.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbAgility.Items92" xml:space="preserve">
+  <data name="cbAgility.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbAgility.Items93" xml:space="preserve">
+  <data name="cbAgility.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbAgility.Items94" xml:space="preserve">
+  <data name="cbAgility.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbAgility.Items95" xml:space="preserve">
+  <data name="cbAgility.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbAgility.Items96" xml:space="preserve">
+  <data name="cbAgility.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbAgility.Items97" xml:space="preserve">
+  <data name="cbAgility.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbAgility.Items98" xml:space="preserve">
+  <data name="cbAgility.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbAgility.Items99" xml:space="preserve">
+  <data name="cbAgility.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbAgility.Items100" xml:space="preserve">
+  <data name="cbAgility.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbAgility.Location" type="System.Drawing.Point, System.Drawing">
@@ -6432,306 +6402,303 @@
     <value>6</value>
   </data>
   <data name="cbDexterity.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbDexterity.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbDexterity.Items2" xml:space="preserve">
+  <data name="cbDexterity.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbDexterity.Items3" xml:space="preserve">
+  <data name="cbDexterity.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbDexterity.Items4" xml:space="preserve">
+  <data name="cbDexterity.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbDexterity.Items5" xml:space="preserve">
+  <data name="cbDexterity.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbDexterity.Items6" xml:space="preserve">
+  <data name="cbDexterity.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbDexterity.Items7" xml:space="preserve">
+  <data name="cbDexterity.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbDexterity.Items8" xml:space="preserve">
+  <data name="cbDexterity.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbDexterity.Items9" xml:space="preserve">
+  <data name="cbDexterity.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbDexterity.Items10" xml:space="preserve">
+  <data name="cbDexterity.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbDexterity.Items11" xml:space="preserve">
+  <data name="cbDexterity.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbDexterity.Items12" xml:space="preserve">
+  <data name="cbDexterity.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbDexterity.Items13" xml:space="preserve">
+  <data name="cbDexterity.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbDexterity.Items14" xml:space="preserve">
+  <data name="cbDexterity.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbDexterity.Items15" xml:space="preserve">
+  <data name="cbDexterity.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbDexterity.Items16" xml:space="preserve">
+  <data name="cbDexterity.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbDexterity.Items17" xml:space="preserve">
+  <data name="cbDexterity.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbDexterity.Items18" xml:space="preserve">
+  <data name="cbDexterity.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbDexterity.Items19" xml:space="preserve">
+  <data name="cbDexterity.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbDexterity.Items20" xml:space="preserve">
+  <data name="cbDexterity.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbDexterity.Items21" xml:space="preserve">
+  <data name="cbDexterity.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbDexterity.Items22" xml:space="preserve">
+  <data name="cbDexterity.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbDexterity.Items23" xml:space="preserve">
+  <data name="cbDexterity.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbDexterity.Items24" xml:space="preserve">
+  <data name="cbDexterity.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbDexterity.Items25" xml:space="preserve">
+  <data name="cbDexterity.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbDexterity.Items26" xml:space="preserve">
+  <data name="cbDexterity.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbDexterity.Items27" xml:space="preserve">
+  <data name="cbDexterity.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbDexterity.Items28" xml:space="preserve">
+  <data name="cbDexterity.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbDexterity.Items29" xml:space="preserve">
+  <data name="cbDexterity.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbDexterity.Items30" xml:space="preserve">
+  <data name="cbDexterity.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbDexterity.Items31" xml:space="preserve">
+  <data name="cbDexterity.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbDexterity.Items32" xml:space="preserve">
+  <data name="cbDexterity.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbDexterity.Items33" xml:space="preserve">
+  <data name="cbDexterity.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbDexterity.Items34" xml:space="preserve">
+  <data name="cbDexterity.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbDexterity.Items35" xml:space="preserve">
+  <data name="cbDexterity.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbDexterity.Items36" xml:space="preserve">
+  <data name="cbDexterity.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbDexterity.Items37" xml:space="preserve">
+  <data name="cbDexterity.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbDexterity.Items38" xml:space="preserve">
+  <data name="cbDexterity.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbDexterity.Items39" xml:space="preserve">
+  <data name="cbDexterity.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbDexterity.Items40" xml:space="preserve">
+  <data name="cbDexterity.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbDexterity.Items41" xml:space="preserve">
+  <data name="cbDexterity.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbDexterity.Items42" xml:space="preserve">
+  <data name="cbDexterity.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbDexterity.Items43" xml:space="preserve">
+  <data name="cbDexterity.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbDexterity.Items44" xml:space="preserve">
+  <data name="cbDexterity.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbDexterity.Items45" xml:space="preserve">
+  <data name="cbDexterity.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbDexterity.Items46" xml:space="preserve">
+  <data name="cbDexterity.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbDexterity.Items47" xml:space="preserve">
+  <data name="cbDexterity.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbDexterity.Items48" xml:space="preserve">
+  <data name="cbDexterity.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbDexterity.Items49" xml:space="preserve">
+  <data name="cbDexterity.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbDexterity.Items50" xml:space="preserve">
+  <data name="cbDexterity.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbDexterity.Items51" xml:space="preserve">
+  <data name="cbDexterity.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbDexterity.Items52" xml:space="preserve">
+  <data name="cbDexterity.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbDexterity.Items53" xml:space="preserve">
+  <data name="cbDexterity.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbDexterity.Items54" xml:space="preserve">
+  <data name="cbDexterity.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbDexterity.Items55" xml:space="preserve">
+  <data name="cbDexterity.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbDexterity.Items56" xml:space="preserve">
+  <data name="cbDexterity.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbDexterity.Items57" xml:space="preserve">
+  <data name="cbDexterity.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbDexterity.Items58" xml:space="preserve">
+  <data name="cbDexterity.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbDexterity.Items59" xml:space="preserve">
+  <data name="cbDexterity.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbDexterity.Items60" xml:space="preserve">
+  <data name="cbDexterity.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbDexterity.Items61" xml:space="preserve">
+  <data name="cbDexterity.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbDexterity.Items62" xml:space="preserve">
+  <data name="cbDexterity.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbDexterity.Items63" xml:space="preserve">
+  <data name="cbDexterity.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbDexterity.Items64" xml:space="preserve">
+  <data name="cbDexterity.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbDexterity.Items65" xml:space="preserve">
+  <data name="cbDexterity.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbDexterity.Items66" xml:space="preserve">
+  <data name="cbDexterity.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbDexterity.Items67" xml:space="preserve">
+  <data name="cbDexterity.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbDexterity.Items68" xml:space="preserve">
+  <data name="cbDexterity.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbDexterity.Items69" xml:space="preserve">
+  <data name="cbDexterity.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbDexterity.Items70" xml:space="preserve">
+  <data name="cbDexterity.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbDexterity.Items71" xml:space="preserve">
+  <data name="cbDexterity.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbDexterity.Items72" xml:space="preserve">
+  <data name="cbDexterity.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbDexterity.Items73" xml:space="preserve">
+  <data name="cbDexterity.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbDexterity.Items74" xml:space="preserve">
+  <data name="cbDexterity.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbDexterity.Items75" xml:space="preserve">
+  <data name="cbDexterity.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbDexterity.Items76" xml:space="preserve">
+  <data name="cbDexterity.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbDexterity.Items77" xml:space="preserve">
+  <data name="cbDexterity.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbDexterity.Items78" xml:space="preserve">
+  <data name="cbDexterity.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbDexterity.Items79" xml:space="preserve">
+  <data name="cbDexterity.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbDexterity.Items80" xml:space="preserve">
+  <data name="cbDexterity.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbDexterity.Items81" xml:space="preserve">
+  <data name="cbDexterity.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbDexterity.Items82" xml:space="preserve">
+  <data name="cbDexterity.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbDexterity.Items83" xml:space="preserve">
+  <data name="cbDexterity.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbDexterity.Items84" xml:space="preserve">
+  <data name="cbDexterity.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbDexterity.Items85" xml:space="preserve">
+  <data name="cbDexterity.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbDexterity.Items86" xml:space="preserve">
+  <data name="cbDexterity.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbDexterity.Items87" xml:space="preserve">
+  <data name="cbDexterity.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbDexterity.Items88" xml:space="preserve">
+  <data name="cbDexterity.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbDexterity.Items89" xml:space="preserve">
+  <data name="cbDexterity.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbDexterity.Items90" xml:space="preserve">
+  <data name="cbDexterity.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbDexterity.Items91" xml:space="preserve">
+  <data name="cbDexterity.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbDexterity.Items92" xml:space="preserve">
+  <data name="cbDexterity.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbDexterity.Items93" xml:space="preserve">
+  <data name="cbDexterity.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbDexterity.Items94" xml:space="preserve">
+  <data name="cbDexterity.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbDexterity.Items95" xml:space="preserve">
+  <data name="cbDexterity.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbDexterity.Items96" xml:space="preserve">
+  <data name="cbDexterity.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbDexterity.Items97" xml:space="preserve">
+  <data name="cbDexterity.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbDexterity.Items98" xml:space="preserve">
+  <data name="cbDexterity.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbDexterity.Items99" xml:space="preserve">
+  <data name="cbDexterity.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbDexterity.Items100" xml:space="preserve">
+  <data name="cbDexterity.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbDexterity.Location" type="System.Drawing.Point, System.Drawing">
@@ -6756,306 +6723,303 @@
     <value>5</value>
   </data>
   <data name="cbStrength.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbStrength.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbStrength.Items2" xml:space="preserve">
+  <data name="cbStrength.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbStrength.Items3" xml:space="preserve">
+  <data name="cbStrength.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbStrength.Items4" xml:space="preserve">
+  <data name="cbStrength.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbStrength.Items5" xml:space="preserve">
+  <data name="cbStrength.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbStrength.Items6" xml:space="preserve">
+  <data name="cbStrength.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="cbStrength.Items7" xml:space="preserve">
+  <data name="cbStrength.Items6" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cbStrength.Items8" xml:space="preserve">
+  <data name="cbStrength.Items7" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="cbStrength.Items9" xml:space="preserve">
+  <data name="cbStrength.Items8" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="cbStrength.Items10" xml:space="preserve">
+  <data name="cbStrength.Items9" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="cbStrength.Items11" xml:space="preserve">
+  <data name="cbStrength.Items10" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="cbStrength.Items12" xml:space="preserve">
+  <data name="cbStrength.Items11" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="cbStrength.Items13" xml:space="preserve">
+  <data name="cbStrength.Items12" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="cbStrength.Items14" xml:space="preserve">
+  <data name="cbStrength.Items13" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="cbStrength.Items15" xml:space="preserve">
+  <data name="cbStrength.Items14" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="cbStrength.Items16" xml:space="preserve">
+  <data name="cbStrength.Items15" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="cbStrength.Items17" xml:space="preserve">
+  <data name="cbStrength.Items16" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="cbStrength.Items18" xml:space="preserve">
+  <data name="cbStrength.Items17" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="cbStrength.Items19" xml:space="preserve">
+  <data name="cbStrength.Items18" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="cbStrength.Items20" xml:space="preserve">
+  <data name="cbStrength.Items19" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="cbStrength.Items21" xml:space="preserve">
+  <data name="cbStrength.Items20" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="cbStrength.Items22" xml:space="preserve">
+  <data name="cbStrength.Items21" xml:space="preserve">
     <value>22</value>
   </data>
-  <data name="cbStrength.Items23" xml:space="preserve">
+  <data name="cbStrength.Items22" xml:space="preserve">
     <value>23</value>
   </data>
-  <data name="cbStrength.Items24" xml:space="preserve">
+  <data name="cbStrength.Items23" xml:space="preserve">
     <value>24</value>
   </data>
-  <data name="cbStrength.Items25" xml:space="preserve">
+  <data name="cbStrength.Items24" xml:space="preserve">
     <value>25</value>
   </data>
-  <data name="cbStrength.Items26" xml:space="preserve">
+  <data name="cbStrength.Items25" xml:space="preserve">
     <value>26</value>
   </data>
-  <data name="cbStrength.Items27" xml:space="preserve">
+  <data name="cbStrength.Items26" xml:space="preserve">
     <value>27</value>
   </data>
-  <data name="cbStrength.Items28" xml:space="preserve">
+  <data name="cbStrength.Items27" xml:space="preserve">
     <value>28</value>
   </data>
-  <data name="cbStrength.Items29" xml:space="preserve">
+  <data name="cbStrength.Items28" xml:space="preserve">
     <value>29</value>
   </data>
-  <data name="cbStrength.Items30" xml:space="preserve">
+  <data name="cbStrength.Items29" xml:space="preserve">
     <value>30</value>
   </data>
-  <data name="cbStrength.Items31" xml:space="preserve">
+  <data name="cbStrength.Items30" xml:space="preserve">
     <value>31</value>
   </data>
-  <data name="cbStrength.Items32" xml:space="preserve">
+  <data name="cbStrength.Items31" xml:space="preserve">
     <value>32</value>
   </data>
-  <data name="cbStrength.Items33" xml:space="preserve">
+  <data name="cbStrength.Items32" xml:space="preserve">
     <value>33</value>
   </data>
-  <data name="cbStrength.Items34" xml:space="preserve">
+  <data name="cbStrength.Items33" xml:space="preserve">
     <value>34</value>
   </data>
-  <data name="cbStrength.Items35" xml:space="preserve">
+  <data name="cbStrength.Items34" xml:space="preserve">
     <value>35</value>
   </data>
-  <data name="cbStrength.Items36" xml:space="preserve">
+  <data name="cbStrength.Items35" xml:space="preserve">
     <value>36</value>
   </data>
-  <data name="cbStrength.Items37" xml:space="preserve">
+  <data name="cbStrength.Items36" xml:space="preserve">
     <value>37</value>
   </data>
-  <data name="cbStrength.Items38" xml:space="preserve">
+  <data name="cbStrength.Items37" xml:space="preserve">
     <value>38</value>
   </data>
-  <data name="cbStrength.Items39" xml:space="preserve">
+  <data name="cbStrength.Items38" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="cbStrength.Items40" xml:space="preserve">
+  <data name="cbStrength.Items39" xml:space="preserve">
     <value>40</value>
   </data>
-  <data name="cbStrength.Items41" xml:space="preserve">
+  <data name="cbStrength.Items40" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="cbStrength.Items42" xml:space="preserve">
+  <data name="cbStrength.Items41" xml:space="preserve">
     <value>42</value>
   </data>
-  <data name="cbStrength.Items43" xml:space="preserve">
+  <data name="cbStrength.Items42" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="cbStrength.Items44" xml:space="preserve">
+  <data name="cbStrength.Items43" xml:space="preserve">
     <value>44</value>
   </data>
-  <data name="cbStrength.Items45" xml:space="preserve">
+  <data name="cbStrength.Items44" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="cbStrength.Items46" xml:space="preserve">
+  <data name="cbStrength.Items45" xml:space="preserve">
     <value>46</value>
   </data>
-  <data name="cbStrength.Items47" xml:space="preserve">
+  <data name="cbStrength.Items46" xml:space="preserve">
     <value>47</value>
   </data>
-  <data name="cbStrength.Items48" xml:space="preserve">
+  <data name="cbStrength.Items47" xml:space="preserve">
     <value>48</value>
   </data>
-  <data name="cbStrength.Items49" xml:space="preserve">
+  <data name="cbStrength.Items48" xml:space="preserve">
     <value>49</value>
   </data>
-  <data name="cbStrength.Items50" xml:space="preserve">
+  <data name="cbStrength.Items49" xml:space="preserve">
     <value>50</value>
   </data>
-  <data name="cbStrength.Items51" xml:space="preserve">
+  <data name="cbStrength.Items50" xml:space="preserve">
     <value>51</value>
   </data>
-  <data name="cbStrength.Items52" xml:space="preserve">
+  <data name="cbStrength.Items51" xml:space="preserve">
     <value>52</value>
   </data>
-  <data name="cbStrength.Items53" xml:space="preserve">
+  <data name="cbStrength.Items52" xml:space="preserve">
     <value>53</value>
   </data>
-  <data name="cbStrength.Items54" xml:space="preserve">
+  <data name="cbStrength.Items53" xml:space="preserve">
     <value>54</value>
   </data>
-  <data name="cbStrength.Items55" xml:space="preserve">
+  <data name="cbStrength.Items54" xml:space="preserve">
     <value>55</value>
   </data>
-  <data name="cbStrength.Items56" xml:space="preserve">
+  <data name="cbStrength.Items55" xml:space="preserve">
     <value>56</value>
   </data>
-  <data name="cbStrength.Items57" xml:space="preserve">
+  <data name="cbStrength.Items56" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="cbStrength.Items58" xml:space="preserve">
+  <data name="cbStrength.Items57" xml:space="preserve">
     <value>58</value>
   </data>
-  <data name="cbStrength.Items59" xml:space="preserve">
+  <data name="cbStrength.Items58" xml:space="preserve">
     <value>59</value>
   </data>
-  <data name="cbStrength.Items60" xml:space="preserve">
+  <data name="cbStrength.Items59" xml:space="preserve">
     <value>60</value>
   </data>
-  <data name="cbStrength.Items61" xml:space="preserve">
+  <data name="cbStrength.Items60" xml:space="preserve">
     <value>61</value>
   </data>
-  <data name="cbStrength.Items62" xml:space="preserve">
+  <data name="cbStrength.Items61" xml:space="preserve">
     <value>62</value>
   </data>
-  <data name="cbStrength.Items63" xml:space="preserve">
+  <data name="cbStrength.Items62" xml:space="preserve">
     <value>63</value>
   </data>
-  <data name="cbStrength.Items64" xml:space="preserve">
+  <data name="cbStrength.Items63" xml:space="preserve">
     <value>64</value>
   </data>
-  <data name="cbStrength.Items65" xml:space="preserve">
+  <data name="cbStrength.Items64" xml:space="preserve">
     <value>65</value>
   </data>
-  <data name="cbStrength.Items66" xml:space="preserve">
+  <data name="cbStrength.Items65" xml:space="preserve">
     <value>66</value>
   </data>
-  <data name="cbStrength.Items67" xml:space="preserve">
+  <data name="cbStrength.Items66" xml:space="preserve">
     <value>67</value>
   </data>
-  <data name="cbStrength.Items68" xml:space="preserve">
+  <data name="cbStrength.Items67" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="cbStrength.Items69" xml:space="preserve">
+  <data name="cbStrength.Items68" xml:space="preserve">
     <value>69</value>
   </data>
-  <data name="cbStrength.Items70" xml:space="preserve">
+  <data name="cbStrength.Items69" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="cbStrength.Items71" xml:space="preserve">
+  <data name="cbStrength.Items70" xml:space="preserve">
     <value>71</value>
   </data>
-  <data name="cbStrength.Items72" xml:space="preserve">
+  <data name="cbStrength.Items71" xml:space="preserve">
     <value>72</value>
   </data>
-  <data name="cbStrength.Items73" xml:space="preserve">
+  <data name="cbStrength.Items72" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="cbStrength.Items74" xml:space="preserve">
+  <data name="cbStrength.Items73" xml:space="preserve">
     <value>74</value>
   </data>
-  <data name="cbStrength.Items75" xml:space="preserve">
+  <data name="cbStrength.Items74" xml:space="preserve">
     <value>75</value>
   </data>
-  <data name="cbStrength.Items76" xml:space="preserve">
+  <data name="cbStrength.Items75" xml:space="preserve">
     <value>76</value>
   </data>
-  <data name="cbStrength.Items77" xml:space="preserve">
+  <data name="cbStrength.Items76" xml:space="preserve">
     <value>77</value>
   </data>
-  <data name="cbStrength.Items78" xml:space="preserve">
+  <data name="cbStrength.Items77" xml:space="preserve">
     <value>78</value>
   </data>
-  <data name="cbStrength.Items79" xml:space="preserve">
+  <data name="cbStrength.Items78" xml:space="preserve">
     <value>79</value>
   </data>
-  <data name="cbStrength.Items80" xml:space="preserve">
+  <data name="cbStrength.Items79" xml:space="preserve">
     <value>80</value>
   </data>
-  <data name="cbStrength.Items81" xml:space="preserve">
+  <data name="cbStrength.Items80" xml:space="preserve">
     <value>81</value>
   </data>
-  <data name="cbStrength.Items82" xml:space="preserve">
+  <data name="cbStrength.Items81" xml:space="preserve">
     <value>82</value>
   </data>
-  <data name="cbStrength.Items83" xml:space="preserve">
+  <data name="cbStrength.Items82" xml:space="preserve">
     <value>83</value>
   </data>
-  <data name="cbStrength.Items84" xml:space="preserve">
+  <data name="cbStrength.Items83" xml:space="preserve">
     <value>84</value>
   </data>
-  <data name="cbStrength.Items85" xml:space="preserve">
+  <data name="cbStrength.Items84" xml:space="preserve">
     <value>85</value>
   </data>
-  <data name="cbStrength.Items86" xml:space="preserve">
+  <data name="cbStrength.Items85" xml:space="preserve">
     <value>86</value>
   </data>
-  <data name="cbStrength.Items87" xml:space="preserve">
+  <data name="cbStrength.Items86" xml:space="preserve">
     <value>87</value>
   </data>
-  <data name="cbStrength.Items88" xml:space="preserve">
+  <data name="cbStrength.Items87" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="cbStrength.Items89" xml:space="preserve">
+  <data name="cbStrength.Items88" xml:space="preserve">
     <value>89</value>
   </data>
-  <data name="cbStrength.Items90" xml:space="preserve">
+  <data name="cbStrength.Items89" xml:space="preserve">
     <value>90</value>
   </data>
-  <data name="cbStrength.Items91" xml:space="preserve">
+  <data name="cbStrength.Items90" xml:space="preserve">
     <value>91</value>
   </data>
-  <data name="cbStrength.Items92" xml:space="preserve">
+  <data name="cbStrength.Items91" xml:space="preserve">
     <value>92</value>
   </data>
-  <data name="cbStrength.Items93" xml:space="preserve">
+  <data name="cbStrength.Items92" xml:space="preserve">
     <value>93</value>
   </data>
-  <data name="cbStrength.Items94" xml:space="preserve">
+  <data name="cbStrength.Items93" xml:space="preserve">
     <value>94</value>
   </data>
-  <data name="cbStrength.Items95" xml:space="preserve">
+  <data name="cbStrength.Items94" xml:space="preserve">
     <value>95</value>
   </data>
-  <data name="cbStrength.Items96" xml:space="preserve">
+  <data name="cbStrength.Items95" xml:space="preserve">
     <value>96</value>
   </data>
-  <data name="cbStrength.Items97" xml:space="preserve">
+  <data name="cbStrength.Items96" xml:space="preserve">
     <value>97</value>
   </data>
-  <data name="cbStrength.Items98" xml:space="preserve">
+  <data name="cbStrength.Items97" xml:space="preserve">
     <value>98</value>
   </data>
-  <data name="cbStrength.Items99" xml:space="preserve">
+  <data name="cbStrength.Items98" xml:space="preserve">
     <value>99</value>
   </data>
-  <data name="cbStrength.Items100" xml:space="preserve">
+  <data name="cbStrength.Items99" xml:space="preserve">
     <value>100</value>
   </data>
   <data name="cbStrength.Location" type="System.Drawing.Point, System.Drawing">
@@ -7080,24 +7044,21 @@
     <value>4</value>
   </data>
   <data name="cbLifePoints.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbLifePoints.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbLifePoints.Items2" xml:space="preserve">
+  <data name="cbLifePoints.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbLifePoints.Items3" xml:space="preserve">
+  <data name="cbLifePoints.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbLifePoints.Items4" xml:space="preserve">
+  <data name="cbLifePoints.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbLifePoints.Items5" xml:space="preserve">
+  <data name="cbLifePoints.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbLifePoints.Items6" xml:space="preserve">
+  <data name="cbLifePoints.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbLifePoints.Location" type="System.Drawing.Point, System.Drawing">
@@ -7122,24 +7083,21 @@
     <value>3</value>
   </data>
   <data name="cbAdventurePointsC.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbAdventurePointsC.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbAdventurePointsC.Items2" xml:space="preserve">
+  <data name="cbAdventurePointsC.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbAdventurePointsC.Items3" xml:space="preserve">
+  <data name="cbAdventurePointsC.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbAdventurePointsC.Items4" xml:space="preserve">
+  <data name="cbAdventurePointsC.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbAdventurePointsC.Items5" xml:space="preserve">
+  <data name="cbAdventurePointsC.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbAdventurePointsC.Items6" xml:space="preserve">
+  <data name="cbAdventurePointsC.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbAdventurePointsC.Location" type="System.Drawing.Point, System.Drawing">
@@ -7164,24 +7122,21 @@
     <value>2</value>
   </data>
   <data name="cbAdventurePointsB.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbAdventurePointsB.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbAdventurePointsB.Items2" xml:space="preserve">
+  <data name="cbAdventurePointsB.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbAdventurePointsB.Items3" xml:space="preserve">
+  <data name="cbAdventurePointsB.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbAdventurePointsB.Items4" xml:space="preserve">
+  <data name="cbAdventurePointsB.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbAdventurePointsB.Items5" xml:space="preserve">
+  <data name="cbAdventurePointsB.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbAdventurePointsB.Items6" xml:space="preserve">
+  <data name="cbAdventurePointsB.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbAdventurePointsB.Location" type="System.Drawing.Point, System.Drawing">
@@ -7206,24 +7161,21 @@
     <value>1</value>
   </data>
   <data name="cbAdventurePointsA.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbAdventurePointsA.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbAdventurePointsA.Items2" xml:space="preserve">
+  <data name="cbAdventurePointsA.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbAdventurePointsA.Items3" xml:space="preserve">
+  <data name="cbAdventurePointsA.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbAdventurePointsA.Items4" xml:space="preserve">
+  <data name="cbAdventurePointsA.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbAdventurePointsA.Items5" xml:space="preserve">
+  <data name="cbAdventurePointsA.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbAdventurePointsA.Items6" xml:space="preserve">
+  <data name="cbAdventurePointsA.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbAdventurePointsA.Location" type="System.Drawing.Point, System.Drawing">
