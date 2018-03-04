@@ -639,43 +639,43 @@ namespace mcreator
 
                 if (this.Text == lines[101])
                 {
-                    cbStrength.SelectedIndex = Convert.ToInt32(lines[56]);
-                    cbDexterity.SelectedIndex = Convert.ToInt32(lines[58]);
-                    cbAgility.SelectedIndex = Convert.ToInt32(lines[60]);
-                    cbConstitution.SelectedIndex = Convert.ToInt32(lines[62]);
-                    cbIntelligence.SelectedIndex = Convert.ToInt32(lines[64]);
-                    cbMagicalTalent.SelectedIndex = Convert.ToInt32(lines[66]);
+                    cbStrength.SelectedIndex = Convert.ToInt32(lines[56]) -1 ;
+                    cbDexterity.SelectedIndex = Convert.ToInt32(lines[58]) -1;
+                    cbAgility.SelectedIndex = Convert.ToInt32(lines[60]) -1;
+                    cbConstitution.SelectedIndex = Convert.ToInt32(lines[62]) -1;
+                    cbIntelligence.SelectedIndex = Convert.ToInt32(lines[64]) -1;
+                    cbMagicalTalent.SelectedIndex = Convert.ToInt32(lines[66]) -1;
 
-                    cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[68]);
-                    cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[70]);
+                    cbBodySizeA.SelectedIndex = Convert.ToInt32(lines[68]) -1;
+                    cbBodySizeB.SelectedIndex = Convert.ToInt32(lines[70]) -1;
 
-                    cbBodyWeightA.SelectedIndex = Convert.ToInt32(lines[72]);
-                    cbBodyWeightB.SelectedIndex = Convert.ToInt32(lines[74]);
-                    cbBodyWeightC.SelectedIndex = Convert.ToInt32(lines[76]);
-                    cbBodyWeightD.SelectedIndex = Convert.ToInt32(lines[78]);
+                    cbBodyWeightA.SelectedIndex = Convert.ToInt32(lines[72]) -1;
+                    cbBodyWeightB.SelectedIndex = Convert.ToInt32(lines[74]) -1;
+                    cbBodyWeightC.SelectedIndex = Convert.ToInt32(lines[76]) -1;
+                    cbBodyWeightD.SelectedIndex = Convert.ToInt32(lines[78]) -1;
 
-                    cbAppearance.SelectedIndex = Convert.ToInt32(lines[81]);
-                    cbCharisma.SelectedIndex = Convert.ToInt32(lines[83]);
-                    cbWillpower.SelectedIndex = Convert.ToInt32(lines[85]);
-                    cbSelfControl.SelectedIndex = Convert.ToInt32(lines[87]);
+                    cbAppearance.SelectedIndex = Convert.ToInt32(lines[81]) -1;
+                    cbCharisma.SelectedIndex = Convert.ToInt32(lines[83]) -1;
+                    cbWillpower.SelectedIndex = Convert.ToInt32(lines[85]) -1;
+                    cbSelfControl.SelectedIndex = Convert.ToInt32(lines[87]) -1;
 
-                    cbInbornBuff.SelectedIndex = Convert.ToInt32(lines[89]);
-                    cbHanded.SelectedIndex = Convert.ToInt32(lines[91]);
+                    cbInbornBuff.SelectedIndex = Convert.ToInt32(lines[89]) -1;
+                    cbHanded.SelectedIndex = Convert.ToInt32(lines[91]) -1;
 
-                    cbAdventurePointsA.SelectedIndex = Convert.ToInt32(lines[93]);
-                    cbAdventurePointsB.SelectedIndex = Convert.ToInt32(lines[95]);
-                    cbAdventurePointsC.SelectedIndex = Convert.ToInt32(lines[97]);
-                    cbLifePoints.SelectedIndex = Convert.ToInt32(lines[99]);
+                    cbAdventurePointsA.SelectedIndex = Convert.ToInt32(lines[93]) -1;
+                    cbAdventurePointsB.SelectedIndex = Convert.ToInt32(lines[95]) -1;
+                    cbAdventurePointsC.SelectedIndex = Convert.ToInt32(lines[97]) -1;
+                    cbLifePoints.SelectedIndex = Convert.ToInt32(lines[99]) -1;
 
                     //txtCharacterName.Text = lines[];
 
                     // Enabling the form
-                    int strength = Convert.ToInt32(cbStrength.SelectedItem.ToString());
-                    int dexterity = Convert.ToInt32(cbDexterity.SelectedItem.ToString());
-                    int agility = Convert.ToInt32(cbAgility.SelectedItem.ToString());
-                    int constitution = Convert.ToInt32(cbConstitution.SelectedItem.ToString());
-                    int intelligence = Convert.ToInt32(cbConstitution.SelectedItem.ToString());
-                    int magicTalent = Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString());
+                    int strength = Convert.ToInt32(cbStrength.SelectedItem.ToString()) -1;
+                    int dexterity = Convert.ToInt32(cbDexterity.SelectedItem.ToString()) -1;
+                    int agility = Convert.ToInt32(cbAgility.SelectedItem.ToString()) -1;
+                    int constitution = Convert.ToInt32(cbConstitution.SelectedItem.ToString()) -1;
+                    int intelligence = Convert.ToInt32(cbConstitution.SelectedItem.ToString()) -1;
+                    int magicTalent = Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString()) -1;
 
                     rbStats.Checked = true;
 
@@ -740,6 +740,11 @@ namespace mcreator
                     txtAreaMagicFighter.Text = Convert.ToString(10 + c.AgilityArea(agility));
                     txtAreaMagicMagician.Text = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text = Convert.ToString(10 + c.AgilityArea(agility));
+
+
+                    
+
+
                 }
                 else
                 {
