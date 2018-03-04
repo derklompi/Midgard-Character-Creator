@@ -49,69 +49,69 @@ namespace mcreator.Classes
             string formTitle = "";
             formTitle = CharExport.Text;
                                
-            int mtxtStrength        = Convert.ToInt32(CharExport.cbStrength.SelectedItem.ToString());
-            int mtxtDexterity       = Convert.ToInt32(CharExport.cbDexterity.SelectedItem.ToString());
-            int mtxtAgility         = Convert.ToInt32(CharExport.cbAgility.SelectedItem.ToString());
-            int mtxtConstitution    = Convert.ToInt32(CharExport.cbConstitution.SelectedItem.ToString());
-            int mtxtIntelligence    = Convert.ToInt32(CharExport.cbIntelligence.SelectedItem.ToString());
-            int mtxtMagicalTalent   = Convert.ToInt32(CharExport.cbMagicalTalent.SelectedItem.ToString());
-            int mtxtAppearance      = Convert.ToInt32(CharExport.cbAppearance.SelectedItem.ToString());
+            string cbStrength        = CharExport.cbStrength.SelectedItem.ToString();
+            string cbDexterity       = CharExport.cbDexterity.SelectedItem.ToString();
+            string cbAgility         = CharExport.cbAgility.SelectedItem.ToString();
+            string cbConstitution    = CharExport.cbConstitution.SelectedItem.ToString();
+            string cbIntelligence    = CharExport.cbIntelligence.SelectedItem.ToString();
+            string cbMagicalTalent   = CharExport.cbMagicalTalent.SelectedItem.ToString();
+            string cbAppearance      = CharExport.cbAppearance.SelectedItem.ToString();
 
-            int txtCharisma         = Convert.ToInt32(CharExport.txtCharisma.Text);
-            int txtWillpower        = Convert.ToInt32(CharExport.txtWillpower.Text);
-            int txtSelfControlA     = Convert.ToInt32(CharExport.txtSelfControlA.Text);
-            int txtSelfControlB     = Convert.ToInt32(CharExport.txtSelfControlB.Text);
-            int txtSelfControlC     = Convert.ToInt32(CharExport.txtSelfControlC.Text);
-            int mtxtCharisma        = Convert.ToInt32(CharExport.cbCharisma.SelectedItem.ToString());
-            int mtxtWillpower       = Convert.ToInt32(CharExport.cbWillpower.SelectedItem.ToString());
-            int mtxtSelfControl     = Convert.ToInt32(CharExport.cbSelfControl.SelectedItem.ToString());
-            int mtxtInbornBuff      = Convert.ToInt32(CharExport.cbInbornBuff.SelectedItem.ToString());
-            int mtxtHanded          = Convert.ToInt32(CharExport.cbHanded.SelectedItem.ToString());
+            string txtCharisma         = CharExport.txtCharisma.Text;
+            string txtWillpower        = CharExport.txtWillpower.Text;
+            string txtSelfControlA     = CharExport.txtSelfControlA.Text;
+            string txtSelfControlB     = CharExport.txtSelfControlB.Text;
+            string txtSelfControlC     = CharExport.txtSelfControlC.Text;
+            string cbCharisma        = CharExport.cbCharisma.SelectedItem.ToString();
+            string cbWillpower       = CharExport.cbWillpower.SelectedItem.ToString();
+            string cbSelfControl     = CharExport.cbSelfControl.SelectedItem.ToString();
+            string cbInbornBuff      = CharExport.cbInbornBuff.SelectedItem.ToString();
+            string cbHanded          = CharExport.cbHanded.SelectedItem.ToString();
 
             string txtInbornBuff    = CharExport.txtInbornBuff.Text;
             string txtHanded        = CharExport.txtHanded.Text;
 
-            int txtDamageBuff       = Convert.ToInt32(CharExport.txtDamageBuff.Text);
-            int txtStaminaBuff      = Convert.ToInt32(CharExport.txtStaminaBuff.Text);
-            int txtAttackBuff       = Convert.ToInt32(CharExport.txtAttackBuff.Text);
-            int txtDefenseBuff      = Convert.ToInt32(CharExport.txtDefenseBuff.Text);
-            int txtMagicBuff        = Convert.ToInt32(CharExport.txtMagicBuff.Text);
-            int txtRumble           = Convert.ToInt32(CharExport.txtRumble.Text);
-            int txtDefense          = Convert.ToInt32(CharExport.txtDefense.Text);
-            int txtDefense0         = Convert.ToInt32(CharExport.txtDefense0.Text);
-            int txtDoMagic          = Convert.ToInt32(CharExport.txtDoMagic.Text);
-            int txtDoMagic0         = Convert.ToInt32(CharExport.txtDoMagic0.Text);
+            string txtDamageBuff       = CharExport.txtDamageBuff.Text;
+            string txtStaminaBuff      = CharExport.txtStaminaBuff.Text;
+            string txtAttackBuff       = CharExport.txtAttackBuff.Text;
+            string txtDefenseBuff      = CharExport.txtDefenseBuff.Text;
+            string txtMagicBuff        = CharExport.txtMagicBuff.Text;
+            string txtRumble           = CharExport.txtRumble.Text;
+            string txtDefense          = CharExport.txtDefense.Text;
+            string txtDefense0         = CharExport.txtDefense0.Text;
+            string txtDoMagic          = CharExport.txtDoMagic.Text;
+            string txtDoMagic0         = CharExport.txtDoMagic0.Text;
 
-            int txtGhostMagicFighter    = Convert.ToInt32(CharExport.txtGhostMagicFighter.Text);
-            int txtGhostMagicMagician   = Convert.ToInt32(CharExport.txtGhostMagicMagician.Text);
-            int txtGhostMagicNormal     = Convert.ToInt32(CharExport.txtGhostMagicNormal.Text);
-            int txtBodyMagicFighter     = Convert.ToInt32(CharExport.txtBodyMagicFighter.Text);
-            int txtBodyMagicMagician    = Convert.ToInt32(CharExport.txtBodyMagicMagician.Text);
-            int txtBodyMagicNormal      = Convert.ToInt32(CharExport.txtBodyMagicNormal.Text);
-            int txtAreaMagicFighter     = Convert.ToInt32(CharExport.txtAreaMagicFighter.Text);
-            int txtAreaMagicMagician    = Convert.ToInt32(CharExport.txtAreaMagicMagician.Text);
-            int txtAreaMagicNormal      = Convert.ToInt32(CharExport.txtAreaMagicNormal.Text);
+            string txtGhostMagicFighter    = CharExport.txtGhostMagicFighter.Text;
+            string txtGhostMagicMagician   = CharExport.txtGhostMagicMagician.Text;
+            string txtGhostMagicNormal     = CharExport.txtGhostMagicNormal.Text;
+            string txtBodyMagicFighter     = CharExport.txtBodyMagicFighter.Text;
+            string txtBodyMagicMagician    = CharExport.txtBodyMagicMagician.Text;
+            string txtBodyMagicNormal      = CharExport.txtBodyMagicNormal.Text;
+            string txtAreaMagicFighter     = CharExport.txtAreaMagicFighter.Text;
+            string txtAreaMagicMagician    = CharExport.txtAreaMagicMagician.Text;
+            string txtAreaMagicNormal      = CharExport.txtAreaMagicNormal.Text;
 
-            int txtAdventurePointsA     = Convert.ToInt32(CharExport.txtAdventurePointsA.Text);
-            int txtAdventurePointsB     = Convert.ToInt32(CharExport.txtAdventurePointsB.Text);
-            int txtAdventurePointsC     = Convert.ToInt32(CharExport.txtAdventurePointsC.Text);
-            int txtLifePoints           = Convert.ToInt32(CharExport.txtLifePoints.Text);
-            int mtxtAdventurePointsA    = Convert.ToInt32(CharExport.cbAdventurePointsA.SelectedItem.ToString());
-            int mtxtAdventurePointsB    = Convert.ToInt32(CharExport.cbAdventurePointsB.SelectedItem.ToString());
-            int mtxtAdventurePointsC    = Convert.ToInt32(CharExport.cbAdventurePointsC.SelectedItem.ToString());
-            int mtxtLifePoints          = Convert.ToInt32(CharExport.cbLifePoints.SelectedItem.ToString());
+            string txtAdventurePointsA     = CharExport.txtAdventurePointsA.Text;
+            string txtAdventurePointsB     = CharExport.txtAdventurePointsB.Text;
+            string txtAdventurePointsC     = CharExport.txtAdventurePointsC.Text;
+            string txtLifePoints           = CharExport.txtLifePoints.Text;
+            string cbAdventurePointsA    = CharExport.cbAdventurePointsA.SelectedItem.ToString();
+            string cbAdventurePointsB    = CharExport.cbAdventurePointsB.SelectedItem.ToString();
+            string cbAdventurePointsC    = CharExport.cbAdventurePointsC.SelectedItem.ToString();
+            string cbLifePoints          = CharExport.cbLifePoints.SelectedItem.ToString();
 
-            int txtBodySizeA        = Convert.ToInt32(CharExport.txtBodySizeA.Text);
-            int txtBodySizeB        = Convert.ToInt32(CharExport.txtBodySizeB.Text);
-            int mtxtBodySizeA       = Convert.ToInt32(CharExport.cbBodySizeA.SelectedItem.ToString());
-            int mtxtBodySizeB       = Convert.ToInt32(CharExport.cbBodySizeB.SelectedItem.ToString());
-            
-            int txtBodyWeightA      = Convert.ToInt32(CharExport.txtBodyWeightA.Text);
-            int txtBodyWeightB      = Convert.ToInt32(CharExport.txtBodyWeightB.Text);
-            int mtxtBodyWeightA     = Convert.ToInt32(CharExport.cbBodyWeightA.SelectedItem.ToString());
-            int mtxtBodyWeightB     = Convert.ToInt32(CharExport.cbBodyWeightB.SelectedItem.ToString());
-            int mtxtBodyWeightC     = Convert.ToInt32(CharExport.cbBodyWeightC.SelectedItem.ToString());
-            int mtxtBodyWeightD     = Convert.ToInt32(CharExport.cbBodyWeightD.SelectedItem.ToString());
+            string txtBodySizeA        = CharExport.txtBodySizeA.Text;
+            string txtBodySizeB        = CharExport.txtBodySizeB.Text;
+            string cbBodySizeA       = CharExport.cbBodySizeA.SelectedItem.ToString();
+            string cbBodySizeB       = CharExport.cbBodySizeB.SelectedItem.ToString();
+
+            string txtBodyWeightA      = CharExport.txtBodyWeightA.Text;
+            string txtBodyWeightB      = CharExport.txtBodyWeightB.Text;
+            string cbBodyWeightA     = CharExport.cbBodyWeightA.SelectedItem.ToString();
+            string cbBodyWeightB     = CharExport.cbBodyWeightB.SelectedItem.ToString();
+            string cbBodyWeightC     = CharExport.cbBodyWeightC.SelectedItem.ToString();
+            string cbBodyWeightD     = CharExport.cbBodyWeightD.SelectedItem.ToString();
                        
             if (File.Exists(exportPlace) != true)
             {
@@ -147,12 +147,12 @@ namespace mcreator.Classes
 
                     //Grundwerte
                     file.WriteLine("Grundwerte");
-                    file.WriteLine("Stärke:             " + mtxtStrength);
-                    file.WriteLine("Geschicklichkeit:   " + mtxtDexterity);
-                    file.WriteLine("Gewandheit:         " + mtxtAgility);
-                    file.WriteLine("Konsitution:        " + mtxtConstitution);
-                    file.WriteLine("Intelligenz:        " + mtxtIntelligence);
-                    file.WriteLine("Zaubertalent:       " + mtxtMagicalTalent);
+                    file.WriteLine("Stärke:             " + cbStrength);
+                    file.WriteLine("Geschicklichkeit:   " + cbDexterity);
+                    file.WriteLine("Gewandheit:         " + cbAgility);
+                    file.WriteLine("Konsitution:        " + cbConstitution);
+                    file.WriteLine("Intelligenz:        " + cbIntelligence);
+                    file.WriteLine("Zaubertalent:       " + cbMagicalTalent);
 
                     // Since humans have both male and female they need the extra part
                     if (charrclass == "Mensch")
@@ -172,7 +172,7 @@ namespace mcreator.Classes
 
                     //Charisma-Wesenswerte
                     file.WriteLine("Charisma-Wesenswerte");
-                    file.WriteLine("Aussehen:                                           " + mtxtAppearance);
+                    file.WriteLine("Aussehen:                                           " + cbAppearance);
                     file.WriteLine("Persönliche Ausstrahlung:                           " + txtCharisma);
                     file.WriteLine("Willenskraft:                                       " + txtWillpower);
                     file.WriteLine("Selbstbeherrschung (allgemein):                     " + txtSelfControlA);
@@ -226,53 +226,53 @@ namespace mcreator.Classes
 
                     file.WriteLine("Grundwerte");
                     file.WriteLine("Stärke (1W%):");
-                    file.WriteLine(mtxtStrength);
+                    file.WriteLine(cbStrength);
                     file.WriteLine("Geschicklichkeit (1W%):");
-                    file.WriteLine(mtxtDexterity);
+                    file.WriteLine(cbDexterity);
                     file.WriteLine("Gewandheit (1W%):");
-                    file.WriteLine(mtxtAgility);
+                    file.WriteLine(cbAgility);
                     file.WriteLine("Konstitution (1W%):");
-                    file.WriteLine(mtxtConstitution);
+                    file.WriteLine(cbConstitution);
                     file.WriteLine("Intelligenz (1W%):");
-                    file.WriteLine(mtxtIntelligence);
+                    file.WriteLine(cbIntelligence);
                     file.WriteLine("Zaubertalent (1W%):");
-                    file.WriteLine(mtxtMagicalTalent);
+                    file.WriteLine(cbMagicalTalent);
                     file.WriteLine("1. Größe (1W20/1W6):");
-                    file.WriteLine(mtxtBodySizeA);
+                    file.WriteLine(cbBodySizeA);
                     file.WriteLine("2. Größe (1W20/1W6):");
-                    file.WriteLine(mtxtBodySizeB);
+                    file.WriteLine(cbBodySizeB);
                     file.WriteLine("1. Gewicht (1W6):");
-                    file.WriteLine(mtxtBodyWeightA);
+                    file.WriteLine(cbBodyWeightA);
                     file.WriteLine("2. Gewicht (1W6):");
-                    file.WriteLine(mtxtBodyWeightB);
+                    file.WriteLine(cbBodyWeightB);
                     file.WriteLine("3. Gewicht (1W6):");
-                    file.WriteLine(mtxtBodyWeightC);
+                    file.WriteLine(cbBodyWeightC);
                     file.WriteLine("4. Gewicht (1W6):");
-                    file.WriteLine(mtxtBodyWeightD);
+                    file.WriteLine(cbBodyWeightD);
 
                     file.WriteLine("Charismawerte");
                     file.WriteLine("Aussehen (1W%):");
-                    file.WriteLine(mtxtAppearance);
+                    file.WriteLine(cbAppearance);
                     file.WriteLine("Persönliche Ausstrahlung (1W%):");
-                    file.WriteLine(mtxtCharisma);
+                    file.WriteLine(cbCharisma);
                     file.WriteLine("Willenskraft (1W%):");
-                    file.WriteLine(mtxtWillpower);
+                    file.WriteLine(cbWillpower);
                     file.WriteLine("Selbstbeherrschung (1W%):");
-                    file.WriteLine(mtxtSelfControl);
+                    file.WriteLine(cbSelfControl);
                     file.WriteLine("Angeborene Fähigkeit (1W%):");
-                    file.WriteLine(mtxtInbornBuff);
+                    file.WriteLine(cbInbornBuff);
                     file.WriteLine("Händigkeit (1W20):");
-                    file.WriteLine(mtxtHanded);
+                    file.WriteLine(cbHanded);
 
                     file.WriteLine("Abenteuerpunkte (1W6):");
-                    file.WriteLine(mtxtAdventurePointsA);
+                    file.WriteLine(cbAdventurePointsA);
                     file.WriteLine("Abenteuerpunkte (1W6):");
-                    file.WriteLine(mtxtAdventurePointsB);
+                    file.WriteLine(cbAdventurePointsB);
                     file.WriteLine("Abenteuerpunkte (1W6):");
-                    file.WriteLine(mtxtAdventurePointsC);
+                    file.WriteLine(cbAdventurePointsC);
 
                     file.WriteLine("Lebenspunkte (1W6):");
-                    file.WriteLine(mtxtLifePoints);
+                    file.WriteLine(cbLifePoints);
 
                     file.WriteLine("Fenstertitel");
                     file.WriteLine(formTitle);
