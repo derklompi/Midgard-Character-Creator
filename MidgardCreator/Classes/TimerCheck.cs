@@ -20,55 +20,7 @@ using System;
 namespace mcreator.Classes
 {
     class TimerCheck
-    {
-        private bool bodySizeCheck;
-        public bool BodySizeCheck(string mtxtBodySizeA, string mtxtBodySizeB, bool rbStats, string title)
-        {
-            if (title == "MCreator - Mensch")
-            {
-                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && rbStats &&
-                Convert.ToInt32(mtxtBodySizeA) <= 20 && Convert.ToInt32(mtxtBodySizeB) <= 20)
-                {
-                    bodySizeCheck = true;
-                }
-                else
-                {
-                    bodySizeCheck = false;
-                }
-            }
-            else
-            {
-                if (mtxtBodySizeA != "" && mtxtBodySizeB != "" && rbStats &&
-                Convert.ToInt32(mtxtBodySizeA) <= 6 && Convert.ToInt32(mtxtBodySizeB) <= 6)
-                {
-                    bodySizeCheck = true;
-                }
-                else
-                {
-                    bodySizeCheck = false;
-                }
-            }
-            
-            return bodySizeCheck;
-        }
-
-        private bool bodyWeightCheck;
-        public bool BodyWeightCheck(string mtxtBodyWeightA, string mtxtBodyWeightB, 
-            string mtxtBodyWeightC, string mtxtBodyWeightD, bool rbStats, string txtBodySize)
-        {
-            if (mtxtBodyWeightA != "" && mtxtBodyWeightB != "" && mtxtBodyWeightC != "" && mtxtBodyWeightD != "" &&
-                rbStats && Convert.ToInt32(mtxtBodyWeightA) <= 6 && Convert.ToInt32(mtxtBodyWeightB) <= 6 && 
-                Convert.ToInt32(mtxtBodyWeightC) <= 6 && Convert.ToInt32(mtxtBodyWeightD) <= 6 && txtBodySize != "")
-            {
-                bodyWeightCheck = true;
-            }
-            else
-            {
-                bodyWeightCheck = false;
-            }
-            return bodyWeightCheck;
-        }
-
+    {    
         private bool charismaCheck;
         public bool CharismaCheck(string mtxtAppearance, bool rbStats, string mtxtCharisma)
         {

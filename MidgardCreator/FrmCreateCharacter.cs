@@ -153,15 +153,15 @@ namespace mcreator
 
             while (statPointCheck == false)
             {
-                //Get Random numbers between 1 and 100
+                //Get Random numbers between 0 and 99
                 Random Rnd = new Random();
 
-                int strength        = Rnd.Next(1, 101);
-                int dexterity       = Rnd.Next(1, 101);
-                int agility         = Rnd.Next(1, 101);
-                int constitution    = Rnd.Next(1, 101);
-                int magicTalent     = Rnd.Next(1, 101);
-                int intelligence    = Rnd.Next(1, 101);
+                int strength        = Rnd.Next(0, 100);
+                int dexterity       = Rnd.Next(0, 100);
+                int agility         = Rnd.Next(0, 100);
+                int constitution    = Rnd.Next(0, 100);
+                int magicTalent     = Rnd.Next(0, 100);
+                int intelligence    = Rnd.Next(0, 100);
 
                 //Check if StatSum is over 350
                 int StatSum = strength + dexterity + agility + constitution + magicTalent + intelligence;
@@ -186,60 +186,60 @@ namespace mcreator
                     //Get the BodySize for the different races
                     if (this.Text == "MCreator - Mensch")
                     {
-                        cbBodySizeA.SelectedIndex = Rnd.Next(1, 21);
-                        cbBodySizeB.SelectedIndex = Rnd.Next(1, 21);
+                        cbBodySizeA.SelectedIndex = Rnd.Next(0, 20);
+                        cbBodySizeB.SelectedIndex = Rnd.Next(0, 20);
                     }
                     else
                     {
                         if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Gnom")
                         {
-                            cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodySizeA.SelectedIndex = Rnd.Next(0, 6);
                             cbBodySizeB.SelectedIndex = 0;
                         }
                         if (this.Text == "MCreator - Elf" || this.Text == "MCreator - Halbling")
                         {
-                            cbBodySizeA.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodySizeB.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodySizeA.SelectedIndex = Rnd.Next(0, 6);
+                            cbBodySizeB.SelectedIndex = Rnd.Next(0, 6);
                         }           
                     }
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        cbBodyWeightA.SelectedIndex = Rnd.Next(1, 7);
-                        cbBodyWeightB.SelectedIndex = Rnd.Next(1, 7);
-                        cbBodyWeightC.SelectedIndex = Rnd.Next(1, 7);
-                        cbBodyWeightD.SelectedIndex = Rnd.Next(1, 7);
+                        cbBodyWeightA.SelectedIndex = Rnd.Next(0, 6);
+                        cbBodyWeightB.SelectedIndex = Rnd.Next(0, 6);
+                        cbBodyWeightC.SelectedIndex = Rnd.Next(0, 6);
+                        cbBodyWeightD.SelectedIndex = Rnd.Next(0, 6);
                     }
                     else
                     {
                         if (this.Text == "MCreator - Zwerg" || this.Text == "MCreator - Elf")
                         {
-                            cbBodyWeightA.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodyWeightB.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodyWeightC.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodyWeightD.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightA.SelectedIndex = Rnd.Next(0, 6);
+                            cbBodyWeightB.SelectedIndex = Rnd.Next(0, 6);
+                            cbBodyWeightC.SelectedIndex = Rnd.Next(0, 6);
+                            cbBodyWeightD.SelectedIndex = Rnd.Next(0, 6);
                         }
                         if (this.Text == "MCreator - Gnom" || this.Text == "MCreator - Halbling")
                         {
-                            cbBodyWeightA.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodyWeightB.SelectedIndex = Rnd.Next(1, 7);
-                            cbBodyWeightC.SelectedIndex = Rnd.Next(1, 7);
+                            cbBodyWeightA.SelectedIndex = Rnd.Next(0, 6);
+                            cbBodyWeightB.SelectedIndex = Rnd.Next(0, 6);
+                            cbBodyWeightC.SelectedIndex = Rnd.Next(0, 6);
                             cbBodyWeightD.SelectedIndex = 0;
                         }
                     }
                                        
-                    cbAppearance.SelectedIndex      = Rnd.Next(1, 101);
-                    cbCharisma.SelectedIndex        = Rnd.Next(1, 101);
-                    cbWillpower.SelectedIndex       = Rnd.Next(1, 101);
-                    cbSelfControl.SelectedIndex     = Rnd.Next(1, 101);
-                    cbHanded.SelectedIndex          = Rnd.Next(1, 21);
+                    cbAppearance.SelectedIndex      = Rnd.Next(0, 100);
+                    cbCharisma.SelectedIndex        = Rnd.Next(0, 100);
+                    cbWillpower.SelectedIndex       = Rnd.Next(0, 100);
+                    cbSelfControl.SelectedIndex     = Rnd.Next(0, 100);
+                    cbHanded.SelectedIndex          = Rnd.Next(0, 20);
 
-                    cbAdventurePointsA.SelectedIndex    = Rnd.Next(1, 7);
-                    cbAdventurePointsB.SelectedIndex    = Rnd.Next(1, 7);
-                    cbAdventurePointsC.SelectedIndex    = Rnd.Next(1, 7);
-                    cbLifePoints.SelectedIndex          = Rnd.Next(1, 7);
+                    cbAdventurePointsA.SelectedIndex    = Rnd.Next(0, 6);
+                    cbAdventurePointsB.SelectedIndex    = Rnd.Next(0, 6);
+                    cbAdventurePointsC.SelectedIndex    = Rnd.Next(0, 6);
+                    cbLifePoints.SelectedIndex          = Rnd.Next(0, 6);
 
-                    cbInbornBuff.SelectedIndex = Rnd.Next(1, 101);                
+                    cbInbornBuff.SelectedIndex = Rnd.Next(0, 100);                
 
                     //Calculatin the Damage/DefenseBuff
                     int DamageBuff  = 0;
@@ -333,40 +333,40 @@ namespace mcreator
                 txtExportPath.Text = "" + user_path + "";
             }
 
-            cbBodySizeA.SelectedIndex           = 0;
-            cbBodySizeB.SelectedIndex           = 0;
-            cbHanded.SelectedIndex              = 0;
-            cbAppearance.SelectedIndex          = 0;
-            cbCharisma.SelectedIndex            = 0;
-            cbWillpower.SelectedIndex           = 0;
-            cbSelfControl.SelectedIndex         = 0;
-            cbInbornBuff.SelectedIndex          = 0;
-            cbBodyWeightA.SelectedIndex         = 0;
-            cbBodyWeightB.SelectedIndex         = 0;
-            cbBodyWeightC.SelectedIndex         = 0;
-            cbBodyWeightD.SelectedIndex         = 0;
-            cbStrength.SelectedIndex            = 0;
-            cbDexterity.SelectedIndex           = 0;
-            cbAgility.SelectedIndex             = 0;
-            cbConstitution.SelectedIndex        = 0;
-            cbIntelligence.SelectedIndex        = 0;
-            cbMagicalTalent.SelectedIndex       = 0;
-            cbAdventurePointsA.SelectedIndex    = 0;
-            cbAdventurePointsB.SelectedIndex    = 0;
-            cbAdventurePointsC.SelectedIndex    = 0;
-            cbLifePoints.SelectedIndex          = 0;
+            cbBodySizeA.SelectedIndex           = -1;
+            cbBodySizeB.SelectedIndex           = -1;
+            cbHanded.SelectedIndex              = -1;
+            cbAppearance.SelectedIndex          = -1;
+            cbCharisma.SelectedIndex            = -1;
+            cbWillpower.SelectedIndex           = -1;
+            cbSelfControl.SelectedIndex         = -1;
+            cbInbornBuff.SelectedIndex          = -1;
+            cbBodyWeightA.SelectedIndex         = -1;
+            cbBodyWeightB.SelectedIndex         = -1;
+            cbBodyWeightC.SelectedIndex         = -1;
+            cbBodyWeightD.SelectedIndex         = -1;
+            cbStrength.SelectedIndex            = -1;
+            cbDexterity.SelectedIndex           = -1;
+            cbAgility.SelectedIndex             = -1;
+            cbConstitution.SelectedIndex        = -1;
+            cbIntelligence.SelectedIndex        = -1;
+            cbMagicalTalent.SelectedIndex       = -1;
+            cbAdventurePointsA.SelectedIndex    = -1;
+            cbAdventurePointsB.SelectedIndex    = -1;
+            cbAdventurePointsC.SelectedIndex    = -1;
+            cbLifePoints.SelectedIndex          = -1;
 
         }
 
         //Timer to enable the different Buttons
         private void Enable_Timer_Tick(object sender, EventArgs e)
         {
-            if (cbStrength.SelectedItem.ToString()      != "" && Convert.ToInt32(cbStrength.SelectedItem.ToString())        <= 100 && 
-                cbDexterity.SelectedItem.ToString()     != "" && Convert.ToInt32(cbDexterity.SelectedItem.ToString())       <= 100 && 
-                cbAgility.SelectedItem.ToString()       != "" && Convert.ToInt32(cbAgility.SelectedItem.ToString())         <= 100 && 
-                cbConstitution.SelectedItem.ToString()  != "" && Convert.ToInt32(cbConstitution.SelectedItem.ToString())    <= 100 && 
-                cbIntelligence.SelectedItem.ToString()  != "" && Convert.ToInt32(cbIntelligence.SelectedItem.ToString())    <= 100 && 
-                cbMagicalTalent.SelectedItem.ToString() != "" && Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString())   <= 100)
+            if (cbStrength.SelectedItem != null && 
+                cbDexterity.SelectedItem != null && 
+                cbAgility.SelectedItem != null && 
+                cbConstitution.SelectedItem != null && 
+                cbIntelligence.SelectedItem != null && 
+                cbMagicalTalent.SelectedItem != null)
             {
                 int TotalAmount_Stat = 0;
 
@@ -416,6 +416,14 @@ namespace mcreator
                     cbAdventurePointsB.Enabled = false;
                     cbAdventurePointsC.Enabled = false;
                     cbLifePoints.Enabled = false;
+
+                    cbBodySizeA.Enabled = false;
+                    cbBodySizeB.Enabled = false;
+
+                    cbBodyWeightA.Enabled = false;
+                    cbBodyWeightB.Enabled = false;
+                    cbBodyWeightC.Enabled = false;
+                    cbBodyWeightD.Enabled = false;
                 }
 
                 if (TotalAmount_Stat >= 350)
@@ -487,17 +495,17 @@ namespace mcreator
                     txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
 
-                    if (cbAppearance.SelectedItem.ToString() != "")
+                    if (cbAppearance.SelectedItem != null)
                     {
                         cbCharisma.Enabled = true;
                     }
 
-                    if(cbIntelligence.SelectedItem.ToString() != "" && cbConstitution.SelectedItem.ToString() != "")
+                    if(cbIntelligence.SelectedItem != null && cbConstitution.SelectedItem != null)
                     {
                         cbWillpower.Enabled = true;
                     }
 
-                    if(txtWillpower.Text != "" && cbIntelligence.SelectedItem.ToString() != "")
+                    if(txtWillpower.Text != "" && cbIntelligence.SelectedItem != null)
                     {
                         cbSelfControl.Enabled = true;
                     }                   
@@ -509,9 +517,23 @@ namespace mcreator
                         cbAdventurePointsC.Enabled = true;
                     }
 
-                    if(cbConstitution.SelectedItem.ToString() != "")
+                    if(cbConstitution.SelectedItem != null)
                     {
                         cbLifePoints.Enabled = true;
+                    }
+
+                    if (cbStrength.SelectedItem != null)
+                    {
+                        cbBodySizeA.Enabled = true;
+                        cbBodySizeB.Enabled = true;
+                    }
+
+                    if (cbBodySizeA.SelectedItem != null && cbBodySizeB.SelectedItem != null && cbStrength.SelectedItem != null)
+                    {
+                        cbBodyWeightA.Enabled = true;
+                        cbBodyWeightB.Enabled = true;
+                        cbBodyWeightC.Enabled = true;
+                        cbBodyWeightD.Enabled = true;
                     }
                 }
             }
@@ -552,6 +574,14 @@ namespace mcreator
                 cbAdventurePointsB.Enabled = false;
                 cbAdventurePointsC.Enabled = false;
                 cbLifePoints.Enabled  = false;
+
+                cbBodySizeA.Enabled = false;
+                cbBodySizeB.Enabled = false;
+
+                cbBodyWeightA.Enabled = false;
+                cbBodyWeightB.Enabled = false;
+                cbBodyWeightC.Enabled = false;
+                cbBodyWeightD.Enabled = false;
             }            
         }
 
@@ -749,12 +779,12 @@ namespace mcreator
         private void CalculationTimer_Tick(object sender, EventArgs e)
         {
             if (
-                cbStrength.SelectedItem.ToString()      != "" && Convert.ToInt32(cbStrength.SelectedItem.ToString())        <= 100 &&
-                cbDexterity.SelectedItem.ToString()     != "" && Convert.ToInt32(cbDexterity.SelectedItem.ToString())       <= 100 &&
-                cbAgility.SelectedItem.ToString()       != "" && Convert.ToInt32(cbAgility.SelectedItem.ToString())         <= 100 &&
-                cbConstitution.SelectedItem.ToString()  != "" && Convert.ToInt32(cbConstitution.SelectedItem.ToString())    <= 100 &&
-                cbIntelligence.SelectedItem.ToString()  != "" && Convert.ToInt32(cbIntelligence.SelectedItem.ToString())    <= 100 &&
-                cbMagicalTalent.SelectedItem.ToString() != "" && Convert.ToInt32(cbMagicalTalent.SelectedItem.ToString())   <= 100)
+                cbStrength.SelectedItem != null && 
+                cbDexterity.SelectedItem != null && 
+                cbAgility.SelectedItem != null && 
+                cbConstitution.SelectedItem != null && 
+                cbIntelligence.SelectedItem != null && 
+                cbMagicalTalent.SelectedItem != null)
             {
                 int TotalAmount_Stat = 0;
 
@@ -831,46 +861,88 @@ namespace mcreator
                     txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
                     txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
                 }
-            }
-            
-            if (cbCharisma.SelectedItem.ToString() !="")
+            }                                    
+        }
+
+        private void cbCharisma_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbCharisma.SelectedItem != null && cbIntelligence.SelectedItem != null && cbAppearance.SelectedItem != null)
             {
-                txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));           
+                txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));
             }
-            if(cbWillpower.SelectedItem.ToString() != "")
+        }
+
+        private void cbWillpower_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbWillpower.SelectedItem != null && cbIntelligence.SelectedItem != null && cbConstitution.SelectedItem != null)
             {
                 txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString()));
             }
-            if(cbSelfControl.SelectedItem.ToString() != "")
+        }
+
+        private void cbSelfControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbSelfControl.SelectedItem != null && txtWillpower.Text != "" && cbIntelligence.SelectedItem != null)
             {
                 txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
                 txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
                 txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
-            }   
+            }
+        }
 
-            txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
-            txtHanded.Text = c.Handed(cbHanded.SelectedItem.ToString());
+        private void cbInbornBuff_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbInbornBuff.SelectedItem != null && txtWillpower.Text != "")
+            {
+                txtInbornBuff.Text = c.InbornBuff(cbInbornBuff.SelectedItem.ToString(), txtWillpower.Text);
+            }
             
-            if (cbAdventurePointsA.SelectedItem.ToString() != "")
+        }
+
+        private void cbHanded_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbHanded.SelectedItem != null)
+            {
+                txtHanded.Text = c.Handed(cbHanded.SelectedItem.ToString());
+            }
+            
+        }
+
+        private void cbAdventurePointsA_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbAdventurePointsA.SelectedItem != null && txtStaminaBuff.Text != "")
             {
                 txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
             }
-            if (cbAdventurePointsB.SelectedItem.ToString() != "")
+        }
+
+        private void cbAdventurePointsB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbAdventurePointsB.SelectedItem != null && txtStaminaBuff.Text != "")
             {
                 txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
             }
-            if (cbAdventurePointsC.SelectedItem.ToString() != "")
+        }
+
+        private void cbAdventurePointsC_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbAdventurePointsC.SelectedItem != null && txtStaminaBuff.Text != "")
             {
                 txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
             }
-            if(cbLifePoints.SelectedItem.ToString() != "")
+        }
+
+        private void cbLifePoints_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbLifePoints.SelectedItem != null && cbConstitution.SelectedItem != null)
             {
                 txtLifePoints.Text = Convert.ToString(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text));
             }
-            
-            
-            TimerCheck t = new TimerCheck();
-            if (t.BodySizeCheck(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), rbStats.Checked, this.Text))
+        }
+
+        private void cbBodySizeA_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbBodySizeA.SelectedItem != null && cbBodySizeB.SelectedItem != null && cbStrength.SelectedItem != null)
             {
                 if (this.Text == "MCreator - Mensch")
                 {
@@ -882,8 +954,28 @@ namespace mcreator
                     txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text));
                 }
             }
+            
+        }
 
-            if (t.BodyWeightCheck(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), rbStats.Checked, txtBodySizeA.Text))
+        private void cbBodySizeB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbBodySizeA.SelectedItem != null && cbBodySizeB.SelectedItem != null && cbStrength.SelectedItem != null)
+            {
+                if (this.Text == "MCreator - Mensch")
+                {
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150);
+                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140);
+                }
+                else
+                {
+                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text));
+                }
+            }
+        }
+
+        private void cbBodyWeightA_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbBodyWeightA.SelectedItem != null && cbBodyWeightB.SelectedItem != null && cbBodyWeightC.SelectedItem != null && cbBodyWeightD.SelectedItem != null && cbStrength.SelectedItem != null && txtBodySizeA.Text != "")
             {
                 if (this.Text == "MCreator - Mensch")
                 {
@@ -894,7 +986,55 @@ namespace mcreator
                 {
                     txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
                 }
-            }  
-        }     
+            }
+        }
+
+        private void cbBodyWeightB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbBodyWeightA.SelectedItem != null && cbBodyWeightB.SelectedItem != null && cbBodyWeightC.SelectedItem != null && cbBodyWeightD.SelectedItem != null && cbStrength.SelectedItem != null && txtBodySizeA.Text != "")
+            {
+                if (this.Text == "MCreator - Mensch")
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                }
+                else
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                }
+            }
+        }
+
+        private void cbBodyWeightC_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbBodyWeightA.SelectedItem != null && cbBodyWeightB.SelectedItem != null && cbBodyWeightC.SelectedItem != null && cbBodyWeightD.SelectedItem != null && cbStrength.SelectedItem != null && txtBodySizeA.Text != "")
+            {
+                if (this.Text == "MCreator - Mensch")
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                }
+                else
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                }
+            }
+        }
+
+        private void cbBodyWeightD_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbBodyWeightA.SelectedItem != null && cbBodyWeightB.SelectedItem != null && cbBodyWeightC.SelectedItem != null && cbBodyWeightD.SelectedItem != null && cbStrength.SelectedItem != null && txtBodySizeA.Text != "")
+            {
+                if (this.Text == "MCreator - Mensch")
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                }
+                else
+                {
+                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                }
+            }
+        }
     }
 }

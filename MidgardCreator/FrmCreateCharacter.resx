@@ -2065,7 +2065,7 @@
     <value>100</value>
   </data>
   <data name="txtWillpower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 349</value>
+    <value>216, 351</value>
   </data>
   <data name="txtWillpower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
@@ -2092,7 +2092,7 @@
     <value>101</value>
   </data>
   <data name="txtCharisma.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 323</value>
+    <value>216, 324</value>
   </data>
   <data name="txtCharisma.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
@@ -4980,24 +4980,21 @@
     <value>14</value>
   </data>
   <data name="cbBodyWeightA.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbBodyWeightA.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbBodyWeightA.Items2" xml:space="preserve">
+  <data name="cbBodyWeightA.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbBodyWeightA.Items3" xml:space="preserve">
+  <data name="cbBodyWeightA.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbBodyWeightA.Items4" xml:space="preserve">
+  <data name="cbBodyWeightA.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbBodyWeightA.Items5" xml:space="preserve">
+  <data name="cbBodyWeightA.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbBodyWeightA.Items6" xml:space="preserve">
+  <data name="cbBodyWeightA.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbBodyWeightA.Location" type="System.Drawing.Point, System.Drawing">
@@ -5022,24 +5019,21 @@
     <value>13</value>
   </data>
   <data name="cbBodyWeightB.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbBodyWeightB.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbBodyWeightB.Items2" xml:space="preserve">
+  <data name="cbBodyWeightB.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbBodyWeightB.Items3" xml:space="preserve">
+  <data name="cbBodyWeightB.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbBodyWeightB.Items4" xml:space="preserve">
+  <data name="cbBodyWeightB.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbBodyWeightB.Items5" xml:space="preserve">
+  <data name="cbBodyWeightB.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbBodyWeightB.Items6" xml:space="preserve">
+  <data name="cbBodyWeightB.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbBodyWeightB.Location" type="System.Drawing.Point, System.Drawing">
@@ -5064,24 +5058,21 @@
     <value>12</value>
   </data>
   <data name="cbBodyWeightC.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbBodyWeightC.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbBodyWeightC.Items2" xml:space="preserve">
+  <data name="cbBodyWeightC.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbBodyWeightC.Items3" xml:space="preserve">
+  <data name="cbBodyWeightC.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbBodyWeightC.Items4" xml:space="preserve">
+  <data name="cbBodyWeightC.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbBodyWeightC.Items5" xml:space="preserve">
+  <data name="cbBodyWeightC.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbBodyWeightC.Items6" xml:space="preserve">
+  <data name="cbBodyWeightC.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbBodyWeightC.Location" type="System.Drawing.Point, System.Drawing">
@@ -5106,24 +5097,21 @@
     <value>11</value>
   </data>
   <data name="cbBodyWeightD.Items" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cbBodyWeightD.Items1" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbBodyWeightD.Items2" xml:space="preserve">
+  <data name="cbBodyWeightD.Items1" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbBodyWeightD.Items3" xml:space="preserve">
+  <data name="cbBodyWeightD.Items2" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="cbBodyWeightD.Items4" xml:space="preserve">
+  <data name="cbBodyWeightD.Items3" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbBodyWeightD.Items5" xml:space="preserve">
+  <data name="cbBodyWeightD.Items4" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="cbBodyWeightD.Items6" xml:space="preserve">
+  <data name="cbBodyWeightD.Items5" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="cbBodyWeightD.Location" type="System.Drawing.Point, System.Drawing">

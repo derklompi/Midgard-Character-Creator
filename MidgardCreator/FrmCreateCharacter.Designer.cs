@@ -781,6 +781,7 @@ namespace mcreator
             this.cbBodySizeA.FormattingEnabled = true;
             resources.ApplyResources(this.cbBodySizeA, "cbBodySizeA");
             this.cbBodySizeA.Name = "cbBodySizeA";
+            this.cbBodySizeA.SelectedIndexChanged += new System.EventHandler(this.cbBodySizeA_SelectedIndexChanged);
             // 
             // cbBodySizeB
             // 
@@ -788,6 +789,7 @@ namespace mcreator
             this.cbBodySizeB.FormattingEnabled = true;
             resources.ApplyResources(this.cbBodySizeB, "cbBodySizeB");
             this.cbBodySizeB.Name = "cbBodySizeB";
+            this.cbBodySizeB.SelectedIndexChanged += new System.EventHandler(this.cbBodySizeB_SelectedIndexChanged);
             // 
             // cbHanded
             // 
@@ -817,6 +819,7 @@ namespace mcreator
             resources.GetString("cbHanded.Items20")});
             resources.ApplyResources(this.cbHanded, "cbHanded");
             this.cbHanded.Name = "cbHanded";
+            this.cbHanded.SelectedIndexChanged += new System.EventHandler(this.cbHanded_SelectedIndexChanged);
             // 
             // cbAppearance
             // 
@@ -1035,6 +1038,7 @@ namespace mcreator
             resources.GetString("cbCharisma.Items100")});
             resources.ApplyResources(this.cbCharisma, "cbCharisma");
             this.cbCharisma.Name = "cbCharisma";
+            this.cbCharisma.SelectedIndexChanged += new System.EventHandler(this.cbCharisma_SelectedIndexChanged);
             // 
             // cbWillpower
             // 
@@ -1144,6 +1148,7 @@ namespace mcreator
             resources.GetString("cbWillpower.Items100")});
             resources.ApplyResources(this.cbWillpower, "cbWillpower");
             this.cbWillpower.Name = "cbWillpower";
+            this.cbWillpower.SelectedIndexChanged += new System.EventHandler(this.cbWillpower_SelectedIndexChanged);
             // 
             // cbSelfControl
             // 
@@ -1253,6 +1258,7 @@ namespace mcreator
             resources.GetString("cbSelfControl.Items100")});
             resources.ApplyResources(this.cbSelfControl, "cbSelfControl");
             this.cbSelfControl.Name = "cbSelfControl";
+            this.cbSelfControl.SelectedIndexChanged += new System.EventHandler(this.cbSelfControl_SelectedIndexChanged);
             // 
             // cbInbornBuff
             // 
@@ -1362,6 +1368,7 @@ namespace mcreator
             resources.GetString("cbInbornBuff.Items100")});
             resources.ApplyResources(this.cbInbornBuff, "cbInbornBuff");
             this.cbInbornBuff.Name = "cbInbornBuff";
+            this.cbInbornBuff.SelectedIndexChanged += new System.EventHandler(this.cbInbornBuff_SelectedIndexChanged);
             // 
             // cbBodyWeightA
             // 
@@ -1373,10 +1380,10 @@ namespace mcreator
             resources.GetString("cbBodyWeightA.Items2"),
             resources.GetString("cbBodyWeightA.Items3"),
             resources.GetString("cbBodyWeightA.Items4"),
-            resources.GetString("cbBodyWeightA.Items5"),
-            resources.GetString("cbBodyWeightA.Items6")});
+            resources.GetString("cbBodyWeightA.Items5")});
             resources.ApplyResources(this.cbBodyWeightA, "cbBodyWeightA");
             this.cbBodyWeightA.Name = "cbBodyWeightA";
+            this.cbBodyWeightA.SelectedIndexChanged += new System.EventHandler(this.cbBodyWeightA_SelectedIndexChanged);
             // 
             // cbBodyWeightB
             // 
@@ -1388,10 +1395,10 @@ namespace mcreator
             resources.GetString("cbBodyWeightB.Items2"),
             resources.GetString("cbBodyWeightB.Items3"),
             resources.GetString("cbBodyWeightB.Items4"),
-            resources.GetString("cbBodyWeightB.Items5"),
-            resources.GetString("cbBodyWeightB.Items6")});
+            resources.GetString("cbBodyWeightB.Items5")});
             resources.ApplyResources(this.cbBodyWeightB, "cbBodyWeightB");
             this.cbBodyWeightB.Name = "cbBodyWeightB";
+            this.cbBodyWeightB.SelectedIndexChanged += new System.EventHandler(this.cbBodyWeightB_SelectedIndexChanged);
             // 
             // cbBodyWeightC
             // 
@@ -1403,10 +1410,10 @@ namespace mcreator
             resources.GetString("cbBodyWeightC.Items2"),
             resources.GetString("cbBodyWeightC.Items3"),
             resources.GetString("cbBodyWeightC.Items4"),
-            resources.GetString("cbBodyWeightC.Items5"),
-            resources.GetString("cbBodyWeightC.Items6")});
+            resources.GetString("cbBodyWeightC.Items5")});
             resources.ApplyResources(this.cbBodyWeightC, "cbBodyWeightC");
             this.cbBodyWeightC.Name = "cbBodyWeightC";
+            this.cbBodyWeightC.SelectedIndexChanged += new System.EventHandler(this.cbBodyWeightC_SelectedIndexChanged);
             // 
             // cbBodyWeightD
             // 
@@ -1418,10 +1425,10 @@ namespace mcreator
             resources.GetString("cbBodyWeightD.Items2"),
             resources.GetString("cbBodyWeightD.Items3"),
             resources.GetString("cbBodyWeightD.Items4"),
-            resources.GetString("cbBodyWeightD.Items5"),
-            resources.GetString("cbBodyWeightD.Items6")});
+            resources.GetString("cbBodyWeightD.Items5")});
             resources.ApplyResources(this.cbBodyWeightD, "cbBodyWeightD");
             this.cbBodyWeightD.Name = "cbBodyWeightD";
+            this.cbBodyWeightD.SelectedIndexChanged += new System.EventHandler(this.cbBodyWeightD_SelectedIndexChanged);
             // 
             // cbMagicalTalent
             // 
@@ -2091,6 +2098,7 @@ namespace mcreator
             resources.GetString("cbLifePoints.Items6")});
             resources.ApplyResources(this.cbLifePoints, "cbLifePoints");
             this.cbLifePoints.Name = "cbLifePoints";
+            this.cbLifePoints.SelectedIndexChanged += new System.EventHandler(this.cbLifePoints_SelectedIndexChanged);
             // 
             // cbAdventurePointsC
             // 
@@ -2106,6 +2114,7 @@ namespace mcreator
             resources.GetString("cbAdventurePointsC.Items6")});
             resources.ApplyResources(this.cbAdventurePointsC, "cbAdventurePointsC");
             this.cbAdventurePointsC.Name = "cbAdventurePointsC";
+            this.cbAdventurePointsC.SelectedIndexChanged += new System.EventHandler(this.cbAdventurePointsC_SelectedIndexChanged);
             // 
             // cbAdventurePointsB
             // 
@@ -2121,6 +2130,7 @@ namespace mcreator
             resources.GetString("cbAdventurePointsB.Items6")});
             resources.ApplyResources(this.cbAdventurePointsB, "cbAdventurePointsB");
             this.cbAdventurePointsB.Name = "cbAdventurePointsB";
+            this.cbAdventurePointsB.SelectedIndexChanged += new System.EventHandler(this.cbAdventurePointsB_SelectedIndexChanged);
             // 
             // cbAdventurePointsA
             // 
@@ -2136,6 +2146,7 @@ namespace mcreator
             resources.GetString("cbAdventurePointsA.Items6")});
             resources.ApplyResources(this.cbAdventurePointsA, "cbAdventurePointsA");
             this.cbAdventurePointsA.Name = "cbAdventurePointsA";
+            this.cbAdventurePointsA.SelectedIndexChanged += new System.EventHandler(this.cbAdventurePointsA_SelectedIndexChanged);
             // 
             // FrmCreateCharacter
             // 

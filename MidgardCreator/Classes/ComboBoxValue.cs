@@ -27,7 +27,7 @@ namespace mcreator.Classes
             FrmCreateCharacter frmCC = Application.OpenForms[1] as FrmCreateCharacter;
           
             frmCC.cbBodySizeA.Items.Clear();
-            int i = 0;
+            int i = 1;
 
             //Fill up Combobox With Values depending on the race
             switch (frmCC.Text)
@@ -79,28 +79,6 @@ namespace mcreator.Classes
 
 
             //Set Index to 0 so the Enable FUnction wont try to use empty Values
-            frmCC.cbBodySizeA.SelectedIndex = 0;
-            frmCC.cbBodySizeB.SelectedIndex = 0;
-            frmCC.cbHanded.SelectedIndex = 0;
-            frmCC.cbAppearance.SelectedIndex = 0;
-            frmCC.cbCharisma.SelectedIndex = 0;
-            frmCC.cbWillpower.SelectedIndex = 0;
-            frmCC.cbSelfControl.SelectedIndex = 0;
-            frmCC.cbInbornBuff.SelectedIndex = 0;
-            frmCC.cbBodyWeightA.SelectedIndex = 0;
-            frmCC.cbBodyWeightB.SelectedIndex = 0;
-            frmCC.cbBodyWeightC.SelectedIndex = 0;
-            frmCC.cbBodyWeightD.SelectedIndex = 0;
-            frmCC.cbStrength.SelectedIndex = 0;
-            frmCC.cbDexterity.SelectedIndex = 0;
-            frmCC.cbAgility.SelectedIndex = 0;
-            frmCC.cbConstitution.SelectedIndex = 0;
-            frmCC.cbIntelligence.SelectedIndex = 0;
-            frmCC.cbMagicalTalent.SelectedIndex = 0;
-            frmCC.cbAdventurePointsA.SelectedIndex = 0;
-            frmCC.cbAdventurePointsB.SelectedIndex = 0;
-            frmCC.cbAdventurePointsC.SelectedIndex = 0;
-            frmCC.cbLifePoints.SelectedIndex = 0;
         }            
     }
 }
