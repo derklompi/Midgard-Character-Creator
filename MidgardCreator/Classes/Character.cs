@@ -19,7 +19,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace mcreator.Classes
+namespace mcc.Classes
 {   
     class Character
     {

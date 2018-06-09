@@ -18,7 +18,7 @@
 
 using System.Windows.Forms;
 
-namespace mcreator.Classes
+namespace mcc.Classes
 {
     class ComboBoxValue
     {

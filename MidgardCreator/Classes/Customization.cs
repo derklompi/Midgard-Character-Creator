@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mcreator.Classes
+namespace mcc.Classes
 {
     class Customization
     {

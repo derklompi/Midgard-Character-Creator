@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("mcreator")]
+[assembly: AssemblyTitle("Midgard Character Creator")]
 [assembly: AssemblyDescription("Create your Midgard Character")]
 [assembly: AssemblyConfiguration("retail")]
 [assembly: AssemblyCompany("Open Source Developer")]
-[assembly: AssemblyProduct("mcreator")]
-[assembly: AssemblyCopyright("Copyright © FlamFLam 2017")]
+[assembly: AssemblyProduct("mcc")]
+[assembly: AssemblyCopyright("Copyright © Fabian Dörr")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

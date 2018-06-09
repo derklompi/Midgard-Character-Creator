@@ -18,9 +18,9 @@
 
 using System;
 using System.Windows.Forms;
-using mcreator.Classes;
+using mcc.Classes;
 
-namespace mcreator
+namespace mcc
 {
     public partial class FrmCustomization : Form
     {

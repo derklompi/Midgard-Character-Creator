@@ -1,4 +1,4 @@
-﻿namespace mcreator
+﻿namespace mcc
 {
     partial class FrmCustomization
     {

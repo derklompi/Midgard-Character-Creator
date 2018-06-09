@@ -19,7 +19,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace mcreator
+namespace mcc
 {
     public partial class FrmMain : Form
     {

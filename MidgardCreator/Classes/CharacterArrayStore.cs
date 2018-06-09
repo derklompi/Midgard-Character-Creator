@@ -1,4 +1,4 @@
-﻿namespace mcreator.Classes
+﻿namespace mcc.Classes
 {
     class CharacterArrayStore
     {

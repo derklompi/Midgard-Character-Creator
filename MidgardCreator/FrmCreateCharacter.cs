@@ -18,12 +18,12 @@
 
 using System;
 using System.Windows.Forms;
-using mcreator.Classes;
+using mcc.Classes;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace mcreator
+namespace mcc
 {
     public partial class FrmCreateCharacter : Form
     {
