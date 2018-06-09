@@ -2495,7 +2495,7 @@
     <value>115</value>
   </data>
   <data name="txtBodySizeA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 161</value>
+    <value>261, 161</value>
   </data>
   <data name="txtBodySizeA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
@@ -2553,7 +2553,7 @@
     <value>117</value>
   </data>
   <data name="txtBodySizeB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 187</value>
+    <value>261, 187</value>
   </data>
   <data name="txtBodySizeB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 3, 2, 3</value>
@@ -3237,7 +3237,7 @@
     <value>78, 161</value>
   </data>
   <data name="cbBodySizeA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbBodySizeA.TabIndex" type="System.Int32, mscorlib">
     <value>1104</value>
@@ -3258,7 +3258,7 @@
     <value>124, 161</value>
   </data>
   <data name="cbBodySizeB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbBodySizeB.TabIndex" type="System.Int32, mscorlib">
     <value>1105</value>
@@ -3339,7 +3339,7 @@
     <value>172, 526</value>
   </data>
   <data name="cbHanded.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbHanded.TabIndex" type="System.Int32, mscorlib">
     <value>1106</value>
@@ -3660,7 +3660,7 @@
     <value>172, 297</value>
   </data>
   <data name="cbAppearance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbAppearance.TabIndex" type="System.Int32, mscorlib">
     <value>1107</value>
@@ -3981,7 +3981,7 @@
     <value>172, 324</value>
   </data>
   <data name="cbCharisma.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbCharisma.TabIndex" type="System.Int32, mscorlib">
     <value>1108</value>
@@ -4302,7 +4302,7 @@
     <value>172, 351</value>
   </data>
   <data name="cbWillpower.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbWillpower.TabIndex" type="System.Int32, mscorlib">
     <value>1109</value>
@@ -4623,7 +4623,7 @@
     <value>172, 378</value>
   </data>
   <data name="cbSelfControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbSelfControl.TabIndex" type="System.Int32, mscorlib">
     <value>1110</value>
@@ -4944,7 +4944,7 @@
     <value>172, 485</value>
   </data>
   <data name="cbInbornBuff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbInbornBuff.TabIndex" type="System.Int32, mscorlib">
     <value>1111</value>
@@ -4983,7 +4983,7 @@
     <value>78, 217</value>
   </data>
   <data name="cbBodyWeightA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbBodyWeightA.TabIndex" type="System.Int32, mscorlib">
     <value>1112</value>
@@ -5022,7 +5022,7 @@
     <value>124, 217</value>
   </data>
   <data name="cbBodyWeightB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbBodyWeightB.TabIndex" type="System.Int32, mscorlib">
     <value>1113</value>
@@ -5061,7 +5061,7 @@
     <value>170, 217</value>
   </data>
   <data name="cbBodyWeightC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbBodyWeightC.TabIndex" type="System.Int32, mscorlib">
     <value>1114</value>
@@ -5100,7 +5100,7 @@
     <value>216, 217</value>
   </data>
   <data name="cbBodyWeightD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbBodyWeightD.TabIndex" type="System.Int32, mscorlib">
     <value>1115</value>
@@ -5421,7 +5421,7 @@
     <value>260, 82</value>
   </data>
   <data name="cbMagicalTalent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbMagicalTalent.TabIndex" type="System.Int32, mscorlib">
     <value>1116</value>
@@ -5742,7 +5742,7 @@
     <value>260, 56</value>
   </data>
   <data name="cbIntelligence.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbIntelligence.TabIndex" type="System.Int32, mscorlib">
     <value>1117</value>
@@ -6063,7 +6063,7 @@
     <value>260, 30</value>
   </data>
   <data name="cbConstitution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbConstitution.TabIndex" type="System.Int32, mscorlib">
     <value>1118</value>
@@ -6384,7 +6384,7 @@
     <value>124, 82</value>
   </data>
   <data name="cbAgility.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbAgility.TabIndex" type="System.Int32, mscorlib">
     <value>1119</value>
@@ -6705,7 +6705,7 @@
     <value>124, 56</value>
   </data>
   <data name="cbDexterity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbDexterity.TabIndex" type="System.Int32, mscorlib">
     <value>1120</value>
@@ -7026,7 +7026,7 @@
     <value>124, 30</value>
   </data>
   <data name="cbStrength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbStrength.TabIndex" type="System.Int32, mscorlib">
     <value>1121</value>
@@ -7065,7 +7065,7 @@
     <value>636, 393</value>
   </data>
   <data name="cbLifePoints.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbLifePoints.TabIndex" type="System.Int32, mscorlib">
     <value>1122</value>
@@ -7104,7 +7104,7 @@
     <value>636, 368</value>
   </data>
   <data name="cbAdventurePointsC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbAdventurePointsC.TabIndex" type="System.Int32, mscorlib">
     <value>1123</value>
@@ -7143,7 +7143,7 @@
     <value>636, 342</value>
   </data>
   <data name="cbAdventurePointsB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbAdventurePointsB.TabIndex" type="System.Int32, mscorlib">
     <value>1124</value>
@@ -7182,7 +7182,7 @@
     <value>636, 316</value>
   </data>
   <data name="cbAdventurePointsA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 21</value>
+    <value>42, 21</value>
   </data>
   <data name="cbAdventurePointsA.TabIndex" type="System.Int32, mscorlib">
     <value>1125</value>
