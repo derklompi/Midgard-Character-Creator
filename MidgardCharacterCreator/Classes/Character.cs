@@ -450,7 +450,7 @@ namespace mcc.Classes
         {
             int AgilityAreaValue;
 
-            AgilityAreaValue = inrange_single(agility, a.AgilityAreaÁrray, 0);
+            AgilityAreaValue = inrange_single(agility, a.AgilityAreaArray, 0);
             return AgilityAreaValue;           
         }
 

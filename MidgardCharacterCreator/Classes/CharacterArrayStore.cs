@@ -24,7 +24,7 @@
 			{96,2},	    // 96-99    =  2
 		};
 
-        public int[,] AgilityAreaÁrray = {
+        public int[,] AgilityAreaArray = {
             {0,-2},	    // 0-5      = -2
 			{6,-1},	    // 6-20     = -1
 			{21,1},	    // 21-95    =  1
