@@ -156,15 +156,15 @@ namespace mcc
                 //Get Random numbers between 0 and 99
                 Random Rnd = new Random();
 
-                int strength        = Rnd.Next(0, 100);
-                int dexterity       = Rnd.Next(0, 100);
-                int agility         = Rnd.Next(0, 100);
-                int constitution    = Rnd.Next(0, 100);
-                int magicTalent     = Rnd.Next(0, 100);
-                int intelligence    = Rnd.Next(0, 100);
+                double strength        = Rnd.Next(0, 100);
+                double dexterity       = Rnd.Next(0, 100);
+                double agility         = Rnd.Next(0, 100);
+                double constitution    = Rnd.Next(0, 100);
+                double magicTalent     = Rnd.Next(0, 100);
+                double intelligence    = Rnd.Next(0, 100);
 
                 //Check if StatSum is over 350
-                int StatSum = strength + dexterity + agility + constitution + magicTalent + intelligence;
+                double StatSum = strength + dexterity + agility + constitution + magicTalent + intelligence;
 
                 if (StatSum >= 350)
                 {
@@ -176,12 +176,12 @@ namespace mcc
                     rbStats.Checked = true;
 
                     // Set the text fields to the StatValues
-                    cbStrength.SelectedIndex        = strength;
-                    cbDexterity.SelectedIndex       = dexterity;
-                    cbAgility.SelectedIndex         = agility;
-                    cbConstitution.SelectedIndex    = constitution;
-                    cbMagicalTalent.SelectedIndex   = magicTalent;
-                    cbIntelligence.SelectedIndex    = intelligence;
+                    cbStrength.SelectedIndex        = Convert.ToInt32(strength);
+                    cbDexterity.SelectedIndex       = Convert.ToInt32(dexterity);
+                    cbAgility.SelectedIndex         = Convert.ToInt32(agility);
+                    cbConstitution.SelectedIndex    = Convert.ToInt32(constitution);
+                    cbMagicalTalent.SelectedIndex   = Convert.ToInt32(magicTalent);
+                    cbIntelligence.SelectedIndex    = Convert.ToInt32(intelligence);
 
                     //Get the BodySize for the different races
                     if (this.Text == "MCreator - Mensch")
@@ -245,8 +245,8 @@ namespace mcc
                     int DamageBuff  = 0;
                     int DefenseBuff = 0;
 
-                    DamageBuff  = (strength / 20) + (dexterity / 30) - 3;
-                    DefenseBuff = (strength / 20) + (constitution / 10) - 7;
+                    DamageBuff  = Convert.ToInt32((strength / 20.0) + (dexterity / 30.0) - 3);
+                    DefenseBuff = Convert.ToInt32((strength / 20.0) + (constitution / 10.0) - 7);
 
                     if (DamageBuff >= 0)
                     {
@@ -270,16 +270,16 @@ namespace mcc
                     txtDefenseBuff.Text = Convert.ToString(c.DefenseBuff(agility));
                     txtMagicBuff.Text   = Convert.ToString(c.MagicBuff(magicTalent));
 
-                    txtRumble.Text      = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
-                    txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text    = Convert.ToString(2  + Convert.ToInt32(txtMagicBuff.Text));               
+                    txtRumble.Text      = Convert.ToString(((strength + agility) / 20.0) + Convert.ToInt32(txtAttackBuff.Text));
+                    txtDefense.Text     = Convert.ToString(11.0 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDefense0.Text    = Convert.ToString(10.0 + Convert.ToInt32(txtDefenseBuff.Text));
+                    txtDoMagic.Text     = Convert.ToString(10.0 + Convert.ToInt32(txtMagicBuff.Text));
+                    txtDoMagic0.Text    = Convert.ToString(2.0  + Convert.ToInt32(txtMagicBuff.Text));               
 
                     if (this.Text == "MCreator - Mensch")
                     {
-                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150);
-                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140);
+                        txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150.0);
+                        txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140.0);
                     }
                     else
                     {

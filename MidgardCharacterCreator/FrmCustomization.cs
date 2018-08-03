@@ -155,44 +155,44 @@ namespace mcc
             }
             if(cbStartMoneyA.SelectedItem != null && cbStartMoneyB.SelectedItem != null && cbStartMoneyC.SelectedItem != null)
             {
-                int startMoneyCalcA = 0;
-                int startMoneyCalcB = 0;
-                int startMoneyCalcC = 0;
+                double startMoneyCalcA = 0;
+                double startMoneyCalcB = 0;
+                double startMoneyCalcC = 0;
 
 
-                startMoneyCalcA = Convert.ToInt32(cbStartMoneyA.SelectedItem.ToString());
-                startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
-                startMoneyCalcC = Convert.ToInt32(cbStartMoneyC.SelectedItem.ToString());
+                startMoneyCalcA = Convert.ToDouble(cbStartMoneyA.SelectedItem.ToString());
+                startMoneyCalcB = Convert.ToDouble(cbStartMoneyB.SelectedItem.ToString());
+                startMoneyCalcC = Convert.ToDouble(cbStartMoneyC.SelectedItem.ToString());
 
                 if (txtSocialRankGeneral.Text == "Volk" || txtSocialRankGeneral.Text == "Mittelschicht")
                 {
-                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0);
                     txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
-                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
-                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0);
                 }
 
                 if (txtSocialRankGeneral.Text == "Unfrei")
                 {
-                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) / 2);
-                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2);
-                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) / 2);
-                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) / 2);
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0) / 2.0);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2.0);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0) / 2.0);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0) / 2.0);
                 }
 
                 if (txtSocialRankGeneral.Text == "Adel")
                 {
-                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) * 2);
-                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2);
-                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) * 2);
-                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) * 2);
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0) * 2.0);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2.0);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0) * 2.0);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0) * 2.0);
                 }
                 else
                 {
-                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0);
                     txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
-                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
-                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0);
                 }
             }
         }
@@ -206,36 +206,36 @@ namespace mcc
             }
             if (cbStartMoneyA.SelectedItem != null && cbStartMoneyB.SelectedItem != null && cbStartMoneyC.SelectedItem != null)
             {
-                int startMoneyCalcA = 0;
-                int startMoneyCalcB = 0;
-                int startMoneyCalcC = 0;
+                double startMoneyCalcA = 0;
+                double startMoneyCalcB = 0;
+                double startMoneyCalcC = 0;
 
-                startMoneyCalcA = Convert.ToInt32(cbStartMoneyA.SelectedItem.ToString());
-                startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
-                startMoneyCalcC = Convert.ToInt32(cbStartMoneyC.SelectedItem.ToString());
+                startMoneyCalcA = Convert.ToDouble(cbStartMoneyA.SelectedItem.ToString());
+                startMoneyCalcB = Convert.ToDouble(cbStartMoneyB.SelectedItem.ToString());
+                startMoneyCalcC = Convert.ToDouble(cbStartMoneyC.SelectedItem.ToString());
 
                 if (txtSocialRankGeneral.Text == "Volk" || txtSocialRankGeneral.Text == "Mittelschicht")
                 {
-                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                    txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0);
                     txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
-                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
-                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                    txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0);
+                    txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0);
                 }
 
                 if (txtSocialRankGeneral.Text == "Unfrei")
                 {
-                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) / 2);
-                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2);
-                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) / 2);
-                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) / 2);
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0) / 2.0);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2.0);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0) / 2.0);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0) / 2.0);
                 }
 
                 if (txtSocialRankGeneral.Text == "Adel")
                 {
-                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3) * 2);
-                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2);
-                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6) * 2);
-                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3) * 2);
+                    txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0) * 2.0);
+                    txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2.0);
+                    txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0) * 2.0);
+                    txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0) * 2.0);
                 }
                 else
                 {
@@ -249,43 +249,43 @@ namespace mcc
 
         private void CbStartMoneyC_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int startMoneyCalcA = 0;
-            int startMoneyCalcB = 0;
-            int startMoneyCalcC = 0;
+            double startMoneyCalcA = 0;
+            double startMoneyCalcB = 0;
+            double startMoneyCalcC = 0;
 
-            startMoneyCalcA = Convert.ToInt32(cbStartMoneyA.SelectedItem.ToString());
-            startMoneyCalcB = Convert.ToInt32(cbStartMoneyB.SelectedItem.ToString());
-            startMoneyCalcC = Convert.ToInt32(cbStartMoneyC.SelectedItem.ToString());
+            startMoneyCalcA = Convert.ToDouble(cbStartMoneyA.SelectedItem.ToString());
+            startMoneyCalcB = Convert.ToDouble(cbStartMoneyB.SelectedItem.ToString());
+            startMoneyCalcC = Convert.ToDouble(cbStartMoneyC.SelectedItem.ToString());
 
             if(txtSocialRankGeneral.Text == "Volk" || txtSocialRankGeneral.Text == "Mittelschicht")
             {
-                txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0);
                 txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
-                txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
-                txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0);
+                txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0);
             }
 
             if (txtSocialRankGeneral.Text == "Unfrei")
             {
-                txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3)/2);
-                txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC)/2);
-                txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6)/2);
-                txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3)/2);
+                txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0) / 2.0);
+                txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) / 2.0);
+                txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0) / 2.0);
+                txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0) / 2.0);
             }
 
             if (txtSocialRankGeneral.Text == "Adel")
             {
-                txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3)*2);
-                txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC)*2);
-                txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6)*2);
-                txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3)*2);
+                txtMoneyA.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0) * 2.0);
+                txtMoneyB.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC) * 2.0);
+                txtMoneyC.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0) * 2.0);
+                txtMoneyD.Text = Convert.ToString((startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0) * 2.0);
             }
             else
             {
-                txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3);
+                txtMoneyA.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC - 3.0);
                 txtMoneyB.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC);
-                txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6);
-                txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3);
+                txtMoneyC.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 6.0);
+                txtMoneyD.Text = Convert.ToString(startMoneyCalcA + startMoneyCalcB + startMoneyCalcC + 3.0);
             }
         }
 

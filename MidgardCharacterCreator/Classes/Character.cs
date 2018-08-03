@@ -61,41 +61,41 @@ namespace mcc.Classes
         }
 
         // Calculate of the bodyweight
-        public int BodyWeight(string cbBodyWeightA, string cbBodyWeightB, string cbBodyWeightC,
+        public double BodyWeight(string cbBodyWeightA, string cbBodyWeightB, string cbBodyWeightC,
             string cbBodyWeightD, string cbStrength, string txtBodySize, string formTitle)
         {
-            int BodyWeightValue = 0;
+            double BodyWeightValue = 0;
 
             // Convert to int for better usability
-            int bodyweightA = Convert.ToInt32(cbBodyWeightA);
-            int bodyweightB = Convert.ToInt32(cbBodyWeightB);
-            int bodyweightC = Convert.ToInt32(cbBodyWeightC);
-            int bodyweightD = Convert.ToInt32(cbBodyWeightD);
+            double bodyweightA = Convert.ToDouble(cbBodyWeightA);
+            double bodyweightB = Convert.ToDouble(cbBodyWeightB);
+            double bodyweightC = Convert.ToDouble(cbBodyWeightC);
+            double bodyweightD = Convert.ToDouble(cbBodyWeightD);
 
-            int strength = Convert.ToInt32(cbStrength);
-            int bodysize = Convert.ToInt32(txtBodySize);
+            double strength = Convert.ToDouble(cbStrength);
+            double bodysize = Convert.ToDouble(txtBodySize);
 
             switch (formTitle)
             {
                 case "MCreator - Zwerg":
                     BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
-                    (strength / 10) + bodysize - 90;
+                    (strength / 10.0) + bodysize - 90.0;
                     break;
                 case "MCreator - Elf":
                     BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
-                    (strength / 10) + bodysize - 128;
+                    (strength / 10.0) + bodysize - 128.0;
                     break;
                 case "MCreator - Gnom":
                     BodyWeightValue = bodyweightA + bodyweightB + bodyweightC +
-                    (strength / 10) + bodysize - 90;
+                    (strength / 10.0) + bodysize - 90.0;
                     break;
                 case "MCreator - Halbling":
                     BodyWeightValue = bodyweightA + bodyweightB + bodyweightC +
-                    (strength / 10) + bodysize - 87;
+                    (strength / 10.0) + bodysize - 87.0;
                     break;
                 case "MCreator - Mensch":
                     BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
-                    (strength / 10) + bodysize - 120;
+                    (strength / 10.0) + bodysize - 120.0;
                     break;
                 default:
                     MessageBox.Show("fail");
@@ -105,31 +105,31 @@ namespace mcc.Classes
         }
 
         // Calculation of the attack buff
-        public int AttackBuff(int dexterity)
+        public double AttackBuff(double dexterity)
         {
-            int AttackBuffValue;
+            double AttackBuffValue;
 
-            AttackBuffValue = inrange_single(dexterity, a.AttackBuffArray, 0);
+            AttackBuffValue = inrange_single(Convert.ToInt32(dexterity), a.AttackBuffArray, 0);
 
             return AttackBuffValue;
         }
 
         // Calculation of the defense buff
-        public int DefenseBuff(int agility)
+        public double DefenseBuff(double agility)
         {
-            int DefenceBuffValue;
+            double DefenceBuffValue;
 
-            DefenceBuffValue = inrange_single(agility, a.DefenseBuffArray, 0);
+            DefenceBuffValue = inrange_single(Convert.ToInt32(agility), a.DefenseBuffArray, 0);
 
             return DefenceBuffValue;
         }
 
         // Calculation of the magic buff
-        public int MagicBuff(int magicTalent)
+        public double MagicBuff(double magicTalent)
         {
-            int MagicBuffValue;
+            double MagicBuffValue;
 
-            MagicBuffValue = inrange_single(magicTalent,a.MagicBuffArray, 0);
+            MagicBuffValue = inrange_single(Convert.ToInt32(magicTalent),a.MagicBuffArray, 0);
 
             return MagicBuffValue;                   
         }
@@ -265,33 +265,33 @@ namespace mcc.Classes
         }
 
         // Calculations of the lifepoints
-        public int LifePoints(string cbConstitution, string cbLifePoints, string formTitle)
+        public double LifePoints(string cbConstitution, string cbLifePoints, string formTitle)
         {
-            int lifePointsValue = 0;
+            double lifePointsValue = 0;
 
             if (cbConstitution != "" && cbLifePoints != "" && formTitle != "")
             {
                 // Convert the strings to Int
-                int constitution = Convert.ToInt32(cbConstitution);
-                int templifePoints = Convert.ToInt32(cbLifePoints);
+                double constitution = Convert.ToDouble(cbConstitution);
+                double templifePoints = Convert.ToDouble(cbLifePoints);
                 lifePointsValue = 0;
 
                 switch (formTitle)
                 {
                     case "MCreator - Zwerg":
-                        lifePointsValue = (constitution / 10) + templifePoints + 4;
+                        lifePointsValue = (constitution / 10.0) + templifePoints + 4.0;
                         break;
                     case "MCreator - Elf":
-                        lifePointsValue = (constitution / 10) + templifePoints + 4;
+                        lifePointsValue = (constitution / 10.0) + templifePoints + 4.0;
                         break;
                     case "MCreator - Gnom":
-                        lifePointsValue = (constitution / 10) + templifePoints - 1;
+                        lifePointsValue = (constitution / 10.0) + templifePoints - 1.0;
                         break;
                     case "MCreator - Halbling":
-                        lifePointsValue = (constitution / 10) + templifePoints + 2;
+                        lifePointsValue = (constitution / 10.0) + templifePoints + 2.0;
                         break;
                     case "MCreator - Mensch":
-                        lifePointsValue = (constitution / 10) + templifePoints + 5;
+                        lifePointsValue = (constitution / 10.0) + templifePoints + 5.0;
                         break;
                     default:
                         MessageBox.Show("fail");
@@ -358,8 +358,8 @@ namespace mcc.Classes
                 }
                 else if (inbornBuff < 71)
                 {
-                    int berserk = 0;
-                    berserk = 18 - (Convert.ToInt32(txtWillpower) / 5);
+                    double berserk = 0;
+                    berserk = 18 - (Convert.ToDouble(txtWillpower) / 5.0);
                     return "Berserkergang+ " + berserk;
                 }
                 else if (inbornBuff < 76)
@@ -514,13 +514,13 @@ namespace mcc.Classes
 
         // Calculation of the charisma
 
-        public int Charisma(string cbCharisma, string cbIntelligence, string cbAppearance)
+        public double Charisma(string cbCharisma, string cbIntelligence, string cbAppearance)
         {
             if(cbCharisma != "" && cbIntelligence != "" && cbAppearance != "")
             {
-                int tempCharismaValue = 0;
-                tempCharismaValue = Convert.ToInt32(cbCharisma) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
-                    (Convert.ToInt32(cbAppearance) / 10))) - 30;
+                double tempCharismaValue = 0;
+                tempCharismaValue = Convert.ToDouble(cbCharisma) + (3.0 * ((Convert.ToDouble(cbIntelligence) / 10.0) +
+                    (Convert.ToDouble(cbAppearance) / 10.0))) - 30.0;
 
                 if (tempCharismaValue >= 0)
                 {
@@ -538,13 +538,13 @@ namespace mcc.Classes
         }
 
         // Calculation of the willpower
-        public int Willpower(string cbWillpower, string cbIntelligence, string cbConstitution)
+        public double Willpower(string cbWillpower, string cbIntelligence, string cbConstitution)
         {
             if (cbWillpower != "" && cbIntelligence != "" && cbConstitution != "")
             {
-                int tempWillpowerValue = 0;
-                tempWillpowerValue = Convert.ToInt32(cbWillpower) + (3 * ((Convert.ToInt32(cbConstitution) / 10) +
-                    (Convert.ToInt32(cbIntelligence) / 10))) - 40;
+                double tempWillpowerValue = 0;
+                tempWillpowerValue = Convert.ToDouble(cbWillpower) + (3 * ((Convert.ToDouble(cbConstitution) / 10) +
+                    (Convert.ToDouble(cbIntelligence) / 10))) - 40;
 
                 if (tempWillpowerValue > 0)
                 {
@@ -562,14 +562,14 @@ namespace mcc.Classes
         }
 
         // Calculation of the selfcontrol
-        public int SelfControlA(string cbSelfControl, string txtWillpower, string cbIntelligence)
+        public double SelfControlA(string cbSelfControl, string txtWillpower, string cbIntelligence)
         {
             if (cbSelfControl != "" && txtWillpower != "" && cbIntelligence !="")
             {
-                int tempSelfControlAValue = 0;
+                double tempSelfControlAValue = 0;
 
-                tempSelfControlAValue = Convert.ToInt32(cbSelfControl) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
-                    (Convert.ToInt32(txtWillpower) / 10)));
+                tempSelfControlAValue = Convert.ToDouble(cbSelfControl) + (3 * ((Convert.ToDouble(cbIntelligence) / 10) +
+                    (Convert.ToDouble(txtWillpower) / 10)));
 
                 if (tempSelfControlAValue > 0)
                 {
@@ -586,14 +586,14 @@ namespace mcc.Classes
             }
         }
 
-        public int SelfControlB(string cbSelfControl, string txtWillpower, string cbIntelligence)
+        public double SelfControlB(string cbSelfControl, string txtWillpower, string cbIntelligence)
         {
             if (cbSelfControl != "" && txtWillpower != "" && cbIntelligence != "")
             {
-                int tempSelfControlBValue = 0;
+                double tempSelfControlBValue = 0;
 
-                tempSelfControlBValue = Convert.ToInt32(cbSelfControl) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
-                    (Convert.ToInt32(txtWillpower) / 10))) - 50;
+                tempSelfControlBValue = Convert.ToDouble(cbSelfControl) + (3 * ((Convert.ToDouble(cbIntelligence) / 10) +
+                    (Convert.ToDouble(txtWillpower) / 10))) - 50;
 
                 if (tempSelfControlBValue > 0)
                 {
@@ -610,14 +610,14 @@ namespace mcc.Classes
             }               
         }
 
-        public int SelfControlC(string cbSelfControl, string txtWillpower, string cbIntelligence)
+        public double SelfControlC(string cbSelfControl, string txtWillpower, string cbIntelligence)
         {
             if (cbSelfControl != "" && txtWillpower != "" && cbIntelligence != "")
             {
-                int tempSelfControlCValue = 0;
+                double tempSelfControlCValue = 0;
 
-                tempSelfControlCValue = Convert.ToInt32(cbSelfControl) + (3 * ((Convert.ToInt32(cbIntelligence) / 10) +
-                    (Convert.ToInt32(txtWillpower) / 10))) - 30;
+                tempSelfControlCValue = Convert.ToDouble(cbSelfControl) + (3 * ((Convert.ToDouble(cbIntelligence) / 10) +
+                    (Convert.ToDouble(txtWillpower) / 10))) - 30;
 
                 if (tempSelfControlCValue > 0)
                 {
