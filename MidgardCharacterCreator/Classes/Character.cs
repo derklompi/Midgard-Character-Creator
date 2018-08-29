@@ -58,7 +58,6 @@ namespace mcc.Classes
                     break;
             }
 
-            
             return bodySize;
         }
 

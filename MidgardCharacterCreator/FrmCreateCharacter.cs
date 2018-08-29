@@ -734,7 +734,7 @@ namespace mcc
         {
             if (cbCharisma.SelectedItem != null && cbIntelligence.SelectedItem != null && cbAppearance.SelectedItem != null)
             {
-                txtCharisma.Text = Convert.ToString(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString()));
+                txtCharisma.Text = Convert.ToString(Convert.ToInt32(c.Charisma(cbCharisma.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbAppearance.SelectedItem.ToString())));
             }
         }
 
@@ -742,7 +742,7 @@ namespace mcc
         {
             if (cbWillpower.SelectedItem != null && cbIntelligence.SelectedItem != null && cbConstitution.SelectedItem != null)
             {
-                txtWillpower.Text = Convert.ToString(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString()));
+                txtWillpower.Text = Convert.ToString(Convert.ToInt32(c.Willpower(cbWillpower.SelectedItem.ToString(), cbIntelligence.SelectedItem.ToString(), cbConstitution.SelectedItem.ToString())));
             }
         }
 
@@ -750,9 +750,9 @@ namespace mcc
         {
             if (cbSelfControl.SelectedItem != null && txtWillpower.Text != "" && cbIntelligence.SelectedItem != null)
             {
-                txtSelfControlA.Text = Convert.ToString(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
-                txtSelfControlB.Text = Convert.ToString(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
-                txtSelfControlC.Text = Convert.ToString(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString()));
+                txtSelfControlA.Text = Convert.ToString(Convert.ToInt32(c.SelfControlA(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString())));
+                txtSelfControlB.Text = Convert.ToString(Convert.ToInt32(c.SelfControlB(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString())));
+                txtSelfControlC.Text = Convert.ToString(Convert.ToInt32(c.SelfControlC(cbSelfControl.SelectedItem.ToString(), txtWillpower.Text, cbIntelligence.SelectedItem.ToString())));
             }
         }
 
@@ -778,7 +778,7 @@ namespace mcc
         {
             if (cbAdventurePointsA.SelectedItem != null && txtStaminaBuff.Text != "")
             {
-                txtAdventurePointsA.Text = Convert.ToString(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                txtAdventurePointsA.Text = Convert.ToString(Convert.ToInt32(c.AdventurePointsA(cbAdventurePointsA.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text)));
             }
         }
 
@@ -786,7 +786,7 @@ namespace mcc
         {
             if (cbAdventurePointsB.SelectedItem != null && txtStaminaBuff.Text != "")
             {
-                txtAdventurePointsB.Text = Convert.ToString(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                txtAdventurePointsB.Text = Convert.ToString(Convert.ToInt32(c.AdventurePointsB(cbAdventurePointsB.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text)));
             }
         }
 
@@ -794,7 +794,7 @@ namespace mcc
         {
             if (cbAdventurePointsC.SelectedItem != null && txtStaminaBuff.Text != "")
             {
-                txtAdventurePointsC.Text = Convert.ToString(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text));
+                txtAdventurePointsC.Text = Convert.ToString(Convert.ToInt32(c.AdventurePointsC(cbAdventurePointsC.SelectedItem.ToString(), txtStaminaBuff.Text, this.Text)));
             }
         }
 
@@ -802,7 +802,7 @@ namespace mcc
         {
             if (cbLifePoints.SelectedItem != null && cbConstitution.SelectedItem != null)
             {
-                txtLifePoints.Text = Convert.ToString(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text));
+                txtLifePoints.Text = Convert.ToString(Convert.ToInt32(c.LifePoints(cbConstitution.SelectedItem.ToString(), cbLifePoints.SelectedItem.ToString(), this.Text)));
             }
         }
 
@@ -812,12 +812,12 @@ namespace mcc
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150);
-                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140);
+                    txtBodySizeA.Text = Convert.ToString(Convert.ToInt32(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150));
+                    txtBodySizeB.Text = Convert.ToString(Convert.ToInt32(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140));
                 }
                 else
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text));
+                    txtBodySizeA.Text = Convert.ToString(Convert.ToInt32(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text)));
                 }
             }
             
@@ -829,12 +829,12 @@ namespace mcc
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150);
-                    txtBodySizeB.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140);
+                    txtBodySizeA.Text = Convert.ToString(Convert.ToInt32(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 150));
+                    txtBodySizeB.Text = Convert.ToString(Convert.ToInt32(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text) + 140));
                 }
                 else
                 {
-                    txtBodySizeA.Text = Convert.ToString(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text));
+                    txtBodySizeA.Text = Convert.ToString(Convert.ToInt32(c.BodySize(cbBodySizeA.SelectedItem.ToString(), cbBodySizeB.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), this.Text)));
                 }
             }
         }
@@ -845,12 +845,12 @@ namespace mcc
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
-                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
+                    txtBodyWeightB.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4));
                 }
                 else
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
                 }
             }
         }
@@ -861,12 +861,12 @@ namespace mcc
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
-                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
+                    txtBodyWeightB.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4));
                 }
                 else
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
                 }
             }
         }
@@ -877,12 +877,12 @@ namespace mcc
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
-                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
+                    txtBodyWeightB.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4));
                 }
                 else
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
                 }
             }
         }
@@ -893,12 +893,12 @@ namespace mcc
             {
                 if (this.Text == "MCreator - Mensch")
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
-                    txtBodyWeightB.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4);
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
+                    txtBodyWeightB.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text) - 4));
                 }
                 else
                 {
-                    txtBodyWeightA.Text = Convert.ToString(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text));
+                    txtBodyWeightA.Text = Convert.ToString(Convert.ToInt32(c.BodyWeight(cbBodyWeightA.SelectedItem.ToString(), cbBodyWeightB.SelectedItem.ToString(), cbBodyWeightC.SelectedItem.ToString(), cbBodyWeightD.SelectedItem.ToString(), cbStrength.SelectedItem.ToString(), txtBodySizeA.Text, this.Text)));
                 }
             }
         }
