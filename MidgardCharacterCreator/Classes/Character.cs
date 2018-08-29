@@ -23,7 +23,7 @@ namespace mcc.Classes
 {   
     class Character
     {
-        CharacterArrayStore a = new CharacterArrayStore();
+        CharacterArrayStore characterArray = new CharacterArrayStore();
       
 
         // Calculate of the bodysize
@@ -79,24 +79,19 @@ namespace mcc.Classes
             switch (formTitle)
             {
                 case "MCreator - Zwerg":
-                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
-                    (strength / 10.0) + bodysize - 90.0;
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD + (strength / 10.0) + bodysize - 90.0;
                     break;
                 case "MCreator - Elf":
-                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
-                    (strength / 10.0) + bodysize - 128.0;
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD + (strength / 10.0) + bodysize - 128.0;
                     break;
                 case "MCreator - Gnom":
-                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC +
-                    (strength / 10.0) + bodysize - 90.0;
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + (strength / 10.0) + bodysize - 90.0;
                     break;
                 case "MCreator - Halbling":
-                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC +
-                    (strength / 10.0) + bodysize - 87.0;
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + (strength / 10.0) + bodysize - 87.0;
                     break;
                 case "MCreator - Mensch":
-                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD +
-                    (strength / 10.0) + bodysize - 120.0;
+                    BodyWeightValue = bodyweightA + bodyweightB + bodyweightC + bodyweightD + (strength / 10.0) + bodysize - 120.0;
                     break;
                 default:
                     MessageBox.Show("fail");
@@ -110,7 +105,7 @@ namespace mcc.Classes
         {
             double AttackBuffValue;
 
-            AttackBuffValue = inrange_single(Convert.ToInt32(dexterity), a.AttackBuffArray, 0);
+            AttackBuffValue = inrange_single(Convert.ToInt32(dexterity), characterArray.AttackBuffArray, 0);
 
             return AttackBuffValue;
         }
@@ -120,7 +115,7 @@ namespace mcc.Classes
         {
             double DefenceBuffValue;
 
-            DefenceBuffValue = inrange_single(Convert.ToInt32(agility), a.DefenseBuffArray, 0);
+            DefenceBuffValue = inrange_single(Convert.ToInt32(agility), characterArray.DefenseBuffArray, 0);
 
             return DefenceBuffValue;
         }
@@ -130,7 +125,7 @@ namespace mcc.Classes
         {
             double MagicBuffValue;
 
-            MagicBuffValue = inrange_single(Convert.ToInt32(magicTalent),a.MagicBuffArray, 0);
+            MagicBuffValue = inrange_single(Convert.ToInt32(magicTalent),characterArray.MagicBuffArray, 0);
 
             return MagicBuffValue;                   
         }
@@ -424,7 +419,7 @@ namespace mcc.Classes
         {
             int MagicTalentGhostBodyValue;
 
-            MagicTalentGhostBodyValue = inrange_single(magicTalent, a.MagicTalentGhostBodyArray, 7);
+            MagicTalentGhostBodyValue = inrange_single(magicTalent, characterArray.MagicTalentGhostBodyArray, 7);
 
             return MagicTalentGhostBodyValue;
         }
@@ -433,7 +428,7 @@ namespace mcc.Classes
         {
             int IntelligenceGhostValue;
 
-            IntelligenceGhostValue = inrange_single(intelligence,a.IntelligenceGhostArray, 0);
+            IntelligenceGhostValue = inrange_single(intelligence,characterArray.IntelligenceGhostArray, 0);
 
             return IntelligenceGhostValue;
         }
@@ -442,7 +437,7 @@ namespace mcc.Classes
         {
             int ConstitutionBodyValue;
 
-            ConstitutionBodyValue = inrange_single(constitution,a.ConstitutionBodyArray, 0);
+            ConstitutionBodyValue = inrange_single(constitution,characterArray.ConstitutionBodyArray, 0);
 
             return ConstitutionBodyValue;
         }
@@ -451,7 +446,7 @@ namespace mcc.Classes
         {
             int AgilityAreaValue;
 
-            AgilityAreaValue = inrange_single(agility, a.AgilityAreaArray, 0);
+            AgilityAreaValue = inrange_single(agility, characterArray.AgilityAreaArray, 0);
             return AgilityAreaValue;           
         }
 
