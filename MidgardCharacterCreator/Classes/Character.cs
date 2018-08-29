@@ -27,36 +27,38 @@ namespace mcc.Classes
       
 
         // Calculate of the bodysize
-        public int BodySize(string cbBodySizeA, string cbBodySizeB, string cbStrength, string formTitle)
+        public double BodySize(string cbBodySizeA, string cbBodySizeB, string cbStrength, string formTitle)
         {
-            int bodySize = 0;
+            double bodySize = 0;
             // Convert to int for better usability
-            int bodysizeA = Convert.ToInt32(cbBodySizeA);
-            int bodysizeB = Convert.ToInt32(cbBodySizeB);
+            double bodysizeA = Convert.ToInt32(cbBodySizeA);
+            double bodysizeB = Convert.ToInt32(cbBodySizeB);
 
-            int strength = Convert.ToInt32(cbStrength);
+            double strength = Convert.ToInt32(cbStrength);
            
             switch (formTitle)
             {
                 case "MCreator - Zwerg":
-                    bodySize = bodysizeA + (strength / 10) + 130;
+                    bodySize = bodysizeA + (strength / 10.0) + 130;
                     break;
                 case "MCreator - Elf":
-                    bodySize = bodysizeA + bodysizeB + (strength / 10) + 160;
+                    bodySize = bodysizeA + bodysizeB + (strength / 10.0) + 160;
                     break;
                 case "MCreator - Gnom":
-                    bodySize = bodysizeA + (strength / 10) + 90;
+                    bodySize = bodysizeA + (strength / 10.0) + 90;
                     break;
                 case "MCreator - Halbling":
-                    bodySize = bodysizeA + bodysizeB + (strength / 10) + 100;
+                    bodySize = bodysizeA + bodysizeB + (strength / 10.0) + 100;
                     break;
                 case "MCreator - Mensch":
-                    bodySize = bodysizeA + bodysizeB + (strength / 10);
+                    bodySize = bodysizeA + bodysizeB + (strength / 10.0);
                     break;
                 default:
                     MessageBox.Show("fail");
                     break;
             }
+
+            
             return bodySize;
         }
 
