@@ -772,7 +772,7 @@ namespace mcc
             // 
             // CalculationTimer
             // 
-            this.CalculationTimer.Interval = 1000;
+            this.CalculationTimer.Interval = 400;
             this.CalculationTimer.Tick += new System.EventHandler(this.CalculationTimer_Tick);
             // 
             // cbBodySizeA

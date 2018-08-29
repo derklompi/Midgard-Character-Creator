@@ -355,68 +355,7 @@ namespace mcc
                     lblStatCheck.ForeColor = System.Drawing.Color.Green;
                     rbStats.Checked = true;
 
-                    int DamageBuff = 0;
-
-                    int DefenseBuff = 0;
-
-                    DamageBuff  = (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20)        + (Convert.ToInt32(cbDexterity.SelectedItem.ToString()) / 30) - 3;
-                    DefenseBuff = (Convert.ToInt32(cbConstitution.SelectedItem.ToString()) / 10)    + (Convert.ToInt32(cbStrength.SelectedItem.ToString()) / 20) - 7;
-
-                    if (DamageBuff >= 0)
-                    {
-                        txtDamageBuff.Text = Convert.ToString(DamageBuff);
-                    }
-                    else
-                    {
-                        txtDamageBuff.Text = "0";
-                    }
-
-                    if (DefenseBuff >= 0)
-                    {
-                        txtStaminaBuff.Text = Convert.ToString(DefenseBuff);
-                    }
-                    else
-                    {
-                        txtStaminaBuff.Text = "0";
-                    }
-
-                    txtAttackBuff.Text  = Convert.ToString(c.AttackBuff(dexterity));
-                    txtDefenseBuff.Text = Convert.ToString(c.DefenseBuff(agility));
-                    txtMagicBuff.Text   = Convert.ToString(c.MagicBuff(magicTalent));
-
-                    txtRumble.Text      = Convert.ToString(((strength + agility) / 20) + Convert.ToInt32(txtAttackBuff.Text));
-                    txtDefense.Text     = Convert.ToString(11 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDefense0.Text    = Convert.ToString(10 + Convert.ToInt32(txtDefenseBuff.Text));
-                    txtDoMagic.Text     = Convert.ToString(10 + Convert.ToInt32(txtMagicBuff.Text));
-                    txtDoMagic0.Text    = Convert.ToString( 2 + Convert.ToInt32(txtMagicBuff.Text));
-
-                    int mtBuffGhost_Body_MagicValue = 0;
-                    int intBuffGhostMagicValue      = 0;
-                    int CoBuffBodyMagicValue        = 0;
-
-                    //Buff MagicTalent Ghost&Body
-                    mtBuffGhost_Body_MagicValue = c.MagicTalentGhostBody(magicTalent);
-
-                    //Buff Intelligence Ghost
-                    intBuffGhostMagicValue = c.IntelligenceGhost(intelligence);
-
-                    //Buff Constitution Body
-                    CoBuffBodyMagicValue = c.ConstitutionBody(constitution);
-
-                    //Values GhostMagic
-                    txtGhostMagicFighter.Text   = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicMagician.Text  = Convert.ToString(17 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-                    txtGhostMagicNormal.Text    = Convert.ToString(14 + c.GhostMagic(mtBuffGhost_Body_MagicValue, intBuffGhostMagicValue));
-
-                    //Values BodyMagic
-                    txtBodyMagicFighter.Text    = Convert.ToString(16 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicMagician.Text   = Convert.ToString(17 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-                    txtBodyMagicNormal.Text     = Convert.ToString(14 + c.BodyMagic(mtBuffGhost_Body_MagicValue, CoBuffBodyMagicValue));
-
-                    //Values AreaMagic
-                    txtAreaMagicFighter.Text    = Convert.ToString(10 + c.AgilityArea(agility));
-                    txtAreaMagicMagician.Text   = Convert.ToString(13 + c.AgilityArea(agility));
-                    txtAreaMagicNormal.Text     = Convert.ToString(10 + c.AgilityArea(agility));
+                    
 
                     if (cbAppearance.SelectedItem != null)
                     {
@@ -509,7 +448,6 @@ namespace mcc
         }
 
         //Export to a .txt file
-
         private void BtnExport_Click(object sender, EventArgs e)
         {
             try
